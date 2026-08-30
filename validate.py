@@ -16,12 +16,16 @@ def region(lat, lng):
     return None
 days = T.get("days", [])
 start = datetime.date(2027, 4, 25)
-if len(days) != 13: errs.append(f"days={len(days)} (expected 13)")
+EXPECTED_DAYS = 13          # 2027-04-25(울산 출발) ~ 2027-05-07(인천 도착)
+if len(days) != EXPECTED_DAYS: errs.append(f"days={len(days)} (expected {EXPECTED_DAYS})")
 for i, d in enumerate(days):
     exp = (start + datetime.timedelta(days=i)).isoformat()
     if d.get("day_no") != i+1: errs.append(f"day_no {d.get('day_no')} at index {i}")
     if d.get("date") != exp: errs.append(f"D{d.get('day_no')} date {d.get('date')} != {exp}")
     prev_end = -1; prev_name = ""
+    first = next((b for b in d.get("blocks", []) if not (b.get("type") == "tip" and b.get("start") == "00:00")), None)
+    if first and tm(first.get("start", "")) is not None and tm(first["start"]) < 9*60 and d.get("day_no") not in (1, 13):
+        warns.append(f"D{d['day_no']} starts before 09:00: {first['start']} {first['name'][:40]}")
     for b in d.get("blocks", []):
         s, e = tm(b.get("start","")), tm(b.get("end",""))
         if s is None or e is None: errs.append(f"D{d['day_no']} bad time {b.get('start')}–{b.get('end')} {b.get('name')}"); continue

@@ -24,6 +24,14 @@ def _img_for_block(b):
     if b.get("type") == "sight":
         s = imap["sights"].get(b.get("name_en") or "") or imap["sights"].get(b.get("name") or "")
         if s: return s
+        # 느슨한 매칭: name_en 과 매핑 키가 서로 포함 관계면 가장 긴 키 채택
+        ne = (b.get("name_en") or "").lower()
+        best = None
+        for key, slug in imap["sights"].items():
+            k = key.lower().split(" (")[0]
+            if len(k) >= 6 and (k in ne or ne in k):
+                if best is None or len(k) > len(best[0]): best = (k, slug)
+        if best: return best[1]
     if b.get("type") == "meal":
         for rn, slug in imap["restaurants"].items():
             if rn.lower() in b.get("name", "").lower(): return slug
@@ -33,13 +41,33 @@ def _img_for_block(b):
         if types and b.get("type") not in types: continue
         if _re2.search(pat, b.get("name", ""), _re2.I): return slug
     return None
+def _gmaps(name, area="", lat=None, lng=None):
+    """구글맵 검색 URL (좌표로 지도 중심을 잡고 상호로 검색)."""
+    import urllib.parse
+    q = _re2.sub(r"\(.*?\)", "", f"{name} {area}").strip()
+    url = "https://www.google.com/maps/search/" + urllib.parse.quote(q)
+    if lat is not None and lng is not None:
+        url += f"/@{lat},{lng},17z"
+    return url
+
+rest_by_name = {}
+for r in trip.get("restaurants", []):
+    r["gmap"] = _gmaps(r["name"], r.get("area", ""), r.get("lat"), r.get("lng"))
+    rest_by_name[r["name"].strip().lower()] = r
+
 used_slugs = set()
 for d in trip.get("days", []):
     for b in d.get("blocks", []):
         s = _img_for_block(b)
         if s: b["img"] = s; used_slugs.add(s)
+        if b.get("type") == "meal":
+            hit = next((r for n, r in rest_by_name.items() if n and n in b.get("name", "").lower()), None)
+            if hit:
+                b["gmap"] = hit["gmap"]
+            elif b.get("lat") is not None:
+                b["gmap"] = _gmaps(b.get("name_en") or b.get("name", ""), "", b.get("lat"), b.get("lng"))
 for r in trip.get("restaurants", []):
-    s = imap["restaurants"].get(r["name"])
+    s = imap["restaurants"].get(r["name"])  # 대표 요리 사진
     if not s:
         for rn, slug in imap["restaurants"].items():
             if rn.lower() in r["name"].lower(): s = slug; break

@@ -1,0 +1,1290 @@
+{
+  "restaurants": [
+    {
+      "city": "Madrid",
+      "name": "Mercado de San Miguel",
+      "name_ko": "산 미겔 시장",
+      "lat": 40.41536,
+      "lng": -3.70918,
+      "area": "Plaza Mayor 서쪽 (Plaza de San Miguel)",
+      "cuisine": "구르메 푸드마켓 (타파스·해산물·하몽·베르무트)",
+      "google_rating": 4.4,
+      "review_count": 161377,
+      "price_range": "€€ · 1인 €20~35",
+      "must_try": "굴 · 하몽 이베리코 콘 · 크로케타 · 파에야 컵 · 베르무트",
+      "meal_type": "dinner",
+      "hours_note": "일~목 10:00~24:00 · 금·토 ~01:00\n주의: 12~14시·20~22시 극도 혼잡",
+      "reservation_note": "예약 없음 · 스탠드별 주문·결제\n공용 테이블 선점제",
+      "url": "https://www.mercadodesanmiguel.es/",
+      "used_on_day": 1
+    },
+    {
+      "city": "Madrid",
+      "name": "Pastelería La Mallorquina",
+      "name_ko": "라 마요르키나",
+      "lat": 40.41693,
+      "lng": -3.70468,
+      "area": "Puerta del Sol 8",
+      "cuisine": "베이커리·카페 (1894년)",
+      "google_rating": 4.1,
+      "review_count": 12951,
+      "price_range": "€ · 1인 €3~6",
+      "must_try": "나폴리타나 초코·크림 · 엔사이마다 · 팔메라",
+      "meal_type": "breakfast",
+      "hours_note": "매일 08:30~21:00\n1층 스탠딩 바가 빠르고 저렴",
+      "reservation_note": "예약 없음",
+      "url": "https://www.pastelerialamallorquina.es/",
+      "used_on_day": 2
+    },
+    {
+      "city": "Madrid",
+      "name": "Casa González",
+      "name_ko": "카사 곤살레스",
+      "lat": 40.4143,
+      "lng": -3.6988,
+      "area": "Barrio de las Letras (Calle del León 12)",
+      "cuisine": "치즈·하몽·와인 델리 겸 타파스 바 (1931년)",
+      "google_rating": 4.6,
+      "review_count": 2824,
+      "price_range": "€€ · 1인 €20~30",
+      "must_try": "치즈 모둠 · 하몽 이베리코 · 살모레호 · 안초비 토스트 · 잔 와인",
+      "meal_type": "lunch",
+      "hours_note": "월~토 09:30~24:00 · 일 12:00~17:00\n일요일 시간 변동 가능",
+      "reservation_note": "낮은 워크인 가능\n저녁·주말은 홈페이지 예약\n안헬리타 월요일 휴무 시 저녁 백업",
+      "url": "https://www.casagonzalez.es/",
+      "used_on_day": 2
+    },
+    {
+      "city": "Madrid",
+      "name": "Angelita Madrid",
+      "name_ko": "안헬리타 마드리드",
+      "lat": 40.4201,
+      "lng": -3.6999,
+      "area": "Chueca / Gran Vía (Calle de la Reina 4)",
+      "cuisine": "모던 스패니시 + 내추럴 와인 바",
+      "google_rating": 4.7,
+      "review_count": 3280,
+      "price_range": "€€€ · 1인 €40~60",
+      "must_try": "제철 채소 요리 · 참치 요리 · 잔 와인 페어링 · 지하 바 칵테일",
+      "meal_type": "dinner",
+      "hours_note": "월~금 17:30~00:30 · 주방 20:00~23:00\n주의: 월요일 영업 미확인, 예약 시 확인",
+      "reservation_note": "홈페이지 21:30 예약\n워크인은 바 자리만\n월요일 불가 시 카사 곤살레스·보틴",
+      "url": "https://www.angelitamadrid.com/",
+      "used_on_day": 2
+    },
+    {
+      "city": "Madrid",
+      "name": "Chocolatería San Ginés",
+      "name_ko": "초콜라테리아 산 히네스",
+      "lat": 40.41664,
+      "lng": -3.7069,
+      "area": "Sol / Ópera (Pasadizo de San Ginés 5)",
+      "cuisine": "츄러스·초콜라테 (1894년)",
+      "google_rating": 4.3,
+      "review_count": 72593,
+      "price_range": "€ · 1인 €5~8",
+      "must_try": "초콜라테 콘 추로스 · 포라스",
+      "meal_type": "breakfast",
+      "hours_note": "24시간 영업\n08~10시 한산 · 낮·저녁 30분+ 대기",
+      "reservation_note": "예약 불가 · 계산대 선주문 후 착석",
+      "url": "https://chocolateriasangines.com/",
+      "used_on_day": 3
+    },
+    {
+      "city": "Toledo",
+      "name": "Confitería Santo Tomé",
+      "name_ko": "콘피테리아 산토 토메 (톨레도 마사판)",
+      "lat": 39.85905,
+      "lng": -4.0224,
+      "area": "Toledo Plaza de Zocodover 7 지점",
+      "cuisine": "마사판(마지팬) 과자점 (1856년)",
+      "google_rating": 3.9,
+      "review_count": 358,
+      "price_range": "€ · 1인 €5~15",
+      "must_try": "마사판 데 톨레도 · 델리시아스 · 앙길라",
+      "meal_type": "dessert",
+      "hours_note": "매일 09:00~22:00",
+      "reservation_note": "매장 구매 · 예약 불필요\n선물 상자는 기내 반입 가능",
+      "url": "https://www.mazapan.com/",
+      "used_on_day": 3
+    },
+    {
+      "city": "Toledo",
+      "name": "La Malquerida de la Trinidad",
+      "name_ko": "라 말케리다 데 라 트리니다드",
+      "lat": 39.8572,
+      "lng": -4.0245,
+      "area": "Toledo 구시가 (Calle de la Trinidad, 대성당 옆)",
+      "cuisine": "톨레도 향토 타파스·카르카무사스",
+      "google_rating": 4.4,
+      "review_count": 6000,
+      "price_range": "€ · 1인 €15~25",
+      "must_try": "카르카무사스 · 사슴고기 요리 · 크로케타 · 미가스",
+      "meal_type": "lunch",
+      "hours_note": "매일 점심 12:30~16:00 · 저녁 영업\n주의: 13:30 이후 혼잡",
+      "reservation_note": "구글맵·홈페이지 13:00 예약\n스칼라 화요일 휴무 대비 기본 점심",
+      "url": "https://www.google.com/maps/search/La+Malquerida+de+la+Trinidad+Toledo",
+      "used_on_day": 3
+    },
+    {
+      "city": "Madrid",
+      "name": "Casa Lucas",
+      "name_ko": "카사 루카스",
+      "lat": 40.4129,
+      "lng": -3.7088,
+      "area": "La Latina (Calle de la Cava Baja 30)",
+      "cuisine": "창작 타파스·와인 바",
+      "google_rating": 4.6,
+      "review_count": 1947,
+      "price_range": "€€ · 1인 €20~30",
+      "must_try": "칼라마레스 카사 루카스 · 라보 데 토로 · 크로케타 · 토스타 알레야",
+      "meal_type": "tapas",
+      "hours_note": "13:00~15:30 · 20:00~24:00\n수요일은 저녁만\n주의: 21시 이후 혼잡",
+      "reservation_note": "저녁은 홈페이지·전화 예약\n바 스탠딩은 워크인",
+      "url": "https://casalucas.es/",
+      "used_on_day": 3
+    },
+    {
+      "city": "Madrid",
+      "name": "Taberna La Bola",
+      "name_ko": "타베르나 라 볼라",
+      "lat": 40.4196,
+      "lng": -3.71045,
+      "area": "Ópera / Palacio (Calle de la Bola 5)",
+      "cuisine": "코시도 마드릴레뇨 전문 (1870년)",
+      "google_rating": 4.2,
+      "review_count": 7905,
+      "price_range": "€€ · 1인 €25~50 (코시도 단품 €24.50)",
+      "must_try": "코시도 마드릴레뇨 · 크로케타 · 토리하",
+      "meal_type": "lunch",
+      "hours_note": "일~수 13:00~16:00 · 목~토 12:00~20:30\n저녁 정식 영업 없음",
+      "reservation_note": "홈페이지·전화 +34 915 476 930 예약\n현금 소액 준비",
+      "url": "https://labola.es/en",
+      "used_on_day": 4
+    },
+    {
+      "city": "Madrid",
+      "name": "Casa Macareno",
+      "name_ko": "카사 마카레노",
+      "lat": 40.4263,
+      "lng": -3.7032,
+      "area": "Malasaña (Calle de San Vicente Ferrer 44)",
+      "cuisine": "전통 타베르나 + 현대적 타파스",
+      "google_rating": 4.6,
+      "review_count": 4513,
+      "price_range": "€€ · 1인 €20~35",
+      "must_try": "엔살라디야 루사 · 이베리코 크로케타 · 돼지볼살찜 · 문어 구이 · 치즈케이크",
+      "meal_type": "dinner",
+      "hours_note": "월 12:30~17:00 · 화~일 12:30~01:30\n주의: 21시 이후 만석",
+      "reservation_note": "홈페이지 온라인 예약 · 바는 워크인",
+      "url": "https://www.casamacareno.com/",
+      "used_on_day": 4
+    },
+    {
+      "city": "Toledo",
+      "name": "Taberna Skala",
+      "name_ko": "타베르나 스칼라",
+      "lat": 39.85735,
+      "lng": -4.0238,
+      "area": "Toledo 구시가 (Cuesta de la Sal 5, 대성당 50m)",
+      "cuisine": "톨레도 향토 타파스 — 카르카무사스",
+      "google_rating": 4.6,
+      "review_count": 4000,
+      "price_range": "€ · 1인 €15~25",
+      "must_try": "카르카무사스 · 미가스 콘 우에보 · 토레스노스 · 파타타스 스칼라",
+      "meal_type": "lunch",
+      "hours_note": "보통 11:30~17:00\n주의: 화요일 휴무 표기, 공식 확인 불가",
+      "reservation_note": "소규모 바 · 예약 어려움\n13:00 전 도착",
+      "url": "https://www.guiarepsol.com/es/fichas/solete/taberna-skala-326407/",
+      "used_on_day": 0
+    },
+    {
+      "city": "Madrid",
+      "name": "Juana la Loca",
+      "name_ko": "후아나 라 로카",
+      "lat": 40.41165,
+      "lng": -3.71075,
+      "area": "La Latina (Plaza de Puerta de Moros 4)",
+      "cuisine": "모던 핀초스·타파스 (토르티야)",
+      "google_rating": 4.5,
+      "review_count": 8122,
+      "price_range": "€€ · 1인 €25~40",
+      "must_try": "카라멜 양파 토르티야 · 로스트비프 핀초 · 연어 핀초 · 트러플 리소토",
+      "meal_type": "tapas",
+      "hours_note": "화~토 13:00~17:00 · 20:00~24:00\n일 점심만 · 월요일 휴무",
+      "reservation_note": "좌석은 전화 +34 91 364 05 25\n바 스탠딩은 워크인\n카사 루카스 뒤 선택 2차",
+      "url": "https://www.juanalalocamadrid.com/",
+      "used_on_day": 0
+    },
+    {
+      "city": "Madrid",
+      "name": "Sobrino de Botín",
+      "name_ko": "소브리노 데 보틴 (보틴)",
+      "lat": 40.41408,
+      "lng": -3.70826,
+      "area": "Plaza Mayor 남쪽 (Calle de Cuchilleros 17)",
+      "cuisine": "카스티야 전통 화덕 구이 (1725년, 세계 최고(最古) 레스토랑)",
+      "google_rating": 4.3,
+      "review_count": 16206,
+      "price_range": "€€€ · 1인 €50~70",
+      "must_try": "코치니요 아사도 · 코르데로 아사도 · 소파 데 아호",
+      "meal_type": "dinner",
+      "hours_note": "매일 13:00~16:00 · 20:00~23:30",
+      "reservation_note": "예약 필수 · botin.es 3~4주 전\n안헬리타·마카레노 대체 저녁 후보",
+      "url": "https://www.botin.es/",
+      "used_on_day": 0
+    },
+    {
+      "city": "Madrid",
+      "name": "Bodega de la Ardosa",
+      "name_ko": "보데가 데 라 아르도사",
+      "lat": 40.4243,
+      "lng": -3.7004,
+      "area": "Malasaña (Calle de Colón 13)",
+      "cuisine": "베르무트 바·전통 타베르나 (1892년)",
+      "google_rating": 4.2,
+      "review_count": 7510,
+      "price_range": "€ · 1인 €8~20",
+      "must_try": "토르티야 데 파타타스 · 생 베르무트 · 살모레호 · 크로케타",
+      "meal_type": "breakfast",
+      "hours_note": "일~목 09:00~02:00 · 금·토 ~02:30\n스탠딩 위주",
+      "reservation_note": "예약 불가",
+      "url": "https://laardosa.es/",
+      "used_on_day": 5
+    },
+    {
+      "city": "Palma de Mallorca",
+      "name": "La Rosa Vermutería & Colmado",
+      "name_ko": "라 로사 베르무테리아 이 콜마도",
+      "lat": 39.5717,
+      "lng": 2.6497,
+      "area": "Palma 구시가 (Carrer de la Rosa, Plaça Major 인근)",
+      "cuisine": "베르무트 바·전통 타파스",
+      "google_rating": 4.5,
+      "review_count": 7556,
+      "price_range": "€€ (1인 €20~35)",
+      "must_try": "자이언트 토르티야 핀초 · 크로케타 · 문어 · 하우스 베르무트",
+      "meal_type": "tapas",
+      "hours_note": "매일 12:00~24:00 · 브레이크 없음\n5/1 백업 저녁 후보",
+      "reservation_note": "온라인 예약 가능\n금·토 저녁은 예약 권장",
+      "url": "https://www.larosatroupe.com/es/marca/la-rosa-vermuteri-colmado",
+      "used_on_day": 5
+    },
+    {
+      "city": "Palma de Mallorca",
+      "name": "Es Baluard Restaurant & Lounge",
+      "name_ko": "에스 발루아르드 레스토랑 & 라운지",
+      "lat": 39.5702,
+      "lng": 2.641,
+      "area": "Es Baluard 미술관 성벽 테라스 (Santa Catalina 경계)",
+      "cuisine": "칵테일·지중해 요리 (선셋 스팟)",
+      "google_rating": 4.2,
+      "review_count": 1199,
+      "price_range": "€€ (칵테일 €10~14)",
+      "must_try": "선셋 테라스 카바·칵테일 · 항구·대성당 조망",
+      "meal_type": "cafe",
+      "hours_note": "레스토랑 10:00~24:00 · 시설 08:00~24:00\n일몰 20:40 전후\n주의: 5/1 미술관 휴관",
+      "reservation_note": "드링크는 예약 불필요\n식사는 전화 +34 971 908 200",
+      "url": "https://www.esbaluard.org/",
+      "used_on_day": 5
+    },
+    {
+      "city": "Palma de Mallorca",
+      "name": "Vandal Palma",
+      "name_ko": "반달 팔마",
+      "lat": 39.5717,
+      "lng": 2.6364,
+      "area": "Santa Catalina (Plaça del Progrés)",
+      "cuisine": "세계 퓨전 스몰플레이트 + 칵테일 페어링",
+      "google_rating": 4.6,
+      "review_count": 1490,
+      "price_range": "€€€ (1인 €50~70)",
+      "must_try": "피스코 블러디메리 굴 · 모로칸 양고기 · 랍스터 라비올리",
+      "meal_type": "dinner",
+      "hours_note": "매일 19:00~23:00 · 디너 전용",
+      "reservation_note": "vandalpalma.com 온라인 예약 필수",
+      "url": "https://www.vandalpalma.com/",
+      "used_on_day": 5
+    },
+    {
+      "city": "Palma de Mallorca",
+      "name": "Mercat de l'Olivar (Ostras 굴바 · Buades Degustación)",
+      "name_ko": "메르카트 데 로리바르 (올리바르 시장)",
+      "lat": 39.5739,
+      "lng": 2.6535,
+      "area": "Plaça d'Espanya 남쪽",
+      "cuisine": "시장 굴·해산물 바, 하몽·타파스",
+      "google_rating": 4.5,
+      "review_count": 28640,
+      "price_range": "€€ (1인 €12~20)",
+      "must_try": "생굴+카바 · 이베리코 하몽·치즈 플레이트",
+      "meal_type": "breakfast",
+      "hours_note": "월~토 07:00~15:00 · 일요일 휴무\n주의: 공휴일 5/1은 휴무로 간주",
+      "reservation_note": "예약 없음 · 선착순",
+      "url": "https://www.mercatolivar.com/",
+      "used_on_day": 6
+    },
+    {
+      "city": "Sóller",
+      "name": "Sa Fàbrica de Gelats",
+      "name_ko": "사 파브리카 데 젤라츠",
+      "lat": 39.7671,
+      "lng": 2.714,
+      "area": "Sóller 구시가 Plaça des Mercat",
+      "cuisine": "수제 젤라토 (소예르 오렌지)",
+      "google_rating": 4.5,
+      "review_count": 1509,
+      "price_range": "€ (1~2스쿱 €3~5)",
+      "must_try": "소예르 오렌지 소르베 · 아몬드+플로르 데 살",
+      "meal_type": "dessert",
+      "hours_note": "통상 10:00~20:00\nPort de Sóller 분점 있음",
+      "reservation_note": "예약 불필요",
+      "url": "https://www.gelatsoller.com/",
+      "used_on_day": 6
+    },
+    {
+      "city": "Port de Sóller",
+      "name": "Kingfisher Restaurant",
+      "name_ko": "킹피셔 레스토랑",
+      "lat": 39.7978,
+      "lng": 2.6926,
+      "area": "Port de Sóller 북쪽 해안 산책로",
+      "cuisine": "모던 지중해 해산물",
+      "google_rating": 4.7,
+      "review_count": 1311,
+      "price_range": "€€€ (1인 €40~55)",
+      "must_try": "오늘의 생선 · 소예르 새우 · 화이트 상그리아",
+      "meal_type": "lunch",
+      "hours_note": "화~토 12:15~16:00 · 18:30~21:30\n일·월 휴무",
+      "reservation_note": "kingfishersoller.com 14:00 예약\n온라인 예약 강력 권장",
+      "url": "https://www.kingfishersoller.com/",
+      "used_on_day": 6
+    },
+    {
+      "city": "Palma de Mallorca",
+      "name": "Toque de Queda",
+      "name_ko": "토케 데 케다",
+      "lat": 39.5731,
+      "lng": 2.6471,
+      "area": "Palma 구시가 (Carrer de Can Cavalleria)",
+      "cuisine": "스몰플레이트·샤퀴테리·샴페인 바",
+      "google_rating": 4.7,
+      "review_count": 1411,
+      "price_range": "€€ (1인 €30~45)",
+      "must_try": "샤퀴테리·치즈 보드 · 로스트비프 토나토 · 피스타치오 티라미수",
+      "meal_type": "dinner",
+      "hours_note": "10~5월 화·수 18:00~23:30 · 목~토 13:00~23:30\n일·월 휴무\n6~9월 월~토 18:00~23:30",
+      "reservation_note": "CoverManager 온라인 예약\n또는 전화 +34 971 21 38 10",
+      "url": "https://www.toquedequeda.es/",
+      "used_on_day": 6
+    },
+    {
+      "city": "Porto Cristo",
+      "name": "Quince Restaurante & Cantina",
+      "name_ko": "킨세 레스토란테 & 칸티나",
+      "lat": 39.5391,
+      "lng": 3.3333,
+      "area": "Porto Cristo 마리나 위",
+      "cuisine": "지중해·퓨전 (파에야, 생선)",
+      "google_rating": 4.5,
+      "review_count": 2775,
+      "price_range": "€€ (1인 €30~40)",
+      "must_try": "파에야 · 그릴 생선 · 항구 뷰 테라스",
+      "meal_type": "lunch",
+      "hours_note": "주방 12:30~15:30 · 18:00~21:40\n수요일 휴무",
+      "reservation_note": "restaurantequince.com 온라인 예약",
+      "url": "https://restaurantequince.com/en",
+      "used_on_day": 7
+    },
+    {
+      "city": "Palma de Mallorca",
+      "name": "Ca n'Eduardo",
+      "name_ko": "칸 에두아르도",
+      "lat": 39.5688,
+      "lng": 2.641,
+      "area": "Palma 항구 Moll de Pescadors (수산시장 2층)",
+      "cuisine": "해산물·파에야 (1943년 창업)",
+      "google_rating": 4.2,
+      "review_count": 2697,
+      "price_range": "€€€ (1인 €45~65)",
+      "must_try": "해산물 파에야 · 소금구이 농어 · 대구 크로케타",
+      "meal_type": "dinner",
+      "hours_note": "화~일 13:00~22:00 연속 주방 · 월요일 휴무\n주의: 5/1 수산시장 휴무, 영업·메뉴 확인",
+      "reservation_note": "caneduardo.com 21:00 예약\n창가석 요청 · 5/1 정상 영업 확인",
+      "url": "https://www.caneduardo.com/",
+      "used_on_day": 7
+    },
+    {
+      "city": "Palma de Mallorca",
+      "name": "Marc Fosh",
+      "name_ko": "마크 포시 (미슐랭 1스타)",
+      "lat": 39.5734,
+      "lng": 2.6514,
+      "area": "Palma 구시가 (Carrer de la Missió)",
+      "cuisine": "컨템포러리 지중해 테이스팅 메뉴",
+      "google_rating": 4.6,
+      "review_count": 1262,
+      "price_range": "€€€€ (런치 €69~110, 디너 €139~159)",
+      "must_try": "런치 ADN 메뉴 €69",
+      "meal_type": "dinner",
+      "hours_note": "화~토 13:00~14:30 · 19:30~21:00\n일·월 휴무",
+      "reservation_note": "marcfosh.com 2~3주 전 예약 · 카드 보증",
+      "url": "https://www.marcfosh.com/",
+      "used_on_day": 0
+    },
+    {
+      "city": "Palma de Mallorca",
+      "name": "Celler Sa Premsa",
+      "name_ko": "세예르 사 프렘사",
+      "lat": 39.5759,
+      "lng": 2.65,
+      "area": "Palma 센터 (Plaça del Bisbe Berenguer de Palou)",
+      "cuisine": "전통 마요르카 가정식 (1958년)",
+      "google_rating": 4.2,
+      "review_count": 7248,
+      "price_range": "€€ (1인 €25~35)",
+      "must_try": "툼벳 · 프리토 마요르킨 · 레초나 · 가토 케이크",
+      "meal_type": "lunch",
+      "hours_note": "월~토 12:00~16:00 · 19:30~23:30\n일요일 휴무 · 5/1 휴무 가능",
+      "reservation_note": "온라인 예약 권장",
+      "url": "https://www.cellersapremsa.com/",
+      "used_on_day": 0
+    },
+    {
+      "city": "Palma de Mallorca",
+      "name": "Ca'n Joan de S'Aigo",
+      "name_ko": "칸 조안 데 사이고 (1700년 창업 카페)",
+      "lat": 39.5699,
+      "lng": 2.6526,
+      "area": "Palma 구시가 (Santa Eulàlia 인근, Can Sanç 본점)",
+      "cuisine": "전통 카페·파스텔레리아",
+      "google_rating": 4.6,
+      "review_count": 7600,
+      "price_range": "€ (1인 €5~8)",
+      "must_try": "엔사이마다+진한 핫초콜릿 · 아몬드 아이스크림",
+      "meal_type": "breakfast",
+      "hours_note": "매일 08:00~21:00\n공휴일 단축 가능 · 방문 전 확인",
+      "reservation_note": "예약 불필요",
+      "url": "https://www.canjoandesaigo.com/",
+      "used_on_day": 0
+    },
+    {
+      "city": "Palma de Mallorca",
+      "name": "Ca'n Joan de S'Aigo (Can Sanç 본점)",
+      "name_ko": "칸 조안 데 사이고",
+      "lat": 39.5699,
+      "lng": 2.6526,
+      "area": "Palma 구시가 (Santa Eulàlia 인근)",
+      "cuisine": "전통 카페·파스텔레리아 (1700년 창업)",
+      "google_rating": 4.6,
+      "review_count": 7600,
+      "price_range": "€ (1인 €5~8)",
+      "must_try": "엔사이마다+핫초콜릿 · 아몬드 아이스크림",
+      "meal_type": "breakfast",
+      "hours_note": "매일 08:00~21:00",
+      "reservation_note": "예약 불가 · 줄서서 입장",
+      "url": "https://www.canjoandesaigo.com/",
+      "used_on_day": 8
+    },
+    {
+      "city": "Barcelona",
+      "name": "Ciutat Comtal (Ciudad Condal)",
+      "name_ko": "시우타트 콤탈",
+      "lat": 41.3888547,
+      "lng": 2.1670033,
+      "area": "Eixample / Rambla de Catalunya 18 (카탈루냐 광장 근처)",
+      "cuisine": "타파스·몬타디토스",
+      "google_rating": 4.4,
+      "review_count": 23304,
+      "price_range": "€€ (1인 €25~40)",
+      "must_try": "솔로미요 몬타디토 · 감바스 알 아히요 · 브라바스 · 안초비 · 상그리아",
+      "meal_type": "lunch",
+      "hours_note": "매일 09:00~01:00 연속 영업\n주의: 일요일 포함 항상 붐빔",
+      "reservation_note": "예약 불가 · 이름 적고 대기\n바 자리는 회전 빠름\n15시 이후 대기 짧음",
+      "url": "https://maps.google.com/?q=Ciutat+Comtal+Barcelona",
+      "used_on_day": 8
+    },
+    {
+      "city": "Barcelona",
+      "name": "7 Portes",
+      "name_ko": "세트 포르테스",
+      "lat": 41.3823052,
+      "lng": 2.1833902,
+      "area": "Port Vell / Passeig d'Isabel II 14",
+      "cuisine": "카탈루냐 요리·파에야",
+      "google_rating": 4.4,
+      "review_count": 23680,
+      "price_range": "€€€ (1인 €45~65)",
+      "must_try": "파에야 파레야다 · 해산물 파에야 · 사르수엘라 · 카넬로니",
+      "meal_type": "dinner",
+      "hours_note": "매일 13:00~24:00 연속 영업\n일·월 포함 정상 영업",
+      "reservation_note": "7portes.com 온라인 예약 권장\n5/2 일요일 20:00",
+      "url": "https://www.7portes.com/",
+      "used_on_day": 8
+    },
+    {
+      "city": "Barcelona",
+      "name": "Cerveseria Catalana",
+      "name_ko": "세르베세리아 카탈라나",
+      "lat": 41.3923251,
+      "lng": 2.1608515,
+      "area": "Eixample / Carrer de Mallorca 236",
+      "cuisine": "타파스·몬타디토스",
+      "google_rating": 4.5,
+      "review_count": 24784,
+      "price_range": "€€ (1인 €25~40)",
+      "must_try": "솔로미요 몬타디토 · 감바스 · 파타타스 브라바스 · 하몬 이베리코",
+      "meal_type": "tapas",
+      "hours_note": "매일 08:30~01:00\n주의: 13:30~15:30·20:30~22:30 대기 30분+",
+      "reservation_note": "예약 불가 · 피크 전 도착",
+      "url": "https://maps.google.com/?q=Cerveseria+Catalana+Barcelona",
+      "used_on_day": 9
+    },
+    {
+      "city": "Barcelona",
+      "name": "Paco Meralgo",
+      "name_ko": "파코 메랄고",
+      "lat": 41.3916259,
+      "lng": 2.1524973,
+      "area": "Eixample Esquerra / Carrer de Muntaner 171",
+      "cuisine": "모던 타파스·해산물",
+      "google_rating": 4.5,
+      "review_count": 6182,
+      "price_range": "€€€ (1인 €35~55)",
+      "must_try": "가리비·조개 구이 · 안초비 · 크로케타 · 굴 · 갈리시아 문어",
+      "meal_type": "dinner",
+      "hours_note": "매일 13:00~24:00 연속 영업",
+      "reservation_note": "pacomeralgo.com 예약 강력 권장\n바 자리는 워크인",
+      "url": "https://www.pacomeralgo.com/",
+      "used_on_day": 9
+    },
+    {
+      "city": "Barcelona",
+      "name": "Granja M. Viader",
+      "name_ko": "그란하 M. 비아데르",
+      "lat": 41.3830917,
+      "lng": 2.1708449,
+      "area": "Raval 북부 / La Rambla 옆",
+      "cuisine": "전통 그란하 카페 (핫초코·유제품·추로스)",
+      "google_rating": 4.4,
+      "review_count": 4411,
+      "price_range": "€ (1인 €5~10)",
+      "must_try": "수이스 · 카카올랏 · 멜 이 마토 · 추로스",
+      "meal_type": "breakfast",
+      "hours_note": "월~토 09:00~13:15 · 17:00~21:15\n일요일 휴무",
+      "reservation_note": "예약 불가 · 개점 직후 한산",
+      "url": "https://www.granjaviader.cat/",
+      "used_on_day": 10
+    },
+    {
+      "city": "Barcelona",
+      "name": "Can Solé",
+      "name_ko": "칸 솔레",
+      "lat": 41.3788768,
+      "lng": 2.1883984,
+      "area": "Barceloneta / Carrer de Sant Carles 4",
+      "cuisine": "파에야·해산물",
+      "google_rating": 4.3,
+      "review_count": 2045,
+      "price_range": "€€€ (1인 €50~70)",
+      "must_try": "해산물 파에야 · 아로스 칼도소 · 피데우아 · 크레마 카탈라나",
+      "meal_type": "lunch",
+      "hours_note": "화~토 13:00~15:45 · 20:00~22:45\n일 점심만 · 월요일 휴무\n주의: 파에야 주문 마감 15:00 전후",
+      "reservation_note": "홈페이지·전화 예약 · 5/4 14:00\n쌀 요리 2인분 이상 · 조리 25분+",
+      "url": "https://www.restaurantcansole.com/",
+      "used_on_day": 10
+    },
+    {
+      "city": "Barcelona",
+      "name": "La Tasqueta de Blai",
+      "name_ko": "라 타스케타 데 블라이",
+      "lat": 41.3732437,
+      "lng": 2.1654207,
+      "area": "Poble-sec / Carrer de Blai 15-17",
+      "cuisine": "핀초스·타파스",
+      "google_rating": 4.5,
+      "review_count": 10976,
+      "price_range": "€ (핀초 €1.5~3, 1인 €10~20)",
+      "must_try": "푸아그라 핀초 · 치즈&라즈베리 · 연어&트러플 · 빌바이니토 · 상그리아",
+      "meal_type": "tapas",
+      "hours_note": "연중무휴 · 일요일 11:00~24:00\n주의: 20시 이후 붐빔",
+      "reservation_note": "예약 불가",
+      "url": "https://www.latasquetadeblai.com/",
+      "used_on_day": 10
+    },
+    {
+      "city": "Barcelona",
+      "name": "Xurreria Laietana",
+      "name_ko": "추레리아 라이에타나",
+      "lat": 41.3864026,
+      "lng": 2.1756893,
+      "area": "Gòtic / Via Laietana",
+      "cuisine": "추로스·초콜라테 (아침)",
+      "google_rating": 4.7,
+      "review_count": 5458,
+      "price_range": "€ (€5~7)",
+      "must_try": "갓 튀긴 추로스+초콜라테 · 포라스 · 둘세 데 레체 추로스",
+      "meal_type": "breakfast",
+      "hours_note": "평일 07:00~13:30 · 16:00~21:00\n일요일 오후만 · 방문 전 재확인",
+      "reservation_note": "예약 불가 · 서서 먹기 · 현금 권장",
+      "url": "https://maps.google.com/?q=Xurreria+Laietana+Barcelona",
+      "used_on_day": 11
+    },
+    {
+      "city": "Barcelona",
+      "name": "Pastisseria Hofmann",
+      "name_ko": "호프만 파스티세리아",
+      "lat": 41.385079,
+      "lng": 2.1827036,
+      "area": "El Born / Carrer dels Flassaders 44",
+      "cuisine": "파티스리·베이커리",
+      "google_rating": 4.4,
+      "review_count": 4125,
+      "price_range": "€ (크루아상 €3~5)",
+      "must_try": "마스카르포네 크루아상 · 라즈베리 크루아상",
+      "meal_type": "dessert",
+      "hours_note": "월~토 09:00~20:00 · 일 09:00~19:00\n좌석 없음",
+      "reservation_note": "예약 불필요\n주의: 오전 품절 잦음",
+      "url": "https://hofmannpasteleria.com/",
+      "used_on_day": 11
+    },
+    {
+      "city": "Barcelona",
+      "name": "La Pubilla",
+      "name_ko": "라 푸비야",
+      "lat": 41.3995399,
+      "lng": 2.1536577,
+      "area": "Gràcia / Plaça de la Llibertat 23",
+      "cuisine": "카탈루냐 제철 요리 (점심 메뉴)",
+      "google_rating": 4.5,
+      "review_count": 3013,
+      "price_range": "€€ (점심 메뉴 €20~25)",
+      "must_try": "메뉴 델 디아 3코스 · 에스케이샤다 · 카넬로니",
+      "meal_type": "lunch",
+      "hours_note": "월~토 아침·점심 · 저녁은 목~토만\n일요일 휴무 · 요일별 시간 재확인",
+      "reservation_note": "전화 예약 권장 · 5/5 13:30",
+      "url": "https://maps.google.com/?q=La+Pubilla+Barcelona",
+      "used_on_day": 11
+    },
+    {
+      "city": "Barcelona",
+      "name": "Vinitus",
+      "name_ko": "비니투스",
+      "lat": 41.3900261,
+      "lng": 2.1640484,
+      "area": "Eixample / Carrer del Consell de Cent 333",
+      "cuisine": "타파스·와인",
+      "google_rating": 4.5,
+      "review_count": 17595,
+      "price_range": "€€ (1인 €20~35)",
+      "must_try": "솔로미요 몬타디토 · 새우구이 · 대구 튀김 · 브라바스 · 하우스 와인",
+      "meal_type": "tapas",
+      "hours_note": "매일 11:00~01:00\n주의: 20:00~22:00 대기 매우 김",
+      "reservation_note": "예약 불가\n오픈 직후·15~18시 방문 시 대기 최소",
+      "url": "https://maps.google.com/?q=Vinitus+Barcelona",
+      "used_on_day": 11
+    },
+    {
+      "city": "Barcelona",
+      "name": "Casa Amàlia",
+      "name_ko": "카사 아말리아",
+      "lat": 41.3962655,
+      "lng": 2.1685205,
+      "area": "Eixample Dreta / Mercat de la Concepció",
+      "cuisine": "카탈루냐 전통 가정식·쌀 요리",
+      "google_rating": 4.7,
+      "review_count": 11923,
+      "price_range": "€€ (점심 €20 안팎, 저녁 €30~45)",
+      "must_try": "카넬로니 · 제철 채소 요리 · 아로스 · 크레마 카탈라나",
+      "meal_type": "lunch",
+      "hours_note": "전통적으로 월~토 점심 위주\n홈페이지에 영업시간 미게재\n주의: 일·월 영업 여부 예약 시 확인",
+      "reservation_note": "casaamalia.cat·WhatsApp 예약 · 숙소 도보 6분\n5/2 일요일 점심 확인되면 시우타트 콤탈 대체",
+      "url": "https://www.casaamalia.cat/",
+      "used_on_day": 0
+    },
+    {
+      "city": "Barcelona",
+      "name": "Bar Bodega Quimet",
+      "name_ko": "바르 보데가 키멧",
+      "lat": 41.3991466,
+      "lng": 2.1547168,
+      "area": "Gràcia / Carrer de Vic 23",
+      "cuisine": "보데가 타파스·베르뭇",
+      "google_rating": 4.6,
+      "review_count": 1410,
+      "price_range": "€ (타파스 €4~18)",
+      "must_try": "하우스 베르뭇 · 칸타브리아 안초비 · 굴 · 갈리시아 문어",
+      "meal_type": "tapas",
+      "hours_note": "화~목 10:00~16:00 · 18:00~23:00\n월·일 저녁 휴무",
+      "reservation_note": "소규모라 예약 어려움\n정오 베르뭇 타임 추천\n5/5 라 푸비야 대안",
+      "url": "https://www.bodegaquimet.com/",
+      "used_on_day": 0
+    },
+    {
+      "city": "Barcelona",
+      "name": "La Cova Fumada",
+      "name_ko": "라 코바 푸마다",
+      "lat": 41.3793025,
+      "lng": 2.1892183,
+      "area": "Barceloneta / Carrer del Baluard 56",
+      "cuisine": "바르셀로네타 노포 타파스",
+      "google_rating": 4.6,
+      "review_count": 5695,
+      "price_range": "€ (1인 €15~25, 현금)",
+      "must_try": "봄바 원조 · 아티초크 구이 · 정어리 구이 · 부티파라",
+      "meal_type": "lunch",
+      "hours_note": "월~수 09:00~15:20 · 목·금 저녁도 영업\n토 09:00~13:20 · 일요일 휴무\n주의: 간판 없음 · 현금만",
+      "reservation_note": "예약 불가 · 12:30 이전 도착\n5/4 칸 솔레 저렴한 대안",
+      "url": "https://maps.google.com/?q=La+Cova+Fumada+Barcelona",
+      "used_on_day": 0
+    }
+  ],
+  "safety": [
+    {
+      "city": "Madrid (마드리드)",
+      "avoid_areas": [
+        {
+          "area": "라바피에스 남측 골목 (Lavapiés — Calle Argumosa/Plaza Nelson Mandela 주변)",
+          "lat": 40.409,
+          "lng": -3.7015,
+          "when": "밤(23시 이후)",
+          "severity": "med",
+          "reason": "낮에는 다문화 카페 거리 · 안전\n심야 취객·마약 거래·소매치기 신고 잦음\n귀가는 Calle Atocha·Embajadores 큰길로"
+        },
+        {
+          "area": "몬테라 거리 (Calle de la Montera — Sol↔Gran Vía 연결 골목)",
+          "lat": 40.4195,
+          "lng": -3.7028,
+          "when": "저녁~심야",
+          "severity": "med",
+          "reason": "호객·성매매 호객·취객 집중 구간\n스쿠터 휴대폰 날치기 다발\n야간 우회로: Calle Preciados·Carmen"
+        },
+        {
+          "area": "푸에르타 델 솔 · 그란 비아 · 카야오 광장",
+          "lat": 40.4169,
+          "lng": -3.7035,
+          "when": "낮·밤 모두 (특히 18~21시·주말 저녁)",
+          "severity": "med",
+          "reason": "마드리드 최대 소매치기 구역\n인파 속 백팩·뒷주머니, 거리 공연 중 가방\n숙소 권역 — 가방 앞으로, 차도 쪽 폰 사용 금지"
+        },
+        {
+          "area": "레티로 공원 내부 (Parque del Retiro)",
+          "lat": 40.4153,
+          "lng": -3.6844,
+          "when": "일몰 후(폐장 무렵)",
+          "severity": "low",
+          "reason": "낮에는 매우 안전\n폐장 무렵 조명 없는 구역에서 절도 사례\n15~16:30 방문 · Paseo del Prado 출구 이용"
+        },
+        {
+          "area": "카사 데 캄포 공원 내부 도로 (Casa de Campo)",
+          "lat": 40.42,
+          "lng": -3.75,
+          "when": "저녁 이후",
+          "severity": "med",
+          "reason": "저녁부터 공원 내부 도로에 성매매·마약 거래\n데보드 일몰 후 서쪽 공원 방향 도보 금지"
+        },
+        {
+          "area": "아토차 역·차마르틴 역 대합실",
+          "lat": 40.4066,
+          "lng": -3.6893,
+          "when": "낮·밤",
+          "severity": "low",
+          "reason": "열차 대기 중 캐리어·핸드백 도난\n짐은 다리 사이 · 한눈팔지 않기"
+        },
+        {
+          "area": "말라사냐·추에카 유흥가 골목",
+          "lat": 40.4255,
+          "lng": -3.704,
+          "when": "심야(02시 이후, 금·토)",
+          "severity": "low",
+          "reason": "치안은 좋으나 심야 취객·클럽 앞 시비\n휴대폰 날치기 주의\n귀가는 Fuencarral·Gran Vía 큰길, 늦으면 택시앱"
+        },
+        {
+          "area": "엘 라스트로 벼룩시장 (El Rastro, 일요일 오전)",
+          "lat": 40.409,
+          "lng": -3.7075,
+          "when": "일요일 09~15시",
+          "severity": "med",
+          "reason": "조직 소매치기 최다 발생 장소\n일요일 오전에만 해당"
+        }
+      ],
+      "tips": [
+        "안전지수 70.8 · 실제 위험은 소매치기·날치기·사기\n크로스백은 몸 앞으로 · 폰은 테이블·뒷주머니 금지",
+        "택시는 흰색+빨간 사선 공식 택시만 · 공항↔시내 정액 €33\nFreeNow·Cabify·Uber·Bolt 작동, FreeNow가 가장 안정적",
+        "메트로 L1·L3 만원 열차는 객차 안쪽에 · 가방 앞으로\n무임승차 벌금 €50 · 개찰 오류 시 역무원 호출",
+        "프라도·레티로 '가짜 경찰' 지갑 검사는 100% 사기\n112에 확인하겠다고 하면 사라짐",
+        "ATM은 BBVA·Santander·CaixaBank 지점 내부만 · Euronet 회피\n결제 화면에서 EUR 선택 (DCC 거절)",
+        "여권은 호텔 금고 · 현금은 하루치 €50~100 분산\n도난 시 카드 정지 → denuncias.policia.es → 72시간 내 방문",
+        "관광객 피해 지원 SATE: Calle Leganitos 19 · 09~24시\n+34-91-548-8008",
+        "긴급 112 영어 가능 · 국가경찰 091\n영사콜센터 +82-2-3210-0404",
+        "레알 마드리드 홈경기일은 경기 후 심야 소매치기 급증\n출발 3주 전 realmadrid.com 일정 확인"
+      ],
+      "lodging_areas": [
+        "솔 / 오페라 / 아우스트리아스 — 관광 최적 입지, 이번 일정 기준",
+        "문학지구 / 우에르타스 — 프라도·소피아 도보권, 밤 바 소음 약간",
+        "살라망카 — 가장 안전하고 고급, 관광지까지 메트로 10~15분",
+        "레티로 — 공원 옆 조용한 주거지, 가족 여행에 적합",
+        "참베리 — 현지인 동네, 안전하고 맛집 많음"
+      ]
+    },
+    {
+      "city": "Palma de Mallorca (팔마 데 마요르카) & 마요르카 전역",
+      "avoid_areas": [
+        {
+          "area": "손 고틀레우 (Son Gotleu) — Carrer d'Aragó 동쪽·Vía de Cintura 사이",
+          "lat": 39.583,
+          "lng": 2.68,
+          "when": "낮·밤 모두",
+          "severity": "high",
+          "reason": "스페인 최저소득 지역 · 마약·폭력 사건 잦음\n관광 요소 없음\n인접 La Soledat·Camp Redó도 밤에는 회피"
+        },
+        {
+          "area": "손 바냐 (Son Banya) — 공항 북서쪽 판자촌",
+          "lat": 39.56,
+          "lng": 2.71,
+          "when": "낮·밤 모두",
+          "severity": "high",
+          "reason": "발레아레스 최대 마약 밀매 거점\n렌터카 내비가 공항 우회로로 안내해도 진입 금지"
+        },
+        {
+          "area": "마갈루프 (Magaluf) — Punta Ballena 바 거리",
+          "lat": 39.51,
+          "lng": 2.534,
+          "when": "밤 (22시~새벽)",
+          "severity": "med",
+          "reason": "영국 청년 파티 관광지\n만취 관광객 대상 소매치기·호객·시비\n낮 해변은 무난"
+        },
+        {
+          "area": "플라야 데 팔마 / 사레날 (Playa de Palma / S'Arenal) — Balneario 5~6, Bierstraße",
+          "lat": 39.515,
+          "lng": 2.745,
+          "when": "밤",
+          "severity": "med",
+          "reason": "독일 파티 관광객 밀집 구역\n심야 취객·성매매 호객·휴대폰 날치기\n숙소로도 비추천"
+        },
+        {
+          "area": "플라사 고밀라 · 파세이그 마리팀 클럽가 (Plaça Gomila · Passeig Marítim)",
+          "lat": 39.565,
+          "lng": 2.633,
+          "when": "금·토 심야",
+          "severity": "low",
+          "reason": "클럽 앞 심야 취객·호객\n낮·저녁 산책은 매우 안전 · 야경 좋음"
+        },
+        {
+          "area": "사 제레리아 (Sa Gerreria) — 구시가 동쪽 Plaça Quadrado·Carrer Socors 골목",
+          "lat": 39.5715,
+          "lng": 2.656,
+          "when": "밤",
+          "severity": "low",
+          "reason": "젠트리피케이션 진행 중인 골목\n심야 마약 거래 목격담\n대로 Carrer del Sindicat로 이동"
+        },
+        {
+          "area": "외딴 해변·트레킹 입구 주차장 (Sa Calobra, Cala Mondragó, Formentor 등)",
+          "lat": 39.7,
+          "lng": 3,
+          "when": "낮 (주차 중)",
+          "severity": "med",
+          "reason": "렌터카 유리창 파손 후 짐 절도 다발\n차 안에 가방·전자기기 절대 두지 말 것"
+        },
+        {
+          "area": "팔마 시내 해변가 노상 주차 (Parc de la Mar·Portixol)",
+          "lat": 39.567,
+          "lng": 2.652,
+          "when": "낮·밤",
+          "severity": "low",
+          "reason": "렌터카 차량털이 다발\n실내 Parking Parc de la Mar 또는 호텔 주차 이용"
+        }
+      ],
+      "tips": [
+        "안전지수 62.8 · 낮 도보는 매우 안전\n위험은 유흥가 심야와 렌터카 차량털이에 집중",
+        "소매치기 핫스팟: Passeig del Born · 대성당 앞 · Plaça Major\n올리바르 시장 · A1 공항버스 짐칸 · 소예르 열차 대기줄",
+        "렌터카는 차 안에 아무것도 남기지 않기\n산길 Formentor·Sa Calobra는 커브·자전거 많아 오전 이동",
+        "한국 면허 + 국제운전면허증(IDP) 둘 다 지참",
+        "우버 거의 없음 · FreeNow·TaxiPalma/PideTaxi 또는 호텔 호출\n공항은 공식 승강장에서만 탑승",
+        "5/1(토) 노동절: 슈퍼·상점·시장·벨베르 성·Es Baluard 휴무\n4/30(금)에 물·간식·약 구매 · 5/2(일)도 상점 휴무",
+        "해수온 16~18°C — 발 담그기 수준\n자외선 UV 7~8 · SPF50 선크림·모자",
+        "긴급 112 · 경찰 091 · denuncias.policia.es 후 72시간 내 방문\n영사콜센터 +82-2-3210-0404"
+      ],
+      "lodging_areas": [
+        "팔마 구시가 Casco Antiguo — 대성당 도보권 부티크 호텔, 매우 안전",
+        "산타 카탈리나 Santa Catalina — 맛집·브런치 거리, 저녁에도 안전",
+        "파세이그 마요르카·Jaume III — 조용한 고급 주거지, A1 버스 정차"
+      ]
+    },
+    {
+      "city": "Barcelona (바르셀로나)",
+      "avoid_areas": [
+        {
+          "area": "엘 라발 남측 (El Raval 남측 — Carrer d'en Robador·Sant Ramon·Rambla del Raval 이남)",
+          "reason": "성매매·마약 밀집 골목\n2024~25년 심야 목조르기 강도 사건 집중\nLiceu·Drassanes역 귀가 시 통과 금지",
+          "lat": 41.378,
+          "lng": 2.17,
+          "when": "밤(특히 22시 이후), 낮에도 주의",
+          "severity": "high"
+        },
+        {
+          "area": "람블라스 거리 전 구간 (La Rambla)",
+          "reason": "스페인 최다 소매치기 거리\n심야 호객·야바위·성매매 호객\n낮에도 가방 앞으로 · 식사는 피할 것",
+          "lat": 41.38,
+          "lng": 2.173,
+          "when": "심야(24시 이후) + 낮 인파",
+          "severity": "med"
+        },
+        {
+          "area": "바르셀로네타 해변 (Barceloneta)",
+          "reason": "모래 위 가방·휴대폰 도난 1위\n밤에는 축구 유니폼 껴안기 수법·음료 강매\n한 명은 반드시 짐 지키기",
+          "lat": 41.379,
+          "lng": 2.192,
+          "when": "낮(해변 이용 중)·밤",
+          "severity": "med"
+        },
+        {
+          "area": "메트로 L3 Sants–Liceu–Drassanes–Lesseps 구간 · L5 Sagrada Família역",
+          "reason": "조직 소매치기 주 무대\n승하차 순간 문 앞 밀치기 수법\n지갑은 앞주머니 · 휴대폰 들고 서지 말 것",
+          "lat": 41.383,
+          "lng": 2.172,
+          "when": "낮·밤(만원 열차)",
+          "severity": "med"
+        },
+        {
+          "area": "레이알 광장·Carrer dels Escudellers (Plaça Reial)",
+          "reason": "클럽 앞 취객·마약 호객·날치기\n저녁 식사·야경은 무난 · 새벽엔 택시",
+          "lat": 41.38,
+          "lng": 2.175,
+          "when": "심야(01시 이후)",
+          "severity": "med"
+        },
+        {
+          "area": "고딕 지구 좁은 골목 (Carrer d'Avinyó·Plaça George Orwell 일대)",
+          "reason": "새벽 인적 끊긴 골목에서 목조르기 강도 신고\n낮·저녁은 관광 핵심 구간\n2인 이상 · 대로 Via Laietana 우회",
+          "lat": 41.382,
+          "lng": 2.177,
+          "when": "심야",
+          "severity": "low"
+        },
+        {
+          "area": "카르멜 벙커 전망대 (Bunkers del Carmel)",
+          "reason": "19:30 야간 폐쇄 · 주류 반입 단속\n낮·일몰 전은 안전\n내려오는 골목이 어두워 택시 추천",
+          "lat": 41.419,
+          "lng": 2.162,
+          "when": "일몰 후",
+          "severity": "low"
+        },
+        {
+          "area": "산트 록·라 미나 (Sant Roc, Badalona · La Mina, Sant Adrià) — Fòrum 공원 북쪽",
+          "reason": "바르셀로나권 대표 취약 지역\nFeria de Abril 방문 시 회장 안에만 머물 것\n귀환은 L4역으로 바로",
+          "lat": 41.42,
+          "lng": 2.22,
+          "when": "낮·밤 모두",
+          "severity": "high"
+        },
+        {
+          "area": "사그라다 파밀리아 주변 인도·Avinguda de Gaudí",
+          "reason": "관광객 밀도 최고 · 사진 찍는 동안 백팩 노림\n2027년 봄 예수 탑 완공 후 첫 성수기\n인파 최고조 예상",
+          "lat": 41.4036,
+          "lng": 2.1744,
+          "when": "낮(입장 대기 시간)",
+          "severity": "med"
+        },
+        {
+          "area": "몬주익 산책로·계단 (Montjuïc)",
+          "reason": "매직 분수·MNAC 야경 후 어두운 산책로\n단독 보행 비추 · 케이블카·버스·택시 이용",
+          "lat": 41.364,
+          "lng": 2.158,
+          "when": "밤",
+          "severity": "low"
+        },
+        {
+          "area": "시우타데야 공원·개선문 야간 (Parc de la Ciutadella)",
+          "reason": "공원 폐장 후 노숙·마약 판매\n낮 피크닉은 안전",
+          "lat": 41.388,
+          "lng": 2.187,
+          "when": "일몰 후",
+          "severity": "low"
+        }
+      ],
+      "tips": [
+        "크로스백 앞으로 · 지퍼는 손으로 덮기\n지하철에선 백팩 앞으로 · 의자 뒤에 가방 걸지 않기",
+        "심야 01시 이후 라발·고딕·람블라스 도보 귀가 금지\nFreeNow·Cabify·Uber·Bolt · 공식 택시는 검정+노랑",
+        "흔한 사기: 가짜 경찰 지갑 검사 · 청원서 서명 · 새똥 묻히기\n반지 줍기 · 3컵 야바위 · 밤 해변 유니폼 껴안기",
+        "스쿠터·자전거가 인도 가장자리에서 휴대폰 낚아챔\n차도 쪽 통화·촬영 금지 — Passeig de Gràcia 대기줄 특히",
+        "도난 시 카드 정지 → denuncias.policia.es 온라인 접수\nMossos Ciutat Vella서 Nou de la Rambla 76~80 · 24시간",
+        "denuncia 사본은 여행자보험 청구 필수 · 72시간 내 서명\n영사콜센터 +82-2-3210-0404",
+        "ATM은 은행 지점 내부만 · Euronet 회피 · DCC 거절",
+        "일요일 시장·백화점 휴무 · 월요일 피카소·MNAC·미로 휴관\n매직 분수는 4~5월 목·금·토 21:00 쇼 · 2027 재확인"
+      ],
+      "lodging_areas": [
+        "에이샴플레 드레타 Eixample Dreta — 안전·교통·쇼핑 최적, 기준 숙소권",
+        "엘 보른 북부 El Born — 활기+안전, 밤 소음 감안",
+        "에이샴플레 에스케라 — 조용하고 가성비 좋음, 맛집 많음",
+        "그라시아 Gràcia — 현지인 동네, 안전하고 조용",
+        "산 안토니 북측 — 시장·브런치 거리, 접근성 좋음",
+        "피할 곳: 라발 Sant Pau 이남 · 람블라스 · Plaça Reial 골목"
+      ]
+    }
+  ],
+  "general_tips": [
+    "소매치기가 사실상 유일한 위험 — 바르셀로나 > 팔마 > 마드리드\n크로스백 앞으로 · 지하철에선 백팩 앞으로 · 뒷주머니 비우기",
+    "여권은 호텔 금고 · 사본만 휴대 · 현금은 하루치 €50~100 분산\n휴대폰을 카페 테이블에 올려두지 않기",
+    "다발 구역: 솔·그란 비아, 람블라스·바르셀로네타·보케리아, 팔마 Born\n심야 01시 이후 라발·고딕·몬테라는 도보 대신 택시앱",
+    "택시앱 FreeNow·Cabify·Uber·Bolt · 마요르카는 우버 거의 없음\n마드리드 흰색+빨간 사선 · 바르셀로나 검정+노랑 공식 택시만",
+    "팁은 의무 아님 — 식당 5% 안팎, 카페·바·택시는 반올림\n결제는 EUR 선택 (DCC 거절) · ATM은 은행 지점 내부만",
+    "점심 14:00~16:00 · 저녁 21:00 이후가 기본\n소도시·개인 상점은 14:00~17:00 시에스타 휴무",
+    "일요일 시장·백화점 휴무 · 월요일 피카소·MNAC·미로·벨베르 성 휴관\n화요일 레이나 소피아 휴관 · 프라도는 연중무휴 (5/1 제외)",
+    "5/1(토) 노동절 전국 공휴일 — 슈퍼·상점·시장·미술관 휴무\n4/30(금)에 물·간식·약 구매 · 5/2(일)도 상점 휴무",
+    "흔한 사기: 가짜 경찰 지갑 검사 · 청원서 서명 · 새똥 묻히기\n반지 줍기 · 3컵 야바위 · 스쿠터 휴대폰 날치기",
+    "긴급 112 영어 가능 · 국가경찰 091 · 지방경찰 092\n도난 시 카드 정지 → denuncias.policia.es → 72시간 내 경찰서",
+    "주스페인 대사관 +34-91-353-2000 · 야간 긴급 +34-648-924-695\n영사콜센터 +82-2-3210-0404 · 출발 전 '동행' 등록",
+    "수돗물은 마드리드 음용 우수 · 바르셀로나·마요르카는 생수 권장\n전압 230V · C·F형이라 한국 플러그 그대로, 얇은 어댑터 지참",
+    "낮 20~23°C · 밤 10~15°C로 일교차 큼 — 바람막이+반팔 레이어드\n접이식 우산 · SPF50 선크림·모자 · 워킹화·물통",
+    "렌터카에 가방·전자기기 두지 말 것 — 트렁크도 안심 불가\n팔마 시내 주차는 어렵고 비쌈, 근교 투어일만 렌트"
+  ],
+  "weather": [
+    {
+      "city": "마드리드",
+      "summary": "낮 20~22°C · 새벽·밤 9~10°C · 일교차 12°C 이상\n월 6~7일 짧은 소나기 · 접이식 우산\n일몰 21:05 전후 — 저녁 산책 시간 넉넉\n반팔+가디건 · 경량 패딩·바람막이 · 선크림·워킹화"
+    },
+    {
+      "city": "마요르카",
+      "summary": "낮 21~23°C · 밤 13~15°C · 맑고 건조\n5월 강수 약 3일 · 월 일조 약 300시간\n일몰 20:40 전후 · 해수온 16~18°C — 발 담그기 수준\nUV 7~8 · SPF50 선크림·모자 · 저녁 바람막이 재킷"
+    },
+    {
+      "city": "바르셀로나",
+      "summary": "낮 20~22°C · 밤 12~14°C · 습해서 체감은 부드러움\n월 4~6일 짧고 강한 소나기 · 접이식 우산\n일몰 20:50 전후 · 해수온 15~17°C — 해변 산책용\n반팔+긴바지 · 가벼운 재킷 · 모자·선크림·물통"
+    }
+  ],
+  "alternatives": [
+    {
+      "day_no": 4,
+      "option": "티센 보르네미사 월요일 무료 입장",
+      "detail": "티센 월요일 12:00~16:00 상설전 무료 · 인상파·표현주의 위주\n프라도 관람 후 12:45~14:00에 넣고 점심 14:15로 조정\n주의: 하루 미술관 3곳 이상은 무리 — 하나는 생략"
+    },
+    {
+      "day_no": 3,
+      "option": "톨레도 대신 세고비아 당일치기",
+      "detail": "차마르틴 08~09시대 Avant 27분 €13.90 → 11번 버스로 수도교\n대성당 · 알카사르 통합권 €8 · 13:30 메손 데 칸디도 €28 예약\n주의: 출발역이 아토차 아닌 차마르틴 · 둘 다 가면 시내 시간 부족"
+    },
+    {
+      "day_no": 4,
+      "option": "왕궁 대신 산티아고 베르나베우 투어",
+      "detail": "메트로 L10 Santiago Bernabéu 바로 앞 · 09:00 첫 슬롯\nClassic 온라인 €37~39 · 환불 불가\n주의: 홈경기일은 라커룸 미개방 — 예약 전 일정 확인"
+    },
+    {
+      "day_no": 4,
+      "option": "카바 바하 카사 루시오 또는 카야오 루프탑 야식",
+      "detail": "데보드 → 사바티니 정원 → 왕궁 → Cava Baja 도보 20분\n카사 루시오 우에보스 에스트레야도스 · 수 20:30~23:30 · 전화 예약\n또는 카야오 El Corte Inglés 9층 야경 야식 €12~25 · 21시까지"
+    },
+    {
+      "day_no": 2,
+      "option": "도착일 저녁: 산 히네스 츄러스 + 솔 야경",
+      "detail": "산 미겔 시장이 붐비거나 피곤하면 산 히네스 24시간 이용\n추로스+초콜라테 후 푸에르타 델 솔 야경만 보고 취침\n이 경우 Day 3 아침은 라 마요르키나 08:30 · 톨레도 열차 09:20"
+    },
+    {
+      "day_no": 6,
+      "option": "바이데모사 → 데이아 → 소예르 루프",
+      "detail": "Estació Intermodal에서 TIB 203번 · 매시 1편 · €3~6\n카르투하 수도원 €12.50 + 쇼팽의 방 €5 · 11:30 피아노 리사이틀\n데이아 Son Marroig 전망 → 소예르 → 18:00/18:30 목재 열차"
+    },
+    {
+      "day_no": 6,
+      "option": "사 칼로브라 보트 추가",
+      "detail": "Port de Sóller 13:00 Barcos Azules · 왕복 약 €35\nSa Calobra 13:40~16:45 체류 → 소예르 18:30 열차\n주의: 킹피셔 점심 불가 · 12:15 이른 점심 · 기상 악화 시 결항"
+    },
+    {
+      "day_no": 7,
+      "option": "북부 루프: 포옌사·포르멘토르·알쿠디아 (렌터카)",
+      "detail": "Ma-13으로 포옌사 50분 · 칼바리 365계단 · Mirador Es Colomer\nPlatja de Formentor · 등대 차량 통제 4월 재확인 · 10시 전 도착\nPort d'Alcúdia Miramar 점심 → 알쿠디아 성벽"
+    },
+    {
+      "day_no": 7,
+      "option": "렌터카 없이 드라크 동굴만 왕복",
+      "detail": "Intermodal에서 TIB 401번 · 편도 1시간 30분 · €8~10\n12:00 또는 14:00 회차 → Porto Cristo Quince 점심 → 오후 귀환\n주의: 공휴일 감편 — tib.org 시간표 확인"
+    },
+    {
+      "day_no": 7,
+      "option": "에스 트렌크 해변 반나절 (렌터카)",
+      "detail": "Ma-19 → Campos → Ses Covetes 주차장 45~50분 · €6~7/일\n3km 백사장 산책 · 봄에는 옆 염전에 홍학\n점심 Sal de Cocó 아로스 네그로 → Ma-15로 Porto Cristo 1시간"
+    },
+    {
+      "day_no": 10,
+      "option": "몬세라트 당일치기로 교체",
+      "detail": "Plaça d'Espanya FGC 08:36 R5 → 10:00 수도원 · 검은 성모\n13:00 소년 합창단 월~수 · Abat Cisneros 점심 예약 · 17:00 하산\n주의: 왕복 3시간+8시간 코스 · 통합권 €50 · 산 위 -5°C 겉옷"
+    },
+    {
+      "day_no": 10,
+      "option": "몬주익 확장: 호안 미로 미술관·포블레 에스파뇰",
+      "detail": "호안 미로 미술관 화 10:00~20:00 · €17 · 90분\nMNAC 옆 포블레 에스파뇰 €14.40\n칸 솔레 점심을 15:00로 미루거나 라 코바 푸마다로 교체"
+    },
+    {
+      "day_no": 9,
+      "option": "구엘 공원 대신 카르멜 벙커 늦은 오후",
+      "detail": "벙커 19:30 폐장 — 5월 일몰 21:00 관람 불가\n17:30~18:30 방문 · 구엘 공원에서 도보 20~25분 또는 V17·22번\n구엘 공원 티켓 매진 시 대안 · 내려올 땐 택시"
+    },
+    {
+      "day_no": 11,
+      "option": "지로나 반일치기",
+      "detail": "Sants역 AVE/Avant 38~40분 · 2~3주 전 예매 시 편도 €10~16\n08:30 출발 → 대성당·유대인 지구·성벽·오냐르 강변 → 15:30 귀환\n보케리아·카사 비센스를 포기하는 대신 중세 도시 반나절"
+    },
+    {
+      "day_no": 11,
+      "option": "카사 밀라 내부 관람 추가",
+      "detail": "카사 밀라 라 페드레라 €25~29 · 90분\n5/5 오후 쇼핑 시간 17:00 슬롯에 삽입 · 굴뚝 옥상은 늦은 빛\n산 파우 콤보 티켓 €39를 5/3에 사두면 저렴"
+    }
+  ],
+  "summary": {
+    "title": "마드리드 · 마요르카 · 바르셀로나 12박 13일",
+    "dates": "2027년 4월 25일(일) 울산 출발 ~ 5월 7일(금) 울산 도착",
+    "split": "마드리드 4박 · 마요르카 3박 · 바르셀로나 4박",
+    "concept": "인천→마드리드 유일한 직항(대한항공 KE913)으로 들어가 바르셀로나에서 나오는 오픈조(다구간) 동선이라 되돌아가는 구간이 없고, 도시 간 이동은 모두 1시간 안팎의 국내선 항공으로 처리해 이동 피로를 최소화했습니다. 마드리드 4박은 시차 적응과 톨레도 당일치기까지 여유 있게, 가운데 마요르카(팔마 기반) 3박은 지중해와 트라문타나 산맥에서 쉬어가는 구간으로, 마지막 바르셀로나 4박은 완공된 사그라다 파밀리아 등 가우디 건축에 집중합니다. 세 도시 모두 치안이 좋은 숙소권(마드리드 살라망카·레티로, 팔마 구시가·산타 카탈리나, 바르셀로나 에이샴플레·그라시아)을 기준으로 짰습니다."
+  },
+  "flights": {
+    "outbound": "4/25(일) 09:55 인천 T2 출발 대한항공 KE913(A350-900/B787, 약 15시간) → 같은 날 18:00 마드리드 바라하스(Madrid-Barajas) 도착(시차 -7시간, 서머타임 기준). 09:55 출발은 울산에서 당일 이동이 사실상 불가하므로 (A) 4/24(토) 오후 KTX+공항철도 직통열차로 상경해 인천 T2 인근(네스트호텔·그랜드 하얏트 인천 등) 1박, 또는 (B) 4/25 01:00 울산시외버스터미널 심야 우등버스(58,900원, T1 05:30~06:00 도착 후 T2 셔틀) 중 택일하고, 07:15까지 T2 대한항공 카운터 수속을 권합니다. 마드리드 도착 후 19:00경 입국·수하물 → 공식 흰색 택시(시내 정액 €33, 25~40분) 또는 공항버스 Exprés 203번(€5, 24시간, Atocha까지 40분)으로 20:00 전후 숙소 체크인. 이날 마드리드 마라톤(Rock 'n' Roll Running Series) 개최 가능성이 있어 택시 우회를 감안하세요. 직항이 부담스럽거나 비싸면 4/25 밤 출발·4/26(월) 오전 도착하는 터키항공(TK91, 23:20→09:53)이나 에티하드(EY823, 17:45→07:35)가 울산에서 일요일 당일 KTX 이동이 가능한 대안입니다.",
+    "inbound": "핵심 리스크: 2026년 하계 패턴상 바르셀로나→인천 직항(아시아나 OZ512 20:50→익일 16:20, 티웨이 TW408 21:00→익일 16:25)은 목요일 미운항이라 5/6(목) 직항이 없을 가능성이 높습니다. 따라서 추천안은 5/6(목) 09:55 루프트한자 LH1125 바르셀로나 T1 출발 → 프랑크푸르트 경유(3시간 25분) → 15:30 LH712 → 5/7(금) 09:55 인천 T1 도착(총 17시간). 바르셀로나 숙소에서 07:00 출발해 Aerobús(€7.75, 30분) 또는 택시(약 €40)로 공항 이동. 대안은 터키항공 TK1852 07:35 → 이스탄불 → TK20 → 5/7(금) 08:35 인천(숙소 05:30 출발이 단점), 또는 목요일 오전을 바르셀로나에서 더 쓰고 싶으면 카타르 QR146/에미레이트 EK186 15:30 출발 → 5/7(금) 17:05/16:50 인천 도착. 인천 도착 후 울산 귀가는 오전 도착편이면 11:20 직통열차 → 12:05 서울역 → 12:30~13:00 KTX → 15:00~15:30 울산역(16:00 귀가), 오후 도착편이면 18:30 직통열차 → 19:30~20:00 KTX → 22:00 울산역이거나 인천 T2 20:20 심야 우등버스 → 5/8(토) 01:27 울산터미널. 2027 하계 스케줄 공개 후 통합 대한항공(OZ→KE 전환)이 목요일 운항을 추가하면 5/6(목) 20:50 직항 → 5/7(금) 16:20 인천 → 금요일 밤 울산 귀가로 확정하면 됩니다.",
+    "domestic": "① KTX(울산역→서울역, 약 2시간 10~20분, 53,500원) + 공항철도 직통열차(서울역→인천 T1 43분/T2 51분, 11,000원) + 울산 시내→울산역 리무진 5001~5005번(3,900원, 40~50분): 총 약 3시간 50분~4시간, 약 68,400원. 서울역 도심공항터미널에서 대한항공 사전 체크인·출국심사 가능. 가장 실용적인 1순위. ② KTX(울산역→광명역, 약 2시간 5~10분, 51,300원) + 6770번 KTX공항리무진(광명역→T1 약 50분/T2 약 75분, 16,000원): 총 약 3시간 35분, 약 71,200원. 코레일톡에서 KTX+버스 통합 예매가 가능하고 계단·환승이 적어 캐리어 2개 이상이면 추천. ③ 시외버스(울산시외버스터미널→인천공항 T1·T2, 우등 49,100원/심야·새벽편 58,900원): 하루 9회(01:00, 02:30, 03:40, 05:00, 06:20, 08:30, 11:30, 14:30, 23:30), 실소요 T1 기준 약 5시간~5시간 20분(심야 4시간 30~40분). 환승 없이 짐을 한 번만 싣는 게 장점이며 09:55 출발편에 당일 맞추려면 01:00편이 유일한 수단. 귀국편은 인천 T2 출발 07:20~23:00 하루 9회(20:20·23:00 심야편 있음, 약 5시간 7분). ④ 항공(울산공항→김포, 대한항공·진에어 하루 2~3편, 편도 약 5.5만~11만원, 실비행 50~60분) + 공항철도 일반열차(김포→인천 35~45분, 약 4,000원): 총 약 3시간 10분이지만 국제선 수하물 연결 불가로 인천 재수속 필요, 일요일 09:00편은 인천 11:00 도착이라 KE913(09:55)에는 맞출 수 없음. ⑤ 자가용(약 400km, 4~4.5시간, 편도 통행료·유류비 약 6.8만원 + 장기주차 12일 약 11~12만원): 2인 이상이고 짐이 많으면 고려할 만하나 귀국 후 심야 운전 부담.",
+    "tips": "예약 시점: 대한항공은 출발 약 355일 전부터 판매하지만 2027 하계 스케줄(3/28~)은 2026년 하반기~2027년 1월에 확정되므로, 한국 5월 연휴(5/1·5/5)와 겹치는 성수기임을 감안해 늦어도 2026년 11~12월까지 발권을 권합니다. 발권 방식: 스카이스캐너·네이버항공권·구글플라이트에서 '다구간(Multi-city)' ICN→MAD + BCN→ICN으로 검색. 대한항공(마드리드 in)+아시아나(바르셀로나 out) 조합은 2026.12.17 통합 대한항공 출범 후 한 항공사 여정으로 묶여 편도 2장보다 저렴해질 가능성이 큽니다. 운임 추정(1인 이코노미, 세금·유류 포함): 대한항공/통합 대한항공 직항 다구간 왕복 약 180만~250만원, 터키항공·에티하드 경유 약 110만~170만원, 카타르·에미레이트 약 120만~180만원, 루프트한자 약 130만~200만원, 티웨이 직항 왕복 약 100만~140만원. 4월 말~5월 초는 2025~26년 최저가 대비 15~30% 높게 잡는 것이 안전합니다. 통합 대한항공 전환으로 OZ 편명이 KE로 바뀌고 터미널(T1→T2)이 옮겨질 수 있으니 출발 2~3주 전 e-티켓·터미널 재확인. 인천 터미널: 대한항공·KLM·에어프랑스 T2 / 아시아나·티웨이·루프트한자·터키항공·카타르·에미레이트·에티하드 T1(2026 기준). 스페인 국내선 수하물: MAD→PMI는 Iberia Express·Air Europa(모든 요금에 10kg 기내 가방 포함, 위탁 20~23kg 추가 약 €25~35), PMI→BCN은 Vueling(Basic은 40x30x20cm 언더시트 가방만 무료, 10kg 캐리어 €10~30 추가 또는 25kg 위탁 포함 Optima 요금)이 주력. Ryanair 최저가도 소형 가방만 무료이고 10kg 기내는 Priority 추가(€6~36), 위탁 20kg €20~60. 큰 캐리어를 끄는 한국인 여행자는 '기본요금+위탁수하물' 합산가로 비교하면 Iberia Express/Air Europa가 결과적으로 저렴한 경우가 많습니다. 두 구간 모두 2~3개월 전(2027년 1~2월) 예약 시 편도 €40~70 수준이며, 국제선과 PNR이 다르므로 별도 체크인·수하물 재위탁이 필요합니다. 마드리드 공항 터미널은 Iberia/Iberia Express/Air Europa T4, Ryanair T1, Vueling T2로 다르니 예약 항공사에 맞춰 이동하세요."
+  },
+  "booking_checklist": [
+    {
+      "item": "국제선 항공권 (인천→마드리드 KE913 + 바르셀로나→인천 다구간)",
+      "when": "D-150 ~ D-120 (2026년 11~12월)",
+      "url": "https://www.koreanair.com",
+      "note": "2027 하계 스케줄 확정(2026년 하반기~2027년 1월) 직후 발권. 5/6(목) 바르셀로나 직항 유무를 먼저 확인하고 없으면 루프트한자·터키항공 경유편으로 귀국편 결정. 다구간 검색은 구글플라이트·네이버항공권 활용."
+    },
+    {
+      "item": "마드리드→팔마 국내선 (4/29 13:15, Iberia Express / Air Europa)",
+      "when": "D-90 ~ D-60 (2027년 1~2월)",
+      "url": "https://www.iberiaexpress.com",
+      "note": "10kg 기내 가방 포함 요금 확인, 위탁수하물은 예약 시 함께 추가(현장 추가는 2배 이상). MAD T4 출발. 편도 €40~70 목표."
+    },
+    {
+      "item": "팔마→바르셀로나 국내선 (5/2 12:00, Vueling)",
+      "when": "D-90 ~ D-60 (2027년 1~2월)",
+      "url": "https://www.vueling.com",
+      "note": "Basic 요금은 소형 가방만 무료. 10kg 캐리어 옵션 또는 25kg 위탁 포함 Optima 요금 선택. BCN T1 도착. 5/2(일)은 마드리드 자치주의 날이라 무관하지만 일요일 공항 혼잡 감안."
+    },
+    {
+      "item": "울산→인천 이동 (KTX + 공항철도 직통열차 / 심야 시외버스) + 귀국 KTX",
+      "when": "D-30 (코레일톡 예매 오픈)",
+      "url": "https://www.letskorail.com",
+      "note": "4/24(토) 오후 상행 KTX 또는 4/25 01:00 심야버스(코버스·티머니 txbus). 5/7(금) 오후 하행 KTX는 매진이 잦으므로 오픈 당일 예매. 공항 인근 1박 시 호텔도 함께 예약."
+    },
+    {
+      "item": "사그라다 파밀리아 (Sagrada Família) 시간지정 입장권 + 탑 입장",
+      "when": "D-60 (판매 오픈 시) ~ 늦어도 D-42",
+      "url": "https://sagradafamilia.org",
+      "note": "2026년 6월 예수탑 완공 후 첫 봄 성수기라 매진 빠름. 공식 사이트·앱에서만 구매, 오전 9~10시 슬롯이 빛과 인파 모두 유리. Nativity/Passion 탑은 별도 선택."
+    },
+    {
+      "item": "구엘 공원 (Park Güell) 시간지정 입장권",
+      "when": "D-30 ~ D-14",
+      "url": "https://parkguell.barcelona",
+      "note": "공식 사이트에서 시간 지정 예매(입장 30분 창). 사그라다 파밀리아와 같은 날 오후 배치가 동선상 편함. Lesseps/Vallcarca역 언덕길 소매치기 주의."
+    },
+    {
+      "item": "프라도 미술관 (Museo del Prado) 입장권",
+      "when": "D-30 ~ D-14",
+      "url": "https://www.museodelprado.es",
+      "note": "연중무휴이나 5/1(토) 휴관. 월~토 18~20시·일 17~19시 무료 시간대는 줄이 길어 유료 예매가 편함. 소피아 미술관은 화요일 휴관이므로 요일 배치 주의."
+    },
+    {
+      "item": "마드리드 왕궁 (Palacio Real) 입장권",
+      "when": "D-30 ~ D-14",
+      "url": "https://www.patrimonionacional.es",
+      "note": "공식 행사 시 임시 폐쇄 가능성 있어 출발 1주 전 재확인. 오전 첫 슬롯(10:00) 예매 시 대기 최소. 왕립 컬렉션 갤러리와 통합권 검토."
+    },
+    {
+      "item": "톨레도 당일치기 Renfe Avant 열차 (Atocha↔Toledo)",
+      "when": "D-60 ~ D-30 (Renfe 판매 오픈 후)",
+      "url": "https://www.renfe.com",
+      "note": "편도 €13.90, 33분, 왕복 €25~30. 08:20~09:20 출발·17~20시 귀환 편 예매(주말·연휴 매진 잦음). Atocha 고속열차 승강장 보안검색 15~20분 전 도착. 대안은 Plaza Elíptica발 Alsa 버스(€5.50~6.50)."
+    },
+    {
+      "item": "소예르 빈티지 열차 (Ferrocarril de Sóller) + 트램",
+      "when": "D-7 (온라인 예매 오픈) 또는 현장 30분 전",
+      "url": "https://trendesoller.com",
+      "note": "열차 왕복 €30, 열차+트램 통합권 €40(2026). 10:10 출발편 추천, 오른쪽 창가가 조망 좋음. 귀환은 TIB 204번 버스(€3~4)로 돌아오면 시간 절약. 4월 초 성수기 증편 시간표 재확인."
+    },
+    {
+      "item": "드라크 동굴 (Coves del Drac / Cuevas del Drach) 입장권",
+      "when": "D-30 (온라인 예매 오픈일)",
+      "url": "https://www.cuevasdeldrach.com",
+      "note": "온라인 €18.50(현장 €19.50), 시간 지정·환불 불가. 11:00 또는 12:00 투어 예매 후 Porto Cristo 항구 점심. 렌터카 이용 시 Palma에서 약 60분, 대중교통은 TIB 401/412번(Manacor 환승 여부 tib.org 확인)."
+    },
+    {
+      "item": "마요르카 렌터카 1~2일 (포르멘토르·에스 트렌크·드라크 동굴용)",
+      "when": "D-60 ~ D-30",
+      "url": "https://www.rentalcars.com",
+      "note": "팔마 시내 체류일에는 빌리지 않고 근교 투어일만 소형차 하루 €30~60(풀커버 보험 포함) 권장. 국제운전면허증·한국면허증 지참, Full-to-Full 연료 정책 확인. 차 안에 짐 절대 두지 않기. 2027년 Cap de Formentor 차량 통제 시작일(2026년은 5/15)은 3~4월 formentor.conselldemallorca.es에서 확인."
+    },
+    {
+      "item": "보틴 (Casa Botín) 등 인기 식당 예약",
+      "when": "D-45 ~ D-30",
+      "url": "https://www.botin.es",
+      "note": "세계 최고(最古) 식당 보틴은 새끼돼지 통구이(cochinillo)로 유명, 최소 한 달 전 온라인 예약. 마드리드 오픈 결승 주간(4/29~5/2)과 겹쳐 Sol·Salamanca 인기 식당은 예약 필수. 바르셀로나·팔마 인기 식당은 TheFork(엘테네도르) 앱으로 D-14 전후 예약."
+    },
+    {
+      "item": "여행자보험 (해외여행보험)",
+      "when": "D-30 ~ D-7 (출발 전 필수)",
+      "url": "https://www.fss.or.kr",
+      "note": "휴대품 도난(1건 20~30만원 한도)·해외 의료비 3,000만원 이상 보장 상품 선택. 도난 시 경찰 denuncia 사본이 청구에 필수. 보험사 24시간 어시스트 번호를 휴대폰에 저장."
+    },
+    {
+      "item": "유럽 eSIM / 로밍",
+      "when": "D-14 ~ D-3",
+      "url": "https://www.airalo.com",
+      "note": "스페인 12~13일 기준 10~20GB eSIM 2~3만원대(Airalo·Ubigi·유심사). 출발 전 QR 설치만 하고 현지 도착 후 활성화. 국내 번호 수신(카카오·은행 인증)을 위해 원래 번호는 데이터 로밍 OFF·통화만 유지."
+    },
+    {
+      "item": "현지 교통카드 (마드리드 Tarjeta Multi 10회권 / 바르셀로나 T-familiar 또는 Hola BCN)",
+      "when": "현지 도착 당일 (사전 예약 불필요)",
+      "url": "https://www.tmb.cat/en/barcelona-fares-metro-bus/single-and-integrated/hola-bcn",
+      "note": "마드리드: 지하철역 자판기에서 Tarjeta Multi(€2.50) + Metrobús 10회권(€7.30, 여러 명 공유 가능). 바르셀로나: 도보 위주면 T-familiar 8회권 €11.50(공유 가능), 공항 지하철까지 쓰면 Hola BCN 96h €35.60. 팔마는 컨택리스 카드 탭 승차(약 €1.80)로 패스 불필요."
+    }
+  ],
+  "budget": [
+    {
+      "category": "국제선 항공 (인천↔마드리드/바르셀로나 다구간, 1인)",
+      "per_person_eur": "약 €1,200~1,650 (원화 180만~250만원)",
+      "note": "대한항공/통합 대한항공 직항 기준. 터키항공·에티하드 등 경유 시 110만~170만원(€750~1,150)으로 절감 가능. 성수기(5월 연휴) 감안해 상단 예상."
+    },
+    {
+      "category": "스페인 국내선 (MAD→PMI, PMI→BCN, 수하물 포함)",
+      "per_person_eur": "€120~180",
+      "note": "2~3개월 전 예약 시 편도 €40~70 + 위탁수하물 €25~35 × 2구간. 늦게 예약하거나 성수기 요금이면 €200 이상."
+    },
+    {
+      "category": "울산↔인천 국내 이동 (왕복)",
+      "per_person_eur": "약 €90~110 (원화 13만~15만원)",
+      "note": "KTX+직통열차 왕복 약 137,000원 기준. 심야 시외버스 이용 시 왕복 약 108,000원(€75). 공항 인근 1박 시 숙박비 별도(1실 10~15만원)."
+    },
+    {
+      "category": "현지 교통 (공항 이동 · 시내 교통 · 근교 열차/버스)",
+      "per_person_eur": "€150~200",
+      "note": "공항↔시내 6회(마드리드 택시 €33 분담, 팔마 A1 €5/택시 분담, 바르셀로나 Aerobús €7.75 등) 약 €50, 마드리드 10회권 €10, 바르셀로나 T-familiar/Hola BCN €12~36, 톨레도 Avant 왕복 €28, 소예르 열차+트램 €40, TIB 버스 €15~20, 택시앱 몇 회 €20~30."
+    },
+    {
+      "category": "마요르카 렌터카 (1~2일, 2인 분담 기준)",
+      "per_person_eur": "€30~60",
+      "note": "소형차 하루 €40~60(풀커버 보험) + 연료 €15~20 + 주차 €5~10을 2인이 나눌 때. 렌터카를 빌리지 않고 드라크 동굴·포르멘토르를 생략하면 €0."
+    },
+    {
+      "category": "입장료·관광 (주요 명소 10~12곳)",
+      "per_person_eur": "€180~230",
+      "note": "사그라다 파밀리아 €26~36(탑 포함 €36~46), 구엘 공원 €18, 카사 바트요 €35~39, 프라도 €15, 소피아 €12, 왕궁 €14~24, 톨레도 대성당 €12~15, 팔마 대성당 €10, 드라크 동굴 €18.50, 벨베르 성 €4, 몬주익/기타 €20."
+    },
+    {
+      "category": "식비 (11일 × 1일 €55~70)",
+      "per_person_eur": "€600~770",
+      "note": "아침 호텔 조식 또는 카페 €5~8, 점심 메뉴 델 디아(Menú del día) €14~18, 저녁 타파스·레스토랑 €25~40, 간식·커피·물 €5~8 기준. 보틴·미슐랭급 저녁 1~2회 추가 시 +€60~100."
+    },
+    {
+      "category": "기타 (eSIM · 여행자보험 · 기념품 · 예비비)",
+      "per_person_eur": "€130~180",
+      "note": "eSIM €20~25, 여행자보험 €30~45(12일), 기념품·쇼핑 €50~80, 팁·화장실·예비비 €30~50."
+    },
+    {
+      "category": "합계 (숙박 제외, 1인)",
+      "per_person_eur": "약 €2,500~3,400 (원화 약 370만~500만원)",
+      "note": "국제선 직항 기준. 경유 항공 선택 시 약 €2,050~2,900(원화 300만~430만원). 숙박비는 미포함이며, 세 도시 안전 지역 3~4성급 더블룸 기준 1박 €130~220 × 11박(1인 분담 €700~1,200)을 별도로 잡아야 합니다. 환율 1€ = 약 1,480원 가정."
+    }
+  ]
+}

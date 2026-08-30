@@ -46,7 +46,16 @@
   "Mercat de la Boqueria": "boqueria",
   "Palau de la Música Catalana": "palau-musica",
   "Gràcia Neighborhood": "gracia",
-  "Casa Vicens": "casa-vicens"
+  "Casa Vicens": "casa-vicens",
+  "Alcázar de Toledo — Museo del Ejército": "alcazar-toledo",
+  "Iglesia de Santo Tomé (El Greco)": "santo-tome",
+  "Almudena Cathedral, museum & dome": "almudena",
+  "Jardines de Sabatini": "royal-palace",
+  "Templo de Debod (interior)": "templo-debod",
+  "Templo de Debod sunset": "templo-debod",
+  "Plaça Major & Passeig del Born": "passeig-born",
+  "Museo Nacional del Prado (free evening)": "museo-del-prado",
+  "Museo Nacional Centro de Arte Reina Sofía": "reina-sofia"
  },
  "restaurants": {
   "Mercado de San Miguel": "mercado",
@@ -88,7 +97,8 @@
   "Vinitus": "tapas",
   "Casa Amàlia": "arroz",
   "Bar Bodega Quimet": "vermut",
-  "La Cova Fumada": "croquetas"
+  "La Cova Fumada": "croquetas",
+  "Chocolatería 1902": "churros"
  },
  "keywords": [
   [
