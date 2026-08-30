@@ -1,0 +1,14 @@
+[server]
+# static/ 폴더를 <앱주소>/app/static/<파일명> 으로 그대로 서빙 (여행 계획 페이지 원본 제공용)
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#d99a1e"
+backgroundColor = "#f4f3ee"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#101828"
+font = "sans serif"

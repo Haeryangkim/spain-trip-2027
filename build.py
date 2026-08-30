@@ -74,6 +74,11 @@ out = os.path.join(ROOT, "index.html")
 with open(out, "w", encoding="utf-8") as f: f.write(html)
 blocks_with_img = sum(1 for d in trip.get("days", []) for b in d.get("blocks", []) if b.get("img"))
 rest_with_img = sum(1 for r in trip.get("restaurants", []) if r.get("img"))
+# Streamlit Community Cloud 정적 서빙용 사본 (<앱주소>/app/static/index.html)
+static_dir = os.path.join(ROOT, "static")
+os.makedirs(static_dir, exist_ok=True)
+with open(os.path.join(static_dir, "index.html"), "w", encoding="utf-8") as f: f.write(html)
+
 print(f"wrote {out} ({os.path.getsize(out)//1024} KB), days={len(trip.get('days',[]))}, "
       f"restaurants={len(trip.get('restaurants',[]))}, images={len(images)} ({img_bytes//1024} KB) "
-      f"→ blocks {blocks_with_img}, cards {rest_with_img}")
+      f"→ blocks {blocks_with_img}, cards {rest_with_img}; static/index.html 동기화")
