@@ -1,0 +1,1476 @@
+{
+ "attractions": {
+  "city": "Palma de Mallorca (팔마 데 마요르카)",
+  "attractions": [
+   {
+    "name_en": "Catedral de Mallorca (La Seu)",
+    "name_ko": "마요르카 대성당 (라 세우)",
+    "lat": 39.56745,
+    "lng": 2.64809,
+    "area": "Palma 구시가 (해안 쪽)",
+    "duration_min": 90,
+    "hours": "4/1~5/31: 월~금 10:00~17:15, 토·공휴일 10:00~14:15 (관광 입장 기준). 테라스(옥상) 가이드 투어는 3~10월 월~금 10:00~16:30, 토 10:00~13:30, 30분 단위 출발·약 1시간 소요",
+    "closed_days": "일요일은 연중 관광 입장 불가(미사만). 종교 축일 휴관. 5/1(토, 노동절)은 10:00~14:15 개방으로 보도되나 방문 전 공식 사이트 확인 필요",
+    "price_eur": "일반 €9 / 할인 €7 / 10세 미만 무료. 테라스 투어 포함권 €25(성당+박물관 포함, 사전예약 필수)",
+    "why": "가우디가 개입한 유럽 최대급 장미창을 가진 고딕 대성당. 2026년은 가우디 서거 100주년 특별 전시. 일요일 휴관이므로 목(4/29) 또는 금(4/30) 오전에 배치할 것",
+    "priority": 1,
+    "official_url": "https://catedraldemallorca.org",
+    "booking_note": "일반 입장은 온라인 구매로 줄 회피 가능. 테라스 투어는 정원 제한이 있어 최소 1~2주 전 예약 권장"
+   },
+   {
+    "name_en": "Palau Reial de l'Almudaina",
+    "name_ko": "알무다이나 왕궁",
+    "lat": 39.56803,
+    "lng": 2.64712,
+    "area": "Palma 구시가 (대성당 옆)",
+    "duration_min": 60,
+    "hours": "4~9월: 화~일 10:00~19:00 (마지막 입장 18:00). 왕실 공식 행사 시 예고 없이 휴관 가능",
+    "closed_days": "매주 월요일. Patrimonio Nacional 관례상 5/1 휴관 가능성 높음(확인 필요)",
+    "price_eur": "일반 €7 / 할인(학생·65세 이상) €4 / 5세 미만 무료. 수·일 15:00~18:00 무료 입장은 EU·중남미 국적자 한정이라 한국인은 해당 없음",
+    "why": "이슬람 알카사르를 개조한 마요르카 왕들의 궁전. 대성당과 묶어 30분 거리 내 관람 가능. 2026년 4월 말 보수 후 재개관",
+    "priority": 2,
+    "official_url": "https://tickets.patrimonionacional.es/en/tickets/palacio-almudaina",
+    "booking_note": "온라인 예매(Patrimonio Nacional) 권장, 현장 구매도 가능"
+   },
+   {
+    "name_en": "Castell de Bellver",
+    "name_ko": "베이베르 성",
+    "lat": 39.56369,
+    "lng": 2.61911,
+    "area": "Palma 서쪽 언덕 (El Terreno 위)",
+    "duration_min": 90,
+    "hours": "4~9월: 화~토 10:00~19:00, 일·공휴일 10:00~15:00. 입장 마감은 폐관 30분 전, 매표는 45분 전",
+    "closed_days": "월요일, 1/1, 부활절 일요일, 5/1, 12/25 휴관 → 5/1(토)에는 갈 수 없음",
+    "price_eur": "일반 €4 / 일요일 무료",
+    "why": "유럽에서 드문 원형 고딕 성. 팔마만 전경이 가장 좋은 전망 포인트. 일요일 무료이므로 5/2(일) 오전에 넣기 좋음",
+    "priority": 2,
+    "official_url": "https://castelldebellver.palma.es/en/",
+    "booking_note": "예약 불필요. EMT 시내버스 3·20·46번 등으로 접근 후 언덕길 도보 10~15분, 또는 Plaça Gomila에서 산책로"
+   },
+   {
+    "name_en": "Passeig del Born",
+    "name_ko": "파세이그 델 보른 (보른 산책로)",
+    "lat": 39.57055,
+    "lng": 2.6472,
+    "area": "Palma 중심",
+    "duration_min": 30,
+    "hours": "상시 (상점 대체로 10:00~21:00)",
+    "closed_days": "없음 (일·공휴일은 상점 다수 휴무)",
+    "price_eur": "무료",
+    "why": "플라타너스 가로수의 명품 거리. 저녁 산책·야경 동선의 중심축이며 대성당·산타카탈리나·로냐 사이 연결로",
+    "priority": 2
+   },
+   {
+    "name_en": "Plaça Major & Carrer de Sant Miquel",
+    "name_ko": "마요르 광장 & 산트 미켈 거리",
+    "lat": 39.57198,
+    "lng": 2.65178,
+    "area": "Palma 구시가 북쪽",
+    "duration_min": 30,
+    "hours": "상시 (광장 노점시장은 월·금·토 10:00~14:00경, 여름엔 매일)",
+    "closed_days": "없음",
+    "price_eur": "무료",
+    "why": "노란 아케이드 광장. Sant Miquel 거리를 따라 Mercat de l'Olivar와 연결되어 쇼핑·간식 동선",
+    "priority": 3
+   },
+   {
+    "name_en": "Santa Catalina district & Mercat de Santa Catalina",
+    "name_ko": "산타 카탈리나 지구 & 산타 카탈리나 시장",
+    "lat": 39.5721,
+    "lng": 2.63856,
+    "area": "Palma 서쪽 (구시가 바로 옆)",
+    "duration_min": 90,
+    "hours": "시장: 월~토 07:00~17:00 (오전이 활기, 타파스 바는 점심까지). 동네 레스토랑은 저녁 19:30 이후",
+    "closed_days": "시장 일요일·공휴일 휴무 → 5/1(토)·5/2(일) 휴무",
+    "price_eur": "무료 (타파스 €3~6)",
+    "why": "옛 어촌 마을이 힙한 미식 거리로 변신. 시장 안 타파스 바와 주변 브런치·타파스 식당이 좋고, 해질녘 Es Baluard 성벽과 이어 걷기 좋음. 치안 양호",
+    "priority": 2,
+    "official_url": "https://mercatdesantacatalina.com"
+   },
+   {
+    "name_en": "Banys Àrabs (Arab Baths)",
+    "name_ko": "아랍 목욕탕",
+    "lat": 39.56717,
+    "lng": 2.65155,
+    "area": "Palma 구시가 (대성당 뒤)",
+    "duration_min": 20,
+    "hours": "4~11월 09:30~20:00",
+    "closed_days": "없음",
+    "price_eur": "약 €3",
+    "why": "팔마에 남은 거의 유일한 이슬람 시대 건축. 규모는 작지만 정원이 예쁘고 대성당과 5분 거리라 부담 없이 들르기 좋음",
+    "priority": 3
+   },
+   {
+    "name_en": "Basílica de Sant Francesc",
+    "name_ko": "산트 프란세스크 성당",
+    "lat": 39.56977,
+    "lng": 2.65432,
+    "area": "Palma 구시가 동쪽",
+    "duration_min": 30,
+    "hours": "월~토 09:30~12:30, 15:10~18:00 / 일·공휴일 09:00~12:30",
+    "closed_days": "없음 (오후 휴식시간 주의)",
+    "price_eur": "약 €3~5",
+    "why": "팔마에서 가장 아름다운 고딕 회랑(클로이스터). 아랍 목욕탕에서 도보 5분",
+    "priority": 3
+   },
+   {
+    "name_en": "Sa Llotja (La Lonja)",
+    "name_ko": "사 요차 (구 상품 거래소)",
+    "lat": 39.56828,
+    "lng": 2.64424,
+    "area": "Palma 구시가 (항구 쪽)",
+    "duration_min": 20,
+    "hours": "전시 기간에만 내부 개방: 화~토 11:00~14:00, 17:00~21:00 (외관은 상시)",
+    "closed_days": "월·일 내부 휴관, 전시 없을 때 휴관",
+    "price_eur": "무료",
+    "why": "나선형 기둥이 인상적인 15세기 고딕 걸작. 무료이며 주변 La Lonja 지구는 저녁 타파스·바 거리",
+    "priority": 3
+   },
+   {
+    "name_en": "Mercat de l'Olivar",
+    "name_ko": "올리바르 시장",
+    "lat": 39.57473,
+    "lng": 2.65397,
+    "area": "Palma 중심 북쪽 (Plaça d'Espanya 근처)",
+    "duration_min": 45,
+    "hours": "월~토 07:00~15:00 (금요일은 15:00~20:00 부분 연장)",
+    "closed_days": "일요일·공휴일 → 5/1(토)·5/2(일) 휴무",
+    "price_eur": "무료 (해산물 바 식사 €15~30)",
+    "why": "팔마 최대 실내 시장. 생선 코너 바에서 즉석 해산물, 하몬·치즈 구매. 기차역(Sóller 열차·TIB 버스터미널)에서 도보 5분이라 출발 전 아침식사에 적합",
+    "priority": 2,
+    "official_url": "https://palma.es/mercat-de-l-olivar"
+   },
+   {
+    "name_en": "Es Baluard Museu d'Art Contemporani",
+    "name_ko": "에스 발루아르드 현대미술관",
+    "lat": 39.56951,
+    "lng": 2.6404,
+    "area": "Palma 서쪽 성벽 (Santa Catalina 옆)",
+    "duration_min": 60,
+    "hours": "화~토 10:00~20:00, 일 10:00~15:00 (매표 마감 30분 전)",
+    "closed_days": "월요일, 1/1, 5/1, 12/25 → 5/1(토) 휴관",
+    "price_eur": "일반 €6 / 할인 €4.50 / 금요일은 원하는 만큼 지불(최소 €0.10)",
+    "why": "르네상스 성벽 위 미술관. 미로·피카소 소장품보다 성벽 테라스에서 보는 항구·대성당 뷰가 백미. 금요일(4/30) 방문 시 거의 무료",
+    "priority": 3,
+    "official_url": "https://esbaluard.org/en/visit/"
+   },
+   {
+    "name_en": "Passeig Marítim (Avinguda de Gabriel Roca)",
+    "name_ko": "파세이그 마리팀 (해안 산책로)",
+    "lat": 39.56391,
+    "lng": 2.6343,
+    "area": "Palma 항구 해안",
+    "duration_min": 45,
+    "hours": "상시",
+    "closed_days": "없음",
+    "price_eur": "무료",
+    "why": "요트 항구를 따라 대성당을 바라보며 걷는 야경 산책 코스. Santa Catalina/Es Baluard에서 내려와 저녁 식사 후 걷기 좋음. 조명 밝고 사람 많아 안전",
+    "priority": 2
+   },
+   {
+    "name_en": "Cala Major beach",
+    "name_ko": "칼라 마요르 해변",
+    "lat": 39.55485,
+    "lng": 2.60611,
+    "area": "Palma 서쪽 교외 (시내에서 버스 15분)",
+    "duration_min": 90,
+    "hours": "상시",
+    "closed_days": "없음",
+    "price_eur": "무료",
+    "why": "시내에서 가장 가까운 모래 해변. EMT 3·46번 버스. Miró 재단(Fundació Miró)과 묶으면 반나절 코스. 4월 말 수온 15~17°C라 발 담그기·일광욕 위주",
+    "priority": 3
+   },
+   {
+    "name_en": "Platja d'Illetes / Cala Comtesa",
+    "name_ko": "이예테스 해변 / 칼라 콤테사",
+    "lat": 39.54209,
+    "lng": 2.5925,
+    "area": "Illetes (Palma 서쪽, 버스 30분)",
+    "duration_min": 120,
+    "hours": "상시",
+    "closed_days": "없음",
+    "price_eur": "무료 (선베드 유료)",
+    "why": "팔마 근교에서 물색이 가장 예쁜 작은 만. EMT 4번 종점에서 도보 5분. 렌터카 없이 팔마 체류 중 반나절 해변 시간이 필요할 때 최적",
+    "priority": 3
+   },
+   {
+    "name_en": "Ferrocarril de Sóller (vintage train) & Tramvia de Sóller",
+    "name_ko": "소예르 목재 열차 & 소예르 트램",
+    "lat": 39.5766,
+    "lng": 2.6538,
+    "area": "Palma Plaça d'Espanya 역 → Sóller → Port de Sóller",
+    "duration_min": 420,
+    "hours": "열차 Palma 출발 10:10(전망대 정차, 가장 인기)·13:30·15:10·19:40 / Sóller→Palma 09:00·14:00·17:15·18:00·18:30. 트램 Sóller↔Port 08:00~21:00 30분~1시간 간격. 소요 열차 약 55~60분, 트램 약 20분",
+    "closed_days": "연중 운행(동계 11월 말~2월 초 휴장). 공휴일(5/1) 운행 여부·시간표는 공식 사이트 확인",
+    "price_eur": "열차 편도 €23 / 왕복 €30, 트램 편도 €10(차내 결제), 열차왕복+트램 통합권 €40 (온라인은 통합권만 판매)",
+    "why": "1912년 목재 객차로 트라문타나 산맥을 넘는 마요르카 대표 체험. 10:10 편은 만석이 잦으니 30분 전 도착. Port de Sóller에서 Sa Calobra 보트 연계 가능",
+    "priority": 1,
+    "official_url": "https://trendesoller.com/en/",
+    "booking_note": "통합권 온라인 예매 권장. 편도만 탈 경우 당일 창구 구매"
+   },
+   {
+    "name_en": "Sóller town (Plaça de la Constitució, Sant Bartomeu)",
+    "name_ko": "소예르 마을",
+    "lat": 39.76563,
+    "lng": 2.71484,
+    "area": "Tramuntana (Palma에서 차 35분·열차 1시간)",
+    "duration_min": 90,
+    "hours": "상시 (상점 10:00~14:00, 17:00~20:00; 토요일 오전 장터)",
+    "closed_days": "없음",
+    "price_eur": "무료",
+    "why": "오렌지 계곡의 중심 마을. 가우디 제자가 설계한 성당 파사드와 광장 카페, 오렌지 주스·아이스크림이 유명",
+    "priority": 1
+   },
+   {
+    "name_en": "Port de Sóller",
+    "name_ko": "포르트 데 소예르",
+    "lat": 39.79645,
+    "lng": 2.69517,
+    "area": "Tramuntana 해안",
+    "duration_min": 90,
+    "hours": "상시",
+    "closed_days": "없음",
+    "price_eur": "무료",
+    "why": "말굽 모양 만에 트램이 해변 옆으로 달리는 그림 같은 항구. 해변 산책과 해산물 점심, Sa Calobra 보트 출발지",
+    "priority": 1
+   },
+   {
+    "name_en": "Real Cartuja de Valldemossa (incl. Chopin cell)",
+    "name_ko": "바이데모사 왕립 카르투지오 수도원 (쇼팽의 방)",
+    "lat": 39.71019,
+    "lng": 2.62241,
+    "area": "Valldemossa (Palma 북쪽 17km, 차 30분)",
+    "duration_min": 90,
+    "hours": "월~금 10:00~17:00(마지막 입장 16:00), 토 10:00~16:00(마지막 15:00). 15분 피아노 리사이틀 10:30·11:30·12:30·13:15·14:15. 쇼팽의 방(Celda de Chopin)은 별도 운영 매일 10:00~17:30",
+    "closed_days": "일요일 단축 또는 휴관 가능 → 방문 전 확인. 5/1 운영 여부 확인 필요",
+    "price_eur": "수도원 통합권 약 €12.50 (성당·약국·회랑·산초왕 궁전·피아노 연주 포함, 10세 이하 무료). 쇼팽의 방 별도 €5(현장 구매만)",
+    "why": "쇼팽과 조르주 상드가 1838~39년 겨울을 보낸 곳. 마을 자체가 트라문타나에서 가장 예쁜 돌집 골목. 코카 데 파타타(감자빵) 필수",
+    "priority": 1,
+    "official_url": "https://cartoixadevalldemossa.com",
+    "booking_note": "온라인 예매 가능. 오전 일찍 가면 단체관광객 회피"
+   },
+   {
+    "name_en": "Deià & Son Marroig / Sa Foradada viewpoint",
+    "name_ko": "데이아 & 손 마로이그 / 사 포라다다 전망대",
+    "lat": 39.7485,
+    "lng": 2.6485,
+    "area": "Tramuntana 해안 (Valldemossa에서 차 20분)",
+    "duration_min": 75,
+    "hours": "마을 상시. Son Marroig 저택 약 09:30~18:00(€4). Robert Graves 생가(Ca n'Alluny) 4~10월 월~금 10:00~17:00, 토 10:00~15:00(€7)",
+    "closed_days": "Robert Graves 생가 일요일 휴관. Son Marroig 일요일 확인 필요",
+    "price_eur": "마을 무료 / Son Marroig €4 / Graves 생가 €7",
+    "why": "바다를 내려다보는 예술가 마을. 구멍 뚫린 바위 Sa Foradada는 Son Marroig 앞 무료 전망대에서 감상 가능. 주차 공간이 적으니 오전 방문 권장",
+    "priority": 2
+   },
+   {
+    "name_en": "Sa Calobra & Torrent de Pareis",
+    "name_ko": "사 칼로브라 & 토렌트 데 파레이스",
+    "lat": 39.85225,
+    "lng": 2.79822,
+    "area": "Tramuntana 북쪽 해안 (Port de Sóller에서 보트 1시간 / Sóller에서 차 45~50분)",
+    "duration_min": 180,
+    "hours": "보트(Barcos Azules) 4월 시간표 기준 Port de Sóller 출발 09:50·11:20·13:00·15:00, Sa Calobra 출발 13:40·16:45. 5월 시간표는 4월과 유사하나 공식 사이트에서 재확인",
+    "closed_days": "보트는 대략 4~10월 시즌 운항, 기상 악화 시 결항",
+    "price_eur": "보트 왕복 성인 약 €35 / 어린이 약 €18. 차량 접근 시 주차 유료",
+    "why": "200m 협곡이 바다와 만나는 자갈 해변. 4월 말~5월 초는 보트가 정상 운항하는 시기라 열차+트램+보트 조합 가능. 차로 가면 12km 헤어핀 도로(Ma-2141)가 볼거리지만 운전 난도 높음",
+    "priority": 2,
+    "official_url": "https://www.barcoscalobra.com/?lang=en",
+    "booking_note": "보트 온라인 예약 권장(성수기 매진). 협곡 해변은 터널 도보 10분, 수온 낮아 수영은 어려움"
+   },
+   {
+    "name_en": "Cap de Formentor Lighthouse",
+    "name_ko": "포르멘토르 곶 등대",
+    "lat": 39.96131,
+    "lng": 3.212,
+    "area": "북동단 (Port de Pollença에서 20km, 차 40분)",
+    "duration_min": 90,
+    "hours": "도로 상시 개방. 2026년 차량 통제 기간은 5/15~10/18 10:00~22:00(Ma-2210 해변~등대 구간). 4/29~5/2는 통제 전 기간이라 자가 운전 가능(2027년 규정은 동일 패턴 예상, 4월 중 재확인). Mirador Es Colomer 전망대(39.92585, 3.09822) 경유",
+    "closed_days": "없음",
+    "price_eur": "무료 (통제기간엔 TIB 334번 버스만 진입, 카드 결제만)",
+    "why": "마요르카 최북단 절벽 등대와 드라이브 코스. 통제 시작 전이라 렌터카로 편하게 갈 수 있는 드문 시기",
+    "priority": 1,
+    "official_url": "https://www.tib.org/en/linies-i-horaris/autobus/-/linia/334",
+    "booking_note": "통제기간 외라도 오전 일찍 출발 권장. 도로 좁고 자전거 많음"
+   },
+   {
+    "name_en": "Platja de Formentor",
+    "name_ko": "포르멘토르 해변",
+    "lat": 39.92849,
+    "lng": 3.13164,
+    "area": "Formentor 반도 (Port de Pollença에서 차 15분)",
+    "duration_min": 60,
+    "hours": "상시. 주차장 300대, 만차 시 차단기 폐쇄",
+    "closed_days": "없음",
+    "price_eur": "무료 주차(2026 기준)",
+    "why": "소나무 숲이 바다까지 내려오는 고운 백사장. 등대 가는 길에 들르기 좋음",
+    "priority": 2
+   },
+   {
+    "name_en": "Pollença old town (Calvari steps)",
+    "name_ko": "포옌사 구시가 (칼바리 365계단)",
+    "lat": 39.87721,
+    "lng": 3.01682,
+    "area": "북부 내륙 (Palma에서 차 50분, TIB 301/340)",
+    "duration_min": 75,
+    "hours": "상시. 일요일 장터 08:00~13:30(Plaça Major)",
+    "closed_days": "없음",
+    "price_eur": "무료",
+    "why": "365개 계단 위 예배당에서 보는 마을 전경. 5/2(일)에는 예술·공예 성향의 일요 장터가 열림",
+    "priority": 2
+   },
+   {
+    "name_en": "Alcúdia old town & walls",
+    "name_ko": "알쿠디아 구시가 & 성벽",
+    "lat": 39.85273,
+    "lng": 3.12088,
+    "area": "북부 (Palma에서 차 50분, TIB 302 약 1시간)",
+    "duration_min": 75,
+    "hours": "상시. 장터 화·일 08:00~13:30(성벽 옆)",
+    "closed_days": "없음",
+    "price_eur": "무료 (성벽 산책 무료)",
+    "why": "14세기 성벽이 온전한 중세 마을. 5/2(일) 오전 장터가 섬에서 가장 큰 규모. Pollentia 로마 유적 인접",
+    "priority": 2
+   },
+   {
+    "name_en": "Coves del Drac (Cuevas del Drach)",
+    "name_ko": "드라크 동굴",
+    "lat": 39.53582,
+    "lng": 3.33029,
+    "area": "Porto Cristo (Palma에서 차 1시간 5분, TIB 412 약 1시간 17분)",
+    "duration_min": 75,
+    "hours": "3/17~10/31 입장회차 10:00·11:00·12:00·14:00·15:00·16:00·17:00 (약 1시간, 마르텔 호수 클래식 연주+보트 포함)",
+    "closed_days": "12/25, 1/1만 휴무 → 5/1(토)·5/2(일) 정상 운영",
+    "price_eur": "성인 온라인 €18.50 / 현장 €19.50, 3~12세 €11.50",
+    "why": "유럽 최대 지하호수 위에서 듣는 라이브 클래식. 5/1 공휴일에 팔마 박물관들이 닫을 때 대안으로 좋음. 오전 회차 매진 잦음",
+    "priority": 1,
+    "official_url": "https://www.cuevasdeldrach.com",
+    "booking_note": "온라인 사전 예매 강력 권장(회차 지정). 동굴 내 촬영 불가, 유모차 반입 불가"
+   },
+   {
+    "name_en": "Porto Cristo",
+    "name_ko": "포르토 크리스토",
+    "lat": 39.54218,
+    "lng": 3.33475,
+    "area": "동해안",
+    "duration_min": 60,
+    "hours": "상시",
+    "closed_days": "없음",
+    "price_eur": "무료",
+    "why": "드라크 동굴 옆 작은 항구·해변. 동굴 회차 전후 점심 장소",
+    "priority": 3
+   },
+   {
+    "name_en": "Platja des Trenc",
+    "name_ko": "에스 트렌크 해변",
+    "lat": 39.35165,
+    "lng": 2.99286,
+    "area": "남부 (Palma에서 차 45~50분, TIB 530/515 버스는 정차 많아 1시간 이상)",
+    "duration_min": 120,
+    "hours": "상시. 주차장 Na Tirapel·Sa Barralina(Ses Covetes) 오전 중 만차",
+    "closed_days": "없음",
+    "price_eur": "주차 €6~7/일(또는 €1/시간)",
+    "why": "개발 안 된 3km 백사장, '카리브 같은' 물색. 4월 말은 한산하지만 수온 15~17°C. 봄엔 옆 염전에 홍학이 들름",
+    "priority": 2
+   },
+   {
+    "name_en": "Cala Mondragó & S'Amarador (Parc Natural de Mondragó)",
+    "name_ko": "칼라 몬드라고 & 사마라도르 (몬드라고 자연공원)",
+    "lat": 39.34862,
+    "lng": 3.18881,
+    "area": "남동부 Santanyí (Palma에서 차 55분)",
+    "duration_min": 120,
+    "hours": "상시 (안내센터 주간)",
+    "closed_days": "없음",
+    "price_eur": "주차 약 €6",
+    "why": "자연공원 안 두 개의 만이 10분 도보로 이어짐. Cala Mondragó는 바·식당 있고, S'Amarador는 야생적. 4월 말 산책·피크닉에 최적",
+    "priority": 2
+   },
+   {
+    "name_en": "Santanyí market",
+    "name_ko": "산타니 장터",
+    "lat": 39.35476,
+    "lng": 3.12867,
+    "area": "남동부 Santanyí 중심",
+    "duration_min": 75,
+    "hours": "수·토 09:00~14:00 (13:15경부터 철수 시작)",
+    "closed_days": "수·토 외 없음 → 5/1(토) 개최 예정이나 공휴일 겹침으로 규모 변동 가능, 확인 권장",
+    "price_eur": "무료",
+    "why": "150여 노점의 마요르카에서 손꼽히는 장터. 황토색 돌 마을 골목과 카페가 매력. 동부 루프를 토요일에 두면 자연스럽게 결합",
+    "priority": 2
+   },
+   {
+    "name_en": "Cala d'Or (marina, Cala Gran)",
+    "name_ko": "칼라 도르 (마리나, 칼라 그란)",
+    "lat": 39.36998,
+    "lng": 3.23574,
+    "area": "남동부 리조트 타운",
+    "duration_min": 75,
+    "hours": "상시",
+    "closed_days": "없음",
+    "price_eur": "무료",
+    "why": "하얀 이비사풍 리조트와 요트 마리나. Cala Gran(39.37419, 3.23684)·Cala Esmeralda 등 작은 만 산책. 몬드라고에서 차 15분이라 저녁 식사 장소로 적합",
+    "priority": 3
+   },
+   {
+    "name_en": "Caló des Moro",
+    "name_ko": "칼로 데스 모로",
+    "lat": 39.3224,
+    "lng": 3.11636,
+    "area": "남동부 Santanyí (Cala Llombards 주차 후 도보 1~1.5km)",
+    "duration_min": 90,
+    "hours": "상시. 2026년 기준 6/1부터 비거주자 차량 접근로 진입 금지(Cala Llombards 주차 후 도보). 성수기(5~10월) 1일 200명·€10 사전예약제 도입 보도가 있으나 시행 여부는 연도별로 달라 방문 전 Santanyí 시청 확인 필요",
+    "closed_days": "없음",
+    "price_eur": "무료 (예약제 시행 시 €10)",
+    "why": "인스타 명소 절벽 코브. 수용 인원 50명 남짓인데 하루 400명 이상 몰려 침식·계단 붕괴 문제. 4월 말은 상대적으로 한산하지만 오전 9시 전 도착 권장. 편의시설 없음",
+    "priority": 3
+   }
+  ],
+  "day_trips": [
+   {
+    "name_en": "Tramuntana loop: Valldemossa → Deià → Sóller → Port de Sóller (+ Sa Calobra boat option)",
+    "name_ko": "트라문타나 루프: 바이데모사 → 데이아 → 소예르 → 포르트 데 소예르 (+사 칼로브라 보트 옵션)",
+    "transport": "렌터카 권장(경치 도로 Ma-10). 대안 A(대중교통): TIB 203/210번 Palma→Valldemossa(약35분)→Deià(+20분)→Sóller(+25분)→Port de Sóller(+10분), 평일 약 1시간 간격·일/공휴일 감편, 203번은 좌석 예약제 시범 운영. 돌아올 때 Sóller 18:00/18:30 목재 열차. 대안 B(차 없이 열차 중심): Palma 10:10 열차→Sóller 11:50→트램→Port de Sóller 13:00 보트→Sa Calobra 13:40~16:45 체류 후 복귀→트램→Sóller 18:30 열차(이 경우 Valldemossa는 별도)",
+    "duration_min_one_way": 30,
+    "recommended_hours": 10,
+    "highlights": [
+     {
+      "name_en": "Real Cartuja de Valldemossa",
+      "name_ko": "바이데모사 카르투지오 수도원",
+      "lat": 39.71019,
+      "lng": 2.62241,
+      "duration_min": 90,
+      "hours": "월~금 10:00~17:00, 토 10:00~16:00",
+      "closed_days": "일요일 확인 필요",
+      "price_eur": "약 €12.50 + 쇼팽의 방 €5",
+      "why": "09:30~10:00 도착해 단체 전 관람, 11:30 피아노 리사이틀"
+     },
+     {
+      "name_en": "Son Marroig / Sa Foradada viewpoint",
+      "name_ko": "손 마로이그 / 사 포라다다 전망대",
+      "lat": 39.75588,
+      "lng": 2.61895,
+      "duration_min": 30,
+      "hours": "주간",
+      "closed_days": "없음",
+      "price_eur": "전망대 무료 / 저택 €4",
+      "why": "바이데모사→데이아 사이 Ma-10 도로변, 잠깐 정차"
+     },
+     {
+      "name_en": "Deià village",
+      "name_ko": "데이아 마을",
+      "lat": 39.7485,
+      "lng": 2.6485,
+      "duration_min": 60,
+      "hours": "상시",
+      "closed_days": "없음",
+      "price_eur": "무료",
+      "why": "골목 산책·점심 (주차 어려움, 마을 입구 유료 주차)"
+     },
+     {
+      "name_en": "Sóller",
+      "name_ko": "소예르",
+      "lat": 39.76563,
+      "lng": 2.71484,
+      "duration_min": 75,
+      "hours": "상시",
+      "closed_days": "없음",
+      "price_eur": "무료",
+      "why": "광장 카페·오렌지 주스, 트램 타기"
+     },
+     {
+      "name_en": "Port de Sóller",
+      "name_ko": "포르트 데 소예르",
+      "lat": 39.79645,
+      "lng": 2.69517,
+      "duration_min": 90,
+      "hours": "상시",
+      "closed_days": "없음",
+      "price_eur": "무료",
+      "why": "해변 산책·해산물 저녁, 노을 감상 후 Ma-11 터널(무료)로 팔마 복귀 40분"
+     },
+     {
+      "name_en": "Sa Calobra (boat)",
+      "name_ko": "사 칼로브라 (보트)",
+      "lat": 39.85225,
+      "lng": 2.79822,
+      "duration_min": 180,
+      "hours": "4월 기준 보트 09:50·11:20·13:00·15:00 출발, 13:40·16:45 복귀",
+      "closed_days": "기상 악화 시 결항",
+      "price_eur": "왕복 약 €35",
+      "why": "시간이 남으면 추가. 차량으로 갈 경우 Sóller에서 헤어핀 도로 45~50분, 협곡 도보 10분"
+     }
+    ],
+    "cost_eur": "렌터카 시 연료 €10~15 + 주차 €5~15 + 입장료 약 €20/인. 대중교통 시 TIB 버스 €4~6/구간(2026년은 Intermodal 카드 사용 시 무료 정책 시행, 2027년 연장 여부 미확인) + 열차 €23~40",
+    "notes": "추천 요일: 금(4/30). 목(4/29)은 마드리드 발 항공 도착 시간에 따라 오후 팔마 구시가만. 5/1(토)엔 수도원·Graves 생가 운영 불확실하고 로컬 나들이 차량으로 Ma-10 혼잡, 일(5/2)은 수도원·생가 휴관 가능성 → 트라문타나는 평일(금)에 배치가 안전. 목재 열차 10:10편만 전망대 정차. 산길 커브 많아 멀미 주의. 데이아·바이데모사 주차는 오전 10시 전 도착 권장"
+   },
+   {
+    "name_en": "East & South loop: Santanyí market → Caló des Moro → Cala Mondragó → Cala d'Or → Coves del Drac → Porto Cristo",
+    "name_ko": "동·남부 루프: 산타니 장터 → 칼로 데스 모로 → 칼라 몬드라고 → 칼라 도르 → 드라크 동굴 → 포르토 크리스토",
+    "transport": "렌터카 필수 수준. Palma→Santanyí 50분(Ma-19) → Caló des Moro 15분 → Cala Mondragó 20분 → Cala d'Or 15분 → Porto Cristo/Drac 35분 → Palma 1시간 5분(Ma-15, Manacor 경유). 대중교통은 TIB 412(Palma→Coves del Drac 약 1시간 17분, 하루 몇 편)·501/502(Cala d'Or·Santanyí 1시간 15~30분)로 한 곳만 가능하며 루프 불가",
+    "duration_min_one_way": 50,
+    "recommended_hours": 10,
+    "highlights": [
+     {
+      "name_en": "Santanyí market",
+      "name_ko": "산타니 장터",
+      "lat": 39.35476,
+      "lng": 3.12867,
+      "duration_min": 75,
+      "hours": "수·토 09:00~14:00",
+      "closed_days": "수·토 외",
+      "price_eur": "무료",
+      "why": "09:00~10:30 장터 후 출발. 5/1(토)은 공휴일이라 개최 규모 재확인"
+     },
+     {
+      "name_en": "Caló des Moro",
+      "name_ko": "칼로 데스 모로",
+      "lat": 39.3224,
+      "lng": 3.11636,
+      "duration_min": 75,
+      "hours": "상시 (여름 접근로 차량 통제·예약제 가능성)",
+      "closed_days": "없음",
+      "price_eur": "무료(예약제 시 €10)",
+      "why": "Cala Llombards 주차 후 도보. 사진 명소지만 체력·시간 대비 우선순위 낮음, 생략 가능"
+     },
+     {
+      "name_en": "Cala Mondragó / S'Amarador",
+      "name_ko": "칼라 몬드라고 / 사마라도르",
+      "lat": 39.34862,
+      "lng": 3.18881,
+      "duration_min": 90,
+      "hours": "상시",
+      "closed_days": "없음",
+      "price_eur": "주차 약 €6",
+      "why": "자연공원 산책·해변 점심"
+     },
+     {
+      "name_en": "Cala d'Or marina",
+      "name_ko": "칼라 도르 마리나",
+      "lat": 39.36998,
+      "lng": 3.23574,
+      "duration_min": 45,
+      "hours": "상시",
+      "closed_days": "없음",
+      "price_eur": "무료",
+      "why": "커피·마리나 산책 (시간 부족 시 생략)"
+     },
+     {
+      "name_en": "Coves del Drac",
+      "name_ko": "드라크 동굴",
+      "lat": 39.53582,
+      "lng": 3.33029,
+      "duration_min": 75,
+      "hours": "회차 10·11·12·14·15·16·17시",
+      "closed_days": "12/25, 1/1",
+      "price_eur": "€18.50 온라인",
+      "why": "15:00 또는 16:00 회차 사전 예매 (마지막 17:00 회차도 가능)"
+     },
+     {
+      "name_en": "Porto Cristo",
+      "name_ko": "포르토 크리스토",
+      "lat": 39.54218,
+      "lng": 3.33475,
+      "duration_min": 60,
+      "hours": "상시",
+      "closed_days": "없음",
+      "price_eur": "무료",
+      "why": "동굴 후 항구 산책·이른 저녁, Es Trenc는 별도 반나절로 분리 권장"
+     }
+    ],
+    "cost_eur": "연료 €15~20 + 주차 €10~15 + 드라크 €18.50/인",
+    "notes": "추천 요일: 토(5/1). 공휴일이라 팔마 시내 박물관(Bellver·Es Baluard·시장)이 닫히므로 이날 섬 동부로 나가는 것이 효율적이고, 드라크 동굴은 공휴일 정상 운영·산타니 장터는 토요일 개최. 다만 공휴일 로컬 나들이로 해변 주차장이 오전 중 만차 → 장터 후 바로 이동. Es Trenc(남부, Ma-19에서 Campos 경유 45분)는 이 루프에 넣으면 과부하라 별도 오전 반나절(예: 일요일 출국 전) 또는 Cala Mondragó와 택일 권장"
+   },
+   {
+    "name_en": "North loop: Pollença → Port de Pollença → Mirador Es Colomer → Platja de Formentor → Cap de Formentor → Alcúdia",
+    "name_ko": "북부 루프: 포옌사 → 포르트 데 포옌사 → 에스 콜로메르 전망대 → 포르멘토르 해변 → 포르멘토르 곶 등대 → 알쿠디아",
+    "transport": "렌터카 강력 권장. Palma→Pollença 50분(Ma-13 고속도로) → Port de Pollença 10분 → Mirador Es Colomer 10분 → Platja de Formentor 10분 → 등대 25~30분(왕복 도로) → Alcúdia 50분 → Palma 50분. 대중교통: TIB 302 Palma→Alcúdia 약 1시간(30분 간격), 301 Palma→Port de Pollença 약 1시간 15분, Port de Pollença→등대 334번(시즌 운행, 약 40분, 카드 결제만). 4/29~5/2는 2026년 기준 차량 통제(5/15~10/18 10:00~22:00) 이전이라 자가 운전으로 등대까지 진입 가능(2027년 규정 4월에 재확인)",
+    "duration_min_one_way": 50,
+    "recommended_hours": 9,
+    "highlights": [
+     {
+      "name_en": "Alcúdia old town & Sunday market",
+      "name_ko": "알쿠디아 구시가 & 일요 장터",
+      "lat": 39.85273,
+      "lng": 3.12088,
+      "duration_min": 90,
+      "hours": "장터 화·일 08:00~13:30",
+      "closed_days": "없음",
+      "price_eur": "무료",
+      "why": "일요일이면 오전 장터부터 시작(08:30~10:00), 성벽 산책"
+     },
+     {
+      "name_en": "Pollença (Calvari steps)",
+      "name_ko": "포옌사 (칼바리 계단)",
+      "lat": 39.87721,
+      "lng": 3.01682,
+      "duration_min": 75,
+      "hours": "장터 일요일 08:00~13:30",
+      "closed_days": "없음",
+      "price_eur": "무료",
+      "why": "365계단 전망 + 광장 카페"
+     },
+     {
+      "name_en": "Mirador Es Colomer",
+      "name_ko": "에스 콜로메르 전망대",
+      "lat": 39.92585,
+      "lng": 3.09822,
+      "duration_min": 20,
+      "hours": "상시",
+      "closed_days": "없음",
+      "price_eur": "무료",
+      "why": "절벽 전망, 주차 후 도보 3분"
+     },
+     {
+      "name_en": "Platja de Formentor",
+      "name_ko": "포르멘토르 해변",
+      "lat": 39.92849,
+      "lng": 3.13164,
+      "duration_min": 60,
+      "hours": "상시",
+      "closed_days": "없음",
+      "price_eur": "무료 주차",
+      "why": "소나무 숲 백사장 산책·점심(호텔 Formentor 인근 식당)"
+     },
+     {
+      "name_en": "Cap de Formentor lighthouse",
+      "name_ko": "포르멘토르 곶 등대",
+      "lat": 39.96131,
+      "lng": 3.212,
+      "duration_min": 60,
+      "hours": "상시",
+      "closed_days": "없음",
+      "price_eur": "무료",
+      "why": "최북단 절벽 등대, 등대 카페. 오후 역광 피해 오전~정오 방문 권장"
+     }
+    ],
+    "cost_eur": "연료 €15~20 + 주차 소액 + 입장료 없음 (대중교통 시 TIB €5~10/구간, 2026년 카드 이용 시 무료 정책)",
+    "notes": "추천 요일: 일(5/2) 오전~오후 — 알쿠디아·포옌사 일요 장터와 결합되고, 팔마 대성당은 일요일 휴관이라 시내 관광 손실이 적음(바르셀로나행 항공이 저녁일 때). 단 일요일·공휴일은 로컬 차량으로 Formentor 도로 혼잡 → 등대는 10시 전 도착 목표. 목(4/29)에 배치하면 한산하지만 도착일 체력 고려. 5/1(토)엔 통제 시작 전이라 차량 진입 가능하나 공휴일 혼잡"
+   }
+  ],
+  "walking_clusters": [
+   {
+    "cluster": "Palma 구시가 핵심 (대성당 주변)",
+    "members": [
+     "Catedral de Mallorca (La Seu)",
+     "Palau Reial de l'Almudaina",
+     "Banys Àrabs",
+     "Basílica de Sant Francesc",
+     "Plaça Major & Carrer de Sant Miquel",
+     "Mercat de l'Olivar",
+     "Passeig del Born",
+     "Sa Llotja"
+    ],
+    "walk_notes": "대성당↔알무다이나 1분, 대성당→아랍 목욕탕 5분→산트 프란세스크 5분→마요르 광장 7분→올리바르 시장 5분. 마요르 광장→보른 산책로 5분→사 요차 4분. 전체 반나절(3~4시간). 골목 좁고 돌길이라 편한 신발. 대성당은 일요일 휴관 주의"
+   },
+   {
+    "cluster": "Santa Catalina · Es Baluard · 해안 산책로 (저녁 동선)",
+    "members": [
+     "Santa Catalina district & Mercat de Santa Catalina",
+     "Es Baluard Museu d'Art Contemporani",
+     "Passeig Marítim (Avinguda de Gabriel Roca)",
+     "Sa Llotja"
+    ],
+    "walk_notes": "사 요차→Es Baluard 5분→산타 카탈리나 시장 7분. 저녁엔 산타 카탈리나에서 식사 후 Passeig Marítim으로 내려와 대성당 야경 보며 20분 산책. 밝고 사람 많아 안전, 소매치기만 주의"
+   },
+   {
+    "cluster": "Bellver 성 · 서쪽 해변 (버스 이동)",
+    "members": [
+     "Castell de Bellver",
+     "Cala Major beach",
+     "Platja d'Illetes / Cala Comtesa"
+    ],
+    "walk_notes": "성은 Plaça Gomila(EMT 3·46)에서 숲길 도보 15~20분 오르막. Cala Major는 EMT 3·46, Illetes는 EMT 4 종점(시내에서 30분). 성(일요일 무료)→Cala Major→Illetes 순으로 반나절 가능"
+   },
+   {
+    "cluster": "Sóller 계곡",
+    "members": [
+     "Ferrocarril de Sóller (vintage train) & Tramvia de Sóller",
+     "Sóller town (Plaça de la Constitució, Sant Bartomeu)",
+     "Port de Sóller",
+     "Sa Calobra & Torrent de Pareis"
+    ],
+    "walk_notes": "소예르 역→광장 3분. 소예르↔포르트는 트램 20분(도보 50분). 포르트 항구 산책로는 평탄 2km. Sa Calobra는 보트 1시간"
+   },
+   {
+    "cluster": "Valldemossa · Deià (Ma-10 도로 20분 간격)",
+    "members": [
+     "Real Cartuja de Valldemossa (incl. Chopin cell)",
+     "Deià & Son Marroig / Sa Foradada viewpoint"
+    ],
+    "walk_notes": "바이데모사 마을은 수도원에서 골목 전체 도보 30분. 데이아는 도로변 마을이라 언덕 오르막 15분, Son Marroig는 별도 차량 정차"
+   },
+   {
+    "cluster": "북부 Pollença · Alcúdia · Formentor",
+    "members": [
+     "Pollença old town (Calvari steps)",
+     "Alcúdia old town & walls",
+     "Platja de Formentor",
+     "Cap de Formentor Lighthouse"
+    ],
+    "walk_notes": "마을 내부는 각 1시간 도보. 포옌사↔알쿠디아 차 15분, 등대까지는 왕복 도로이므로 Port de Pollença 기준 왕복 1시간 20분 운전"
+   },
+   {
+    "cluster": "남동부 Santanyí · Mondragó · Cala d'Or",
+    "members": [
+     "Santanyí market",
+     "Caló des Moro",
+     "Cala Mondragó & S'Amarador (Parc Natural de Mondragó)",
+     "Cala d'Or (marina, Cala Gran)",
+     "Coves del Drac (Cuevas del Drach)",
+     "Porto Cristo"
+    ],
+    "walk_notes": "각 지점은 차 15~35분 간격. 몬드라고 두 해변은 도보 10분 연결. Caló des Moro는 주차 후 도보 15~25분·계단. 드라크 동굴↔포르토 크리스토 도보 15분"
+   }
+  ],
+  "notes": "■ 일정 요일 요약 (2027): 목 4/29 마드리드→팔마 도착, 금 4/30 평일, 토 5/1 노동절(국경일), 일 5/2 → 바르셀로나 이동.\n■ 5/1(토) 공휴일 영향: Castell de Bellver·Es Baluard·Mercat de l'Olivar·Santa Catalina 시장 휴무, Almudaina(Patrimonio Nacional)도 휴관 가능성 높음, 대형 상점·슈퍼 대부분 휴업(Mallorca Fashion Outlet만 영업). 대성당은 10:00~14:15 개방으로 보도되나 확인 필요. TIB 버스는 일요일/공휴일 시간표(감편). 드라크 동굴·해변·식당·소예르 열차(시간표 확인)는 운영 → 이날은 동부 루프 등 섬 외곽이 유리. 로컬들도 나들이 가는 날이라 해변 주차장 오전 만차.\n■ 5/2(일): 대성당 관광 입장 불가(연중 일요일 휴관), 시장 휴무, Bellver 무료(10~15시), 알쿠디아·포옌사 일요 장터 개최. → 대성당은 반드시 목(4/29) 오후 또는 금(4/30)에 배치.\n■ 추천 배치: 목 4/29 팔마 구시가(대성당·알무다이나·보른·산타카탈리나 저녁) / 금 4/30 트라문타나 루프(열차 또는 렌터카) / 토 5/1 동·남부 루프(산타니 장터+몬드라고+드라크) / 일 5/2 오전 Bellver(무료)+Illetes 또는 북부 루프(항공 시간에 따라).\n■ 렌터카: 루프 3개 중 트라문타나는 열차+버스로 대체 가능하지만 동부·북부 루프는 렌터카가 사실상 필수. 2026년 4월 말~5월 초 소형차 기준 €25~45/일(기본보험 포함, 조기예약 시 하한), 오토매틱은 €50~70/일로 물량 적어 2~3개월 전 예약 권장. 공항(PMI) 픽업이 지점 많고 저렴. 한국 면허+국제운전면허증(IDP) 필수. 팔마 구시가는 ACIRE 진입제한 구역이 많고 주차 어려우니 팔마 관광일엔 차 없이, 루프 시작일 아침에 픽업(시내 지점 또는 공항)하는 것이 효율적. 트라문타나·Sa Calobra·Formentor 도로는 커브·자전거가 많아 운전 난도 있음.\n■ 대중교통: TIB(섬 간 버스·기차)는 2026년 한 해 Intermodal 카드/다회권 사용 시 무료 정책 시행 중(현금·일회권은 유료 €3~13). 2027년 연장 여부는 미확인이므로 출발 전 tib.org 확인. 팔마 시내 EMT 버스는 별도(약 €2). 소예르 목재 열차는 TIB와 무관한 사설 노선.\n■ 수온·수영: 4월 말 수온 약 15~16°C, 5월 초 약 17°C. 기온은 낮 20~22°C, 밤 10~12°C, 일조 12시간, 강수 확률 낮음. 본격 수영은 어렵고 맑고 바람 없는 날 잠깐 입수·일광욕 정도. 해변은 산책·사진 목적, 수영복은 챙기되 기대치 낮출 것. 이 시기는 해변보다 트라문타나 드라이브·마을·전망대가 핵심.\n■ Formentor: 2026년 차량 통제 5/15~10/18(10~22시)이므로 4/29~5/2는 통제 전 → 렌터카로 등대까지 진입 가능. 2027년 규정은 매년 봄 발표되니 4월 초 재확인. 통제 시 TIB 334번(카드 결제만).\n■ Sa Calobra 보트: Barcos Azules 4~10월 운항, 4월 시간표 09:50/11:20/13:00/15:00 출발·13:40/16:45 복귀, 왕복 약 €35. 5월 초 시간표는 공식 사이트(barcoscalobra.com) 확인·예약.\n■ Caló des Moro: 과잉관광으로 계단 붕괴·침식 문제, 6월부터 비거주자 차량 접근 금지·성수기 예약제(€10, 1일 200명) 도입 보도. 4월 말은 규제 전이지만 편의시설 없고 접근 힘들어 우선순위 낮음.\n■ 치안: 팔마 구시가·산타 카탈리나·보른·해안 산책로 모두 야간에도 사람 많고 밝아 안전. 대성당 주변·보른 거리 소매치기만 주의. 숙소는 구시가(Sa Llotja 제외한 조용한 골목), Passeig del Born 인근, Santa Catalina 추천.\n■ 가격은 2026년 기준이며 2027년 소폭 인상 가능. 좌표는 5자리 소수."
+ },
+ "restaurants": {
+  "city": "Mallorca (마요르카) — Palma 및 근교",
+  "restaurants": [
+   {
+    "name": "Ca'n Joan de S'Aigo (Can Sanç 본점)",
+    "name_ko": "칸 조안 데 사이고 (칸 산스 본점)",
+    "lat": 39.5699,
+    "lng": 2.6526,
+    "area": "Palma 구시가지 (대성당 동쪽, Santa Eulàlia 인근)",
+    "cuisine": "전통 카페·파스텔레리아 (1700년 창업)",
+    "google_rating": 4.6,
+    "review_count": 7600,
+    "rating_source": "Google (Guidavera·Brave 검색 스니펫 집계, 2026-08 기준)",
+    "price_range": "€ (엔사이마다 약 €1.4, 초콜라테 €3~4, 1인 €5~8)",
+    "must_try": "엔사이마다(Ensaïmada) + 진한 핫초콜릿(xocolata), 아몬드 아이스크림(gelat d'ametlla), 쿠아르토(cuarto) 케이크",
+    "meal_type": "breakfast",
+    "near_attraction": "Palma 대성당(La Seu) 도보 5분, Plaça de Santa Eulàlia",
+    "hours_note": "매일 08:00~21:00 (연중무휴로 안내되나 방문 전 Google 지도 재확인). 오전 9~11시 현지인 아침 시간대 붐빔",
+    "reservation_note": "예약 불가, 줄서서 입장. 엔사이마다 대량 포장은 2일 전 주문 가능",
+    "korean_traveler_note": "한국 블로그·유튜브에서 '마요르카 필수 카페'로 가장 많이 언급되는 곳. Jaume III 지점(Carrer Baró de Santa Maria del Sepulcre 5)과 Sindicat 지점도 있으니 본점이 붐비면 이동 가능. 초콜라테는 매우 진하므로 엔사이마다에 찍어 먹는 식으로",
+    "url": "https://www.canjoandesaigo.com/"
+   },
+   {
+    "name": "Mercat de l'Olivar (Ostras 굴바 · Buades Degustación)",
+    "name_ko": "메르카트 데 로리바르 (올리바르 시장 굴바·하몽바)",
+    "lat": 39.5739,
+    "lng": 2.6535,
+    "area": "Palma 센터 (Plaça d'Espanya 남쪽)",
+    "cuisine": "시장 내 굴·해산물 바, 하몽·타파스 바, 스시",
+    "google_rating": 4.5,
+    "review_count": 28640,
+    "rating_source": "Google (Wanderlog 표시 값, 시장 전체 기준; Buades Degustación은 TripAdvisor 4.5/28건)",
+    "price_range": "€€ (굴 개당 €3~4 + 카바 한 잔 €4~5, 타파스 1인 €12~20)",
+    "must_try": "Ostras 스탠드의 생굴 + 카바/화이트와인, Buades의 이베리코 하몽·치즈 플레이트, 시장 내 소브라사다·치즈 구매",
+    "meal_type": "lunch",
+    "near_attraction": "Plaça d'Espanya·Sóller행 열차역 도보 3분, Plaça Major 도보 5분",
+    "hours_note": "월~토 07:00~15:00 (일부 가게 ~20:00), 일요일·공휴일 휴무. 미식 코너는 대체로 ~16:00까지. 점심은 13시 이전 도착 권장",
+    "reservation_note": "예약 없음, 바 좌석 선착순",
+    "korean_traveler_note": "소예르 열차 타기 전 아침·점심 해결하기 좋음. 시장 바에서는 영어 메뉴 있음. 소매치기 주의 정도 외에는 안전한 지역",
+    "url": "https://www.mercatolivar.com/"
+   },
+   {
+    "name": "La Rosa Vermutería & Colmado",
+    "name_ko": "라 로사 베르무테리아 이 콜마도",
+    "lat": 39.5717,
+    "lng": 2.6497,
+    "area": "Palma 구시가지 (Carrer de la Rosa, Plaça Major 인근)",
+    "cuisine": "베르무트 바·전통 타파스 (보틴 통조림 '콜마도' 스타일)",
+    "google_rating": 4.5,
+    "review_count": 7556,
+    "rating_source": "Google (pos.do/Postcard 표시 값; RestaurantGuru 4.5/10,217건, TripAdvisor 4.1/1,440건)",
+    "price_range": "€€ (타파스 €6~15, 베르무트 €4~5, 1인 €25~35)",
+    "must_try": "자이언트 토르티야 핀초, 크로케타, 문어 다리(pulpo), 훈제 아티초크, 하우스 베르무트",
+    "meal_type": "tapas",
+    "near_attraction": "Plaça Major·Carrer Sant Miquel 쇼핑거리 도보 2분",
+    "hours_note": "매일 12:00~24:00 (브레이크 없음). 주말 저녁은 대기 길어 12~13시 또는 19시 전 방문 권장",
+    "reservation_note": "larosavermuteria.myrestoo.net 온라인 예약 가능·권장 (특히 금·토)",
+    "korean_traveler_note": "과제에 '산타 카탈리나'로 언급됐지만 실제 위치는 구시가지 Carrer de la Rosa임. 한국 블로그에서도 '베르무트 한 잔 하기 좋은 곳'으로 자주 등장. 카드 결제 OK",
+    "url": "https://www.larosatroupe.com/es/marca/la-rosa-vermuteri-colmado"
+   },
+   {
+    "name": "Toque de Queda",
+    "name_ko": "토케 데 케다",
+    "lat": 39.5731,
+    "lng": 2.6471,
+    "area": "Palma 구시가지 (Carrer de Can Cavalleria, Sant Jaume 교회 인근)",
+    "cuisine": "스몰플레이트·델리·샴페인 바 (이탈리아 에밀리아-로마냐 출신 부부 운영, 옛 빵집 건물)",
+    "google_rating": 4.7,
+    "review_count": 1411,
+    "rating_source": "Google (Guidavera 표시 값; TripAdvisor 4.6/644건)",
+    "price_range": "€€ (접시당 €8~18, 샤퀴테리 보드 €16~53, 1인 €30~45)",
+    "must_try": "샤퀴테리&치즈 보드, 로스트비프 토나토, 호박꽃 리코타 튀김, 피스타치오 티라미수 + 스파클링 와인",
+    "meal_type": "tapas",
+    "near_attraction": "Plaça Major·Passeig del Born 도보 5분",
+    "hours_note": "월~토 18:00~23:30 (주방 22:30 마감), 일요일 휴무. 저녁 전용. 시즌별 시간 변동 있어 방문 전 확인",
+    "reservation_note": "CoverManager 온라인 또는 전화(+34 971 21 38 10) 예약 권장 — 소규모라 저녁 만석 잦음",
+    "korean_traveler_note": "아치형 옛 아랍식 오븐이 남아있는 예쁜 실내로 사진 찍기 좋음. 순수 스페인 타파스보다는 이탈리아풍 델리 메뉴임을 참고",
+    "url": "https://www.toquedequeda.es/"
+   },
+   {
+    "name": "Vandal Palma",
+    "name_ko": "반달 팔마",
+    "lat": 39.5717,
+    "lng": 2.6364,
+    "area": "Santa Catalina (Plaça del Progrés)",
+    "cuisine": "세계 각국 퓨전 스몰플레이트 + 칵테일 페어링",
+    "google_rating": 4.6,
+    "review_count": 1490,
+    "rating_source": "Google (Guidavera 표시 값; TripAdvisor 4.5~4.6/650~695건, TheFork 9.5/10)",
+    "price_range": "€€€ (접시 €12~28, 1인 €50~70)",
+    "must_try": "피스코 블러디메리 굴, 모로칸 스파이스 양고기, 고구마 라비올리+랍스터, 시그니처 칵테일",
+    "meal_type": "dinner",
+    "near_attraction": "Mercat de Santa Catalina 도보 3분, Es Baluard 도보 8분",
+    "hours_note": "매일 19:00~23:00 (디너 전용). 일부 시즌 월요일 휴무 가능 — 예약 시 확인",
+    "reservation_note": "vandalpalma.com 온라인 예약 필수 수준 (Santa Catalina 최고 인기)",
+    "korean_traveler_note": "산타 카탈리나는 저녁에도 안전한 힙한 동네. 조명 어둡고 음악 큰 편이라 조용한 식사를 원하면 비추",
+    "url": "https://www.vandalpalma.com/"
+   },
+   {
+    "name": "Ca n'Eduardo",
+    "name_ko": "칸 에두아르도",
+    "lat": 39.5688,
+    "lng": 2.641,
+    "area": "Palma 항구 (Moll de Pescadors, 수산시장 2층)",
+    "cuisine": "해산물·파에야 (1943년 창업, 아래층 어시장 경매 물고기 직공급)",
+    "google_rating": 4.2,
+    "review_count": 2697,
+    "rating_source": "Google (Guidavera 표시 값; TripAdvisor 3.7/935건 — 가성비 불만 리뷰 있음)",
+    "price_range": "€€€ (파에야 1인 €22~30, 생선 kg당 시세, 1인 €45~65)",
+    "must_try": "해산물 파에야·랍스터 파에야, 피데우아, 소금 구이 농어(lubina a la sal), 대구 크로케타",
+    "meal_type": "lunch",
+    "near_attraction": "Sa Llotja·Passeig Marítim 도보 3분, 대성당 도보 10분",
+    "hours_note": "화~일 13:00~22:00, 월요일 휴무. 파에야는 조리 30~40분 소요",
+    "reservation_note": "caneduardo.com 온라인/전화 예약, 창가(대성당·항구 뷰) 좌석 요청 권장",
+    "korean_traveler_note": "한국 블로그에서 '마요르카 파에야 맛집'으로 자주 소개. 가격 대비 평가는 갈리므로 파에야+와인 위주로 주문 권장. Google 4.2로 기준선 충족",
+    "url": "https://www.caneduardo.com/"
+   },
+   {
+    "name": "Celler Sa Premsa",
+    "name_ko": "세예르 사 프렘사",
+    "lat": 39.5759,
+    "lng": 2.65,
+    "area": "Palma 센터 (Plaça del Bisbe Berenguer de Palou)",
+    "cuisine": "전통 마요르카 가정식 (1958년 창업 셀러, 3대째)",
+    "google_rating": 4.2,
+    "review_count": 7248,
+    "rating_source": "Google (Guidavera 2026 표시 값 4.2/7,248건; pos.do 이전 집계 4.1/6,858건 — 경계선이라 참고)",
+    "price_range": "€€ (메뉴 델 디아 €16~20, 단품 €8~23, 1인 €25~35)",
+    "must_try": "툼벳(Tumbet), 프리토 마요르킨, 소파스 마요르키나스, 아로스 브루트, 레초나(새끼돼지구이), 소브라사다, 가토(아몬드 케이크)+아몬드 아이스크림",
+    "meal_type": "lunch",
+    "near_attraction": "Plaça d'Espanya·Mercat de l'Olivar 도보 4분",
+    "hours_note": "월~토 12:00~16:00, 19:30~23:30, 일요일 휴무. 옆 타파스 바는 08:30~19:00",
+    "reservation_note": "cellersapremsa.com(cuiner.net) 온라인 예약 권장 — 단체 관광객 많아 점심 13~14시 만석",
+    "korean_traveler_note": "와인통 인테리어가 유명한 관광 명소형 식당. TripAdvisor는 3.9로 낮아 기대치는 '전통 요리 체험' 수준으로. 영어 메뉴·사진 메뉴 있음",
+    "url": "https://www.cellersapremsa.com/"
+   },
+   {
+    "name": "Marc Fosh",
+    "name_ko": "마크 포시 (미슐랭 1스타)",
+    "lat": 39.5734,
+    "lng": 2.6514,
+    "area": "Palma 구시가지 (Carrer de la Missió, 17세기 수도원 건물)",
+    "cuisine": "컨템포러리 지중해 테이스팅 메뉴 (미슐랭 1스타)",
+    "google_rating": 4.6,
+    "review_count": 1262,
+    "rating_source": "Google (Guidavera 표시 값; 한국 블로그 sag2.tistory 인용 Google 4.7; TripAdvisor 4.5/2,800건)",
+    "price_range": "€€€€ (런치 ADN 메뉴 €69 / Marc 런치 €110, 디너 Marc €139 / Aromas €159, 와인 페어링 +€40~125)",
+    "must_try": "런치 ADN Mediterranean 메뉴(€69, 가성비 최고), 아로마스 델 메디테라네오 디너 코스",
+    "meal_type": "dinner",
+    "near_attraction": "Plaça Major·Carrer Sant Miquel 도보 3분",
+    "hours_note": "화~토 13:00~14:30, 19:30~21:00 (라스트 오더), 일·월 휴무. 4월 말~5월 초는 성수기 초입이라 2~3주 전 예약 권장",
+    "reservation_note": "marcfosh.com/reservas 온라인 예약, 카드 보증 필요, 노쇼 시 1인 €120 청구(3인 이상)",
+    "korean_traveler_note": "한국 여행자 후기에서 '마요르카에서 가장 만족한 파인다이닝'으로 자주 언급. 런치 코스가 디너의 절반 가격이라 점심 방문 추천. 드레스코드 스마트 캐주얼",
+    "url": "https://www.marcfosh.com/"
+   },
+   {
+    "name": "Es Baluard Restaurant & Lounge",
+    "name_ko": "에스 발루아르드 레스토랑 & 라운지 (미술관 성벽 테라스)",
+    "lat": 39.5702,
+    "lng": 2.641,
+    "area": "Palma 구시가지 서쪽 (Es Baluard 현대미술관 성벽 위, Santa Catalina 경계)",
+    "cuisine": "칵테일·지중해 요리 (선셋 드링크 스팟)",
+    "google_rating": 4.2,
+    "review_count": 1199,
+    "rating_source": "Google (MenuMallorca 표시 값; Sluurpy 집계 4.3/3,360건)",
+    "price_range": "€€ (칵테일 €10~14, 와인 €5~8, 요리 €15~28)",
+    "must_try": "해질녘 테라스에서 칵테일/카바 한 잔 — 항구·대성당·벨베르 성 조망",
+    "meal_type": "cafe",
+    "near_attraction": "Es Baluard 미술관(입장권과 별개로 테라스 이용 가능), Passeig Marítim, Santa Catalina 도보 3분",
+    "hours_note": "매일 10:00~24:00 (MenuMallorca 기준). 4월 말 일몰 약 20:45 — 20:00쯤 도착 권장. 겨울철 단축 가능",
+    "reservation_note": "드링크는 예약 없이 가능, 식사는 전화(+34 971 908 200) 예약 권장",
+    "korean_traveler_note": "과제에서 언급된 Hostal Cuba Sky Bar는 Google 3.4·TripAdvisor 2.4로 낮아 제외하고 이곳으로 대체. 여성·가족 여행자도 안전하고 접근 쉬움. 저녁 후 Santa Catalina로 바로 이동 가능",
+    "url": "https://www.esbaluard.org/"
+   },
+   {
+    "name": "Forn i Pastisseria Ca'n Molinas",
+    "name_ko": "포른 칸 몰리나스 (발데모사 코카 데 파타타)",
+    "lat": 39.7098,
+    "lng": 2.6217,
+    "area": "Valldemossa (Via Blanquerna 15, 카르투하 수도원 입구 길)",
+    "cuisine": "전통 베이커리·카페 (1920년 장작 화덕)",
+    "google_rating": 4.2,
+    "review_count": 3799,
+    "rating_source": "Google (MenuMallorca 표시 값; RestaurantGuru 4.8/3,995건, TripAdvisor 3.9/520건)",
+    "price_range": "€ (코카 데 파타타 €1.5~2.5, 커피/초콜라테 €2~4)",
+    "must_try": "코카 데 파타타(Coca de patata, 감자 브리오슈) + 핫초콜릿 또는 아몬드 아이스크림, 엔사이마다",
+    "meal_type": "cafe",
+    "near_attraction": "Real Cartuja de Valldemossa(쇼팽 수도원) 도보 2분",
+    "hours_note": "매일 07:00~20:00 (MenuMallorca 기준, 연중무휴). 오전 10~12시 관광버스 시간대 대기 김",
+    "reservation_note": "예약 없음, 카운터 구매 후 테라스 이용",
+    "korean_traveler_note": "한국 블로그 '발데모사 코카 데 파타타'로 검색 시 1순위. Plaça Cartuja 쪽 카페테리아 분점(TA 3.1)은 평이 낮으니 Via Blanquerna 본점 이용. 서비스가 무뚝뚝하다는 리뷰 있으나 빵 자체는 호평",
+    "url": "https://www.canmolinas.com/"
+   },
+   {
+    "name": "Ca's Patró March",
+    "name_ko": "카스 파트로 마르치 (칼라 데이아 절벽 식당)",
+    "lat": 39.7602,
+    "lng": 2.6409,
+    "area": "Deià — Cala Deià 해변 바위 위",
+    "cuisine": "해산물 (드라마 'The Night Manager' 촬영지)",
+    "google_rating": 4,
+    "review_count": 2270,
+    "rating_source": "Google (Guidavera 표시 값; RestaurantGuru 4.0/4,000건, TripAdvisor 3.8/1,230건) — 기준 4.2 미만이나 데이아 대표 명소로 참고용 포함",
+    "price_range": "€€€ (전채 €7~17, 생선구이 €28~35, 1인 €40~60, 현금 여유 권장)",
+    "must_try": "생선 튀김(jonquillo), 그릴 농어/그루퍼, 새우·랍스터, 염소치즈 샐러드 — 무엇보다 뷰",
+    "meal_type": "lunch",
+    "near_attraction": "Cala Deià 해변(바로 앞), Deià 마을·Robert Graves 생가 차량 10분",
+    "hours_note": "시즌 영업: 대략 4월(부활절)~10월만 오픈, 점심 위주 12:00~17:00 (일부 자료 수·일요일만 영업). 2027-04-25~ 일정이면 시즌 초기이므로 방문 전 Facebook/전화(+34 971 63 91 37) 오픈 여부 필수 확인",
+    "reservation_note": "caspatromarch.myrestoo.net 온라인 예약 권장(소규모·성수기 만석). 절벽길 주차 매우 협소 — Deià 마을 주차 후 30~40분 도보 또는 이른 시간 차량",
+    "korean_traveler_note": "음식보다 절경으로 유명. 평점이 4.0으로 기준 미달이므로 '뷰 맛집'으로 기대치 조정. 대안: Deià 마을 Sa Vinya(TripAdvisor 541건). 바위 길 미끄러워 샌들보다 운동화",
+    "url": "https://caspatromarch.myrestoo.net/en/reservar"
+   },
+   {
+    "name": "Sa Fàbrica de Gelats",
+    "name_ko": "사 파브리카 데 젤라츠 (소예르 오렌지 아이스크림)",
+    "lat": 39.7671,
+    "lng": 2.714,
+    "area": "Sóller 구시가지 (Plaça des Mercat, 시장 옆)",
+    "cuisine": "수제 젤라토 (1994년 창업, 마요르카 우유·소예르 오렌지 사용, 40여 가지 맛)",
+    "google_rating": 4.5,
+    "review_count": 1509,
+    "rating_source": "Google (Yahoo 검색 스니펫 'Google My Business 4.5/1,509건'; TripAdvisor 4.1/230건, RestaurantGuru 4.8)",
+    "price_range": "€ (1스쿱 €3~3.5, 2스쿱 €4.5~5)",
+    "must_try": "소예르 오렌지 소르베(Sorbet Taronja), 아몬드+플로르 데 살(Ametlla amb flor de sal), 레몬 소르베",
+    "meal_type": "dessert",
+    "near_attraction": "Plaça de la Constitució·Sóller 트램 정류장 도보 2분, 시장(Mercat)",
+    "hours_note": "영업시간 미확인 — 통상 10:00~20:00 전후, 4~5월 시즌 운영. Port de Sóller 분점(c/ Marina 2)도 있어 항구에서 대체 가능",
+    "reservation_note": "불필요",
+    "korean_traveler_note": "소예르 오렌지 주스+아이스크림 조합을 한국 블로그들이 추천. 소예르 열차·트램 코스 중 자연스럽게 들르는 위치",
+    "url": "https://www.gelatsoller.com/"
+   },
+   {
+    "name": "Kingfisher Restaurant",
+    "name_ko": "킹피셔 (포르트 데 소예르 해산물)",
+    "lat": 39.7978,
+    "lng": 2.6926,
+    "area": "Port de Sóller 북쪽 해안 산책로 (Carrer de Sant Ramon de Penyafort 25)",
+    "cuisine": "모던 지중해 해산물",
+    "google_rating": 4.7,
+    "review_count": 1311,
+    "rating_source": "Google (MenuMallorca 표시 값; 한국 블로그 sag2.tistory 인용 Google 4.7; TripAdvisor 4.8/2,400건, RestaurantGuru 4.9/4,253건)",
+    "price_range": "€€€ (전채 €12~18, 메인 €24~34, 1인 €40~55)",
+    "must_try": "오늘의 생선 요리(catch of the day), 소예르 새우, 화이트 상그리아·민트 레모네이드, 항구 뷰 테라스",
+    "meal_type": "lunch",
+    "near_attraction": "Port de Sóller 해변·트램 종점 도보 8~10분, 등대(Far de sa Creu) 산책로",
+    "hours_note": "화~토 12:15~15:30/16:00, 18:30~21:15/21:30, 일·월 휴무. 라스트오더 이른 편",
+    "reservation_note": "kingfishersoller.com 온라인 예약 강력 권장 (테라스 좌석 특히)",
+    "korean_traveler_note": "한국 여행 블로그 4박5일 일정 글에 '소예르 항구 해산물 맛집'으로 소개된 곳. 트램 종점에서 항구를 따라 북쪽으로 걸어가야 하니 위치 미리 확인",
+    "url": "https://www.kingfishersoller.com/"
+   },
+   {
+    "name": "Quince Restaurante & Cantina",
+    "name_ko": "킨세 레스토란테 & 칸티나 (포르토 크리스토)",
+    "lat": 39.5391,
+    "lng": 3.3333,
+    "area": "Porto Cristo 마리나 위 (Carrer del Verí 1)",
+    "cuisine": "지중해·퓨전 (파에야, 생선, BBQ, 비건 옵션)",
+    "google_rating": 4.5,
+    "review_count": 2775,
+    "rating_source": "Google (Yahoo 검색 스니펫 'Google 4.5/2,775건'; TripAdvisor 4.5/2,001건, RestaurantGuru 4.5/5,392건)",
+    "price_range": "€€ (메인 €16~28, 파에야 1인 €18~24, 1인 €30~40)",
+    "must_try": "파에야/해산물, 그릴 생선, 항구가 내려다보이는 빈티지 테라스",
+    "meal_type": "lunch",
+    "near_attraction": "Cuevas del Drach(드라크 동굴) 차량 5분/도보 20분, Porto Cristo 해변",
+    "hours_note": "12:00~23:30 (주방 12:30~15:30, 18:00~21:40), 수요일 휴무. 연중 영업",
+    "reservation_note": "restaurantequince.com 온라인 예약 가능 (드라크 동굴 공연 시간과 맞춰 예약)",
+    "korean_traveler_note": "드라크 동굴 관람(입장 시간 지정) 전후 식사로 가장 무난. 대안: Roland Restaurant(TA 4.7/452건, RG 4.6) — 소규모 프렌치풍",
+    "url": "https://restaurantequince.com/en"
+   },
+   {
+    "name": "Sal de Cocó",
+    "name_ko": "살 데 코코 (콜로니아 데 산트 조르디, 에스 트렌크 인근)",
+    "lat": 39.315,
+    "lng": 2.9977,
+    "area": "Colònia de Sant Jordi 어항 (Moll de Pescadors)",
+    "cuisine": "지중해 해산물·쌀 요리 (셰프 마르타 로셀로)",
+    "google_rating": 4.2,
+    "review_count": 799,
+    "rating_source": "Google (pos.do 표시 값; TripAdvisor 3.9/584건)",
+    "price_range": "€€€ (쌀 요리 1인 €22~28, 테이스팅 메뉴 있음, 1인 €35~50)",
+    "must_try": "아로스 네그로(먹물 볶음밥), 문어 카르파초, 아로스 칼도소, 옥수수 쿨랑",
+    "meal_type": "dinner",
+    "near_attraction": "Es Trenc 해변 차량 10분, Cabrera 섬 보트 선착장 바로 앞, Ses Salines 염전",
+    "hours_note": "월~목 12:00~23:00, 금·토 12:00~23:30, 일 12:00~22:00 (성수기 기준; 4월 말은 시즌 초라 전화 확인 권장)",
+    "reservation_note": "전화(+34 971 65 52 25) 예약 권장, 항구 뷰 테라스 좌석",
+    "korean_traveler_note": "에스 트렌크 해변 바로 앞 치링기토(Es Trenc Restaurant Google/RG 3.1, Chiringuito del Medio 3.6)와 Cassai Beach House(TA 3.5)는 평점이 낮아 제외 — 해변 후 10분 이동해 이곳 추천. 해변 주차장은 유료·오전 일찍 만차",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g580296-d3474438-Reviews-Sal_de_Coco-Colonia_de_Sant_Jordi_Majorca_Balearic_Islands.html"
+   },
+   {
+    "name": "Restaurant Miramar",
+    "name_ko": "레스토랑 미라마르 (포르트 달쿠디아, 1871년 창업)",
+    "lat": 39.8407,
+    "lng": 3.1368,
+    "area": "Port d'Alcúdia 해안 산책로 (Passeig Marítim 2)",
+    "cuisine": "전통 마요르카 해산물 (랍스터 스튜, 파에야)",
+    "google_rating": 4.4,
+    "review_count": 2301,
+    "rating_source": "Google (Guidavera 표시 값; 한국 블로그 sag2.tistory 인용 Google 4.5; TripAdvisor 4.1~4.2/950건)",
+    "price_range": "€€€ (해산물 파에야 1인 €25, 랍스터 스튜(Caldereta de llagosta) 1인 €67, 모둠 생선구이 2인 €77)",
+    "must_try": "칼데레타 데 야고스타(마요르카식 랍스터 스튜), 해산물 파에야, 알쿠디아 만 새우",
+    "meal_type": "lunch",
+    "near_attraction": "Alcúdia 성곽 구시가지 차량 5분, Port d'Alcúdia 해변·마리나 바로 앞",
+    "hours_note": "월·수~일 13:00~22:00, 화요일 휴무. 5대째 가족 운영, 연중 영업",
+    "reservation_note": "restaurantmiramar.myrestoo.net 온라인/WhatsApp(+34 617 644 795) 예약, 바다 쪽 테라스 지정 요청",
+    "korean_traveler_note": "한국 블로그 일정 글에서 '알쿠디아 해산물+바다 뷰'로 추천. 랍스터 요리는 2인 이상 주문·가격 높으니 파에야 조합 권장. 알쿠디아 구시가지는 화·일 오전 재래시장",
+    "url": "https://www.restaurantmiramar.es/en/"
+   }
+  ],
+  "notes": "[조사 방법·한계] 세션 웹검색 한도(200회) 소진 상태에서 시작해 Brave/Yahoo 검색 결과와 Google 평점을 그대로 노출하는 집계 사이트(Guidavera, pos.do, MenuMallorca, Wanderlog, Wheree 스니펫)로 교차 확인했습니다. 평점은 2026년 8월 기준이며 2027년 4월 여행 전 Google 지도에서 재확인 권장. 좌표는 OpenStreetMap Nominatim/Photon 지오코딩 값(오차 ±30m).\n\n[기준 적용 결과] 16곳 중 15곳이 Google 4.2 이상. Ca's Patró March(4.0)만 데이아 대표 명소라 참고용으로 포함하고 명시. 아래는 요청 목록 중 평점 미달로 제외한 곳: Bar Bosch(RestaurantGuru 3.9/7,100건, TripAdvisor 3.5) → 대신 Toque de Queda·La Rosa 추천 / Sky Bar Hostal Cuba(호텔 Google 3.4, 바 TA 2.4) → Es Baluard 라운지로 대체 / Es Trenc 해변 치링기토(Es Trenc Restaurant 3.1, Chiringuito del Medio 3.6)·Cassai Beach House(TA 3.5, RG 3.9) → Sal de Cocó로 대체 / Ca'n Molinas 카페테리아 분점(TA 3.1) 대신 Via Blanquerna 본점.\n\n[추가 후보 — 16개 제한으로 본문 제외] Forn Fondo(Palma, Carrer Unió 15, Google 4.5/289건, 매일 08:00~20:30, 1742년 창업, 엔사이마다 20종·진공포장 가능 → 한국 가져갈 엔사이마다 구매처로 최적) / Forn des Teatre(모더니즘 파사드 명소, 현재 'Fornet de la Soca'로 운영, Google 평점 미확인) / Es Taller Valldemossa(Google 4.7/2,802건, 화~일 13~16·19~22:30, 월 휴무, 한국 블로그 추천) / Ca'n Boqueta Sóller(Google 4.5/823건, 미슐랭 빕구르망, 9코스 €87.5, 화~토 13~17·19:30~24, 월 휴무) / Hungry Gastro Food Bar Palma(Google 4.8/584건, TA 4.9 팔마 39위, 한국 블로그 grggrg.tistory 추천, 2인 €60~80, 일 휴무) / Blat al Sac(Palma 구시가지 pa amb oli 전문, Google 4.4/1,057건) / Sa Roqueta(Portixol 해산물, Google 4.2/659건) / Roland Porto Cristo(TA 4.7/452건).\n\n[한국 블로그 교차확인] sag2.tistory.com/105(4박5일 일정: Es Taller 4.5, Kingfisher 4.7, Miramar 4.5, Marc Fosh 4.7, La Bóveda 4.4, Ribello 4.5), grggrg.tistory.com/291·295(Hungry Gastro 4.8, Origen Tapas Concept), cinnamon-latte.tistory(Wine & Food 팔마 세비체), 네이버 daybyd(Raimundo Burger) — Naver 본문은 차단되어 제목/요약만 확인.\n\n[시즌·영업 팁: 2027-04-25~05-07] 4월 말~5월 초는 마요르카 관광 시즌 개시 직후로 해안가·산악 마을 식당(Ca's Patró March, Port de Sóller, Colònia de Sant Jordi) 일부가 막 오픈하거나 단축 영업 → 방문 2~3일 전 전화/인스타 확인. 5월 1일(노동절)은 공휴일로 Mercat de l'Olivar·Celler Sa Premsa 등 휴무 가능. 스페인 식사 시간(점심 13:30~15:30, 저녁 20:30~) 감안, 주방 마감 이른 곳(Kingfisher 21:15, Marc Fosh 21:00) 주의. 팔마 구시가지·Santa Catalina·Portixol 모두 야간에도 안전한 편이나 Plaça d'Espanya·시장 주변 소매치기 주의. 대부분 카드 결제 가능, 팁은 5~10% 선택."
+ },
+ "transport": {
+  "legs": [
+   {
+    "from": "Madrid Barajas (MAD, 마드리드 바라하스)",
+    "to": "Palma de Mallorca (PMI, 팔마 데 마요르카)",
+    "mode": "항공 (국내선 직항)",
+    "operator": "Iberia / Iberia Express, Air Europa, Ryanair, Vueling(소수)",
+    "duration_min": 85,
+    "cost_eur": "편도 €35~90 (2~3개월 전 예약 시 €40~70 수준, 수하물 추가 시 +€20~40)",
+    "frequency": "하루 30편 이상 (Iberia/Iberia Express 8~10편, Air Europa 5~7편, Ryanair 5~8편, Vueling 소수). 스페인 국내선 중 최다 노선급",
+    "typical_times": "06:30~22:30 사이 거의 매시간 출발. 오전 08~10시 출발편이 팔마 도착 후 오후 일정 활용에 유리",
+    "booking_note": "Ryanair 최저가는 40x30x20cm 소형 가방 1개만 무료, 10kg 기내 캐리어(55x40x20)는 'Priority & 2 Cabin Bags' 추가(€6~36), 위탁 20kg은 €20~60. Vueling Basic도 기내 캐리어 유료(Optima 요금은 25kg 위탁 포함). Iberia Express는 모든 요금에 10kg 기내 가방(56x40x25) 포함, 위탁은 Basic 기준 약 €25~35 추가. Air Europa Lite도 10kg 기내 가방 포함. 큰 캐리어를 들고 이동하는 한국인 여행자는 '기본요금+위탁수하물' 합산가로 비교하면 Iberia Express/Air Europa가 결과적으로 저렴한 경우가 많음. 인천-마드리드 국제선과 다른 PNR이므로 최소 2시간 이상 여유 두고 별도 체크인·수하물 재위탁 필요",
+    "notes": "비행시간 약 1시간 20~30분(게이트 기준 85분 내외). MAD T4(Iberia/Iberia Express/Air Europa)와 T1(Ryanair)/T2(Vueling) 터미널이 다르니 예약 항공사에 맞춰 이동. 페리 대안은 마드리드가 내륙이라 현실적으로 없음(발렌시아까지 열차 후 페리 8시간 이상)"
+   },
+   {
+    "from": "Palma de Mallorca (PMI, 팔마)",
+    "to": "Barcelona El Prat (BCN, 바르셀로나)",
+    "mode": "항공 (국내선 직항)",
+    "operator": "Vueling(주력), Ryanair, Air Europa, Iberia(Iberia Regional/Air Nostrum)",
+    "duration_min": 55,
+    "cost_eur": "편도 €25~80 (2~3개월 전 예약 시 €30~55 수준, 수하물 별도)",
+    "frequency": "주 190~200편(하루 약 25~30편). Vueling이 하루 10편 이상으로 가장 많고 Ryanair 3~6편, Air Europa·Iberia 각 2~4편",
+    "typical_times": "06:30~23:00 사이 30분~1시간 간격. 오전 출발 후 BCN 도착 시 시내 점심부터 활용 가능",
+    "booking_note": "Vueling Basic은 40x30x20 언더시트 가방만 무료, 10kg 캐리어는 유료 추가(약 €10~30) 또는 Optima 요금(25kg 위탁 포함) 선택. Ryanair 동일한 Priority 규정 적용. 스페인 소비자 당국이 저가항공 기내수하물 유료화에 벌금을 부과한 사례가 있지만 2026년 현재 실무상 여전히 유료이므로 예약 시 수하물 옵션 미리 포함할 것",
+    "notes": "순수 비행시간 50~55분, 공항 절차 포함 도어투도어 약 3시간. BCN 도착 터미널은 Vueling·Iberia·Air Europa = T1, Ryanair = T2. 짧은 노선이라 이른 아침 출발이 가장 저렴하고 결항·지연도 적음"
+   },
+   {
+    "from": "Palma (Port de Palma, Estació Marítima 팔마 항)",
+    "to": "Barcelona (Port de Barcelona, Moll Sant Bertran / Moll Adossat 바르셀로나 항)",
+    "mode": "페리 (대안)",
+    "operator": "Baleària, Trasmed(Trasmediterránea), GNV(Grandi Navi Veloci)",
+    "duration_min": 420,
+    "cost_eur": "도보 승객 좌석 €15~60 (프로모션 €14부터), 2인 캐빈 추가 시 €80~150 이상",
+    "frequency": "3사 합산 주 35~37편, 하루 1~3편. 주로 야간편(22:00~23:45 출발, 익일 06:00~07:30 도착), 일부 요일 주간편 운항",
+    "typical_times": "Baleària 약 7시간 30분, Trasmed 약 6시간 30분~7시간, GNV 약 8시간. 야간편은 팔마 22:30~23:30 출발 → 바르셀로나 익일 06:30~07:30 도착",
+    "booking_note": "balearia.com / trasmed.com 직접 예약 또는 Ferryhopper·Direct Ferries 비교. 야간편은 캐빈을 잡아야 숙박 대체가 되고, 캐빈 포함 시 항공보다 오히려 비싸지는 경우가 많음",
+    "notes": "시간 대비 효율이 항공(55분)보다 크게 떨어져 이번 일정(팔마 3~4일)에는 권장하지 않음. 렌터카를 바르셀로나까지 가져가거나 '지중해 야간 페리' 경험 자체가 목적일 때만 고려. 바르셀로나 항 터미널에서 시내(La Rambla)까지 약 3km, 택시 €12~15"
+   },
+   {
+    "from": "Madrid Puerta de Atocha (아토차 역)",
+    "to": "Toledo (톨레도) 역",
+    "mode": "고속열차 (Avant / Alvia)",
+    "operator": "Renfe",
+    "duration_min": 33,
+    "cost_eur": "Avant 편도 €13.90 (왕복 €25~30), 프로모 €7~11",
+    "frequency": "하루 약 12~14편, 대략 매시간 (평일 첫차 06:50경, 마지막 귀환 21:00~22:00경)",
+    "typical_times": "출발 08:20 / 09:20 / 10:20경, 귀환 17:00~21:00 사이 매시간",
+    "booking_note": "renfe.com에서 사전 예약 권장(주말·연휴는 매진 잦음). 출발역은 Atocha 고속열차 승강장(보안검색 있으므로 15~20분 전 도착). 톨레도역에서 구시가까지 1.5km 오르막—시내버스 5/61/62번(€1.50) 또는 택시 €6~8, 에스컬레이터 이용",
+    "notes": "대안: Alsa 버스 Plaza Elíptica(지하철 6·11호선) 출발, 50~75분, €5.50~6.50, 30분 간격, 톨레도 버스터미널이 구시가에 더 가까움. 시간 절약이면 열차, 비용 절약이면 버스"
+   },
+   {
+    "from": "Madrid Chamartín-Clara Campoamor (차마르틴 역)",
+    "to": "Segovia-Guiomar (세고비아 기오마르 역) → 시내 Acueducto(수도교)",
+    "mode": "고속열차 (AVE / Avant / Alvia) + 시내버스 11번",
+    "operator": "Renfe + Avanza(세고비아 시내버스)",
+    "duration_min": 50,
+    "cost_eur": "Avant 편도 €13.90 (프로모 €7~10, AVE €15~22) + 시내버스 11번 €2",
+    "frequency": "열차 하루 20편 이상(30~60분 간격). 11번 버스는 열차 도착에 맞춰 대기, 15~20분 소요",
+    "typical_times": "열차 27분 + 버스 11번 15~20분 + 대기 = 약 50~60분. 아침 08:00~09:30 출발 열차 추천",
+    "booking_note": "renfe.com 사전 예약. Guiomar 역은 시내에서 6km 떨어져 있으므로 반드시 11번 버스나 택시(€8~10) 이용. 귀환 시 마지막 열차 21:00~22:00대 확인",
+    "notes": "대안: Avanza 버스 Moncloa 교통허브(지하철 3·6호선) → Segovia 버스터미널, 65~80분, €5~9, 30분 간격, 터미널에서 수도교까지 도보 10분. 왕복 하나는 열차·하나는 버스로 조합하면 비용 절감. 톨레도(남쪽)와 세고비아(북쪽)는 출발역이 다르니(Atocha vs Chamartín) 혼동 주의"
+   },
+   {
+    "from": "Barcelona Plaça Espanya (FGC 역, 지하철 L1·L3 환승)",
+    "to": "Montserrat 수도원 (Monestir de Montserrat)",
+    "mode": "FGC R5 근교열차 + Cremallera(등산열차) 또는 Aeri(케이블카)",
+    "operator": "FGC (Ferrocarrils de la Generalitat de Catalunya)",
+    "duration_min": 90,
+    "cost_eur": "Trans Montserrat 통합권 €50 (2026, 왕복 열차+등산열차/케이블카+푸니쿨라 2종+시청각관 포함), Tot Montserrat €71.50(박물관+뷔페 점심 포함). 개별 구매 시 R5 편도 €6.90 + Cremallera 왕복 약 €14~15 또는 Aeri 왕복 €12.50 → 합계 €27~30",
+    "frequency": "R5 매시 1편(대략 매시 36분 출발, 첫차 08:36경). Cremallera는 열차 도착에 맞춰 15~20분 간격, Aeri 케이블카 15분 간격",
+    "typical_times": "08:36 또는 09:36 출발 → 10:30~11:00 수도원 도착. Escolania 소년합창단 공연(평일 13:00, 일요일 12:00, 방학·토요일 제외) 시간 고려. 귀환 R5는 매시 1편, 마지막 18~19시대",
+    "booking_note": "Trans Montserrat는 Plaça Espanya FGC 매표소/자동판매기 또는 온라인(cremallerademontserrat.cat) 구매. Cremallera(Monistrol de Montserrat역)와 Aeri(Aeri de Montserrat역)는 R5 하차역이 다르므로 열차 안에서 미리 결정. 바람 강한 날 Aeri 운휴 가능성 있으니 등산열차 쪽이 안전",
+    "notes": "열차 60분 + 등산열차 15~20분 + 환승 대기 = 약 90분. Hola BCN·T-casual은 Montserrat 구간(4존) 미포함. 반나절~하루 소요, 오후 15~16시 출발 귀환 추천"
+   },
+   {
+    "from": "Palma, Estació del Ferrocarril de Sóller (Plaça d'Espanya 옆)",
+    "to": "Sóller (소예르) → 트램으로 Port de Sóller (포르트 데 소예르)",
+    "mode": "빈티지 목재 열차 (Ferrocarril de Sóller, 1912년 개통) + 빈티지 트램",
+    "operator": "Ferrocarril de Sóller S.A. (민영, TIB 무료 정책 미적용)",
+    "duration_min": 65,
+    "cost_eur": "열차 편도 €23 / 왕복 €30, 트램 편도 €10, 열차 왕복+트램 왕복 통합권 €40 (2026 공식 요금)",
+    "frequency": "현재 공식 시간표: Palma 출발 10:10, 13:30, 15:10, 18:30(*매표소 확인), 19:40 / Sóller 출발 09:00, 12:15, 14:00, 17:15*, 18:00, 18:30, 19:30. 4~10월 성수기엔 10:50, 12:15 등 증편되는 해가 많으니 4월 초 trendesoller.com 재확인. 트램은 08:00~20:35 30분 간격",
+    "typical_times": "10:10 출발 → 11:15경 Sóller 도착 → 트램(30분)으로 Port de Sóller 점심·산책 → Sóller 18:00 또는 18:30 열차 귀환",
+    "booking_note": "trendesoller.com 온라인 예매 가능(약 7일 전부터), 좌석 지정 없음—30분 전 도착해 오른쪽(바다·계곡 조망) 창가 확보 권장. 매표소는 현금만 받는 경우 있음. 12월 중순~1월 정기 휴업",
+    "notes": "편도만 열차로 타고 귀환은 TIB 204번(Palma–Sóller 터널 경유, 약 35~40분, 현금 €3~4) 또는 210번 버스로 돌아오면 비용·시간 절약. 열차는 Serra de Tramuntana 13개 터널을 지나는 관광 코스이므로 왕복 모두 타면 2시간 이상 소요"
+   },
+   {
+    "from": "Palma, Estació Intermodal (Plaça d'Espanya 지하 버스터미널)",
+    "to": "Valldemossa (바이데모사) → Deià (데이아) → Sóller",
+    "mode": "TIB 시외버스 203번 (여름철 210번 병행)",
+    "operator": "TIB / CTM (Consorci de Transports de Mallorca)",
+    "duration_min": 35,
+    "cost_eur": "현금·컨택리스 카드 편도: Valldemossa 약 €3~4, Deià 약 €4~5, Sóller 약 €5~6 (TIB 2026 존 요금 €3~13.5 범위)",
+    "frequency": "대략 매시 1편(평일), 주말·비수기 감편. Palma 첫차 07:35경, 막차 22:00경. 2026년 3월 1일부로 시간표 개정—tib.org 노선 203 페이지에서 최신 시간표 확인",
+    "typical_times": "Palma → Valldemossa 30~35분 → Deià +20~25분(누적 55~60분) → Sóller +30분(누적 85~95분). Port de Sóller 종점까지 약 100분",
+    "booking_note": "예약 불필요, 승차 시 기사에게 현금 또는 은행 컨택리스 카드로 결제(승차·하차 시 모두 태그). 2026년 TIB 무료 정책은 Tarjeta Intermodal 소지자 전용(등록 필요)이라 단기 관광객은 일반 요금 지불. 산길(Ma-10) 구간 멀미 주의",
+    "notes": "차 없이 가장 인기 있는 코스: 오전 203번으로 Valldemossa(Cartoixa 수도원, 쇼팽) → 점심 후 203번으로 Deià(Robert Graves 마을) → 저녁 203번으로 Palma 귀환. 성수기(5월~) 210번이 Port de Sóller–Deià–Valldemossa–Palma–Platja de Palma 구간을 추가 운행. 버스가 만차면 못 타는 일이 있어 정류장에 10~15분 일찍 도착 권장"
+   },
+   {
+    "from": "Palma, Estació Intermodal",
+    "to": "Cuevas del Drach / Coves del Drac (드라크 동굴, Porto Cristo 포르토 크리스토)",
+    "mode": "TIB 시외버스 (401번 Palma–Manacor–Porto Cristo 방면) 또는 SFM 기차 T3 Palma→Manacor + TIB 412번 환승",
+    "operator": "TIB / SFM",
+    "duration_min": 90,
+    "cost_eur": "버스 편도 현금 약 €8~10 (기차 Palma–Manacor + 412번 환승 시 합계 비슷). 동굴 입장권 성인 €18.50(온라인) / €19.50(현장), 어린이 3~12세 €11.50/€12.50",
+    "frequency": "버스 30~60분 간격(주말 감편). 동굴 투어 3/16~10/31 기준 10:00, 11:00, 12:00, 14:00, 15:00, 16:00, 17:00 시작(약 1시간, Martel 호수 클래식 콘서트+보트 포함)",
+    "typical_times": "Palma 08:30~09:30 출발 → 10:00~11:00 도착 → 11:00 또는 12:00 투어 → Porto Cristo 항구 점심 → 오후 귀환. 도어투도어 왕복 반나절~6시간",
+    "booking_note": "cuevasdeldrach.com에서 최대 30일 전부터 온라인 예매(할인, 매표소 대기 생략, 시간 지정·환불 불가). 15분 전 입장, 주차장에서 입구까지 200m. 버스 시간표는 tib.org에서 'Coves del Drac' 정류장 검색 필수—412번 노선이 최근 Manacor 기점으로 개편되어 Palma 직통 여부 확인 필요",
+    "notes": "렌터카 이용 시 Palma에서 Ma-15 경유 약 60~65km, 55~65분, 무료 주차장 있음. 대중교통은 환승·대기 포함 편도 1시간 30분~1시간 45분 잡아야 함. 단체 투어(버스+입장 €50~60)도 대안"
+   },
+   {
+    "from": "Palma",
+    "to": "Cap de Formentor (포르멘토르 곶, Far de Formentor 등대) / Port de Pollença",
+    "mode": "렌터카 (비수기 권장) / 대중교통은 TIB 302번 Palma→Port de Pollença + 택시",
+    "operator": "렌터카 / TIB",
+    "duration_min": 85,
+    "cost_eur": "렌터카 연료·통행료 없음(고속도로 무료), 등대 주차 무료(비수기). 대중교통: TIB 302번 현금 약 €8~10 + Port de Pollença→등대 택시 편도 €35~45",
+    "frequency": "TIB 302번 Palma–Alcúdia–Port de Pollença 30~60분 간격(약 60~75분 소요). 셔틀버스 334번(Alcúdia–Port de Pollença–등대)은 통제 기간(2026년 기준 5/15~10/18)에만 운행, 4월 말~5월 초는 미운행",
+    "typical_times": "Palma → Port de Pollença Ma-13 고속도로 약 55분 → Mirador Es Colomer(전망대) 15분 → 등대까지 굽이길 20km 추가 30분. 오전 일찍 출발해 오후에 Pollença 구시가·Alcúdia 성벽 마을 조합",
+    "booking_note": "2026년 규정: 5/15~10/18 매일 10:00~22:00 Formentor 해변~등대 구간 일반 차량 진입 금지(벌금 €100~200), 셔틀 334번·택시·자전거만 허용. 여행 시기(2027년 4/25~5/7)는 통제 시작 전이라 차량 진입 가능할 확률이 높으나 2027년 통제 시작일은 매년 봄에 Consell de Mallorca가 발표하므로 3~4월에 formentor.conselldemallorca.es 확인",
+    "notes": "통제 기간 전이면 렌터카가 사실상 유일한 현실적 방법(Port de Pollença에서 등대까지 대중교통 없음). 도로가 좁고 절벽 구간이라 초보 운전자는 Mirador Es Colomer까지만 가고 등대는 생략해도 좋음. 오전 10시 이전 도착 시 주차 여유"
+   },
+   {
+    "from": "Palma",
+    "to": "Es Trenc (에스 트렌크 해변, Campos/Ses Covetes)",
+    "mode": "렌터카 / TIB 501번 Palma→Campos + 517번(Colònia de Sant Jordi) 또는 518번(Sa Ràpita) 환승",
+    "operator": "렌터카 / TIB",
+    "duration_min": 50,
+    "cost_eur": "렌터카: 주차장 하루 €5~10(4~10월 유료, 성수기 €10). 버스: 편도 현금 약 €5~7 합산",
+    "frequency": "버스는 501번 30~60분 간격, 517/518번 하루 수편(주말 감편)이라 환승 대기 포함 편도 90~135분",
+    "typical_times": "차량 Ma-19 → Campos → Ses Covetes 주차장 약 45~50분. 버스는 Colònia de Sant Jordi 하차 후 해안 산책로 도보 40~60분 또는 택시",
+    "booking_note": "직행 버스 없음. 렌터카가 훨씬 효율적이며 성수기엔 오전 10~11시면 주차장이 차니 이른 출발 권장. 4월 말~5월 초 수온 17~18°C로 수영보다는 산책·풍경 목적",
+    "notes": "카리브해 같은 흰 모래·터키색 바다로 유명한 자연 보호구역 해변. 편의시설 적으니 물·간식 지참. 같은 날 Colònia de Sant Jordi 항구 마을이나 Ses Salines 소금밭과 조합하면 좋음"
+   }
+  ],
+  "airport_transfers": [
+   {
+    "airport": "MAD Madrid Barajas (마드리드 바라하스) → 시내",
+    "option": "택시 (공항 고정요금 Tarifa 4)",
+    "duration_min": 30,
+    "cost_eur": "€33 고정 (2026년 1월 1일부 시청 고시, M-30 내부 어디든 동일, 짐·야간 추가 없음)",
+    "notes": "2~3인 이상이면 가장 편하고 사실상 대중교통과 비용 차이 적음. 반드시 공식 흰색 택시(빨간 사선) 정식 승강장에서 탑승, 호객 거절. 25~40분 소요(출퇴근 시간 45분+). Cabify·Uber도 비슷한 요금대(€30~40)"
+   },
+   {
+    "airport": "MAD Madrid Barajas → 시내",
+    "option": "Metro L8 (T1-2-3 / T4역 → Nuevos Ministerios 환승)",
+    "duration_min": 45,
+    "cost_eur": "편도 €1.50~2.00 + 공항 추가요금 €3 = €4.50~5.00 (Tarjeta Multi 카드 €2.50 별도 구매 필요)",
+    "notes": "Nuevos Ministerios까지 15~20분, 여기서 L6/L10 환승 후 Sol/Gran Vía까지 총 40~50분. 환승·계단 많아 큰 캐리어엔 비추천. 05:00~01:30 운행"
+   },
+   {
+    "airport": "MAD Madrid Barajas → 시내",
+    "option": "Cercanías C1 / C10 근교열차 (T4역 전용)",
+    "duration_min": 27,
+    "cost_eur": "€2.60 (Cercanías 존 요금, 추가요금 없음)",
+    "notes": "T4에서만 출발. Chamartín 11분, Nuevos Ministerios 17분, Atocha 27분, Príncipe Pío(C10) 약 35분. 30분 간격, 06:00~23:30. T1/T2 도착 시 무료 터미널 셔틀로 T4 이동(10~15분). Renfe 고속열차 티켓 소지자는 Cercanías 무료 Combinado 이용 가능"
+   },
+   {
+    "airport": "MAD Madrid Barajas → 시내",
+    "option": "Exprés Aeropuerto 버스 203번 (EMT)",
+    "duration_min": 40,
+    "cost_eur": "€5 (현금은 소액권만, 컨택리스 카드 결제 가능)",
+    "notes": "T1·T2·T4 → O'Donnell → Cibeles → Atocha, 24시간 운행(주간 15~20분, 야간 23:30~06:00엔 Cibeles 종착·35분 간격). 짐 선반 있어 캐리어 편리. Atocha까지 약 40분, Cibeles 35분"
+   },
+   {
+    "airport": "PMI Palma de Mallorca Son Sant Joan (팔마 공항) → Palma 시내",
+    "option": "EMT 시내버스 A1번 (Aeroport–Ciutat)",
+    "duration_min": 25,
+    "cost_eur": "€5 (현금·카드 동일, 일부 안내는 컨택리스 시 할인 표기—탑승 시 확인)",
+    "notes": "06:00~01:30 15분 간격, Passeig Marítim(항구)·Passeig Mallorca·Plaça d'Espanya(Estació Intermodal) 등 정차, 25~30분. 캐리어 공간 있음. 도착층 밖 버스 정류장. Estació Intermodal은 TIB·Sóller 열차 허브라 첫날 위치 익혀두면 편리"
+   },
+   {
+    "airport": "PMI Palma → Palma 시내",
+    "option": "택시 (미터 요금, 발레아레스 통합 요율 2025~)",
+    "duration_min": 15,
+    "cost_eur": "주간 €22~28, 야간·휴일 €30~37 (공항 추가요금 €4.65 포함, 최소요금 약 €17)",
+    "notes": "약 9km, 15~20분. 도착층 앞 공식 승강장, 카드 결제 가능. 2~3인 + 캐리어면 A1 버스와 비용 차이 적어 택시 추천"
+   },
+   {
+    "airport": "BCN Barcelona El Prat (바르셀로나 엘 프라트) → 시내",
+    "option": "Aerobús A1(T1) / A2(T2) 공항버스",
+    "duration_min": 35,
+    "cost_eur": "편도 약 €7.75, 왕복 €13.30 (2026, 출처별 €7.45~7.75—현장 확인; T-casual·Hola BCN 사용 불가)",
+    "notes": "Plaça Espanya·Gran Via-Urgell·Plaça Universitat·Plaça Catalunya 정차, 24시간, 주간 5~10분 간격. 짐 공간 넉넉해 캐리어 이동에 최적. 온라인(aerobusbarcelona.es) 또는 정류장 자판기·기사에게 카드 결제"
+   },
+   {
+    "airport": "BCN Barcelona El Prat → 시내",
+    "option": "Metro L9 Sud (Aeroport T1 / T2 역)",
+    "duration_min": 45,
+    "cost_eur": "공항 전용 티켓 편도 €5.90 (왕복 €11.80), Hola BCN 카드 소지 시 포함. T-casual 사용 불가",
+    "notes": "Zona Universitària(L3)·Collblanc(L5)·Torrassa(L1) 환승 후 시내까지 35~50분. 05:00~24:00(금 02:00, 토 24시간), 7분 간격. 환승 많아 캐리어엔 다소 불편하나 Eixample·Sants 숙소면 무난"
+   },
+   {
+    "airport": "BCN Barcelona El Prat → 시내",
+    "option": "Rodalies R2 Nord 근교열차 (T2 역, T1은 무료 셔틀 10분)",
+    "duration_min": 25,
+    "cost_eur": "편도 €4.60 (공항 티켓), T-casual 1존·Hola BCN 사용 가능",
+    "notes": "Sants 19분, Passeig de Gràcia 26분, El Clot 32분. 30분 간격, 05:40~23:40. T1 도착 시 셔틀+대기 포함 실질 45분. Sants·Passeig de Gràcia 근처 숙소면 가장 경제적"
+   },
+   {
+    "airport": "BCN Barcelona El Prat → 시내",
+    "option": "택시 (미터 요금)",
+    "duration_min": 30,
+    "cost_eur": "€35~45 (공항 추가요금 €4.60, 공항 출발 최소요금 €21 포함, 야간·주말 할증 시 €45~50)",
+    "notes": "20~35분. 공식 노란·검정 택시 승강장 이용, 카드 결제 가능. 3인+캐리어면 Aerobús 3인분(€23)과 비교해 택시가 편리"
+   }
+  ],
+  "city_transit": [
+   {
+    "city": "Madrid (마드리드)",
+    "pass_recommendation": "Tarjeta Multi(카드 €2.50) + 10회권 Metrobús €7.30 (2026년 동결 요금, 지하철·EMT 버스 공용, 한 카드로 여러 명이 연속 태그 가능). 공항 이동을 지하철로 할 경우 €3 공항 추가요금 별도 충전. 3일 이상 하루 5회 이상 탈 계획이면 Abono Turístico Zona A(1일 €10 / 2일 €17 / 3일 €22.50 / 4일 €27 / 5일 €32.50, 공항 추가요금 포함)도 고려하나, 마드리드 중심가는 도보권이 넓어 대부분 10회권으로 충분",
+    "tips": "단일권 €1.50(5역 이내)~€2.00. Tarjeta Multi는 역 자판기에서 구매(카드 결제 가능), 톨레도·세고비아 Renfe 열차는 별도. Cercanías는 Multi 카드에 별도 충전. 지하철은 06:00~01:30, 심야엔 부엉이버스(Búho). 소매치기는 Sol·Gran Vía·L1·L3 혼잡 시간대에 집중—가방 앞으로. EMT 버스는 컨택리스 카드로 €1.50 결제 가능"
+   },
+   {
+    "city": "Palma de Mallorca (팔마)",
+    "pass_recommendation": "별도 패스 불필요. EMT 시내버스 단일권 현금 €3(2026 비거주자 요금), 은행 컨택리스 카드로 탭하면 약 40% 할인(≈€1.80), 최대 5인 동행 시 첫 승객 40%·동행 최대 60% 할인. 공항 A1은 €5 별도. TIB 시외버스(초록색)는 현금 또는 컨택리스 편도 €3~13.5—2026 TIB 무료 정책은 Tarjeta Intermodal 등록자 전용이라 단기 관광객엔 실익 없음",
+    "tips": "구시가(Catedral·Passeig del Born·Santa Catalina)는 전부 도보권. Castell de Bellver는 EMT 4·20번 또는 택시 €10. Portixol·Cala Major 해변은 EMT 15·4번. 시외 여행은 모두 Plaça d'Espanya 지하 Estació Intermodal에서 출발(TIB 버스·SFM 기차·Metro), Sóller 열차역은 바로 옆 지상. 렌터카는 Palma 시내 주차가 매우 어렵고 비싸(호텔 주차 €20~30/일) 시내 체류일엔 빌리지 말고, Formentor·Es Trenc·Drach를 도는 1~2일만 빌리는 것을 권장. 4월 말~5월 초 소형차 기준 하루 €25~45(보험 포함 시 €40~60), 공항 또는 시내 영업소 픽업, 반납 시 연료 정책(Full-to-Full) 확인. 택시는 시내 단거리 €8~12"
+   },
+   {
+    "city": "Barcelona (바르셀로나)",
+    "pass_recommendation": "2~3인이 3~4일 머무는 경우 두 가지 조합 중 선택: (A) Hola BCN 72시간 €27.30 / 96시간 €35.60(2026) — 지하철·버스·트램·FGC·Rodalies 1존 무제한 + 공항 L9 Sud·R2 왕복 포함, 개인별 1장 필요. (B) T-familiar 8회권 €11.50(30일 유효, 여러 명 공유 가능) 또는 T-casual 10회권 €13.00(1인 전용) + 공항은 Aerobús/택시 또는 공항 티켓 €5.90. 하루 3회 이상 타고 공항을 지하철로 오갈 계획이면 (A), 도보 위주면 (B)가 저렴",
+    "tips": "단일권 €2.90. 2026년 1월 15일부 요금 적용. T-casual·T-familiar는 L9 Sud 공항역에서 사용 불가(R2 Nord 공항역은 사용 가능). 환승은 75분 내 무료(T-casual/T-familiar). Montserrat R5는 4존이라 모든 시내권 미포함—Trans Montserrat 통합권 별도 구매. 지하철 05:00~24:00(금 02:00, 토 24시간). 소매치기 최다 지역: La Rambla·L3 Liceu·Drassanes·Sagrada Família 역—폰·지갑 앞주머니. Sants 역(고속열차·R2)이 교통 허브, Eixample·Gràcia·Sant Antoni 일대가 야간에도 안전한 숙소권"
+   }
+  ],
+  "recommendation": "1) 도시 간 이동은 전부 항공으로: Madrid→Palma는 Iberia Express 또는 Air Europa 오전편(기내 10kg 포함, 위탁 추가 시에도 Ryanair/Vueling 합산가와 비슷하거나 저렴, 비행 85분), Palma→Barcelona는 Vueling 오전편(55분, 위탁수하물 옵션 미리 추가). 두 구간 모두 2~3개월 전(2027년 1~2월) 예약 시 편도 €40~70 선. 페리는 6.5~8시간에 야간편 캐빈 비용까지 감안하면 이번 일정엔 비추천. 2) 공항 이동: 마드리드는 캐리어 2개 이상이면 택시 고정요금 €33(또는 T4 도착 시 Cercanías €2.60), 팔마는 A1 버스 €5 또는 택시 €25 내외, 바르셀로나는 Aerobús(약 €7.75) 또는 택시 €35~45가 가장 안전하고 편함. 3) 마요르카는 '팔마 시내 체류일 = 차 없이, 근교 투어일 = 렌터카 1~2일' 하이브리드가 최적: Sóller(빈티지 열차)·Valldemossa/Deià(TIB 203번)는 대중교통이 더 낭만적이고 편하며, Cap de Formentor·Es Trenc·Cuevas del Drach는 렌터카(하루 €30~50)로 한 번에 묶는 것이 효율적. 여행 시기(4/25~5/7)는 Formentor 차량 통제 시작(2026년 기준 5/15) 이전이라 등대까지 자차 진입이 가능할 가능성이 높지만 2027년 공고를 3~4월에 확인. 4) 시내 교통: 마드리드 Tarjeta Multi 10회권 €7.30, 바르셀로나는 공항 지하철 왕복까지 쓰면 Hola BCN 72h/96h, 아니면 공유 가능한 T-familiar €11.50, 팔마는 컨택리스 탭 승차(≈€1.80)로 패스 불필요. 5) 근교 당일치기 열차(Toledo Avant €13.90·33분, Segovia Avant €13.90·27분+버스 11번)는 renfe.com에서 미리 예약하고, Montserrat는 Trans Montserrat €50 통합권으로 Plaça Espanya에서 08:36/09:36 R5 탑승.",
+  "notes": "요금·시간표는 2026년 8월 기준 최신 공개 정보(공식 사이트·2026년판 가이드)이며, 2027년 4~5월에는 5~10% 인상 또는 시간표 개정 가능성이 있으므로 출발 1~2개월 전 renfe.com, tib.org, trendesoller.com, tmb.cat, metromadrid.es, aerobusbarcelona.es에서 재확인 권장. 출처 간 차이가 있던 항목: Aerobús 편도 요금(€7.45~7.75, 일부 사이트 €9.50 표기), Palma 공항 A1 버스(대부분 €5, 일부 €3 표기), Sóller 열차(공식 €23/€30/€10/통합 €40 채택, 구형 가이드는 €18~20 표기), TIB 412번 노선(Manacor 기점으로 개편된 것으로 보여 Palma→Drach 직통 여부 tib.org 확인 필요). 마드리드 택시 공항 고정요금 €33(2026.1.1부), 바르셀로나 택시 공항 최소요금 €21·추가요금 €4.60, 팔마 택시 공항 추가요금 €4.65는 공식 고시 기준. 2026년 TIB(마요르카 시외버스·기차) 무료 정책은 등록 카드 소지자 전용이므로 관광객은 현금·컨택리스 일반요금(€3~13.5) 지불. Cap de Formentor 2026년 통제 기간 5/15~10/18 10:00~22:00(셔틀 334번 동일 기간만 운행)—2027년 일정(4/25~5/7)은 통제 전으로 예상되나 매년 공고 확인. 항공 수하물: Ryanair·Vueling 최저가는 40x30x20cm 소형 가방만 무료이며 기내 캐리어·위탁은 유료, Iberia Express·Air Europa는 10kg 기내 가방 포함—한국인 여행자 캐리어 규모를 감안해 총액으로 비교할 것. 안전 측면: 세 공항 모두 공식 택시 승강장만 이용, 마드리드 L1/L3·바르셀로나 L3 La Rambla 구간과 Estació Intermodal 지하 통로에서 소지품 주의."
+ },
+ "safety": {
+  "cities": [
+   {
+    "city": "Mallorca — Palma & 섬 전역 (마요르카·팔마)",
+    "avoid_areas": [
+     {
+      "area": "Son Gotleu (손 고틀레우) — Carrer d'Aragó 동쪽·Vía de Cintura 사이",
+      "lat": 39.583,
+      "lng": 2.68,
+      "when": "낮·밤 모두",
+      "severity": "high",
+      "reason": "스페인 최저소득 지역 중 하나, 마약 거래·폭력 사건 보도 잦음. 관광 요소 전무. 인접한 La Soledat·Camp Redó(Corea)도 밤에는 피할 것."
+     },
+     {
+      "area": "Son Banya (손 바냐) — 공항 북서쪽 판자촌",
+      "lat": 39.56,
+      "lng": 2.71,
+      "when": "낮·밤 모두",
+      "severity": "high",
+      "reason": "발레아레스 최대 마약 밀매 거점. 렌터카 내비가 공항 우회로로 안내해도 절대 진입 금지."
+     },
+     {
+      "area": "Magaluf (마갈루프) — Punta Ballena 바 거리",
+      "lat": 39.51,
+      "lng": 2.534,
+      "when": "밤(22시~새벽)",
+      "severity": "med",
+      "reason": "영국 청년 파티 관광지. 만취 관광객 대상 소매치기·호객·시비, 발코니 추락 사고 반복. 낮 해변·Western Water Park는 무난."
+     },
+     {
+      "area": "Playa de Palma / S'Arenal — Balneario 5~6, Bierstraße·Schinkenstraße",
+      "lat": 39.515,
+      "lng": 2.745,
+      "when": "밤",
+      "severity": "med",
+      "reason": "독일 파티 관광객 밀집 '발러만' 구역. 심야 취객·성매매 호객·휴대폰 날치기. 해변 자체는 낮에 문제 없음. 팔마 숙소는 이 구역 피하는 게 조용함."
+     },
+     {
+      "area": "Plaça Gomila · Passeig Marítim (파세이그 마리팀) 클럽가",
+      "lat": 39.565,
+      "lng": 2.633,
+      "when": "금·토 심야",
+      "severity": "low",
+      "reason": "Tito's 등 클럽 앞 심야 취객·호객. 낮·저녁 산책은 매우 안전하고 야경 좋음."
+     },
+     {
+      "area": "Sa Gerreria (사 제레리아) — 구시가 동쪽, Plaça Quadrado·Carrer Socors 골목",
+      "lat": 39.5715,
+      "lng": 2.656,
+      "when": "밤",
+      "severity": "low",
+      "reason": "구시가 안이지만 젠트리피케이션 진행 중인 골목. 심야에는 마약 거래 목격담. 대로(Carrer del Sindicat)로 이동."
+     },
+     {
+      "area": "외딴 해변(칼라)·트레킹 입구 주차장 — Sa Calobra, Cala Varques, Cala Mondragó, Formentor 등",
+      "lat": 39.7,
+      "lng": 3,
+      "when": "낮(주차 중)",
+      "severity": "med",
+      "reason": "렌터카 유리창 파손 후 짐 절도 다발. 차 안에 가방·전자기기 절대 두지 말 것, 트렁크도 안심 불가. 보이는 곳에 아무것도 없어야 함."
+     },
+     {
+      "area": "Palma 시내 해변가 주차 (Parc de la Mar·Portixol 노상)",
+      "lat": 39.567,
+      "lng": 2.652,
+      "when": "낮·밤",
+      "severity": "low",
+      "reason": "렌터카 차량털이. 호텔 유료 주차 또는 실내 주차장(Parking Parc de la Mar 등) 이용."
+     }
+    ],
+    "pickpocket_hotspots": [
+     "Passeig del Born · Plaça de la Reina (팔마 메인 산책로)",
+     "Palma 대성당(La Seu) 앞 광장 · Parc de la Mar 계단",
+     "Plaça Major · Carrer de Sant Miquel 쇼핑거리",
+     "Mercat de l'Olivar 시장 내부(시식·해산물 코너)",
+     "EMT A1 공항버스 & 1·3번 버스 짐칸",
+     "Plaça d'Espanya 역 — Sóller 관광열차 탑승 대기줄",
+     "Sóller·Pollença·Sineu·Alcúdia 요일 장터(일요일 Pollença/Alcúdia, 수요일 Sineu, 토요일 Sóller)",
+     "Playa de Palma·Illetes·Es Trenc 해변 — 수영 중 두고 간 가방",
+     "Port de Sóller 트램 정류장·Sa Calobra 선착장",
+     "Magaluf·Arenal 바 거리 심야"
+    ],
+    "safe_neighborhoods_for_lodging": [
+     "Palma Casco Antiguo (구시가) — La Llotja·Calatrava·Sant Nicolau: 대성당 도보권, 부티크 호텔 밀집, 매우 안전",
+     "Santa Catalina (산타 카탈리나) — 옛 어촌, 맛집·브런치 거리, 저녁에도 활기차고 안전",
+     "Passeig Mallorca · Jaume III · El Terreno 북측: 조용한 고급 주거지, 쇼핑 편리",
+     "Portixol / Es Molinar (포르티솔): 바다 산책로, 조용한 가족 숙소",
+     "Cala Major · Illetes (칼라 마요르·이예테스): 팔마 10분, 리조트 호텔·작은 해변, 안전",
+     "섬 체류: Port de Sóller(포트 데 소예르)·Deià·Valldemossa·Pollença·Port d'Alcúdia — 소도시로 치안 걱정 거의 없음"
+    ],
+    "tips": [
+     "Numbeo 2026 기준 팔마 안전지수 62.8, 낮 혼자 걷기 83(매우 높음), 야간 58(보통). 위험은 유흥가 심야와 '차량털이'에 집중.",
+     "마요르카에서는 Uber·Cabify가 거의 안 잡힘. 택시는 FreeNow 앱 또는 TaxiPalma/PideTaxi, 호텔 프런트 호출. 공항→팔마 시내 택시 약 25~35€, 공항버스 A1 5€(2026 기준).",
+     "렌터카 이용 시 '차 안에 아무것도 남기지 않기'가 가장 중요한 치안 수칙. 트레킹·칼라 방문 시 귀중품은 전부 휴대.",
+     "5/1(토) 노동절: 슈퍼(Mercadona·Lidl)·대부분 상점 휴무, 식당·해변·관광지는 정상. 5/2(일)도 상점 대부분 휴무이므로 4/30(금) 장보기.",
+     "Palma 대성당은 일요일 관광 입장 불가(미사만), Mercat de l'Olivar·Santa Catalina 시장 일요일 휴무, Es Baluard·Castell de Bellver·Museu de Mallorca 월요일 휴관.",
+     "해수온 16~18°C로 한국인 기준 잠깐 발 담그기 수준. 5월 초 해변은 선탠·산책용으로 계획.",
+     "산길(Sa Calobra, Formentor) 렌터카 운전은 좁은 커브·자전거 동호인 많음. 한낮 대신 오전 일찍 이동.",
+     "경찰 신고는 Policía Nacional 팔마 서 (Carrer de Simó Ballester 8, 091) 또는 온라인 denuncias.policia.es 접수 후 72시간 내 방문 확정. 마요르카 여행 중 문제 시 마드리드 대사관 긴급전화(+34-648-924-695)로."
+    ]
+   }
+  ],
+  "holidays_events": [
+   {
+    "date": "2027-04-23 (금) — 여행 전",
+    "name": "Sant Jordi (산 조르디, 책과 장미의 날)",
+    "where": "Barcelona 전역 · 카탈루냐",
+    "impact": "여행 시작 이틀 전이라 직접 영향 없음. 다만 4/23~25 주말까지 도심 장미·책 노점 잔여 분위기와 관광 인파가 이어져 4/25 전후 바르셀로나 체류라면 호텔가 상승 여지."
+   },
+   {
+    "date": "2027-04-25 (일) — 마드리드 도착일",
+    "name": "Zurich Rock 'n' Roll Running Series Madrid 마라톤 (예상)",
+    "where": "Madrid 시내 전역 (Paseo de la Castellana·Retiro·Gran Vía 등)",
+    "impact": "2026년 대회가 4/26(일) 개최됐고 통상 4월 마지막 일요일 → 2027-04-25 가능성 높음. 오전~오후 이른 시간 도심 도로·버스 통제, 공항→숙소 택시 우회. 2026년 말 runrocknroll.com/madrid 일정 확인."
+   },
+   {
+    "date": "2027-04-20~05-02 (예상, 2026년은 4/21~5/3)",
+    "name": "Mutua Madrid Open (마드리드 오픈 테니스, ATP/WTA 1000)",
+    "where": "Caja Mágica, Madrid (Metro L3 San Fermín-Orcasur)",
+    "impact": "결승 주간(4/29~5/2)이 체류와 겹칠 확률 높음. 스포츠 관광객으로 마드리드 호텔 요금·예약 난이도 상승, 저녁 Sol·Salamanca 식당 예약 필수. 관람 원하면 madrid-open.com에서 티켓 사전 구매."
+   },
+   {
+    "date": "2027-04-23~05-02 (예상, 2026년은 4/24~5/3)",
+    "name": "Feria de Abril de Catalunya (바르셀로나 4월 축제, 안달루시아풍 카세타 축제)",
+    "where": "Parc del Fòrum, Barcelona/Sant Adrià de Besòs (Metro L4 El Maresme|Fòrum)",
+    "impact": "바르셀로나 체류(5/2~6 추정)가 마지막 주말(4/30~5/2)과 겹치면 무료 입장으로 플라멩코·세비야나스·레보히토 체험 가능. 야간 귀가는 L4 지하철 막차(주말 새벽 운행) 또는 택시. Fòrum 북쪽 La Mina 방향 도보 금지. 정확한 2027 일정은 fecac.com 확인."
+   },
+   {
+    "date": "2027-05-01 (토)",
+    "name": "Día del Trabajo (노동절, 전국 공휴일)",
+    "where": "스페인 전역 (Madrid·Mallorca·Barcelona)",
+    "impact": "슈퍼마켓·백화점(El Corte Inglés)·대부분 상점·La Boqueria·Mercat de l'Olivar 휴무. Prado·Reina Sofía 휴관, Picasso·MNAC 등 다수 미술관 휴관(개별 확인). Sagrada Família·Park Güell·Palacio Real·대성당 등 관광지와 식당·카페는 대부분 정상. 오전 노조 행진으로 Madrid Atocha~Sol, Barcelona Passeig de Gràcia 도로 통제. 토요일이라 대체휴일 없음(스페인은 토요일 공휴일 대체 안 함)."
+   },
+   {
+    "date": "2027-05-02 (일)",
+    "name": "Fiesta de la Comunidad de Madrid / Dos de Mayo (마드리드 자치주의 날)",
+    "where": "Madrid — Puerta del Sol(자치정부 청사 앞 군 퍼레이드·시상식), Malasaña Plaza del Dos de Mayo(야외 콘서트), Retiro 등",
+    "impact": "마드리드 지역 공휴일. 일요일과 겹쳐 2021년 사례처럼 5/3(월)을 대체휴일로 지정할 가능성 있음(2026년 하반기 발표되는 Calendario laboral 2027 확인 → 월요일 상점 휴무 여부 결정). 일부 미술관 무료 개방, 도심 혼잡·소매치기 주의. 당일 마드리드→마요르카 이동이면 공항 택시 시간 여유."
+   },
+   {
+    "date": "2027-05-02 (일)",
+    "name": "Fira de Maig de Sineu (시네우 5월 농축산 장터, 5월 첫째 일요일)",
+    "where": "Sineu, Mallorca 내륙 (Palma에서 차 40분, 기차 T3)",
+    "impact": "마요르카 최대·최고(最古) 농업 박람회 중 하나. 가축·농기계·지역 특산품·음식 노점. 마요르카 체류가 5/2와 겹치면 반나절 코스로 추천. 주차 혼잡, 소매치기 주의. 시네우 정기장은 수요일(4/28·5/5)."
+   },
+   {
+    "date": "2027-04-24~25 또는 05-01~02 (예상, 4월 마지막 주말 관례)",
+    "name": "Fira del Vi de Pollença (포옌사 와인 페어)",
+    "where": "Pollença 구시가 Claustre de Sant Domingo, Mallorca 북부",
+    "impact": "마요르카 와이너리 50여 곳 시음(입장권 약 15~20€). 4월 마지막 주말이 관례라 4/24~25이면 여행 전. 2027 일정은 firadelvipollenca.com 확인. 일요일은 Pollença 정기장(Plaça Major)도 열림."
+   },
+   {
+    "date": "2027-05-09~10 (일·월) — 여행 후",
+    "name": "Fira de Sóller & Es Firó (소예르 시장축제·무어인 vs 기독교도 모의전투)",
+    "where": "Sóller · Port de Sóller, Mallorca",
+    "impact": "5월 둘째 일요일 Fira, 다음날 Firó. 여행 후라 직접 관람은 불가하나 5월 초 소예르 방문 시 축제 준비(장식·리허설) 분위기. 참고용."
+   },
+   {
+    "date": "2027-05-15 (토) — 여행 후",
+    "name": "San Isidro (마드리드 수호성인 축일)",
+    "where": "Madrid — Pradera de San Isidro, Plaza Mayor, Las Ventas 투우 시즌",
+    "impact": "여행 후 개최. 다만 5월 초부터 Plaza Mayor·Las Vistillas 등에서 프리 이벤트와 Las Ventas 투우 시즌(Feria de San Isidro, 5월 초~6월 초 거의 매일 저녁) 시작 → 5/1~2 Las Ventas 인근 혼잡 가능."
+   },
+   {
+    "date": "2027-04-27~28 · 05-04~05 (예상)",
+    "name": "UEFA 챔피언스리그 4강 1·2차전 + LaLiga 33~35라운드 (Real Madrid / FC Barcelona 홈경기 가능성)",
+    "where": "Santiago Bernabéu (Madrid, Metro L10) · Spotify Camp Nou (Barcelona, Metro L3/L5)",
+    "impact": "2026-27 LaLiga 일정은 2026년 6~7월 추첨, 각 라운드의 정확한 요일·시간은 경기 3~4주 전 확정. 확인 경로: laliga.com/en-GB/laliga-easports/calendar, realmadrid.com/en/football/schedule, fcbarcelona.com/en/football/first-team/schedule, uefa.com. 주말 4/24~25, 5/1~2(공휴일에도 경기 있음), 5/8~9가 리그 라운드. 홈경기 날은 경기장 주변 호텔·지하철 혼잡, 경기 후 심야 소매치기 급증. 관람 시 공식 사이트에서만 티켓 구매(리셀 사이트 사기 주의)."
+   },
+   {
+    "date": "2026-06-10 (완료) → 2027년 봄 영향",
+    "name": "Sagrada Família 예수 그리스도 탑(172.5m) 축성·완공 (가우디 서거 100주년)",
+    "where": "Barcelona Sagrada Família",
+    "impact": "2026년 6월 10일 축성으로 세계 최고(最高) 교회가 됨. 2027년 4~5월은 완공 후 첫 봄 성수기로 예매 매진 빠름 → 출발 4~6주 전 공식 사이트·앱에서 시간지정 예매, 탑 입장(Nativity/Passion) 별도 선택. 영광의 파사드·주변 정비 공사는 2030년대까지 계속되어 Carrer de Mallorca 쪽 일부 통제 가능."
+   },
+   {
+    "date": "매주 요일별 휴무 정리 (4/25~5/6)",
+    "name": "주요 관광지·시장 정기 휴무",
+    "where": "Madrid · Palma · Barcelona",
+    "impact": "Madrid: Prado 연중무휴(월~토 10~20, 일 10~19, 5/1 휴관, 무료 월~토 18~20·일 17~19), Reina Sofía 화요일 휴관(5/1 휴관, 일요일 12:30~14:30 일부 폐쇄), Thyssen 월요일 12~16시만 무료 단축, Palacio Real 공식행사 시 임시 폐쇄, El Rastro 일요일만(4/25·5/2), Mercado de San Miguel 연중무휴. Palma: 대성당 일요일 관광 입장 불가, Es Baluard·Bellver성·Museu de Mallorca 월요일 휴관, Mercat de l'Olivar·Santa Catalina 시장 일요일 휴무. Barcelona: La Boqueria 일요일 휴무(월~토 08:00~20:30), Picasso 미술관 월요일 휴관(화·수·일 09~20, 목~토 09~21), MNAC·Fundació Miró·CCCB 월요일 휴관, Sagrada Família·Park Güell·Casa Batlló·La Pedrera 연중무휴."
+   }
+  ],
+  "weather": [
+   {
+    "city": "Palma de Mallorca (팔마·마요르카) — 4/29~5/2 체류 기준",
+    "high_c": 21,
+    "low_c": 14,
+    "rain_days_per_month": 4,
+    "sea_temp_c": 17,
+    "sunset": "20:40 (4/29) ~ 20:45 (5/3)",
+    "packing": "1991~2020 평년: 4월 최고 19.7/최저 12.2°C, 5월 23.0/15.5°C, 4월 말~5월 초 낮 21~23°C, 밤 13~15°C. 5월 강수일 3일 수준으로 매우 건조·맑음(일조 월 298시간). 해수온 16~18°C → 물놀이보다 해변 산책·선탠 위주, 수영하려면 래시가드 추천. 바닷바람이 있어 저녁 산책엔 얇은 재킷. Tramuntana 산행(Sóller·Deià)이면 등산화·모자·물 1L 이상. 강한 자외선(UV 7~8)으로 선크림 SPF50. 렌터카 여행 시 편한 샌들+운동화 둘 다."
+   }
+  ],
+  "general_tips": [
+   "가방 습관: 크로스백을 몸 앞쪽에, 지퍼는 손으로 덮고, 백팩은 지하철·인파에서 앞으로. 휴대폰은 식당 테이블·뒷주머니에 두지 않기. 여권은 호텔 금고, 사본(사진)만 휴대. 현금은 하루치(50~100€)만 분산 보관.",
+   "3도시 위험 순위: Barcelona > Palma(유흥가·차량털이) > Madrid. 어느 도시든 폭력 범죄는 드물고 '소매치기·날치기·사기'가 99%. 심야(01시 이후) 구시가 골목 도보 대신 택시앱.",
+   "택시앱: Madrid·Barcelona는 FreeNow·Cabify·Uber·Bolt 모두 사용 가능(FreeNow가 공식택시 호출로 가장 안정적). Mallorca는 FreeNow·TaxiPalma/PideTaxi 또는 호텔 호출, Uber는 거의 없음. 길에서 잡을 땐 미터기 켜는지 확인, 공항은 정액제 표지판 확인.",
+   "ATM: 은행 지점 내부 ATM(BBVA·Santander·CaixaBank·Sabadell)만 사용, 파란색 Euronet 등 독립형 ATM 회피. 화면에서 '현지통화(EUR)로 결제', DCC(원화 환산) 거절. 대부분 결제는 트래블카드·애플페이 탭 결제로 충분(소액도 카드 OK).",
+   "가짜 경찰: 사복 차림으로 '위조지폐 검사' 명목 지갑 요구 → 100% 사기. 진짜 경찰은 신분증만 확인. 112에 전화해 확인하겠다고 하면 사라짐.",
+   "도난 시 순서: (1) 카드 즉시 정지(카드사 앱) (2) 온라인 denuncia 사전 접수 denuncias.policia.es (폭력 없는 절도·분실만 가능, 스페인어/영어) 또는 Alertcops 앱 (3) 72시간 내 가까운 Policía Nacional(091) 서 방문해 서명·사본 수령 (4) 여권 분실이면 대사관/총영사관에 긴급여권 신청(사진 2장·신분증 사본·denuncia 사본). 여행자보험 청구에 denuncia 사본 필수.",
+   "휴대폰 분실 대비: 출국 전 '내 기기 찾기' 활성화, eSIM 백업, 사진 클라우드 동기화. 스쿠터·자전거가 인도 가장자리에서 휴대폰 낚아채는 수법 → 차도 쪽에서 통화·촬영 금지.",
+   "해외안전여행 앱(외교부) 설치 및 '동행' 여행자 등록, 카카오톡 '영사콜센터' 채널 추가. 영사콜센터 24시간 +82-2-3210-0404(무료전화 앱 사용 시 무료).",
+   "공휴일 대비: 5/1(토) 전국 휴무 → 4/30(금)에 물·간식·약 미리 구매. 약국(Farmacia)은 당번 약국(farmacia de guardia)만 운영. 식당은 대부분 정상이나 인기 식당은 예약.",
+   "일·월요일 휴무 함정: 일요일 = 시장(La Boqueria·Olivar)·백화점 휴무, 월요일 = Picasso·MNAC·Es Baluard·Thyssen(단축) 등 미술관 휴관, 화요일 = Reina Sofía 휴관. 3도시 동선에 요일을 먼저 박고 예약.",
+   "술·클럽: 음료는 직접 받고 시야에 두기(음료 스파이킹 사례), 스페인 칵테일 도수 높음. 발코니 사고 다수 → 호텔 발코니 난간 기대지 않기. 흡연구역 아닌 해변·테라스 흡연 벌금.",
+   "축구 경기일 체크: Real Madrid·FC Barcelona 홈경기 날은 호텔 가격 급등·지하철 혼잡·경기 후 소매치기 증가. 4~5월 챔피언스리그 4강·리그 막판이라 가능성 높음. 출발 3주 전 구단 공식 일정 확인.",
+   "교통 카드 분실·무임승차 벌금(마드리드 50€, 바르셀로나 100€) 주의 — 개찰 오류 시 역무원 호출. 지하철 안에서는 문 근처 대신 객차 중앙에 서기.",
+   "응급 의료: 공공병원 응급실(Urgencias)은 여행자보험 없으면 후불 청구. 약국 녹색 십자 표시, 처방 없이 진통제·감기약 구매 가능. 여행자보험 가입 후 보험사 24시간 어시스트 번호 저장.",
+   "한국인 여행객 특히 주의: 셀카·삼각대 촬영 중 가방 방치, 카페 테이블 위 휴대폰, 지하철 문 앞 서기, 새벽 클럽 후 도보 귀가가 피해 사례의 대부분. 2인 이상 동행하고 한 명은 항상 짐 담당."
+  ],
+  "emergency": "통합 긴급전화 112 (경찰·구급·소방, 영어 가능) | 국가경찰 Policía Nacional 091 (도난 신고·denuncia) | 지방경찰 Policía Local 092 | 치안경비대 Guardia Civil 062 | 카탈루냐 자치경찰 Mossos d'Esquadra 112 | Alertcops 앱(경찰 채팅 신고) | 주스페인 대한민국 대사관: C/ González Amigó 15, 28033 Madrid, 대표 +34-91-353-2000 (월~금 09:00~14:00, 16:00~18:00), 야간·휴일 긴급 +34-648-924-695 | 주바르셀로나 대한민국 총영사관: 대표 +34-93-487-3153 (Passeig de Gràcia 103, 3층) — 마요르카·카탈루냐 관할 | 외교부 영사콜센터 24시간 +82-2-3210-0404 (영사콜센터 무료전화 앱 사용 시 무료) | 재외동포청 365 민원콜센터 +82-2-6747-0404 | 마드리드 관광객 피해 지원 SATE: Calle Leganitos 19 (Comisaría Centro), 09~24시, +34-91-548-8008 | 바르셀로나 Mossos Ciutat Vella 서: Carrer Nou de la Rambla 76~80, 24시간 | 온라인 도난 신고: denuncias.policia.es (72시간 내 서 방문 확정)"
+ }
+}

@@ -1,0 +1,1554 @@
+{
+ "attractions": {
+  "city": "Madrid",
+  "attractions": [
+   {
+    "name_en": "Museo Nacional del Prado",
+    "name_ko": "프라도 미술관 (Museo del Prado)",
+    "lat": 40.41378,
+    "lng": -3.69214,
+    "area": "Paseo del Arte (Retiro/Cortes)",
+    "duration_min": 180,
+    "hours": "월-토 10:00-20:00, 일·공휴일 10:00-19:00 / 무료 시간: 월-토 18:00-20:00, 일 17:00-19:00 (무료도 온라인 시간지정 예약 필요, 대기 60-90분 흔함)",
+    "closed_days": "1/1, 5/1, 12/25만 휴관 (여행 기간 중 휴관일 없음)",
+    "price_eur": "일반 €15 (온라인 동일), 18세 미만 무료. 무료 시간대는 줄이 매우 길어 오전 유료 입장 권장",
+    "why": "벨라스케스 '시녀들', 고야 '검은 그림', 보스 '쾌락의 정원' 등 스페인 회화의 정수. 마드리드에서 단 하나만 본다면 이곳.",
+    "priority": 1,
+    "official_url": "https://www.museodelprado.es/en/visit/opening-times-and-prices",
+    "booking_note": "museodelprado.es에서 날짜·시간 지정 티켓 사전 구매 필수 (평일 10:00-12:00 슬롯이 가장 한산). 무료 저녁 시간대도 온라인 예약 필요."
+   },
+   {
+    "name_en": "Museo Nacional Centro de Arte Reina Sofía",
+    "name_ko": "레이나 소피아 국립미술관 (Museo Reina Sofía)",
+    "lat": 40.40787,
+    "lng": -3.69454,
+    "area": "Atocha / Lavapiés 경계",
+    "duration_min": 120,
+    "hours": "월·수-토 10:00-21:00, 일 10:00-14:30 (12:30 이후 일부 구역만) / 무료: 월·수-토 19:00-21:00, 일 12:30-14:30 (무료도 온라인 예약 필요)",
+    "closed_days": "매주 화요일 휴관 (2027-04-27 화요일 방문 불가) + 1/1, 1/6, 5/1, 5/15, 11/9, 12/24, 12/25, 12/31",
+    "price_eur": "일반 €12 (온라인/현장 동일), 18세 미만·65세 이상 무료",
+    "why": "피카소 '게르니카'(206호, 사진 촬영 금지)와 달리·미로 등 20세기 스페인 현대미술의 본산.",
+    "priority": 1,
+    "official_url": "https://www.museoreinasofia.es/visita/horarios-tarifas/",
+    "booking_note": "화요일 휴관이므로 월(04-26) 또는 수(04-28)에 배치. 저녁 무료 시간(19-21시)은 온라인 예약 후 입장 가능하나 게르니카 앞은 혼잡."
+   },
+   {
+    "name_en": "Museo Nacional Thyssen-Bornemisza",
+    "name_ko": "티센 보르네미사 미술관 (Museo Thyssen-Bornemisza)",
+    "lat": 40.41616,
+    "lng": -3.69481,
+    "area": "Paseo del Arte (Cortes)",
+    "duration_min": 120,
+    "hours": "월 12:00-16:00 (상설전 무료, Mastercard 후원), 화-일 10:00-19:00, 토 야간 21:00-23:00 무료(Thyssen Nights)",
+    "closed_days": "1/1, 5/1, 12/25 (여행 기간 중 휴관일 없음)",
+    "price_eur": "일반 €14, 65세 이상·학생 €10, 18세 미만 무료. 월요일 12-16시 상설전 무료",
+    "why": "중세부터 팝아트까지 서양미술사를 한 번에 훑는 개인 컬렉션. 세 미술관 중 가장 부담 없고 인상파·표현주의가 강점.",
+    "priority": 2,
+    "official_url": "https://www.museothyssen.org/en/visit/opening-hours-prices",
+    "booking_note": "월요일(04-26) 12:00-16:00 무료 입장 활용 추천. 상설전은 시간 지정 불필요, 기획전만 슬롯 예약."
+   },
+   {
+    "name_en": "Parque de El Retiro & Palacio de Cristal",
+    "name_ko": "레티로 공원 & 크리스탈 궁전 (Palacio de Cristal)",
+    "lat": 40.4136,
+    "lng": -3.68216,
+    "area": "Retiro",
+    "duration_min": 90,
+    "hours": "공원 4-9월 06:00-24:00 / 크리스탈 궁전은 2027년 7월 재개관 예정 복원공사 중 (2026년 내내 직물 작품 'Fardo'로 감싼 상태, 2027-01-01까지), 여행 시점(2027-04)에도 비계·가림막 상태일 가능성 높음",
+    "closed_days": "공원 무휴 (강풍·폭염 시 부분 통제). 크리스탈 궁전 내부는 2027-07 재개관 전까지 관람 불가 예상",
+    "price_eur": "무료 (호수 보트 대여 약 €6-9/45분)",
+    "why": "프라도 바로 뒤 도심 속 대공원. 대호수(Estanque), 벨라스케스 궁, 장미정원 산책. 크리스탈 궁전은 외관만이라도 확인.",
+    "priority": 2,
+    "official_url": "https://www.esmadrid.com/en/tourist-information/parque-del-retiro",
+    "booking_note": "예약 불필요. 크리스탈 궁전 개방 여부는 출발 전 museoreinasofia.es에서 재확인."
+   },
+   {
+    "name_en": "Palacio Real de Madrid",
+    "name_ko": "마드리드 왕궁 (Palacio Real)",
+    "lat": 40.41794,
+    "lng": -3.71431,
+    "area": "Palacio / Ópera",
+    "duration_min": 120,
+    "hours": "4-9월: 월-토 10:00-19:00, 일·공휴일 10:00-16:00 (매표·입장 마감은 폐관 1시간 전, 즉 평일 18:00) / 무료시간 월-목 17:00-19:00는 EU·이베로아메리카 시민 한정 → 한국인 해당 없음",
+    "closed_days": "1/1, 1/6, 5/1, 12/25 + 국가 공식행사 시 예고 없이 휴관 (출발 전 patrimonionacional.es 확인)",
+    "price_eur": "일반 €18, 할인 €9 (5-16세, 65세 이상, 25세 미만 학생), 5세 미만 무료. 왕실 무기고(Armería)·주방 포함",
+    "why": "유럽 최대 규모(방 3,418개) 왕궁. 왕좌의 방, 왕실 주방, 무기고, 스트라디바리우스 컬렉션. 알무데나 대성당과 마주보는 광장 자체가 볼거리.",
+    "priority": 1,
+    "official_url": "https://tickets.patrimonionacional.es/en/tickets/palacio-real-de-madrid",
+    "booking_note": "tickets.patrimonionacional.es에서 시간 지정 티켓 사전 구매 필수 (10:00 첫 슬롯 권장, 정오 전후 대기 길음). 수요일 정오 위병 교대식(10-8월 매월 첫 수요일 12:00, 소규모 교대는 수요일 11-14시)."
+   },
+   {
+    "name_en": "Catedral de la Almudena",
+    "name_ko": "알무데나 대성당 (Catedral de la Almudena)",
+    "lat": 40.41569,
+    "lng": -3.71443,
+    "area": "Palacio / Ópera",
+    "duration_min": 45,
+    "hours": "성당 본당 매일 10:00-20:30 (미사 중 관람 제한) / 박물관·돔(쿠폴라) 전망대 월-토 10:00-14:30만 운영",
+    "closed_days": "본당 무휴. 박물관·돔은 일요일·공휴일 휴관",
+    "price_eur": "본당 무료(기부금 €1 권장), 박물관+돔 €7 (학생 €3)",
+    "why": "왕궁 바로 앞 네오고딕 대성당. 돔 전망대에서 왕궁·시에라 산맥 조망. 왕궁과 묶어 30-45분이면 충분.",
+    "priority": 2,
+    "official_url": "https://catedraldelaalmudena.es/museoycupula",
+    "booking_note": "예약 불필요. 돔 전망대는 14:30 마감이므로 왕궁 10:00 입장 후 12:00-13:30 사이에 들르는 순서가 좋음."
+   },
+   {
+    "name_en": "Plaza Mayor",
+    "name_ko": "마요르 광장 (Plaza Mayor)",
+    "lat": 40.41551,
+    "lng": -3.70742,
+    "area": "Centro / Sol",
+    "duration_min": 30,
+    "hours": "24시간 개방 (주변 카페·보카디요 데 칼라마레스 식당 보통 10:00-24:00)",
+    "closed_days": "없음",
+    "price_eur": "무료 (광장 테라스 카페는 관광지 가격, 커피 €4-5)",
+    "why": "1619년 완공된 마드리드 구시가의 심장. 펠리페 3세 기마상, 아치형 회랑, 오징어 샌드위치(bocadillo de calamares) 맛보기.",
+    "priority": 1,
+    "booking_note": "소매치기 주의 구역. 가방 앞으로, 휴대폰 손에 오래 들고 있지 않기."
+   },
+   {
+    "name_en": "Puerta del Sol",
+    "name_ko": "푸에르타 델 솔 (Puerta del Sol)",
+    "lat": 40.41694,
+    "lng": -3.70348,
+    "area": "Centro / Sol",
+    "duration_min": 20,
+    "hours": "24시간 개방",
+    "closed_days": "없음",
+    "price_eur": "무료",
+    "why": "스페인 도로 원점(Km 0), 곰과 마드로뇨 나무 동상, 시계탑. 마드리드의 교통·도보 중심점이라 거의 매일 지나게 됨.",
+    "priority": 2,
+    "booking_note": "Sol 역·광장은 마드리드 대표 소매치기 핫스팟 (특히 18-21시). 사진 찍을 때 소지품 주의."
+   },
+   {
+    "name_en": "Mercado de San Miguel",
+    "name_ko": "산 미겔 시장 (Mercado de San Miguel)",
+    "lat": 40.41541,
+    "lng": -3.70895,
+    "area": "Centro / Plaza Mayor 옆",
+    "duration_min": 60,
+    "hours": "일-목 10:00-24:00, 금·토·공휴일 전날 10:00-01:00",
+    "closed_days": "없음",
+    "price_eur": "입장 무료, 타파스 1개 €2-6, 하몽·해산물 플레이트 €12-25 (관광지 가격)",
+    "why": "1916년 철골 구조 시장을 고급 타파스 푸드홀로 개조. 하몽 이베리코, 굴, 베르무트 한 잔에 스탠딩 저녁 해결.",
+    "priority": 2,
+    "official_url": "https://mercadodesanmiguel.es/en/",
+    "booking_note": "예약 불가·불필요. 13-15시, 20-22시 극도로 혼잡하니 11시대나 17-18시대 방문이 편함."
+   },
+   {
+    "name_en": "Gran Vía",
+    "name_ko": "그란 비아 (Gran Vía)",
+    "lat": 40.42007,
+    "lng": -3.702,
+    "area": "Centro (Callao-Cibeles)",
+    "duration_min": 45,
+    "hours": "상시 개방 / 상점 대체로 10:00-22:00 (Primark·Zara 등 일요일도 영업)",
+    "closed_days": "없음",
+    "price_eur": "무료",
+    "why": "메트로폴리스 빌딩, 카리온 빌딩(Schweppes 간판), 텔레포니카 빌딩 등 20세기 초 건축이 늘어선 마드리드의 브로드웨이. 야경 산책 코스.",
+    "priority": 2,
+    "booking_note": "Alcalá 교차점(Metrópolis)에서 Plaza de España까지 1.3km, 20분 도보. 그란 비아 역 주변 소매치기 주의."
+   },
+   {
+    "name_en": "Templo de Debod",
+    "name_ko": "데보드 신전 (Templo de Debod)",
+    "lat": 40.42405,
+    "lng": -3.71776,
+    "area": "Parque del Oeste / Plaza de España 옆",
+    "duration_min": 60,
+    "hours": "신전 내부 화-일·공휴일 10:00-20:00 (마지막 입장 19:30) / 외부 정원·연못·전망대 상시 개방. 4월 말 일몰 약 21:05",
+    "closed_days": "신전 내부 매주 월요일 휴관 (외부는 개방)",
+    "price_eur": "무료 (내부는 인원 제한, 온라인 사전 예약 권장)",
+    "why": "이집트가 스페인에 기증한 기원전 2세기 신전. 연못에 비친 신전과 서쪽 카사 데 캄포로 지는 노을이 마드리드 최고의 일몰 포인트.",
+    "priority": 1,
+    "official_url": "https://www.madrid.es/templodebod",
+    "booking_note": "일몰 30-40분 전 도착해 자리 확보. 내부까지 보려면 화(04-27)·수(04-28) 중 하루. 월요일은 내부 휴관."
+   },
+   {
+    "name_en": "Plaza de España",
+    "name_ko": "스페인 광장 (Plaza de España)",
+    "lat": 40.42346,
+    "lng": -3.71218,
+    "area": "Centro / Argüelles 경계",
+    "duration_min": 25,
+    "hours": "24시간 개방",
+    "closed_days": "없음",
+    "price_eur": "무료",
+    "why": "2021년 리뉴얼된 광장. 세르반테스 기념비와 돈키호테·산초 동상, 에디피시오 에스파냐·마드리드 타워. 데보드 신전과 그란 비아 사이 연결 지점.",
+    "priority": 3,
+    "booking_note": "예약 불필요. RIU Plaza España 호텔 루프탑(€10-15)에서 360도 뷰도 대안."
+   },
+   {
+    "name_en": "Círculo de Bellas Artes Rooftop (Azotea)",
+    "name_ko": "시르쿨로 데 베야스 아르테스 루프탑 (Azotea del Círculo)",
+    "lat": 40.41836,
+    "lng": -3.69648,
+    "area": "Calle Alcalá / Cibeles",
+    "duration_min": 45,
+    "hours": "일-목 10:00-01:30 (마지막 입장 00:30), 금·토 10:00-02:00 (마지막 입장 01:00)",
+    "closed_days": "없음 (행사 시 변동 가능)",
+    "price_eur": "일반 €6, 할인 €5. 카페 테이블은 별도 주문(음료 €5-12)",
+    "why": "칼레 알칼라 56m 높이에서 메트로폴리스 빌딩·그란 비아·시벨레스를 한눈에. 마드리드 대표 루프탑 전망대, 일몰~야경 시간대 추천.",
+    "priority": 2,
+    "official_url": "https://www.circulobellasartes.com/en/azotea/",
+    "booking_note": "14-16시, 21시 이후는 건물 1층 리셉션에서만 구매, 그 외 시간은 온라인 구매 가능. 프라도·티센 관람 후 저녁 코스로 적합."
+   },
+   {
+    "name_en": "Malasaña & Chueca",
+    "name_ko": "말라사냐 & 추에카 (Malasaña / Chueca)",
+    "lat": 40.42737,
+    "lng": -3.70422,
+    "area": "Centro 북부 (Tribunal / Chueca 역)",
+    "duration_min": 120,
+    "hours": "동네 산책 상시 / 상점 11:00-21:00, 바·타파스 12:00-02:00",
+    "closed_days": "없음 (일부 부티크 일요일 휴무)",
+    "price_eur": "무료 (타파스·카페 €3-8)",
+    "why": "말라사냐(Plaza del Dos de Mayo 중심)는 빈티지·독립서점·카페 골목, 추에카(Plaza de Chueca)는 LGBTQ 프렌들리 트렌디 바·레스토랑 지구. 저녁 타파스 투어에 최적.",
+    "priority": 2,
+    "booking_note": "예약 불필요. 밤 늦은 시간 좁은 골목은 밝은 큰길 위주로 이동. 두 동네는 서로 도보 10분."
+   },
+   {
+    "name_en": "La Latina (El Rastro Sunday flea market)",
+    "name_ko": "라 라티나 & 엘 라스트로 벼룩시장 (La Latina / El Rastro)",
+    "lat": 40.41043,
+    "lng": -3.70715,
+    "area": "La Latina (Plaza de Cascorro)",
+    "duration_min": 90,
+    "hours": "엘 라스트로: 일요일·공휴일만 09:00-15:00 (피크 11-14시) / 라 라티나 타파스 바(Cava Baja 거리)는 매일 12:00-02:00",
+    "closed_days": "엘 라스트로는 월-토 열리지 않음. ※ 2027-04-25(일)은 저녁 도착이므로 이번 일정에서 엘 라스트로 관람은 사실상 불가",
+    "price_eur": "무료 (타파스 €3-6, Cava Baja 바 호핑 1인 €20-30)",
+    "why": "엘 라스트로는 1,000개 노점의 유럽 최대급 벼룩시장. 시장 없이도 Cava Baja 거리 타파스 바 호핑(Casa Lucio, Juana la Loca)만으로 충분히 가치 있음.",
+    "priority": 3,
+    "booking_note": "일요일 오전에 있어야 시장을 볼 수 있음. 도착일 항공편이 오전 도착이면 가능. 시장은 소매치기 최다 지역 중 하나(10만 명 이상 몰림)."
+   },
+   {
+    "name_en": "Barrio de Salamanca (Calle Serrano)",
+    "name_ko": "살라망카 지구 (Barrio de Salamanca)",
+    "lat": 40.42802,
+    "lng": -3.6868,
+    "area": "Salamanca",
+    "duration_min": 120,
+    "hours": "부티크 월-토 10:00-21:00, 일요일 대체로 휴무 (El Corte Inglés Goya·Castellana는 일요일 영업)",
+    "closed_days": "없음 (일요일 상점 다수 휴무)",
+    "price_eur": "무료 (쇼핑·카페 비용 별도)",
+    "why": "마드리드에서 가장 안전하고 고급스러운 주거·쇼핑 지구. Serrano·Ortega y Gasset 명품 거리, Platea Madrid 푸드홀, 정갈한 카페. 숙소로도 최적.",
+    "priority": 3,
+    "booking_note": "예약 불필요. 베르나베우 투어와 같은 날 묶으면 동선 효율적 (Bernabéu→Serrano 도보 25분 또는 메트로 L10→L4)."
+   },
+   {
+    "name_en": "Estadio Santiago Bernabéu – Tour Bernabéu",
+    "name_ko": "산티아고 베르나베우 스타디움 투어 (Tour Bernabéu)",
+    "lat": 40.45306,
+    "lng": -3.68835,
+    "area": "Chamartín (Paseo de la Castellana)",
+    "duration_min": 120,
+    "hours": "월-토 09:00-19:00, 일·공휴일 09:30-18:30 (경기 당일은 킥오프 5시간 30분 전 마감, 경기 전날·당일 라커룸 미개방)",
+    "closed_days": "1/1, 12/25 (경기일 시간 단축). 2027-04-26~28 리그 경기 여부는 출발 전 확인",
+    "price_eur": "Classic(자유관람) 온라인 €37-39 / 현장 €40, Flexible(시간 자유) €44, 가이드 투어 €56, Classic+RM Games €59. 온라인 가격은 날짜별 변동",
+    "why": "레알 마드리드 박물관(15개 챔피언스리그 트로피), 리모델링된 스타디움 파노라마, 개폐식 지붕·수납식 잔디 구조. 축구 팬이면 필수.",
+    "priority": 2,
+    "official_url": "https://www.realmadrid.com/en-US/tour-bernabeu",
+    "booking_note": "온라인 날짜·시간 지정 필수 (환불·변경 불가). 메트로 L10 Santiago Bernabéu 역 바로 앞. 경기 일정(Real Madrid 홈경기)은 예약 전 반드시 확인."
+   },
+   {
+    "name_en": "Puerta de Alcalá",
+    "name_ko": "알칼라 문 (Puerta de Alcalá)",
+    "lat": 40.41999,
+    "lng": -3.68877,
+    "area": "Plaza de la Independencia (Retiro 입구)",
+    "duration_min": 15,
+    "hours": "24시간 개방 (야간 조명)",
+    "closed_days": "없음",
+    "price_eur": "무료",
+    "why": "1778년 카를로스 3세의 신고전주의 개선문. 레티로 공원 정문(Puerta de la Independencia) 바로 앞이라 시벨레스→레티로 동선에서 자연스럽게 지나감.",
+    "priority": 3,
+    "booking_note": "예약 불필요. 야간 조명 사진은 시르쿨로 루프탑 후 도보 10분."
+   },
+   {
+    "name_en": "Plaza de Cibeles & Palacio de Cibeles (Mirador Madrid)",
+    "name_ko": "시벨레스 광장 & 시벨레스 궁전 전망대 (Cibeles)",
+    "lat": 40.41917,
+    "lng": -3.69308,
+    "area": "Cibeles (Paseo del Prado 북단)",
+    "duration_min": 40,
+    "hours": "광장 상시 / Mirador Madrid 전망대(8층) 화-일 10:30-14:00, 16:00-19:30 (30분 단위 입장, 마지막 입장 19:00)",
+    "closed_days": "전망대 월요일 휴관 + 1/1, 1/5, 1/6, 5/1, 12/24, 12/25, 12/31",
+    "price_eur": "광장 무료 / 전망대 일반 €4, 할인 €2",
+    "why": "레알 마드리드 우승 세리머니 장소인 시벨레스 분수와 옛 중앙우체국(현 시청) 건물. 전망대에서 알칼라 거리·그란 비아 전경.",
+    "priority": 2,
+    "official_url": "https://www.centrocentro.org/",
+    "booking_note": "전망대는 1층 로비 매표소에서 당일 구매. 시르쿨로 루프탑과 중복되므로 하나만 선택해도 됨."
+   },
+   {
+    "name_en": "Matadero Madrid",
+    "name_ko": "마타데로 마드리드 (Matadero Madrid)",
+    "lat": 40.39178,
+    "lng": -3.69737,
+    "area": "Arganzuela / Legazpi (Madrid Río)",
+    "duration_min": 90,
+    "hours": "단지 매일 09:00-22:00 (전시관·Cineteca·Casa del Lector는 보통 화-일 오후 개관, 전시별 상이)",
+    "closed_days": "단지 무휴, 개별 전시관 월요일 휴관 다수",
+    "price_eur": "무료 (일부 공연·영화 유료 €3-8)",
+    "why": "1920년대 도축장을 개조한 현대문화단지. Madrid Río 강변공원과 연결, 주말엔 마켓·야외 행사. 현대건축·독립문화 애호가용 선택지.",
+    "priority": 3,
+    "official_url": "https://www.mataderomadrid.org/en/visit-us-0",
+    "booking_note": "메트로 L3 Legazpi 역 (Sol에서 약 15분). 중심가와 떨어져 있어 시간 여유 있을 때만 (수요일 오후 등)."
+   },
+   {
+    "name_en": "Jardines de Sabatini",
+    "name_ko": "사바티니 정원 (Jardines de Sabatini)",
+    "lat": 40.42025,
+    "lng": -3.7134,
+    "area": "Palacio (왕궁 북측)",
+    "duration_min": 30,
+    "hours": "10-4월 09:00-21:00, 5-9월 09:00-22:00 (4월 말 방문 시 21:00 폐장)",
+    "closed_days": "없음",
+    "price_eur": "무료",
+    "why": "왕궁 북측 파사드를 정면으로 담는 프랑스식 정원. 왕궁 외관 사진 명당이자 왕궁→데보드 신전 이동 경로.",
+    "priority": 3,
+    "booking_note": "예약 불필요. 왕궁 관람 후 정원→Cuesta de San Vicente→데보드 신전 순으로 걸으면 15분."
+   },
+   {
+    "name_en": "Gourmet Experience Callao (El Corte Inglés rooftop)",
+    "name_ko": "엘 코르테 잉글레스 카야오 고메 익스피리언스 루프탑 (Gourmet Experience Callao)",
+    "lat": 40.4201,
+    "lng": -3.706,
+    "area": "Callao / Gran Vía",
+    "duration_min": 60,
+    "hours": "백화점 9층: 월-토 10:00-22:00, 일·공휴일 11:00-21:00 (일부 식당은 목 24:00, 금·토 01:00까지 연장 운영, 사이트별 상이)",
+    "closed_days": "없음 (1/1, 12/25 백화점 휴무)",
+    "price_eur": "입장·전망 무료, 최소 주문 없음 (음료 €4-8, 식사 €12-25)",
+    "why": "카야오 광장 옆 백화점 꼭대기 푸드홀. 통유리와 작은 테라스에서 그란 비아·Schweppes 간판·왕궁 방향 야경 무료 감상. 그란 비아 야경 사진 명소.",
+    "priority": 2,
+    "official_url": "https://www.esmadrid.com/en/shopping/gourmet-experience-callao",
+    "booking_note": "예약 불필요. 일몰 무렵(20:30-21:30) 창가 자리 경쟁 치열, 15분 일찍 올라가기. 스페인 요리 StreetXO(유명 셰프 David Muñoz)는 별도 예약 필요."
+   }
+  ],
+  "day_trips": [
+   {
+    "name_en": "Toledo",
+    "name_ko": "톨레도 (Toledo)",
+    "transport": "Renfe Avant 고속열차: Madrid Puerta de Atocha → Toledo 33분, 편도 약 €14 (왕복 할인 시 약 €22-28), 하루 13편 내외 (첫차 06:50, 막차 20:50 마드리드 출발; 톨레도→마드리드 막차 약 21:30). 대안: ALSA 버스 Plaza Elíptica → Toledo 50-60분, 편도 약 €6. 톨레도 역→Zocodover: 시내버스 5/61/62 (10분, €1.40) 또는 택시 €8-10, 도보 25-30분 오르막.",
+    "duration_min_one_way": 33,
+    "recommended_hours": 9,
+    "highlights": [
+     {
+      "name_en": "Plaza de Zocodover",
+      "name_ko": "소코도베르 광장 (Zocodover)",
+      "lat": 39.85889,
+      "lng": -4.02166,
+      "duration_min": 15,
+      "hours": "상시 개방",
+      "closed_days": "없음",
+      "price_eur": "무료",
+      "why": "구시가 도보 출발점. 마사판(marzipan) 가게와 카페, 시내버스·관광버스 정류장이 모임."
+     },
+     {
+      "name_en": "Alcázar de Toledo – Museo del Ejército",
+      "name_ko": "톨레도 알카사르 & 육군박물관 (Alcázar / Museo del Ejército)",
+      "lat": 39.85791,
+      "lng": -4.02047,
+      "duration_min": 75,
+      "hours": "화-일 10:00-17:00 (입장 마감 16:30)",
+      "closed_days": "매주 월요일 휴관 (공휴일 월요일 포함) + 1/1, 1/6, 5/1, 12/24, 12/25, 12/31. 수요일 무료",
+      "price_eur": "일반 €5 (수요일 전원 무료, 18세 미만·65세 이상 EU 무료)",
+      "why": "톨레도 최고점의 요새 궁전. 스페인 육군 역사 전시와 옥상 테라스에서의 타호강·구시가 전망. 내전 당시 알카사르 공방전의 현장."
+     },
+     {
+      "name_en": "Catedral Primada de Toledo",
+      "name_ko": "톨레도 대성당 (Catedral de Toledo)",
+      "lat": 39.85691,
+      "lng": -4.02393,
+      "duration_min": 90,
+      "hours": "월-토 10:00-18:30, 일 14:00-18:30 (입장 마감 30분 전). 모바일 오디오가이드 포함 (이어폰 지참)",
+      "closed_days": "휴관일 없음 (일요일은 오후만 개방)",
+      "price_eur": "일반 €12, 할인 €8, 8-14세 €6, 8세 미만 무료 (야간 Lumina 쇼 €24.90 별도)",
+      "why": "스페인 가톨릭 수석 대성당. 트란스파렌테 제단, 성물실의 엘 그레코·고야·카라바조 회화, 500년 된 성가대석. 톨레도에서 가장 오래 머무는 곳."
+     },
+     {
+      "name_en": "Iglesia de Santo Tomé (El Greco, 'El entierro del Conde de Orgaz')",
+      "name_ko": "산토 토메 성당 – 엘 그레코 '오르가스 백작의 매장' (Santo Tomé)",
+      "lat": 39.85674,
+      "lng": -4.02936,
+      "duration_min": 25,
+      "hours": "3/1-10/15: 10:00-18:45, 10/16-2/28: 10:00-17:45 (매표 마감 15분 전)",
+      "closed_days": "1/1, 12/25만 휴관",
+      "price_eur": "일반 €4 (Pulsera Turística €14에 포함)",
+      "why": "엘 그레코 최고 걸작 '오르가스 백작의 매장'(1586) 원본이 그려진 자리에 그대로 걸려 있음. 그림 하나만을 위한 작은 공간이라 짧지만 강렬."
+     },
+     {
+      "name_en": "Sinagoga de Santa María la Blanca",
+      "name_ko": "산타 마리아 라 블랑카 시나고그 (Santa María la Blanca)",
+      "lat": 39.85752,
+      "lng": -4.03202,
+      "duration_min": 25,
+      "hours": "3/1-10/15: 10:00-18:45, 10/16-2/28: 10:00-17:45",
+      "closed_days": "1/1, 12/25만 휴관",
+      "price_eur": "일반 €4 (Pulsera Turística €14에 포함)",
+      "why": "12세기 무데하르 양식 시나고그. 순백의 말굽 아치와 기둥 숲이 유대·이슬람·기독교 공존의 상징. 유대인 지구(Judería) 산책과 연결."
+     },
+     {
+      "name_en": "Monasterio de San Juan de los Reyes",
+      "name_ko": "산 후안 데 로스 레예스 수도원 (San Juan de los Reyes)",
+      "lat": 39.85786,
+      "lng": -4.03421,
+      "duration_min": 40,
+      "hours": "3/1-10/15: 10:00-18:45, 10/16-2/28: 10:00-17:25",
+      "closed_days": "1/1, 12/25만 휴관",
+      "price_eur": "일반 €4 (Pulsera Turística €14에 포함)",
+      "why": "가톨릭 공동왕이 세운 이사벨 고딕 양식 수도원. 2층 회랑(클로이스터)의 섬세한 조각과 무데하르 천장이 백미. 외벽엔 그라나다 해방 당시 포로들의 쇠사슬이 걸려 있음."
+     },
+     {
+      "name_en": "Puente de San Martín",
+      "name_ko": "산 마르틴 다리 (Puente de San Martín)",
+      "lat": 39.85627,
+      "lng": -4.03582,
+      "duration_min": 20,
+      "hours": "상시 개방",
+      "closed_days": "없음",
+      "price_eur": "무료 (다리 위 집라인 Fly Toledo 약 €12)",
+      "why": "14세기 중세 다리에서 타호강 협곡과 톨레도 서쪽 성벽 조망. 수도원에서 도보 5분, 구시가 서쪽 끝 마무리 포인트."
+     },
+     {
+      "name_en": "Mirador del Valle",
+      "name_ko": "미라도르 델 바예 전망대 (Mirador del Valle)",
+      "lat": 39.85014,
+      "lng": -4.021,
+      "duration_min": 40,
+      "hours": "상시 개방 (일몰 무렵 최고, 4월 말 일몰 약 21:00)",
+      "closed_days": "없음",
+      "price_eur": "무료 (택시 Zocodover→전망대 편도 €8-10, 시내버스 71번 €1.40, 관광버스 City Sightseeing 약 €12-20)",
+      "why": "타호강 건너편에서 알카사르·대성당·구시가 전체를 엽서 구도로 담는 톨레도 대표 전망대. 오후 늦게 역광이 사라지는 시간대가 사진에 좋음."
+     }
+    ],
+    "notes": "[요일 선택] 알카사르(육군박물관)와 엘 그레코 미술관·세파르디 박물관이 월요일 휴관이므로 톨레도는 화(04-27) 또는 수(04-28)에 배치. 화요일은 레이나 소피아 휴관일이라 톨레도 당일치기에 가장 적합하고, 수요일은 알카사르가 무료. [추천 동선] 아토차 08:20-09:20대 Avant → 톨레도 역 → 버스/택시로 Zocodover → 알카사르(10:00 개관) → 대성당 → Santo Tomé → 유대인 지구 점심 → Santa María la Blanca → San Juan de los Reyes → Puente de San Martín → 택시로 Mirador del Valle → 택시로 역 → 19:00-20:30대 열차 귀환. 총 도보 약 4-5km, 오르막·돌길 많아 편한 신발 필수. [티켓] Pulsera Turística(€14, 7개 성당·시나고그 포함, 첫 방문 성당에서 구매)는 Santo Tomé·Santa María la Blanca·San Juan de los Reyes 3곳(개별 €12)에 Cristo de la Luz 모스크 등 1곳만 더 보면 이득. 대성당·알카사르는 별도. Avant 열차는 좌석 지정제라 왕복 모두 미리 예매(renfe.com), 귀환편은 여유 있게 잡기. 톨레도 구시가는 관광객 대상 범죄가 적고 안전하나 좁은 골목에서 길을 잃기 쉬우니 오프라인 지도 준비."
+   },
+   {
+    "name_en": "Segovia",
+    "name_ko": "세고비아 (Segovia)",
+    "transport": "Renfe Avant/AVE: Madrid Chamartín → Segovia-Guiomar 27-32분, 편도 약 €13-14 (하루 20편 이상). Guiomar 역은 시외에 있어 시내버스 11번(Acueducto행, 15-20분, 약 €2) 또는 택시(€10-12)로 수도교까지 이동. 대안: Avanza 버스 Moncloa 환승센터 → Segovia 버스터미널 1시간 15-20분, 편도 약 €5-9, 30분 간격 (터미널에서 수도교까지 도보 10분, 역보다 시내 접근성 좋음).",
+    "duration_min_one_way": 30,
+    "recommended_hours": 7,
+    "highlights": [
+     {
+      "name_en": "Acueducto de Segovia (Plaza del Azoguejo)",
+      "name_ko": "세고비아 수도교 (Acueducto de Segovia)",
+      "lat": 40.94795,
+      "lng": -4.11785,
+      "duration_min": 40,
+      "hours": "상시 개방",
+      "closed_days": "없음",
+      "price_eur": "무료",
+      "why": "1세기 로마 수도교, 모르타르 없이 쌓은 167개 아치·높이 28m. 세계문화유산 세고비아의 상징이자 구시가 도보의 시작점. 옆 계단(Postigo del Consuelo)으로 올라가면 위에서 내려다보는 뷰."
+     },
+     {
+      "name_en": "Catedral de Segovia",
+      "name_ko": "세고비아 대성당 (Catedral de Segovia)",
+      "lat": 40.94991,
+      "lng": -4.12475,
+      "duration_min": 50,
+      "hours": "4/1-9/14: 월-토 09:00-21:30, 일 13:30-21:30 (일요일 09:00-10:00 본당 무료 개방). 탑 가이드 투어 매일 10:30, 12:00, 13:30, 15:00, 16:30, 18:00, 19:30",
+      "closed_days": "1/1, 1/6, 12/25, 12/31 등 특정일만 휴관 (여행 기간 해당 없음)",
+      "price_eur": "일반 €4 (주교궁 포함), 탑 투어 €7 (€6 할인)",
+      "why": "스페인 마지막 고딕 대성당 '대성당의 귀부인'. 플라사 마요르에 면해 있고 탑 투어(약 75분)에서 알카사르와 시가지 조망."
+     },
+     {
+      "name_en": "Alcázar de Segovia",
+      "name_ko": "세고비아 알카사르 (Alcázar de Segovia)",
+      "lat": 40.95253,
+      "lng": -4.13285,
+      "duration_min": 75,
+      "hours": "4/1-10/31: 10:00-19:30 (매표·입장 마감 30분 전), 11/1-3/31: 10:00-18:00. 후안 2세 탑(152계단)은 별도 시간 슬롯",
+      "closed_days": "1/1, 1/6, 6/12, 12/25 휴관 (여행 기간 해당 없음). 화 14-16시 무료는 EU 시민 한정",
+      "price_eur": "통합권(궁전+박물관+탑) €8, 궁전+박물관 €5.50, 탑만 €2.50, 6세 미만 무료. 가이드 투어 현장 추가 €3.50",
+      "why": "디즈니 성의 모델로 알려진 뱃머리 모양 성. 무데하르 천장의 왕의 방, 왕좌의 방, 탑 위에서 보는 과다라마 산맥·구시가 파노라마. 세고비아의 정점."
+     },
+     {
+      "name_en": "Mesón de Cándido (cochinillo)",
+      "name_ko": "메손 데 칸디도 – 코치니요 (Mesón de Cándido)",
+      "lat": 40.9477,
+      "lng": -4.11733,
+      "duration_min": 90,
+      "hours": "매일 점심 13:00-16:30, 저녁 20:00-23:00 (점심 13:30-14:00 예약 권장)",
+      "closed_days": "없음",
+      "price_eur": "코치니요(새끼돼지 통구이) 1인분 약 €28, 코스 메뉴 €40-65, 세고비아식 콩수프(judiones) €12-15",
+      "why": "1931년 개업, 수도교 바로 아래 세고비아 코치니요의 원조. 접시로 고기를 자르는 세리머니가 명물. 대안 Restaurante José María(Calle Cronista Lecea 11, 40.94945/-4.12270, 코치니요 €27, 현지인 선호, 대성당 근처)."
+     }
+    ],
+    "notes": "[요일 선택] 세고비아는 주요 명소가 모두 무휴라 월·화·수 어느 요일도 무방. 톨레도를 화요일에 넣는다면 세고비아는 수(04-28) 또는 월(04-26). 두 곳을 모두 가면 마드리드 시내 시간이 1.5일로 줄어드니, 톨레도 1곳만 가고 세고비아는 다음 기회로 미루거나 세고비아를 '반나절'(Chamartín 08:30 출발→15:30 귀환)로 압축하는 방법 추천. [추천 동선] Chamartín 08:00-09:00대 Avant → Guiomar 역 → 11번 버스로 수도교 → Calle Real(Casa de los Picos, Plaza Medina del Campo) 따라 12분 → Plaza Mayor·대성당 → Calle Daoíz 10분 → 알카사르(탑 포함) → 되돌아와 13:30-14:00 코치니요 점심(Cándido 또는 José María) → 여유 시 Mirador de la Pradera de San Marcos(알카사르 밑 성 전경 포인트, 도보 15분) → 16:30-18:00대 열차 귀환. 총 도보 약 4km, 완만한 오르막. [티켓] 알카사르 통합권 €8은 entradas.alcazardesegovia.com에서 시간 지정 예매(수량 제한), 대성당은 현장 구매 가능. 코치니요 식당은 양쪽 모두 사전 예약(전화/웹) 권장, 특히 주말·공휴일. 세고비아는 소매치기 위험이 낮고 도보 관광에 안전한 편."
+   }
+  ],
+  "walking_clusters": [
+   {
+    "cluster": "A. 예술의 거리 (Paseo del Arte) + 레티로",
+    "members": [
+     "Museo Nacional del Prado",
+     "Museo Nacional Centro de Arte Reina Sofía",
+     "Museo Nacional Thyssen-Bornemisza",
+     "Parque de El Retiro & Palacio de Cristal",
+     "Plaza de Cibeles & Palacio de Cibeles (Mirador Madrid)",
+     "Puerta de Alcalá",
+     "Círculo de Bellas Artes Rooftop (Azotea)"
+    ],
+    "walk_notes": "Cibeles → Thyssen 5분 → Prado 6분 → Reina Sofía 12분. Prado → Retiro(Puerta de Felipe IV) 8분 → Palacio de Cristal 12분 → Puerta de Alcalá 12분 → Cibeles 5분 → Círculo de Bellas Artes 4분. 하루 코스 추천: 월(04-26) Prado 10:00 유료 → Thyssen 12:00-16:00 무료 → Retiro 산책 → Reina Sofía 17:00(유료) 또는 19:00(무료) → Círculo 루프탑 야경. 총 도보 약 5km."
+   },
+   {
+    "cluster": "B. 왕궁·구시가 서부 (Palacio–Plaza Mayor–Sol)",
+    "members": [
+     "Palacio Real de Madrid",
+     "Catedral de la Almudena",
+     "Jardines de Sabatini",
+     "Mercado de San Miguel",
+     "Plaza Mayor",
+     "Puerta del Sol",
+     "La Latina (El Rastro Sunday flea market)"
+    ],
+    "walk_notes": "Sol → Plaza Mayor 5분 → Mercado de San Miguel 2분 → Almudena/왕궁 10분 → Sabatini 정원 5분. Plaza Mayor → La Latina(Cascorro) 8분, Cava Baja 타파스 거리 5분. 추천: 수(04-28) 왕궁 10:00 입장(사전예매) → Almudena 돔 14:30 전 → San Miguel 점심 → Plaza Mayor·Sol → 저녁 La Latina 타파스. 왕궁 앞 Plaza de Oriente·Ópera 역 주변은 안전하고 카페 많음."
+   },
+   {
+    "cluster": "C. 그란 비아·데보드 일몰 (Gran Vía–Plaza de España–Debod)",
+    "members": [
+     "Gran Vía",
+     "Gourmet Experience Callao (El Corte Inglés rooftop)",
+     "Plaza de España",
+     "Templo de Debod",
+     "Jardines de Sabatini"
+    ],
+    "walk_notes": "Sol → Callao(Gourmet Experience) 5분 → Gran Vía 서쪽 끝 Plaza de España 10분 → Templo de Debod 5분 (완만한 오르막). Sabatini 정원 → Cuesta de San Vicente → Debod 12분으로 B 클러스터와 연결. 추천: B 클러스터 오후에 이어서 Debod 일몰(20:30 도착, 일몰 약 21:05) → Gran Vía 야경 산책 → Gourmet Experience 루프탑 야식. Debod 내부는 월요일 휴관이므로 화·수 저녁에."
+   },
+   {
+    "cluster": "D. 말라사냐·추에카 (Centro 북부 나이트라이프)",
+    "members": [
+     "Malasaña & Chueca",
+     "Gran Vía"
+    ],
+    "walk_notes": "Gran Vía 역 → Plaza de Chueca 5분 → Plaza del Dos de Mayo(말라사냐) 10분 → Callao 10분. 저녁 타파스·바 호핑용. 그란 비아 야경과 묶어 A 또는 C 클러스터 저녁 마무리로 활용. 밤엔 Fuencarral·Hortaleza 등 큰길 위주로 이동."
+   },
+   {
+    "cluster": "E. 북부 (Bernabéu–Salamanca)",
+    "members": [
+     "Estadio Santiago Bernabéu – Tour Bernabéu",
+     "Barrio de Salamanca (Calle Serrano)"
+    ],
+    "walk_notes": "메트로 L10 Santiago Bernabéu 역 도보 0분. 투어 후 Paseo de la Castellana 남쪽으로 25분 걸으면 Salamanca 명품거리(Ortega y Gasset/Serrano), 또는 메트로 L10→Nuevos Ministerios→L4? 대신 버스 27번(Castellana 직선) 10분. Serrano → Puerta de Alcalá 12분 → Retiro/Cibeles로 A 클러스터와 연결. 반나절(오전 베르나베우 → 점심 Platea/Serrano → 오후 Retiro) 구성 가능. 목(04-29) 오전 출발 전 시간이 있으면 배치."
+   },
+   {
+    "cluster": "F. 남부 (Matadero / Madrid Río) – 선택",
+    "members": [
+     "Matadero Madrid"
+    ],
+    "walk_notes": "Sol에서 메트로 L3 Legazpi 역 약 15분, 역에서 도보 5분. Reina Sofía(Atocha)에서 Madrid Río 강변길 따라 도보 30분 또는 메트로 L1 Atocha→Legazpi 2정거장+도보. 시간 여유가 있는 수요일 오후나 일정 마지막 날 반나절용, 우선순위 낮음."
+   }
+  ],
+  "notes": "[일정 핵심 요일 제약 – 2027-04-25(일) 저녁 도착, 26(월)·27(화)·28(수) 온전한 3일, 29(목) 마요르카 이동]\n1) 화요일(04-27): 레이나 소피아 휴관 → 톨레도 당일치기에 최적 (알카사르·엘 그레코 미술관은 월요일 휴관이라 월요일 톨레도는 피할 것).\n2) 월요일(04-26): 티센 12:00-16:00 무료, 레이나 소피아 10:00-21:00 개관, 프라도 정상 개관 → '예술의 거리' 날. 단, 데보드 신전 내부·시벨레스 전망대·마타데로 전시관은 월요일 휴관(데보드 외부 일몰은 가능).\n3) 수요일(04-28): 왕궁(10:00 예매)→알무데나 돔(14:30 마감)→산 미겔→마요르 광장→데보드 일몰(내부 개방)→그란 비아 야경. 세고비아까지 원하면 이 날을 세고비아로 쓰고 왕궁 코스는 월요일 오전(왕궁 10:00→티센 12:00 무료→프라도 15:00→레이나 소피아 19:00 무료)으로 압축하는 대안도 가능하나 매우 빡빡함.\n4) 목요일(04-29): 항공편 시간에 따라 오전 베르나베우 투어(09:00 첫 슬롯) 또는 살라망카 브런치 후 공항(Metro L8/공항버스 Exprés 203, Cibeles·Atocha 출발 €5).\n5) 엘 라스트로는 일요일 09:00-15:00만 열리므로 일요일 저녁 도착 일정에서는 관람 불가 (오전 도착 항공편이면 가능). 크리스탈 궁전은 2027-07 재개관 예정 복원공사 중이라 여행 시점엔 외관만.\n[예매 필수 목록] 프라도(시간지정, 무료 시간도 예약), 왕궁(시간지정), 베르나베우(날짜·시간 고정, 환불불가), Avant 열차 왕복(renfe.com, 좌석 지정), 세고비아 알카사르(수량 제한), 코치니요 식당. 레이나 소피아·티센은 당일 온라인 구매로 충분하나 무료 시간대는 예약 필요.\n[예산 참고 1인] 프라도 €15 + 레이나 소피아 €12(또는 무료) + 티센 무료(월) + 왕궁 €18 + 알무데나 돔 €7 + 시르쿨로 €6 + 베르나베우 €37-40 ≈ €95-100. 톨레도: 열차 왕복 ~€28 + 대성당 €12 + 알카사르 €5(수 무료) + 팔찌 €14 ≈ €59. 세고비아: 열차 왕복 ~€27 + 알카사르 €8 + 대성당 €4 + 코치니요 €28-45 ≈ €70-85.\n[공휴일] 5/1(토)·5/2(일, 마드리드 주 기념일)은 마드리드 체류 기간(04-25~29) 밖이라 영향 없음. 4/26-28에 국가·지역 공휴일 없음.\n[안전·숙소] 한국인 여행자 기준 가장 안전한 숙소 권역은 Salamanca·Retiro·Chamberí, 그다음 Centro의 Ópera/Palacio·Huertas(Cortes) 쪽. 관광지 접근성은 Sol/Gran Vía가 최고이나 소매치기 최다 지역(Sol·Gran Vía·Plaza Mayor·El Rastro·Atocha 역, 특히 08-10시·18-21시). Lavapiés 남부와 밤늦은 Malasaña 골목은 큰길 위주 이동. 폭력범죄는 드물고 야간 도보도 대체로 안전.\n[교통] 마드리드 시내 이동은 대부분 도보+메트로. 10회권(Metrobús, €12.20, 복수 인원 공유 가능) 또는 Tarjeta Multi(€2.50) 구입. 공항↔시내 메트로 L8 이용 시 공항 추가요금 €3. 톨레도는 Atocha, 세고비아는 Chamartín에서 출발하므로 역을 헷갈리지 말 것.\n[좌표] 모든 lat/lng는 WGS84 5자리, Google Maps 기준 건물/광장 중심점. 영업시간·요금은 2026년 8월 기준 공식 사이트·최신 가이드 확인값이며 2027년 4월 방문 전 재확인 권장(특히 왕궁 임시휴관, 베르나베우 경기일, 프라도 무료시간 정책)."
+ },
+ "restaurants": {
+  "city": "Madrid (마드리드)",
+  "restaurants": [
+   {
+    "name": "Chocolatería San Ginés",
+    "name_ko": "초콜라테리아 산 히네스",
+    "lat": 40.41664,
+    "lng": -3.7069,
+    "area": "Sol / Ópera (Pasadizo de San Ginés 5)",
+    "cuisine": "츄러스·초콜라테 (1894년 창업)",
+    "google_rating": 4.3,
+    "review_count": 72593,
+    "rating_source": "Google Maps 평점 4.3 (리뷰 72,593건) — Restaurant Guru 집계 페이지에서 확인 (2026-08). Tripadvisor 4.2/24,189건",
+    "price_range": "€ · 1인 약 5~8 EUR (초콜라테 + 츄러스 6개 세트 약 5.5~6 EUR)",
+    "must_try": "Chocolate con churros (진한 핫초콜릿 + 츄러스), Porras (굵은 츄러스)",
+    "meal_type": "breakfast",
+    "near_attraction": "Puerta del Sol / Plaza Mayor (도보 3분)",
+    "hours_note": "24시간 영업. 오전 8~10시가 가장 한산. 낮·저녁엔 30분 이상 줄. 테이크아웃(Para llevar) 창구 줄이 훨씬 빠름",
+    "reservation_note": "예약 불가. 먼저 계산대에서 주문·결제 후 자리 안내받는 방식",
+    "korean_traveler_note": "한국 블로그 필수 코스. 초콜릿이 매우 진하니 두 명이 츄러스 한 세트+초콜릿 두 잔 정도가 적당. 플라멩코·야경 후 밤늦게 가도 열려 있어 마지막 날 밤 코스로 좋음",
+    "url": "https://chocolateriasangines.com/"
+   },
+   {
+    "name": "Pastelería La Mallorquina",
+    "name_ko": "라 마요르키나",
+    "lat": 40.41693,
+    "lng": -3.70468,
+    "area": "Puerta del Sol 8",
+    "cuisine": "베이커리·카페 (1894년 창업)",
+    "google_rating": 4.1,
+    "review_count": 12951,
+    "rating_source": "Google Maps 평점 4.1 (리뷰 12,951건) — Wanderlog 집계에서 확인 (2026-08). Tripadvisor 베이커리 부문 #8/259. 기준선 4.2엔 살짝 못 미치나 상징성 있는 곳이라 포함",
+    "price_range": "€ · 1인 약 3~6 EUR (나폴리타나 약 2 EUR, 커피 1.5~2 EUR)",
+    "must_try": "Napolitana de chocolate/crema (초코·크림 페이스트리), Ensaimada, Palmera de chocolate",
+    "meal_type": "breakfast",
+    "near_attraction": "Puerta del Sol (광장 바로 앞)",
+    "hours_note": "매일 08:30~21:00. 1층은 서서 먹는 바(저렴·빠름), 2층은 좌석 카페(가격 소폭 높음). 오전 9~10시 현지 직장인 러시",
+    "reservation_note": "예약 없음. 1층 바는 카운터에서 주문 후 서서 먹음",
+    "korean_traveler_note": "산 히네스 츄러스 줄이 너무 길 때 대안. 서서 먹는 스페인식 아침을 체험하기 좋음. 포장해서 레티로 공원에서 먹기도 좋음",
+    "url": "https://www.pastelerialamallorquina.es/"
+   },
+   {
+    "name": "La Montería",
+    "name_ko": "라 몬테리아",
+    "lat": 40.4188,
+    "lng": -3.6783,
+    "area": "Retiro (Calle Lope de Rueda 35)",
+    "cuisine": "마드리드 가정식·사냥감 요리 (미쉐린 빕 구르망, 1963년)",
+    "google_rating": 4.5,
+    "review_count": 2922,
+    "rating_source": "Google Maps 평점 4.5 (리뷰 2,922건) — Restaurant Guru 검색 스니펫에서 확인 (2026-08). Tripadvisor 4.3/748건. 미쉐린 빕 구르망 2016년 이후 매년 선정",
+    "price_range": "€€ · 1인 약 35~50 EUR (단품 15~25 EUR, 코스 메뉴 Clásico 약 45 EUR)",
+    "must_try": "Gamba a la gabardina invertida (뒤집은 새우 튀김), 사슴·자고새 등 사냥감 요리, 참치 타르타르, 홍합",
+    "meal_type": "lunch",
+    "near_attraction": "Parque del Retiro 동쪽 입구 (도보 3분) / Prado 미술관 (도보 15분)",
+    "hours_note": "월~토 13:00~17:00 / 20:00~24:00. 일요일 휴무. 점심은 13:30~15:30 사이가 피크",
+    "reservation_note": "소규모라 예약 강력 권장 (전화 +34 91 574 18 12 또는 홈페이지). 바 자리는 워크인 가능",
+    "korean_traveler_note": "레티로 공원 산책 후 점심으로 최적. 관광객보다 현지인 비율이 높고 조용한 주택가라 안전. 영어 메뉴 있음",
+    "url": "https://lamonteria.es/"
+   },
+   {
+    "name": "Casa González",
+    "name_ko": "카사 곤살레스",
+    "lat": 40.4143,
+    "lng": -3.6988,
+    "area": "Barrio de las Letras (Calle del León 12)",
+    "cuisine": "치즈·하몽·와인 델리 겸 타파스 바 (1931년)",
+    "google_rating": 4.6,
+    "review_count": 2824,
+    "rating_source": "Google Maps 평점 4.6 (리뷰 2,824건) — Wanderlog '마드리드 베스트 50' 집계에서 확인 (2026-08). 한국 트리플 가이드에서도 '품질 좋은 식재료, 정성껏 만든 요리'로 추천",
+    "price_range": "€€ · 1인 약 20~30 EUR (치즈 플레이트 12~18 EUR, 와인 잔 3~5 EUR)",
+    "must_try": "스페인 치즈 모둠(Tabla de quesos), 하몽 이베리코, 살모레호, 안초비 토스트, 잔 와인",
+    "meal_type": "lunch",
+    "near_attraction": "Prado 미술관 (도보 7분) / Plaza de Santa Ana (도보 2분)",
+    "hours_note": "보통 월~토 09:30~24:00, 일 12:00~17:00 전후 (변동 가능, 방문 전 구글맵 확인). 점심 피크 14~16시",
+    "reservation_note": "소규모. 저녁·주말은 홈페이지 예약 권장, 낮에는 워크인 가능",
+    "korean_traveler_note": "한국 여행 앱(트리플)에서 '현지인 맛집'으로 소개된 곳. 프라도·티센 관람 후 가볍게 치즈+와인 하기 좋음. 문학 지구는 저녁에도 사람이 많아 안전한 편",
+    "url": "https://www.casagonzalez.es/"
+   },
+   {
+    "name": "Sobrino de Botín",
+    "name_ko": "소브리노 데 보틴 (보틴)",
+    "lat": 40.41408,
+    "lng": -3.70826,
+    "area": "Plaza Mayor 남쪽 (Calle de Cuchilleros 17)",
+    "cuisine": "카스티야 전통 화덕 구이 (1725년, 기네스 '세계 최고(最古) 레스토랑')",
+    "google_rating": 4.3,
+    "review_count": 16206,
+    "rating_source": "Google Maps 평점 4.3 (리뷰 16,206건) — Wanderlog 집계에서 확인 (2026-08). 다른 집계는 4.28/18,765건",
+    "price_range": "€€€ · 1인 약 50~70 EUR (코치니요 1인분 약 30 EUR + 전채·와인)",
+    "must_try": "Cochinillo asado (새끼돼지 화덕구이), Cordero asado (새끼양 구이), Sopa de ajo (마늘 수프), 할머니 치즈케이크",
+    "meal_type": "dinner",
+    "near_attraction": "Plaza Mayor (Arco de Cuchilleros 계단 바로 아래, 도보 1분)",
+    "hours_note": "매일 13:00~16:00 / 20:00~23:30. 저녁 첫 타임(20:00)이 그나마 예약 쉬움. 식사 2시간 정도 소요",
+    "reservation_note": "필수. 공식 사이트(botin.es)에서 3~4주 전 예약 권장, 지하 '보데가(동굴)' 룸은 더 일찍. 워크인은 점심 오픈 1시간 전 줄 서면 3~6테이블 정도 가능",
+    "korean_traveler_note": "한국 블로그에서 '헤밍웨이 단골 최고(最古) 식당'으로 유명. 코치니요는 2인 1인분 + 사이드로 나눠도 충분. 마요르 광장 바로 옆이라 저녁 후 귀가 동선 안전",
+    "url": "https://www.botin.es/"
+   },
+   {
+    "name": "Casa Lucio",
+    "name_ko": "카사 루시오",
+    "lat": 40.41262,
+    "lng": -3.7093,
+    "area": "La Latina (Calle de la Cava Baja 35)",
+    "cuisine": "마드리드 전통 요리 (1974년, 스페인 왕실·정치인 단골)",
+    "google_rating": 4.2,
+    "review_count": 10924,
+    "rating_source": "Google Maps 평점 4.2 (리뷰 10,924건) — Wanderlog 집계에서 확인 (2026-08). 다른 집계 4.20/10,058건",
+    "price_range": "€€€ · 1인 약 45~60 EUR (우에보스 에스트레야도스 약 20 EUR, 스테이크 30 EUR+)",
+    "must_try": "Huevos estrellados (감자튀김 위 반숙 계란 — 시그니처), Callos a la madrileña (곱창 스튜), 솔로미요 스테이크",
+    "meal_type": "dinner",
+    "near_attraction": "Plaza Mayor (도보 5분) / La Latina 타파스 거리",
+    "hours_note": "화~토 13:00~16:00 / 20:30~23:30, 일 점심만. 일요일 저녁·월요일 휴무, 8월 한 달 휴가 (4월 말 방문엔 무관)",
+    "reservation_note": "필수 (전화 +34 91 365 82 17, 하루 전 이상). 예약해도 대기 생기는 편. 캐주얼한 분위기를 원하면 길 건너 자매 타파스 바 'Los Huevos de Lucio'",
+    "korean_traveler_note": "한국 블로그 '마드리드 계란요리 성지'. 가격 대비 평이 갈리므로 우에보스 에스트레야도스 + 요리 1~2개 공유가 무난. 카바 바하 거리 자체는 밤늦게까지 사람 많아 안전",
+    "url": "https://www.casalucio.es/"
+   },
+   {
+    "name": "Casa Lucas",
+    "name_ko": "카사 루카스",
+    "lat": 40.4129,
+    "lng": -3.7088,
+    "area": "La Latina (Calle de la Cava Baja 30)",
+    "cuisine": "창작 타파스·와인 바",
+    "google_rating": 4.6,
+    "review_count": 1947,
+    "rating_source": "Google Maps 평점 4.6 (리뷰 1,947건) — Wanderlog 집계에서 확인 (2026-08). 한국 트리플 가이드에서도 '현지인·여행자 모두 사랑하는 타파스집'으로 추천",
+    "price_range": "€€ · 1인 약 20~30 EUR (타파 4~7 EUR, 라시온 12~18 EUR, 와인 잔 3~4 EUR)",
+    "must_try": "Calamares Casa Lucas (베이컨 오징어 말이 + 먹물 무스), 소꼬리찜(Rabo de toro), 크로케타, 살모레호, 토스타 'Alella'",
+    "meal_type": "tapas",
+    "near_attraction": "Plaza Mayor (도보 5분) / Cava Baja 타파스 거리 한복판",
+    "hours_note": "보통 13:00~15:30(토·일 16:00) / 20:00~24:00. 수요일은 저녁만 영업. 저녁 21시 이후 매우 혼잡",
+    "reservation_note": "좌석 소수, 저녁은 홈페이지·전화 예약 권장. 바에서 서서 먹으면 워크인 가능",
+    "korean_traveler_note": "영어 메뉴 있고 직원이 친절해 한국인 후기 좋음. 카바 바하 타파스 투어 1~2번째 코스로 잡고 가게당 타파 2개 + 음료 1잔씩 이동하는 방식 추천",
+    "url": "https://casalucas.es/"
+   },
+   {
+    "name": "Juana la Loca",
+    "name_ko": "후아나 라 로카",
+    "lat": 40.41165,
+    "lng": -3.71075,
+    "area": "La Latina (Plaza de Puerta de Moros 4, Cava Baja 남쪽 끝)",
+    "cuisine": "모던 핀초스·타파스 (토르티야로 유명)",
+    "google_rating": 4.5,
+    "review_count": 8122,
+    "rating_source": "Google Maps 평점 4.5 (리뷰 8,122건) — Wanderlog '마드리드 토르티야 베스트' 집계 (2026-08). 단, 해당 집계는 Recoletos 10 지점 주소로 표기되어 있어 라 라티나 본점(Puerta de Moros 4) 개별 평점은 현장 확인 권장. Restaurant Guru 12,361건 집계도 최고 등급",
+    "price_range": "€€ · 1인 약 25~40 EUR (핀초 4~9 EUR로 일반 핀초 바보다 비싸지만 크고 고급)",
+    "must_try": "Tortilla de patatas con cebolla caramelizada (카라멜라이즈 양파 토르티야 — 대표), 로스트비프·연어 핀초, 트러플 리소토, 참치 샌드위치",
+    "meal_type": "tapas",
+    "near_attraction": "La Latina / San Francisco el Grande 성당 (도보 3분), Plaza Mayor (도보 8분)",
+    "hours_note": "보통 화~토 13:00~17:00 / 20:00~24:00, 일 점심만, 월 휴무 (지점별 상이). 일요일 낮 라 라티나 전체가 가장 붐빔",
+    "reservation_note": "항상 만석 — 좌석은 예약 필수(전화 +34 91 364 05 25), 바 스탠딩은 워크인. 화요일 저녁이 비교적 한산",
+    "korean_traveler_note": "한국 블로그 '마드리드 토르티야 1위'로 자주 등장. 토르티야 한 조각 + 핀초 2개면 2인 가볍게 충분. 라 라티나에서 마요르 광장까지 걸어 돌아가기 좋음",
+    "url": "https://www.juanalalocamadrid.com/"
+   },
+   {
+    "name": "Taberna La Bola",
+    "name_ko": "타베르나 라 볼라",
+    "lat": 40.4196,
+    "lng": -3.71045,
+    "area": "Ópera / Palacio (Calle de la Bola 5)",
+    "cuisine": "코시도 마드릴레뇨 전문 (1870년, 참나무 숯불 개인 도기 냄비)",
+    "google_rating": 4.2,
+    "review_count": 7905,
+    "rating_source": "Google Maps 평점 4.2 (리뷰 7,905건) — Wanderlog 집계에서 확인 (2026-08). Restaurant Guru 집계 7,943건",
+    "price_range": "€€ · 1인 약 40~50 EUR (코시도 하우스 메뉴 39.90 EUR, 단품 코시도 약 24.50 EUR)",
+    "must_try": "Cocido madrileño (병아리콩·고기·소시지 스튜 — 국물+국수 먼저, 이어 건더기), 크로케타, 토리하",
+    "meal_type": "lunch",
+    "near_attraction": "Palacio Real 왕궁 / Teatro Real (도보 4분)",
+    "hours_note": "일~수 13:00~16:00, 목~토 12:00~20:30 (저녁 정식 영업 없음 — 코시도는 점심 음식). 양이 매우 많으니 저녁 약속 가볍게",
+    "reservation_note": "홈페이지 또는 전화(+34 915 476 930) 예약 권장 — 예약 없으면 1시간 대기 후기 多. 카드 결제 가능 여부 현장 확인, 현금 소액 준비 권장",
+    "korean_traveler_note": "한국 트리플 가이드 추천 코시도집. 왕궁 관람 직후 점심으로 동선 완벽. 코시도는 한국인 입맛에 '고기 듬뿍 갈비탕+국수' 느낌이라 호불호 적음",
+    "url": "https://labola.es/en"
+   },
+   {
+    "name": "Malacatín",
+    "name_ko": "말라카틴",
+    "lat": 40.4095,
+    "lng": -3.70745,
+    "area": "La Latina / El Rastro (Calle de la Ruda 5)",
+    "cuisine": "코시도 마드릴레뇨 3단 코스 전문 (1895년, 백년 식당)",
+    "google_rating": 4.3,
+    "review_count": 4231,
+    "rating_source": "Google Maps 평점 4.3 (리뷰 4,231건) — Restaurant Guru 집계 페이지에서 확인 (2026-08). Tripadvisor 4.1/1,289건",
+    "price_range": "€€ · 1인 약 30~40 EUR (코시도 약 25~30 EUR, 다 먹으면 무료 이벤트로 유명)",
+    "must_try": "Cocido madrileño en tres vuelcos (국물·야채/병아리콩·고기 3단 서빙), Callos (곱창 스튜), 하우스 와인",
+    "meal_type": "lunch",
+    "near_attraction": "El Rastro 벼룩시장 (일요일 오전, 도보 2분) / La Latina",
+    "hours_note": "일·월 11:00~17:00(점심만), 수~토 11:00~23:00, 화요일 휴무. 코시도는 점심 13:30~15:30 권장",
+    "reservation_note": "항상 만석 — 전화(+34 91 365 52 41)·홈페이지 예약 필수. 코시도는 예약 시 미리 주문 요청받는 경우 있음",
+    "korean_traveler_note": "라 볼라보다 저렴하고 현지인 비율 높은 코시도집. 일요일 엘 라스트로 시장 구경 후 점심 코스로 좋음. 시장 주변은 소매치기 주의(가방 앞으로)",
+    "url": "https://www.malacatin.com/"
+   },
+   {
+    "name": "Bar La Campana",
+    "name_ko": "바르 라 캄파나",
+    "lat": 40.41495,
+    "lng": -3.7072,
+    "area": "Plaza Mayor 남쪽 골목 (Calle de las Botoneras 6)",
+    "cuisine": "보카디요 데 칼라마레스 (오징어튀김 샌드위치) 전문, 1870년",
+    "google_rating": 4.5,
+    "review_count": 20218,
+    "rating_source": "Google Maps 평점 4.5 (리뷰 20,218건) — Restaurant Guru 집계 페이지에서 확인 (2026-08). Tripadvisor 퀵바이트 부문 #4/196",
+    "price_range": "€ · 1인 약 6~9 EUR (보카디요 약 4.5 EUR + 카냐 맥주 약 2 EUR)",
+    "must_try": "Bocadillo de calamares (오징어튀김 바게트), 카냐(생맥주), 토르티야 보카디요",
+    "meal_type": "lunch",
+    "near_attraction": "Plaza Mayor (광장에서 도보 1분)",
+    "hours_note": "보통 10:00~23:00 (월요일 휴무 표기 있음 — 방문 전 확인). 주말 점심 줄 길지만 회전 빠름. 바로 옆 La Ideal도 같은 메뉴·유사 평가",
+    "reservation_note": "예약 없음. 카운터에서 주문·결제 후 서서 먹거나 광장으로 테이크아웃",
+    "korean_traveler_note": "한국 블로그 '마요르 광장 오징어 샌드위치'로 유명. 빵이 커서 둘이 하나 나눠도 충분. 광장 안 식당은 관광지 가격이니 골목 안 여기가 정답",
+    "url": "https://restaurantguru.com/La-Campana-Madrid"
+   },
+   {
+    "name": "Mercado de San Miguel",
+    "name_ko": "산 미겔 시장",
+    "lat": 40.41536,
+    "lng": -3.70918,
+    "area": "Plaza Mayor 서쪽 (Plaza de San Miguel s/n)",
+    "cuisine": "구르메 푸드마켓 (타파스·해산물·하몽·와인 30여 개 스탠드, 1916년 철골 건물)",
+    "google_rating": 4.4,
+    "review_count": 161377,
+    "rating_source": "Google Maps 평점 4.4 (리뷰 161,377건) — Wanderlog '마드리드 베스트 50' 집계에서 확인 (2026-08). Tripadvisor 4.0~4.2/34,000건+",
+    "price_range": "€€ · 1인 약 20~35 EUR (핀초 1.5~4 EUR, 굴 3~4 EUR/개, 와인 잔 4~6 EUR — 일반 바보다 비쌈)",
+    "must_try": "굴(Ostras), 하몽 이베리코 콘, 크로케타, 파에야 컵, 베르무트 잔, 올리브 꼬치",
+    "meal_type": "tapas",
+    "near_attraction": "Plaza Mayor (도보 1분)",
+    "hours_note": "일~목 10:00~24:00, 금·토 10:00~01:00. 정오~14시, 20~22시 극도 혼잡. 오전 11시 전이나 오후 4~6시가 자리 잡기 쉬움",
+    "reservation_note": "예약 없음. 스탠드별 주문·결제, 공용 테이블은 선점제(한 명이 자리 지키기)",
+    "korean_traveler_note": "한국 블로그 마드리드 필수 코스이나 '관광지 가격' 평가. 가볍게 굴+베르무트 정도만 맛보고 식사는 다른 곳 추천. 사람 많아 소매치기 주의. 현지인 분위기 원하면 Chueca의 Mercado de San Antón(4.3/23,149건, 루프탑 테라스)",
+    "url": "https://www.mercadodesanmiguel.es/"
+   },
+   {
+    "name": "Casa Macareno",
+    "name_ko": "카사 마카레노",
+    "lat": 40.4263,
+    "lng": -3.7032,
+    "area": "Malasaña (Calle de San Vicente Ferrer 44)",
+    "cuisine": "전통 타베르나 스타일 + 현대적 타파스 (셰프 Pepe Roch)",
+    "google_rating": 4.6,
+    "review_count": 4513,
+    "rating_source": "Google Maps 평점 4.6 (리뷰 4,513건) — Wanderlog 집계에서 확인 (2026-08). Tripadvisor 4.5/499건",
+    "price_range": "€€ · 1인 약 20~35 EUR (월~목 점심 메뉴 델 디아 15 EUR)",
+    "must_try": "Ensaladilla rusa (러시안 샐러드 — 시그니처), 이베리코·트러플 크로케타, 돼지볼살찜, 문어 구이, 파타타스 브라바스, 치즈케이크",
+    "meal_type": "dinner",
+    "near_attraction": "Malasaña 중심 / Plaza del Dos de Mayo (도보 3분), Gran Vía (도보 8분)",
+    "hours_note": "월 12:30~17:00, 화~일 12:30~01:30 (연중무휴에 가까움). 저녁 21시 이후 만석",
+    "reservation_note": "저녁·주말 예약 권장(홈페이지 온라인 예약). 바 자리는 워크인 가능",
+    "korean_traveler_note": "말라사냐 '힙한 동네'의 현지인 맛집. 저녁 늦게 골목이 어두울 수 있으니 Fuencarral 대로 쪽으로 이동. 한국인에게 낯선 메뉴가 많으니 직원 추천 활용(영어 OK)",
+    "url": "https://www.casamacareno.com/"
+   },
+   {
+    "name": "Angelita Madrid",
+    "name_ko": "안헬리타 마드리드",
+    "lat": 40.4201,
+    "lng": -3.6999,
+    "area": "Chueca / Gran Vía (Calle de la Reina 4)",
+    "cuisine": "모던 스패니시 + 내추럴 와인 바 (500종 와인, 지하 칵테일 바 세계 100대 바)",
+    "google_rating": 4.7,
+    "review_count": 3280,
+    "rating_source": "Google Maps 평점 4.7 (리뷰 3,280건) — Wanderlog '마드리드 베스트 50' 집계에서 확인 (2026-08). Tripadvisor 4.5/832건",
+    "price_range": "€€€ · 1인 약 40~60 EUR (요리 14~28 EUR, 잔 와인 5~9 EUR, 칵테일 12~15 EUR)",
+    "must_try": "계절 채소 요리, 참치·생선 요리, 소믈리에 추천 잔 와인 페어링, 지하 바 시그니처 칵테일",
+    "meal_type": "dinner",
+    "near_attraction": "Gran Vía (도보 3분) / Chueca 광장 (도보 5분)",
+    "hours_note": "월~금 17:30~00:30 (저녁 전용, 주방 20:00~23:00). 주말 영업 여부는 변동 있으니 예약 시 확인",
+    "reservation_note": "홈페이지 예약 권장 (특히 목·금). 워크인은 바 자리만",
+    "korean_traveler_note": "한국인에겐 덜 알려진 고평점 모던 레스토랑. 그란 비아 바로 옆이라 야간 이동 안전. 와인 잘 모르면 '3잔 페어링' 요청하면 편함",
+    "url": "https://www.angelitamadrid.com/"
+   },
+   {
+    "name": "Bodega de la Ardosa",
+    "name_ko": "보데가 데 라 아르도사",
+    "lat": 40.4243,
+    "lng": -3.7004,
+    "area": "Malasaña (Calle de Colón 13)",
+    "cuisine": "베르무트 바·전통 타베르나 (1892년, 수상 경력 토르티야)",
+    "google_rating": 4.2,
+    "review_count": 7510,
+    "rating_source": "Google Maps 평점 4.2 (리뷰 7,510건) — Wanderlog 집계에서 확인 (2026-08). Restaurant Guru 집계 7,622건. Wanderlog '마드리드 베르무트 스팟' 1위",
+    "price_range": "€ · 1인 약 10~20 EUR (베르무트 잔 약 3 EUR, 토르티야 1조각 약 4~5 EUR, 살모레호 약 6 EUR)",
+    "must_try": "Vermut de grifo (생 베르무트), Tortilla de patatas (반숙 토르티야 — 대표), Salmorejo, 크로케타, 하몽",
+    "meal_type": "tapas",
+    "near_attraction": "Malasaña / Tribunal역 (도보 2분), Gran Vía (도보 7분)",
+    "hours_note": "일~목 09:00~02:00, 금·토 ~02:30. 스탠딩 위주(나무 통 테이블). 정오~14시 '베르무트 시간'(La hora del vermut)이 가장 마드리드다움",
+    "reservation_note": "예약 불가. 바 카운터 아래로 몸을 숙여 안쪽 룸으로 들어가는 구조가 명물",
+    "korean_traveler_note": "한국 블로그 '마드리드 토르티야 맛집' 단골. 관광객·현지인 섞여 항상 붐빔. 서서 먹는 게 기본이라 짐 적게, 소지품 앞으로",
+    "url": "https://laardosa.es/"
+   },
+   {
+    "name": "StreetXO",
+    "name_ko": "스트리트XO",
+    "lat": 40.4278,
+    "lng": -3.6877,
+    "area": "Salamanca (Calle de Serrano 47, El Corte Inglés 3층)",
+    "cuisine": "아시안 퓨전 스트리트푸드 (미쉐린 3스타 Dabiz Muñoz의 캐주얼 브랜드)",
+    "google_rating": 4.4,
+    "review_count": 9216,
+    "rating_source": "Google Maps 평점 4.4 (리뷰 9,216건) — Wanderlog 집계에서 확인 (2026-08). 2023년 세라노 47 이전 후 정상 영업 중 (연 362일)",
+    "price_range": "€€€ · 1인 약 50~80 EUR (요리당 16~30 EUR, 3~4접시 공유 + 칵테일)",
+    "must_try": "Pekinese 만두(돼지 귀 바삭 구이), 클럽 샌드위치 XO, 라멘 페드로 히메네스, 시그니처 칵테일",
+    "meal_type": "dinner",
+    "near_attraction": "Salamanca 쇼핑거리 Serrano / Retiro 공원 북쪽 (도보 10분)",
+    "hours_note": "레스토랑 13:00~16:00 / 20:00~23:00, 바 12:00부터 연속. 화요일 휴무 표기 있음(집계 기준 — 방문 전 확인). 오픈 30분 전 줄 서기 권장",
+    "reservation_note": "예약 불가, 선착순. 점심 오픈(13:00) 직전 도착하면 대기 짧음. 저녁은 1시간+ 대기 흔함",
+    "korean_traveler_note": "한국인에게 '디베르소 셰프의 가성비 버전'으로 인기. 매운맛·강한 향이 한국인 입맛에 잘 맞음. 백화점 안이라 치안 걱정 없음. 같은 살라망카의 Ten Con Ten(4.3/7,615건, Ayala 6)은 예약 가능한 분위기 좋은 대안",
+    "url": "https://streetxo.com/madrid/en"
+   },
+   {
+    "name": "Taberna Skala",
+    "name_ko": "타베르나 스칼라 (톨레도)",
+    "lat": 39.85735,
+    "lng": -4.0238,
+    "area": "Toledo 구시가 (Cuesta de la Sal 5, 대성당 50m)",
+    "cuisine": "톨레도 향토 타파스 — 카르카무사스 (톨레도 최고(最古) 바)",
+    "google_rating": 4.6,
+    "review_count": 4000,
+    "rating_source": "Google Maps 평점 4.6 (리뷰 4,000건+) — 톨레도 카르카무사스 가이드 검색 스니펫 기준 (2026-08). Restaurant Guru 최고 등급/6,346건, Guía Repsol 'Solete' 선정",
+    "price_range": "€ · 1인 약 15~25 EUR (카르카무사스 라시온 약 10~12 EUR, 타파 4~7 EUR)",
+    "must_try": "Carcamusas (돼지고기·완두콩 매콤 토마토 스튜 — 톨레도 대표), Migas con huevo y chorizo, Torreznos, Patatas Skala, 만체고 치즈",
+    "meal_type": "lunch",
+    "near_attraction": "Toledo",
+    "hours_note": "보통 11:30~17:00, 금~일은 ~23:00 (화요일 휴무 표기 있음 — 확인 필요). 점심 13:30 이후 순식간에 만석 → 12:30~13:00 도착 권장. Pozo Amargo 2에 2호점 동일 메뉴",
+    "reservation_note": "소규모 바, 예약 어려움. 일찍 가서 바 자리 확보. 대안: La Malquerida (4.4/6,000건+, 대성당 인근)",
+    "korean_traveler_note": "마드리드 당일치기 톨레도에서 대성당 관람 후 점심으로 최적. 카르카무사스는 '매콤한 돼지고기 두루치기+빵' 느낌이라 한국인 입맛에 잘 맞음. 톨레도 구시가는 낮 시간 안전",
+    "url": "https://www.guiarepsol.com/es/fichas/solete/taberna-skala-326407/"
+   },
+   {
+    "name": "Confitería Santo Tomé",
+    "name_ko": "콘피테리아 산토 토메 (톨레도 마사판)",
+    "lat": 39.85905,
+    "lng": -4.0224,
+    "area": "Toledo (Plaza de Zocodover 7 지점; 본점 Calle Santo Tomé 3)",
+    "cuisine": "마사판(마지팬) 전문 과자점 (1856년, 톨레도 대표 브랜드)",
+    "google_rating": 3.9,
+    "review_count": 358,
+    "rating_source": "Google Maps 평점 3.9 (리뷰 358건) — Zocodover 광장 지점 기준, Wanderlog 집계에서 확인 (2026-08). Tripadvisor 4.7/104건. 본점(Calle Santo Tomé 3)은 별도 리스팅. 4.2 기준엔 못 미치나 3.5 이상이고 '톨레도 마사판=산토 토메'라는 상징성으로 포함",
+    "price_range": "€ · 1인 약 5~15 EUR (마사판 낱개 1.5~2.5 EUR, 선물 상자 10~25 EUR)",
+    "must_try": "Mazapán de Toledo (아몬드 마지팬), Delicias (계란 노른자 속 마사판), Anguila de mazapán (장어 모양 마사판)",
+    "meal_type": "dessert",
+    "near_attraction": "Toledo",
+    "hours_note": "매일 09:00~22:00 (Zocodover 지점). 소코도베르 광장은 버스·에스컬레이터 동선의 출발점이라 마지막에 들르기 좋음",
+    "reservation_note": "매장 구매, 예약 불필요. 개별 포장 제품은 1~2주 보관 가능해 선물용 적합",
+    "korean_traveler_note": "한국 블로그 '톨레도 마사판 선물'로 유명. 매우 달아 낱개 2~3개 맛보기 추천. 상자 세트는 귀국 선물로 인기(액체 아님, 기내 반입 OK)",
+    "url": "https://www.mazapan.com/"
+   }
+  ],
+  "notes": "[조사 기준·범위] 2026-08-30 기준 웹 검색(Google Maps 평점을 그대로 집계하는 Wanderlog·Restaurant Guru, 공식 홈페이지, esmadrid.com, Tripadvisor, 한국 트리플/트립닷컴 가이드)으로 확인. 평점·리뷰 수는 집계 사이트 반영 시점에 따라 실제 Google Maps와 소폭 차이 가능하며, 여행(2027-04-25~05-07) 직전 구글맵에서 재확인 권장. 18곳 중 4.2 미만은 La Mallorquina(4.1)와 톨레도 Santo Tomé Zocodover 지점(3.9) 2곳뿐이며, 모두 3.5 이상이고 요청 항목이라 사유 명시 후 포함.\n\n[식사 시간 팁] 스페인 점심은 13:30~16:00, 저녁은 20:30~23:00이 정상 영업. 19시에 가면 주방이 닫힌 곳이 많음. 코시도(La Bola, Malacatín)는 점심 음식이라 저녁엔 안 내는 곳이 있음. 카바 바하(Cava Baja) 타파스 투어는 Casa Lucas → Juana la Loca 순으로 저녁 20:30 이후 시작 권장. 일요일 낮 라 라티나(엘 라스트로 벼룩시장)는 가장 붐비고 소매치기 주의.\n\n[휴무 요일 주의] La Montería 일요일 휴무 / Casa Lucio 일요일 저녁·월요일 휴무 / Malacatín 화요일 휴무 / Casa Lucas 수요일 점심 휴무 / Angelita 평일 저녁 위주 / StreetXO 화요일 휴무 표기(확인 필요) / Bar La Campana 월요일 휴무 표기(확인 필요). 2027-05-01(토) 노동절, 05-02(일) 마드리드 지방 기념일은 일부 식당 휴무·단축 가능(마드리드 일정이 4/26~29경이면 영향 적음).\n\n[예약 필수] Botín(3~4주 전, botin.es), Casa Lucio(전화), La Bola, Malacatín, Juana la Loca 좌석, Angelita, La Montería. StreetXO·San Ginés·La Campana·Ardosa·San Miguel은 예약 불가/선착순.\n\n[한국인 선호 스팟] Casa González(트리플 추천)를 대표로 넣었고, 한국 블로그에서 가장 자주 등장하는 '타베르나 엘 수르(Taberna El Sur, Calle Torrecilla del Leal 12, 안톤 마르틴 인근, 매일 12:00~24:00, 고추 넣은 새우 감바스로 유명)'는 이번 조사에서 Google 평점 수치를 직접 확인하지 못해 본 목록에서 제외 — 현장에서 구글맵 확인 후 방문 추천. 그 밖에 한국 TV(꽃보다 할배)로 유명한 Mesón del Champiñón(마요르 광장 인근, 버섯 철판, 한국어 메뉴)과 Casa Mingo(사과주+통닭)도 한국 여행자 단골.\n\n[보류·대안] Txirimiri(Humilladero 6, 4.2/1,433건)는 한 집계 사이트에 '폐업' 표기가 있어 제외 — 살라망카 지점(Pardiñas)은 영업 중이니 확인 후 이용. 산 미겔 시장 대안으로 Chueca의 Mercado de San Antón(4.3/23,149건, 루프탑), 살라망카의 Mercado de la Paz 안 Casa Dani(토르티야, 4.5/11,865건). 베르무트 바 추가 대안 Casa Camacho(말라사냐, 4.3/2,020건, '야요' 칵테일 약 2.5~3 EUR, 월~토 12:30~02:00). 살라망카 예약 가능 대안 Ten Con Ten(4.3/7,615건, 1인 45~65 EUR). 톨레도 카르카무사스 대안 La Malquerida(4.4/6,000건+), 원조 Bar Ludeña.\n\n[치안] 소개한 모든 지역(Sol·Plaza Mayor·La Latina·Barrio de las Letras·Retiro·Salamanca·Chueca·Malasaña 중심가·톨레도 구시가)은 관광객이 많고 밤에도 사람이 많아 비교적 안전. 다만 Sol·마요르 광장·산 미겔 시장·엘 라스트로는 소매치기 다발 지역이므로 가방은 앞으로, 휴대폰 테이블 위에 두지 않기. 말라사냐 뒷골목은 심야엔 Fuencarral 대로로 이동 권장."
+ },
+ "transport": {
+  "legs": [
+   {
+    "from": "Madrid Barajas (MAD, 마드리드 바라하스)",
+    "to": "Palma de Mallorca (PMI, 팔마 데 마요르카)",
+    "mode": "항공 (국내선 직항)",
+    "operator": "Iberia / Iberia Express, Air Europa, Ryanair, Vueling(소수)",
+    "duration_min": 85,
+    "cost_eur": "편도 €35~90 (2~3개월 전 예약 시 €40~70 수준, 수하물 추가 시 +€20~40)",
+    "frequency": "하루 30편 이상 (Iberia/Iberia Express 8~10편, Air Europa 5~7편, Ryanair 5~8편, Vueling 소수). 스페인 국내선 중 최다 노선급",
+    "typical_times": "06:30~22:30 사이 거의 매시간 출발. 오전 08~10시 출발편이 팔마 도착 후 오후 일정 활용에 유리",
+    "booking_note": "Ryanair 최저가는 40x30x20cm 소형 가방 1개만 무료, 10kg 기내 캐리어(55x40x20)는 'Priority & 2 Cabin Bags' 추가(€6~36), 위탁 20kg은 €20~60. Vueling Basic도 기내 캐리어 유료(Optima 요금은 25kg 위탁 포함). Iberia Express는 모든 요금에 10kg 기내 가방(56x40x25) 포함, 위탁은 Basic 기준 약 €25~35 추가. Air Europa Lite도 10kg 기내 가방 포함. 큰 캐리어를 들고 이동하는 한국인 여행자는 '기본요금+위탁수하물' 합산가로 비교하면 Iberia Express/Air Europa가 결과적으로 저렴한 경우가 많음. 인천-마드리드 국제선과 다른 PNR이므로 최소 2시간 이상 여유 두고 별도 체크인·수하물 재위탁 필요",
+    "notes": "비행시간 약 1시간 20~30분(게이트 기준 85분 내외). MAD T4(Iberia/Iberia Express/Air Europa)와 T1(Ryanair)/T2(Vueling) 터미널이 다르니 예약 항공사에 맞춰 이동. 페리 대안은 마드리드가 내륙이라 현실적으로 없음(발렌시아까지 열차 후 페리 8시간 이상)"
+   },
+   {
+    "from": "Palma de Mallorca (PMI, 팔마)",
+    "to": "Barcelona El Prat (BCN, 바르셀로나)",
+    "mode": "항공 (국내선 직항)",
+    "operator": "Vueling(주력), Ryanair, Air Europa, Iberia(Iberia Regional/Air Nostrum)",
+    "duration_min": 55,
+    "cost_eur": "편도 €25~80 (2~3개월 전 예약 시 €30~55 수준, 수하물 별도)",
+    "frequency": "주 190~200편(하루 약 25~30편). Vueling이 하루 10편 이상으로 가장 많고 Ryanair 3~6편, Air Europa·Iberia 각 2~4편",
+    "typical_times": "06:30~23:00 사이 30분~1시간 간격. 오전 출발 후 BCN 도착 시 시내 점심부터 활용 가능",
+    "booking_note": "Vueling Basic은 40x30x20 언더시트 가방만 무료, 10kg 캐리어는 유료 추가(약 €10~30) 또는 Optima 요금(25kg 위탁 포함) 선택. Ryanair 동일한 Priority 규정 적용. 스페인 소비자 당국이 저가항공 기내수하물 유료화에 벌금을 부과한 사례가 있지만 2026년 현재 실무상 여전히 유료이므로 예약 시 수하물 옵션 미리 포함할 것",
+    "notes": "순수 비행시간 50~55분, 공항 절차 포함 도어투도어 약 3시간. BCN 도착 터미널은 Vueling·Iberia·Air Europa = T1, Ryanair = T2. 짧은 노선이라 이른 아침 출발이 가장 저렴하고 결항·지연도 적음"
+   },
+   {
+    "from": "Palma (Port de Palma, Estació Marítima 팔마 항)",
+    "to": "Barcelona (Port de Barcelona, Moll Sant Bertran / Moll Adossat 바르셀로나 항)",
+    "mode": "페리 (대안)",
+    "operator": "Baleària, Trasmed(Trasmediterránea), GNV(Grandi Navi Veloci)",
+    "duration_min": 420,
+    "cost_eur": "도보 승객 좌석 €15~60 (프로모션 €14부터), 2인 캐빈 추가 시 €80~150 이상",
+    "frequency": "3사 합산 주 35~37편, 하루 1~3편. 주로 야간편(22:00~23:45 출발, 익일 06:00~07:30 도착), 일부 요일 주간편 운항",
+    "typical_times": "Baleària 약 7시간 30분, Trasmed 약 6시간 30분~7시간, GNV 약 8시간. 야간편은 팔마 22:30~23:30 출발 → 바르셀로나 익일 06:30~07:30 도착",
+    "booking_note": "balearia.com / trasmed.com 직접 예약 또는 Ferryhopper·Direct Ferries 비교. 야간편은 캐빈을 잡아야 숙박 대체가 되고, 캐빈 포함 시 항공보다 오히려 비싸지는 경우가 많음",
+    "notes": "시간 대비 효율이 항공(55분)보다 크게 떨어져 이번 일정(팔마 3~4일)에는 권장하지 않음. 렌터카를 바르셀로나까지 가져가거나 '지중해 야간 페리' 경험 자체가 목적일 때만 고려. 바르셀로나 항 터미널에서 시내(La Rambla)까지 약 3km, 택시 €12~15"
+   },
+   {
+    "from": "Madrid Puerta de Atocha (아토차 역)",
+    "to": "Toledo (톨레도) 역",
+    "mode": "고속열차 (Avant / Alvia)",
+    "operator": "Renfe",
+    "duration_min": 33,
+    "cost_eur": "Avant 편도 €13.90 (왕복 €25~30), 프로모 €7~11",
+    "frequency": "하루 약 12~14편, 대략 매시간 (평일 첫차 06:50경, 마지막 귀환 21:00~22:00경)",
+    "typical_times": "출발 08:20 / 09:20 / 10:20경, 귀환 17:00~21:00 사이 매시간",
+    "booking_note": "renfe.com에서 사전 예약 권장(주말·연휴는 매진 잦음). 출발역은 Atocha 고속열차 승강장(보안검색 있으므로 15~20분 전 도착). 톨레도역에서 구시가까지 1.5km 오르막—시내버스 5/61/62번(€1.50) 또는 택시 €6~8, 에스컬레이터 이용",
+    "notes": "대안: Alsa 버스 Plaza Elíptica(지하철 6·11호선) 출발, 50~75분, €5.50~6.50, 30분 간격, 톨레도 버스터미널이 구시가에 더 가까움. 시간 절약이면 열차, 비용 절약이면 버스"
+   },
+   {
+    "from": "Madrid Chamartín-Clara Campoamor (차마르틴 역)",
+    "to": "Segovia-Guiomar (세고비아 기오마르 역) → 시내 Acueducto(수도교)",
+    "mode": "고속열차 (AVE / Avant / Alvia) + 시내버스 11번",
+    "operator": "Renfe + Avanza(세고비아 시내버스)",
+    "duration_min": 50,
+    "cost_eur": "Avant 편도 €13.90 (프로모 €7~10, AVE €15~22) + 시내버스 11번 €2",
+    "frequency": "열차 하루 20편 이상(30~60분 간격). 11번 버스는 열차 도착에 맞춰 대기, 15~20분 소요",
+    "typical_times": "열차 27분 + 버스 11번 15~20분 + 대기 = 약 50~60분. 아침 08:00~09:30 출발 열차 추천",
+    "booking_note": "renfe.com 사전 예약. Guiomar 역은 시내에서 6km 떨어져 있으므로 반드시 11번 버스나 택시(€8~10) 이용. 귀환 시 마지막 열차 21:00~22:00대 확인",
+    "notes": "대안: Avanza 버스 Moncloa 교통허브(지하철 3·6호선) → Segovia 버스터미널, 65~80분, €5~9, 30분 간격, 터미널에서 수도교까지 도보 10분. 왕복 하나는 열차·하나는 버스로 조합하면 비용 절감. 톨레도(남쪽)와 세고비아(북쪽)는 출발역이 다르니(Atocha vs Chamartín) 혼동 주의"
+   },
+   {
+    "from": "Barcelona Plaça Espanya (FGC 역, 지하철 L1·L3 환승)",
+    "to": "Montserrat 수도원 (Monestir de Montserrat)",
+    "mode": "FGC R5 근교열차 + Cremallera(등산열차) 또는 Aeri(케이블카)",
+    "operator": "FGC (Ferrocarrils de la Generalitat de Catalunya)",
+    "duration_min": 90,
+    "cost_eur": "Trans Montserrat 통합권 €50 (2026, 왕복 열차+등산열차/케이블카+푸니쿨라 2종+시청각관 포함), Tot Montserrat €71.50(박물관+뷔페 점심 포함). 개별 구매 시 R5 편도 €6.90 + Cremallera 왕복 약 €14~15 또는 Aeri 왕복 €12.50 → 합계 €27~30",
+    "frequency": "R5 매시 1편(대략 매시 36분 출발, 첫차 08:36경). Cremallera는 열차 도착에 맞춰 15~20분 간격, Aeri 케이블카 15분 간격",
+    "typical_times": "08:36 또는 09:36 출발 → 10:30~11:00 수도원 도착. Escolania 소년합창단 공연(평일 13:00, 일요일 12:00, 방학·토요일 제외) 시간 고려. 귀환 R5는 매시 1편, 마지막 18~19시대",
+    "booking_note": "Trans Montserrat는 Plaça Espanya FGC 매표소/자동판매기 또는 온라인(cremallerademontserrat.cat) 구매. Cremallera(Monistrol de Montserrat역)와 Aeri(Aeri de Montserrat역)는 R5 하차역이 다르므로 열차 안에서 미리 결정. 바람 강한 날 Aeri 운휴 가능성 있으니 등산열차 쪽이 안전",
+    "notes": "열차 60분 + 등산열차 15~20분 + 환승 대기 = 약 90분. Hola BCN·T-casual은 Montserrat 구간(4존) 미포함. 반나절~하루 소요, 오후 15~16시 출발 귀환 추천"
+   },
+   {
+    "from": "Palma, Estació del Ferrocarril de Sóller (Plaça d'Espanya 옆)",
+    "to": "Sóller (소예르) → 트램으로 Port de Sóller (포르트 데 소예르)",
+    "mode": "빈티지 목재 열차 (Ferrocarril de Sóller, 1912년 개통) + 빈티지 트램",
+    "operator": "Ferrocarril de Sóller S.A. (민영, TIB 무료 정책 미적용)",
+    "duration_min": 65,
+    "cost_eur": "열차 편도 €23 / 왕복 €30, 트램 편도 €10, 열차 왕복+트램 왕복 통합권 €40 (2026 공식 요금)",
+    "frequency": "현재 공식 시간표: Palma 출발 10:10, 13:30, 15:10, 18:30(*매표소 확인), 19:40 / Sóller 출발 09:00, 12:15, 14:00, 17:15*, 18:00, 18:30, 19:30. 4~10월 성수기엔 10:50, 12:15 등 증편되는 해가 많으니 4월 초 trendesoller.com 재확인. 트램은 08:00~20:35 30분 간격",
+    "typical_times": "10:10 출발 → 11:15경 Sóller 도착 → 트램(30분)으로 Port de Sóller 점심·산책 → Sóller 18:00 또는 18:30 열차 귀환",
+    "booking_note": "trendesoller.com 온라인 예매 가능(약 7일 전부터), 좌석 지정 없음—30분 전 도착해 오른쪽(바다·계곡 조망) 창가 확보 권장. 매표소는 현금만 받는 경우 있음. 12월 중순~1월 정기 휴업",
+    "notes": "편도만 열차로 타고 귀환은 TIB 204번(Palma–Sóller 터널 경유, 약 35~40분, 현금 €3~4) 또는 210번 버스로 돌아오면 비용·시간 절약. 열차는 Serra de Tramuntana 13개 터널을 지나는 관광 코스이므로 왕복 모두 타면 2시간 이상 소요"
+   },
+   {
+    "from": "Palma, Estació Intermodal (Plaça d'Espanya 지하 버스터미널)",
+    "to": "Valldemossa (바이데모사) → Deià (데이아) → Sóller",
+    "mode": "TIB 시외버스 203번 (여름철 210번 병행)",
+    "operator": "TIB / CTM (Consorci de Transports de Mallorca)",
+    "duration_min": 35,
+    "cost_eur": "현금·컨택리스 카드 편도: Valldemossa 약 €3~4, Deià 약 €4~5, Sóller 약 €5~6 (TIB 2026 존 요금 €3~13.5 범위)",
+    "frequency": "대략 매시 1편(평일), 주말·비수기 감편. Palma 첫차 07:35경, 막차 22:00경. 2026년 3월 1일부로 시간표 개정—tib.org 노선 203 페이지에서 최신 시간표 확인",
+    "typical_times": "Palma → Valldemossa 30~35분 → Deià +20~25분(누적 55~60분) → Sóller +30분(누적 85~95분). Port de Sóller 종점까지 약 100분",
+    "booking_note": "예약 불필요, 승차 시 기사에게 현금 또는 은행 컨택리스 카드로 결제(승차·하차 시 모두 태그). 2026년 TIB 무료 정책은 Tarjeta Intermodal 소지자 전용(등록 필요)이라 단기 관광객은 일반 요금 지불. 산길(Ma-10) 구간 멀미 주의",
+    "notes": "차 없이 가장 인기 있는 코스: 오전 203번으로 Valldemossa(Cartoixa 수도원, 쇼팽) → 점심 후 203번으로 Deià(Robert Graves 마을) → 저녁 203번으로 Palma 귀환. 성수기(5월~) 210번이 Port de Sóller–Deià–Valldemossa–Palma–Platja de Palma 구간을 추가 운행. 버스가 만차면 못 타는 일이 있어 정류장에 10~15분 일찍 도착 권장"
+   },
+   {
+    "from": "Palma, Estació Intermodal",
+    "to": "Cuevas del Drach / Coves del Drac (드라크 동굴, Porto Cristo 포르토 크리스토)",
+    "mode": "TIB 시외버스 (401번 Palma–Manacor–Porto Cristo 방면) 또는 SFM 기차 T3 Palma→Manacor + TIB 412번 환승",
+    "operator": "TIB / SFM",
+    "duration_min": 90,
+    "cost_eur": "버스 편도 현금 약 €8~10 (기차 Palma–Manacor + 412번 환승 시 합계 비슷). 동굴 입장권 성인 €18.50(온라인) / €19.50(현장), 어린이 3~12세 €11.50/€12.50",
+    "frequency": "버스 30~60분 간격(주말 감편). 동굴 투어 3/16~10/31 기준 10:00, 11:00, 12:00, 14:00, 15:00, 16:00, 17:00 시작(약 1시간, Martel 호수 클래식 콘서트+보트 포함)",
+    "typical_times": "Palma 08:30~09:30 출발 → 10:00~11:00 도착 → 11:00 또는 12:00 투어 → Porto Cristo 항구 점심 → 오후 귀환. 도어투도어 왕복 반나절~6시간",
+    "booking_note": "cuevasdeldrach.com에서 최대 30일 전부터 온라인 예매(할인, 매표소 대기 생략, 시간 지정·환불 불가). 15분 전 입장, 주차장에서 입구까지 200m. 버스 시간표는 tib.org에서 'Coves del Drac' 정류장 검색 필수—412번 노선이 최근 Manacor 기점으로 개편되어 Palma 직통 여부 확인 필요",
+    "notes": "렌터카 이용 시 Palma에서 Ma-15 경유 약 60~65km, 55~65분, 무료 주차장 있음. 대중교통은 환승·대기 포함 편도 1시간 30분~1시간 45분 잡아야 함. 단체 투어(버스+입장 €50~60)도 대안"
+   },
+   {
+    "from": "Palma",
+    "to": "Cap de Formentor (포르멘토르 곶, Far de Formentor 등대) / Port de Pollença",
+    "mode": "렌터카 (비수기 권장) / 대중교통은 TIB 302번 Palma→Port de Pollença + 택시",
+    "operator": "렌터카 / TIB",
+    "duration_min": 85,
+    "cost_eur": "렌터카 연료·통행료 없음(고속도로 무료), 등대 주차 무료(비수기). 대중교통: TIB 302번 현금 약 €8~10 + Port de Pollença→등대 택시 편도 €35~45",
+    "frequency": "TIB 302번 Palma–Alcúdia–Port de Pollença 30~60분 간격(약 60~75분 소요). 셔틀버스 334번(Alcúdia–Port de Pollença–등대)은 통제 기간(2026년 기준 5/15~10/18)에만 운행, 4월 말~5월 초는 미운행",
+    "typical_times": "Palma → Port de Pollença Ma-13 고속도로 약 55분 → Mirador Es Colomer(전망대) 15분 → 등대까지 굽이길 20km 추가 30분. 오전 일찍 출발해 오후에 Pollença 구시가·Alcúdia 성벽 마을 조합",
+    "booking_note": "2026년 규정: 5/15~10/18 매일 10:00~22:00 Formentor 해변~등대 구간 일반 차량 진입 금지(벌금 €100~200), 셔틀 334번·택시·자전거만 허용. 여행 시기(2027년 4/25~5/7)는 통제 시작 전이라 차량 진입 가능할 확률이 높으나 2027년 통제 시작일은 매년 봄에 Consell de Mallorca가 발표하므로 3~4월에 formentor.conselldemallorca.es 확인",
+    "notes": "통제 기간 전이면 렌터카가 사실상 유일한 현실적 방법(Port de Pollença에서 등대까지 대중교통 없음). 도로가 좁고 절벽 구간이라 초보 운전자는 Mirador Es Colomer까지만 가고 등대는 생략해도 좋음. 오전 10시 이전 도착 시 주차 여유"
+   },
+   {
+    "from": "Palma",
+    "to": "Es Trenc (에스 트렌크 해변, Campos/Ses Covetes)",
+    "mode": "렌터카 / TIB 501번 Palma→Campos + 517번(Colònia de Sant Jordi) 또는 518번(Sa Ràpita) 환승",
+    "operator": "렌터카 / TIB",
+    "duration_min": 50,
+    "cost_eur": "렌터카: 주차장 하루 €5~10(4~10월 유료, 성수기 €10). 버스: 편도 현금 약 €5~7 합산",
+    "frequency": "버스는 501번 30~60분 간격, 517/518번 하루 수편(주말 감편)이라 환승 대기 포함 편도 90~135분",
+    "typical_times": "차량 Ma-19 → Campos → Ses Covetes 주차장 약 45~50분. 버스는 Colònia de Sant Jordi 하차 후 해안 산책로 도보 40~60분 또는 택시",
+    "booking_note": "직행 버스 없음. 렌터카가 훨씬 효율적이며 성수기엔 오전 10~11시면 주차장이 차니 이른 출발 권장. 4월 말~5월 초 수온 17~18°C로 수영보다는 산책·풍경 목적",
+    "notes": "카리브해 같은 흰 모래·터키색 바다로 유명한 자연 보호구역 해변. 편의시설 적으니 물·간식 지참. 같은 날 Colònia de Sant Jordi 항구 마을이나 Ses Salines 소금밭과 조합하면 좋음"
+   }
+  ],
+  "airport_transfers": [
+   {
+    "airport": "MAD Madrid Barajas (마드리드 바라하스) → 시내",
+    "option": "택시 (공항 고정요금 Tarifa 4)",
+    "duration_min": 30,
+    "cost_eur": "€33 고정 (2026년 1월 1일부 시청 고시, M-30 내부 어디든 동일, 짐·야간 추가 없음)",
+    "notes": "2~3인 이상이면 가장 편하고 사실상 대중교통과 비용 차이 적음. 반드시 공식 흰색 택시(빨간 사선) 정식 승강장에서 탑승, 호객 거절. 25~40분 소요(출퇴근 시간 45분+). Cabify·Uber도 비슷한 요금대(€30~40)"
+   },
+   {
+    "airport": "MAD Madrid Barajas → 시내",
+    "option": "Metro L8 (T1-2-3 / T4역 → Nuevos Ministerios 환승)",
+    "duration_min": 45,
+    "cost_eur": "편도 €1.50~2.00 + 공항 추가요금 €3 = €4.50~5.00 (Tarjeta Multi 카드 €2.50 별도 구매 필요)",
+    "notes": "Nuevos Ministerios까지 15~20분, 여기서 L6/L10 환승 후 Sol/Gran Vía까지 총 40~50분. 환승·계단 많아 큰 캐리어엔 비추천. 05:00~01:30 운행"
+   },
+   {
+    "airport": "MAD Madrid Barajas → 시내",
+    "option": "Cercanías C1 / C10 근교열차 (T4역 전용)",
+    "duration_min": 27,
+    "cost_eur": "€2.60 (Cercanías 존 요금, 추가요금 없음)",
+    "notes": "T4에서만 출발. Chamartín 11분, Nuevos Ministerios 17분, Atocha 27분, Príncipe Pío(C10) 약 35분. 30분 간격, 06:00~23:30. T1/T2 도착 시 무료 터미널 셔틀로 T4 이동(10~15분). Renfe 고속열차 티켓 소지자는 Cercanías 무료 Combinado 이용 가능"
+   },
+   {
+    "airport": "MAD Madrid Barajas → 시내",
+    "option": "Exprés Aeropuerto 버스 203번 (EMT)",
+    "duration_min": 40,
+    "cost_eur": "€5 (현금은 소액권만, 컨택리스 카드 결제 가능)",
+    "notes": "T1·T2·T4 → O'Donnell → Cibeles → Atocha, 24시간 운행(주간 15~20분, 야간 23:30~06:00엔 Cibeles 종착·35분 간격). 짐 선반 있어 캐리어 편리. Atocha까지 약 40분, Cibeles 35분"
+   },
+   {
+    "airport": "PMI Palma de Mallorca Son Sant Joan (팔마 공항) → Palma 시내",
+    "option": "EMT 시내버스 A1번 (Aeroport–Ciutat)",
+    "duration_min": 25,
+    "cost_eur": "€5 (현금·카드 동일, 일부 안내는 컨택리스 시 할인 표기—탑승 시 확인)",
+    "notes": "06:00~01:30 15분 간격, Passeig Marítim(항구)·Passeig Mallorca·Plaça d'Espanya(Estació Intermodal) 등 정차, 25~30분. 캐리어 공간 있음. 도착층 밖 버스 정류장. Estació Intermodal은 TIB·Sóller 열차 허브라 첫날 위치 익혀두면 편리"
+   },
+   {
+    "airport": "PMI Palma → Palma 시내",
+    "option": "택시 (미터 요금, 발레아레스 통합 요율 2025~)",
+    "duration_min": 15,
+    "cost_eur": "주간 €22~28, 야간·휴일 €30~37 (공항 추가요금 €4.65 포함, 최소요금 약 €17)",
+    "notes": "약 9km, 15~20분. 도착층 앞 공식 승강장, 카드 결제 가능. 2~3인 + 캐리어면 A1 버스와 비용 차이 적어 택시 추천"
+   },
+   {
+    "airport": "BCN Barcelona El Prat (바르셀로나 엘 프라트) → 시내",
+    "option": "Aerobús A1(T1) / A2(T2) 공항버스",
+    "duration_min": 35,
+    "cost_eur": "편도 약 €7.75, 왕복 €13.30 (2026, 출처별 €7.45~7.75—현장 확인; T-casual·Hola BCN 사용 불가)",
+    "notes": "Plaça Espanya·Gran Via-Urgell·Plaça Universitat·Plaça Catalunya 정차, 24시간, 주간 5~10분 간격. 짐 공간 넉넉해 캐리어 이동에 최적. 온라인(aerobusbarcelona.es) 또는 정류장 자판기·기사에게 카드 결제"
+   },
+   {
+    "airport": "BCN Barcelona El Prat → 시내",
+    "option": "Metro L9 Sud (Aeroport T1 / T2 역)",
+    "duration_min": 45,
+    "cost_eur": "공항 전용 티켓 편도 €5.90 (왕복 €11.80), Hola BCN 카드 소지 시 포함. T-casual 사용 불가",
+    "notes": "Zona Universitària(L3)·Collblanc(L5)·Torrassa(L1) 환승 후 시내까지 35~50분. 05:00~24:00(금 02:00, 토 24시간), 7분 간격. 환승 많아 캐리어엔 다소 불편하나 Eixample·Sants 숙소면 무난"
+   },
+   {
+    "airport": "BCN Barcelona El Prat → 시내",
+    "option": "Rodalies R2 Nord 근교열차 (T2 역, T1은 무료 셔틀 10분)",
+    "duration_min": 25,
+    "cost_eur": "편도 €4.60 (공항 티켓), T-casual 1존·Hola BCN 사용 가능",
+    "notes": "Sants 19분, Passeig de Gràcia 26분, El Clot 32분. 30분 간격, 05:40~23:40. T1 도착 시 셔틀+대기 포함 실질 45분. Sants·Passeig de Gràcia 근처 숙소면 가장 경제적"
+   },
+   {
+    "airport": "BCN Barcelona El Prat → 시내",
+    "option": "택시 (미터 요금)",
+    "duration_min": 30,
+    "cost_eur": "€35~45 (공항 추가요금 €4.60, 공항 출발 최소요금 €21 포함, 야간·주말 할증 시 €45~50)",
+    "notes": "20~35분. 공식 노란·검정 택시 승강장 이용, 카드 결제 가능. 3인+캐리어면 Aerobús 3인분(€23)과 비교해 택시가 편리"
+   }
+  ],
+  "city_transit": [
+   {
+    "city": "Madrid (마드리드)",
+    "pass_recommendation": "Tarjeta Multi(카드 €2.50) + 10회권 Metrobús €7.30 (2026년 동결 요금, 지하철·EMT 버스 공용, 한 카드로 여러 명이 연속 태그 가능). 공항 이동을 지하철로 할 경우 €3 공항 추가요금 별도 충전. 3일 이상 하루 5회 이상 탈 계획이면 Abono Turístico Zona A(1일 €10 / 2일 €17 / 3일 €22.50 / 4일 €27 / 5일 €32.50, 공항 추가요금 포함)도 고려하나, 마드리드 중심가는 도보권이 넓어 대부분 10회권으로 충분",
+    "tips": "단일권 €1.50(5역 이내)~€2.00. Tarjeta Multi는 역 자판기에서 구매(카드 결제 가능), 톨레도·세고비아 Renfe 열차는 별도. Cercanías는 Multi 카드에 별도 충전. 지하철은 06:00~01:30, 심야엔 부엉이버스(Búho). 소매치기는 Sol·Gran Vía·L1·L3 혼잡 시간대에 집중—가방 앞으로. EMT 버스는 컨택리스 카드로 €1.50 결제 가능"
+   },
+   {
+    "city": "Palma de Mallorca (팔마)",
+    "pass_recommendation": "별도 패스 불필요. EMT 시내버스 단일권 현금 €3(2026 비거주자 요금), 은행 컨택리스 카드로 탭하면 약 40% 할인(≈€1.80), 최대 5인 동행 시 첫 승객 40%·동행 최대 60% 할인. 공항 A1은 €5 별도. TIB 시외버스(초록색)는 현금 또는 컨택리스 편도 €3~13.5—2026 TIB 무료 정책은 Tarjeta Intermodal 등록자 전용이라 단기 관광객엔 실익 없음",
+    "tips": "구시가(Catedral·Passeig del Born·Santa Catalina)는 전부 도보권. Castell de Bellver는 EMT 4·20번 또는 택시 €10. Portixol·Cala Major 해변은 EMT 15·4번. 시외 여행은 모두 Plaça d'Espanya 지하 Estació Intermodal에서 출발(TIB 버스·SFM 기차·Metro), Sóller 열차역은 바로 옆 지상. 렌터카는 Palma 시내 주차가 매우 어렵고 비싸(호텔 주차 €20~30/일) 시내 체류일엔 빌리지 말고, Formentor·Es Trenc·Drach를 도는 1~2일만 빌리는 것을 권장. 4월 말~5월 초 소형차 기준 하루 €25~45(보험 포함 시 €40~60), 공항 또는 시내 영업소 픽업, 반납 시 연료 정책(Full-to-Full) 확인. 택시는 시내 단거리 €8~12"
+   },
+   {
+    "city": "Barcelona (바르셀로나)",
+    "pass_recommendation": "2~3인이 3~4일 머무는 경우 두 가지 조합 중 선택: (A) Hola BCN 72시간 €27.30 / 96시간 €35.60(2026) — 지하철·버스·트램·FGC·Rodalies 1존 무제한 + 공항 L9 Sud·R2 왕복 포함, 개인별 1장 필요. (B) T-familiar 8회권 €11.50(30일 유효, 여러 명 공유 가능) 또는 T-casual 10회권 €13.00(1인 전용) + 공항은 Aerobús/택시 또는 공항 티켓 €5.90. 하루 3회 이상 타고 공항을 지하철로 오갈 계획이면 (A), 도보 위주면 (B)가 저렴",
+    "tips": "단일권 €2.90. 2026년 1월 15일부 요금 적용. T-casual·T-familiar는 L9 Sud 공항역에서 사용 불가(R2 Nord 공항역은 사용 가능). 환승은 75분 내 무료(T-casual/T-familiar). Montserrat R5는 4존이라 모든 시내권 미포함—Trans Montserrat 통합권 별도 구매. 지하철 05:00~24:00(금 02:00, 토 24시간). 소매치기 최다 지역: La Rambla·L3 Liceu·Drassanes·Sagrada Família 역—폰·지갑 앞주머니. Sants 역(고속열차·R2)이 교통 허브, Eixample·Gràcia·Sant Antoni 일대가 야간에도 안전한 숙소권"
+   }
+  ],
+  "recommendation": "1) 도시 간 이동은 전부 항공으로: Madrid→Palma는 Iberia Express 또는 Air Europa 오전편(기내 10kg 포함, 위탁 추가 시에도 Ryanair/Vueling 합산가와 비슷하거나 저렴, 비행 85분), Palma→Barcelona는 Vueling 오전편(55분, 위탁수하물 옵션 미리 추가). 두 구간 모두 2~3개월 전(2027년 1~2월) 예약 시 편도 €40~70 선. 페리는 6.5~8시간에 야간편 캐빈 비용까지 감안하면 이번 일정엔 비추천. 2) 공항 이동: 마드리드는 캐리어 2개 이상이면 택시 고정요금 €33(또는 T4 도착 시 Cercanías €2.60), 팔마는 A1 버스 €5 또는 택시 €25 내외, 바르셀로나는 Aerobús(약 €7.75) 또는 택시 €35~45가 가장 안전하고 편함. 3) 마요르카는 '팔마 시내 체류일 = 차 없이, 근교 투어일 = 렌터카 1~2일' 하이브리드가 최적: Sóller(빈티지 열차)·Valldemossa/Deià(TIB 203번)는 대중교통이 더 낭만적이고 편하며, Cap de Formentor·Es Trenc·Cuevas del Drach는 렌터카(하루 €30~50)로 한 번에 묶는 것이 효율적. 여행 시기(4/25~5/7)는 Formentor 차량 통제 시작(2026년 기준 5/15) 이전이라 등대까지 자차 진입이 가능할 가능성이 높지만 2027년 공고를 3~4월에 확인. 4) 시내 교통: 마드리드 Tarjeta Multi 10회권 €7.30, 바르셀로나는 공항 지하철 왕복까지 쓰면 Hola BCN 72h/96h, 아니면 공유 가능한 T-familiar €11.50, 팔마는 컨택리스 탭 승차(≈€1.80)로 패스 불필요. 5) 근교 당일치기 열차(Toledo Avant €13.90·33분, Segovia Avant €13.90·27분+버스 11번)는 renfe.com에서 미리 예약하고, Montserrat는 Trans Montserrat €50 통합권으로 Plaça Espanya에서 08:36/09:36 R5 탑승.",
+  "notes": "요금·시간표는 2026년 8월 기준 최신 공개 정보(공식 사이트·2026년판 가이드)이며, 2027년 4~5월에는 5~10% 인상 또는 시간표 개정 가능성이 있으므로 출발 1~2개월 전 renfe.com, tib.org, trendesoller.com, tmb.cat, metromadrid.es, aerobusbarcelona.es에서 재확인 권장. 출처 간 차이가 있던 항목: Aerobús 편도 요금(€7.45~7.75, 일부 사이트 €9.50 표기), Palma 공항 A1 버스(대부분 €5, 일부 €3 표기), Sóller 열차(공식 €23/€30/€10/통합 €40 채택, 구형 가이드는 €18~20 표기), TIB 412번 노선(Manacor 기점으로 개편된 것으로 보여 Palma→Drach 직통 여부 tib.org 확인 필요). 마드리드 택시 공항 고정요금 €33(2026.1.1부), 바르셀로나 택시 공항 최소요금 €21·추가요금 €4.60, 팔마 택시 공항 추가요금 €4.65는 공식 고시 기준. 2026년 TIB(마요르카 시외버스·기차) 무료 정책은 등록 카드 소지자 전용이므로 관광객은 현금·컨택리스 일반요금(€3~13.5) 지불. Cap de Formentor 2026년 통제 기간 5/15~10/18 10:00~22:00(셔틀 334번 동일 기간만 운행)—2027년 일정(4/25~5/7)은 통제 전으로 예상되나 매년 공고 확인. 항공 수하물: Ryanair·Vueling 최저가는 40x30x20cm 소형 가방만 무료이며 기내 캐리어·위탁은 유료, Iberia Express·Air Europa는 10kg 기내 가방 포함—한국인 여행자 캐리어 규모를 감안해 총액으로 비교할 것. 안전 측면: 세 공항 모두 공식 택시 승강장만 이용, 마드리드 L1/L3·바르셀로나 L3 La Rambla 구간과 Estació Intermodal 지하 통로에서 소지품 주의."
+ },
+ "flights": {
+  "ulsan_to_incheon": [
+   {
+    "option": "시외버스 (울산시외버스터미널 → 인천공항 T1·T2, 우등)",
+    "duration_min": 320,
+    "cost_krw": "49,100원 (우등) / 심야·새벽편(23:30, 01:00, 02:30, 03:40) 58,900원",
+    "notes": "경북고속·경남고속뉴부산관광·아성고속 공동배차, 하루 9회: 01:00 / 02:30 / 03:40 / 05:00 / 06:20 / 08:30 / 11:30 / 14:30 / 23:30 (2026년 기준). 신복 환승센터 경유 → T1 먼저, T2 종점. 시간표상 T2 기준 약 6시간이지만 실제로는 T1 약 5시간~5시간 20분, 심야엔 4시간 30분~4시간 40분. 코버스·티머니(txbus)·버스타고에서 예매. 환승 없이 짐 한 번만 싣는 게 최대 장점이나, 새벽 도착 후 공항에서 대기해야 함. 귀국편은 인천 T2 출발 07:20~23:00 하루 9회(20:20, 23:00 심야편 있음, 울산 도착 5시간 7분 후)."
+   },
+   {
+    "option": "KTX (울산역 → 서울역) + 공항철도 직통열차 (서울역 → 인천공항)",
+    "duration_min": 230,
+    "cost_krw": "약 68,400원 (KTX 일반실 53,500 + 직통열차 11,000 + 울산 시내→울산역 리무진 3,900)",
+    "notes": "울산역(KTX)은 언양 쪽이라 시내에서 리무진 5001~5005번(카드 3,900원) 약 40~50분 또는 택시 30~40분(약 3만원). KTX 울산→서울 약 2시간 10~20분, 첫차 05:13·막차 22:28, 30분~1시간 간격. 서울역 공항철도 직통열차 40분 간격(06:10~22:50), T1 43분·T2 51분, 지정좌석. 서울역 도심공항터미널에서 대한항공·아시아나 등 사전 체크인·출국심사 가능(운영 항공사 확인). 총 소요 약 3시간 50분~4시간 (집→공항). 일요일 오전 KTX는 매진 잦으므로 코레일톡 1개월 전 예매."
+   },
+   {
+    "option": "KTX (울산역 → 광명역) + 6770번 KTX공항리무진 (광명역 → 인천공항)",
+    "duration_min": 215,
+    "cost_krw": "약 71,200원 (KTX 일반실 51,300 + 6770번 16,000 + 리무진 3,900)",
+    "notes": "KTX 울산→광명 약 2시간 5~10분(서울역보다 10분 단축). 광명역 4번 출구 밖에서 6770번 탑승, 04:50~20:30 20~30분 간격, T1 약 50분·T2 약 75분(교통상황 따라 변동). 코레일톡에서 KTX+6770 연계 예매·좌석지정 가능해 환승이 가장 단순. 광명역 도심공항터미널(체크인·출국심사) 운영 여부는 출발 전 확인. 서울역 경유 대비 지하철·에스컬레이터 이동이 적어 캐리어 2개 이상이면 이 경로 추천."
+   },
+   {
+    "option": "항공 (울산공항 → 김포공항) + 공항철도 일반열차/리무진 (김포 → 인천공항)",
+    "duration_min": 190,
+    "cost_krw": "항공 편도 약 5.5만~11만원 (유류할증 포함) + 공항철도 약 4,000원대 (또는 리무진 약 8,000원)",
+    "notes": "울산공항은 시청에서 7km(북구 화봉동)라 접근성이 가장 좋음. 2026년 하계 기준 울산→김포: 대한항공 KE1844 09:00→10:00, 진에어 LJ656(KE5150 코드셰어) 14:25→15:25, 대한항공 KE1848 20:15→21:15, 하루 2~3편(월~목 2회, 금~일 3회 수준으로 변동). A220-300/B737-800, 실비행 50~60분. 섬에어(XU)가 2026년 5월 신규 취항 예정. 김포 국내선 도착 후 짐 찾아 공항철도 일반열차(직통열차는 김포 미정차) 약 35~40분(T1)/45분(T2), 또는 김포→인천 리무진 40~50분. 국내선+국제선 별도 발권 시 수하물 연결 불가 → 인천 재수속, 최소 3시간 여유. 일요일 09:00편이면 인천 11:00 도착이라 12:25 이후 출발편에만 적합(대한항공 09:55 마드리드편엔 불가)."
+   },
+   {
+    "option": "자가용 + 인천공항 장기주차 (참고)",
+    "duration_min": 270,
+    "cost_krw": "통행료 약 1.8만원 + 유류비 약 5만원 (편도) + 장기주차 12일 약 11~12만원",
+    "notes": "약 400km, 4시간~4시간 30분(일요일 오전 상행은 대체로 원활). 2명 이상이고 짐이 많으면 KTX 대비 비용 차이가 크지 않음. T2 장기주차장(하루 약 9,000~10,000원)은 성수기 만차 가능 → 사전 예약 주차장 또는 공항 인근 사설 발렛주차 고려. 장시간 운전 피로와 귀국 후 심야 운전 부담은 단점."
+   }
+  ],
+  "outbound_options": [
+   {
+    "route": "인천(ICN) → 마드리드(MAD) 직항",
+    "airline": "대한항공 Korean Air KE913 (유일한 직항)",
+    "stops": 0,
+    "duration_h": 15.1,
+    "typical_departure": "09:55 (2026 하계 기준; 동계는 12:10)",
+    "typical_arrival": "18:00 (동계 19:25)",
+    "arrival_day_offset": 0,
+    "est_price_krw": "다구간(MAD in / BCN out) 왕복 약 180만~250만원, 편도 단독 약 100만~140만원 (추정)",
+    "notes": "2023.4.25 복항 후 2026년 현재 화·목·금·일 주4회 운항(A350-900/B787). 2027.4.25는 일요일이라 운항 요일에 해당. 인천 T2 출발. 직항이라 시차 적응·피로 면에서 최선이나 09:55 출발은 울산에서 당일 이동이 사실상 불가 → 전날 상경 후 공항 인근 1박 또는 01:00 심야 우등버스(T1 06:00경 도착) 이용. 2027 하계 스케줄은 2026년 하반기~2027년 초 확정."
+   },
+   {
+    "route": "인천 → 이스탄불(IST) → 마드리드",
+    "airline": "터키항공 Turkish Airlines TK91 + TK1857",
+    "stops": 1,
+    "duration_h": 17.6,
+    "typical_departure": "23:20 (일요일 밤)",
+    "typical_arrival": "09:53 (월요일 오전)",
+    "arrival_day_offset": 1,
+    "est_price_krw": "왕복 약 110만~170만원 (추정)",
+    "notes": "경유편 중 총 소요시간이 가장 짧은 축. 이스탄불 경유 약 2시간 15분(IST 신공항, 환승 동선 김). B777-300ER, 인천 T1 출발, 마드리드 T1 도착. 밤 출발이라 일요일 낮에 울산에서 여유 있게 이동 가능하고 월요일 오전 도착으로 첫날을 온전히 쓸 수 있음. 주간편 TK21(10:15 출발)은 월·수·금·토만 운항해 일요일엔 없음. 기내식·서비스 평가 좋음."
+   },
+   {
+    "route": "인천 → 두바이(DXB) → 마드리드",
+    "airline": "에미레이트 Emirates EK323 + EK141",
+    "stops": 1,
+    "duration_h": 20.6,
+    "typical_departure": "23:55 (일요일 밤)",
+    "typical_arrival": "13:30 (월요일 오후)",
+    "arrival_day_offset": 1,
+    "est_price_krw": "왕복 약 130만~180만원 (추정)",
+    "notes": "두 구간 모두 A380(2026 하계 기준), 두바이 경유 약 3시간 15분. 인천 T1, 마드리드 T4S 도착. 월요일 13:30 도착이라 호텔 체크인 시간과 잘 맞음. 하계엔 EK325(22:45, 월·수·금)도 있으나 일요일 미운항. 아시아나 마일리지 적립 불가(무소속), 수하물 30kg."
+   },
+   {
+    "route": "인천 → 도하(DOH) → 마드리드",
+    "airline": "카타르항공 Qatar Airways QR859 + QR149",
+    "stops": 1,
+    "duration_h": 21.2,
+    "typical_departure": "01:20 (일요일 밤 자정 넘어 = 4/26 월 새벽, 하계 00:20~01:20)",
+    "typical_arrival": "15:30 (월요일 오후)",
+    "arrival_day_offset": 1,
+    "est_price_krw": "왕복 약 120만~180만원 (추정)",
+    "notes": "A350-1000, 도하 경유 약 2시간 50분(하마드 공항 환승 쾌적). 인천 T1, 마드리드 T4S. 사실상 일요일 밤 출발이라 울산에서 일요일 오후 출발해도 충분. QR151(15:05→20:54) 연결 조합은 경유 9시간 이상이라 피할 것. 서비스 평가는 최상급, 항공권 표기 날짜가 4/26임에 주의."
+   },
+   {
+    "route": "인천 → 아부다비(AUH) → 마드리드",
+    "airline": "에티하드 Etihad EY823 + EY101",
+    "stops": 1,
+    "duration_h": 20.8,
+    "typical_departure": "17:45 (일요일 오후)",
+    "typical_arrival": "07:35 (월요일 이른 아침)",
+    "arrival_day_offset": 1,
+    "est_price_krw": "왕복 약 110만~160만원 (추정)",
+    "notes": "B787-9/A350-1000, 아부다비 경유 약 3시간 10분. 일요일 오후 출발이라 울산에서 아침 KTX로 무난히 이동 가능하고 월요일 07:35 도착으로 첫날을 통째로 사용. 다만 호텔 얼리체크인 필요. 하계엔 EY827(23:45) 편도 있으나 EY103(14:00) 연결 시 경유 8시간 이상. 중동 3사 중 가격이 낮은 편."
+   },
+   {
+    "route": "인천 → 프랑크푸르트(FRA) → 마드리드",
+    "airline": "루프트한자 Lufthansa LH713 + LH1122",
+    "stops": 1,
+    "duration_h": 18.3,
+    "typical_departure": "12:25 (일요일 낮)",
+    "typical_arrival": "23:40 (일요일 밤, 당일)",
+    "arrival_day_offset": 0,
+    "est_price_krw": "왕복 약 130만~200만원 (추정)",
+    "notes": "경유편 중 유일하게 당일 밤 마드리드 도착 가능. A350-900, 프랑크푸르트 경유 약 2시간 15분(솅겐 입국심사를 FRA에서 통과). 인천 T1, 마드리드 T2 도착. 12:25 출발은 울산 첫 KTX(05:13)+직통열차로 당일 이동 가능(T1 08:35 도착). 자정 가까운 도착이라 공식 택시(정액 33€) 또는 호텔 픽업 예약 권장. LH1122 21:00편은 2026 스케줄 기준이며 예약 시 재확인 필요."
+   },
+   {
+    "route": "인천 → 암스테르담(AMS) → 마드리드",
+    "airline": "KLM KL856 + KL1501",
+    "stops": 1,
+    "duration_h": 18.8,
+    "typical_departure": "22:25 (일요일 밤)",
+    "typical_arrival": "09:30~10:15 (월요일 오전)",
+    "arrival_day_offset": 1,
+    "est_price_krw": "왕복 약 130만~190만원 (추정)",
+    "notes": "B787-9, 암스테르담 경유 약 2시간(솅겐 입국심사 포함이라 빠듯한 편, 스키폴 환승 동선 긴 편). 대한항공 스카이팀 파트너라 인천 T2 출발, 마일리지 대한항공 적립 가능. 마드리드 T2 도착. 월요일 오전 도착으로 첫날 활용 좋음."
+   },
+   {
+    "route": "인천 → 파리(CDG) → 마드리드",
+    "airline": "에어프랑스 Air France AF267 + AF 연결편",
+    "stops": 1,
+    "duration_h": 18.5,
+    "typical_departure": "11:40 (하계; 동계 12:40)",
+    "typical_arrival": "23시 전후 (+0, 저녁 연결편 기준) / 연결편 없으면 익일 09:10",
+    "arrival_day_offset": 0,
+    "est_price_krw": "왕복 약 130만~190만원 (추정)",
+    "notes": "A350-900, CDG 18:40 도착. 2026 스케줄 조회에서는 CDG→MAD 07:00·09:15·17:00편만 확인돼 당일 저녁 연결편(보통 20~21시대) 유무는 예약 시 반드시 확인. 없으면 파리 공항 1박 후 익일 07:00편(AF1000)이라 비추. 스카이팀이라 인천 T2, 대한항공 마일리지 적립 가능. 마드리드 T2 도착."
+   },
+   {
+    "route": "인천 → 헬싱키(HEL) → 마드리드",
+    "airline": "핀에어 Finnair AY42 + AY1661",
+    "stops": 1,
+    "duration_h": 29.3,
+    "typical_departure": "21:50 (일요일 밤)",
+    "typical_arrival": "20:05 (월요일 저녁)",
+    "arrival_day_offset": 1,
+    "est_price_krw": "왕복 약 120만~170만원 (추정)",
+    "notes": "헬싱키→마드리드 편이 하루 1편(16:40)뿐이라 경유 대기 11시간. 총 소요 29시간 이상으로 비추. 헬싱키 시내 반나절 관광이 목적이 아니면 선택 이유 없음. 러시아 영공 우회로 인천→헬싱키도 13시간 40분."
+   }
+  ],
+  "inbound_options": [
+   {
+    "route": "바르셀로나(BCN) → 인천(ICN) 직항",
+    "airline": "아시아나 Asiana OZ512 (2026.12.17 통합 대한항공 출범 후 KE 편명으로 전환 예정)",
+    "stops": 0,
+    "duration_h": 12.5,
+    "typical_departure": "20:50 (하계; 동계 19:35)",
+    "typical_arrival": "16:20 (익일; 동계 16:05)",
+    "arrival_day_offset": 1,
+    "est_price_krw": "다구간 왕복 기준 위 대한항공 가격에 포함, 편도 단독 약 90만~140만원 (추정)",
+    "notes": "A350-900, 2026년 주5회. 운항 요일이 시즌마다 바뀌는데 2026 하계 실운항 기록은 월·화·수·금·토로 목요일 미운항 → 2027.5.6(목) 출발이 없을 가능성 높음. 이 경우 5/5(수) 20:50 출발→5/6(목) 16:20 인천 도착(여행 하루 단축) 또는 5/7(금) 출발→5/8(토) 도착(하루 연장)으로 조정. 바르셀로나 T1 출발, 인천 T1 도착(통합 후 T2 이전 가능성). 통합 대한항공이 2027년 주7회로 증편할 가능성도 있으니 스케줄 공개 시 재확인."
+   },
+   {
+    "route": "바르셀로나 → 인천 직항",
+    "airline": "티웨이항공 T'way Air TW408",
+    "stops": 0,
+    "duration_h": 12.4,
+    "typical_departure": "21:00 (하계; 동계 20:30)",
+    "typical_arrival": "16:25 (익일)",
+    "arrival_day_offset": 1,
+    "est_price_krw": "편도 약 55만~85만원, 왕복 약 100만~140만원 (추정)",
+    "notes": "대한항공-아시아나 합병 EU 시정조치로 넘겨받은 노선, 2026 하계 월·수·금·토 주4회 → 목요일 미운항. A330-200(구형, 좌석·기내엔터테인먼트 만족도 낮다는 후기 다수), 위탁수하물·기내식 포함 여부는 운임 등급별 확인. 인천 T1 도착. 직항 중 가장 저렴하나 지연·결항 대응력이 대형사보다 약함."
+   },
+   {
+    "route": "바르셀로나 → 프랑크푸르트(FRA) → 인천",
+    "airline": "루프트한자 Lufthansa LH1125 + LH712",
+    "stops": 1,
+    "duration_h": 17,
+    "typical_departure": "09:55 (목요일 오전)",
+    "typical_arrival": "09:55 (금요일 오전)",
+    "arrival_day_offset": 1,
+    "est_price_krw": "왕복 약 130만~200만원, 편도 단독 약 100만~140만원 (추정)",
+    "notes": "5/6(목) 출발 → 5/7(금) 오전 인천 도착이라 이번 일정에 가장 잘 맞는 경유편. 프랑크푸르트 경유 3시간 25분, A350-900, 인천 T1 도착. 금요일 오전 도착 후 오후 KTX로 울산 귀가해 저녁 식사 가능. 바르셀로나 숙소에서 07:00 출발(Aerobús 30분/택시 40€)."
+   },
+   {
+    "route": "바르셀로나 → 이스탄불(IST) → 인천",
+    "airline": "터키항공 Turkish Airlines TK1852 + TK20",
+    "stops": 1,
+    "duration_h": 18,
+    "typical_departure": "07:35 (목요일 이른 아침)",
+    "typical_arrival": "08:35 (금요일 오전)",
+    "arrival_day_offset": 1,
+    "est_price_krw": "왕복 약 110만~170만원 (추정)",
+    "notes": "TK20은 2026 하계 화·목·금·일 운항이라 목요일 가능. 이스탄불 경유 4시간 35분, B777-300ER. 금요일 08:35 인천 도착 → 점심 전 KTX로 오후 울산 도착. 단점은 바르셀로나 05:30 숙소 출발. 대안: TK1854 12:05 + TK90 01:50 → 금 17:40 인천 도착(경유 8시간, 총 22.5시간)."
+   },
+   {
+    "route": "바르셀로나 → 도하(DOH) → 인천",
+    "airline": "카타르항공 Qatar Airways QR146 + QR858",
+    "stops": 1,
+    "duration_h": 18.6,
+    "typical_departure": "15:30 (목요일 오후, 시즌별 14:35~16:35)",
+    "typical_arrival": "17:05 (금요일 오후)",
+    "arrival_day_offset": 1,
+    "est_price_krw": "왕복 약 120만~180만원 (추정)",
+    "notes": "목요일 오전을 바르셀로나에서 쓸 수 있는 조합. 도하 경유 약 2시간 45분, A350-1000. 금요일 17:05 인천 T1 도착 → 직통열차+KTX로 22시 전후 울산역 도착 가능(막차 여유 확인), 또는 인천 T2 20:20 심야버스(울산 01:27). 짐 찾고 입국까지 1시간은 잡아야 함."
+   },
+   {
+    "route": "바르셀로나 → 두바이(DXB) → 인천",
+    "airline": "에미레이트 Emirates EK186 + EK322",
+    "stops": 1,
+    "duration_h": 18.3,
+    "typical_departure": "15:30 (목요일 오후)",
+    "typical_arrival": "16:50 (금요일 오후)",
+    "arrival_day_offset": 1,
+    "est_price_krw": "왕복 약 130만~180만원 (추정)",
+    "notes": "두 구간 모두 A380, 두바이 경유 2시간 30분. 금요일 16:50 인천 T1 도착 → 당일 밤 울산 귀가 가능(KTX 또는 20:20 심야버스). 카타르와 거의 동일한 시간대라 가격 보고 선택."
+   }
+  ],
+  "recommended_schedule": "※ 2027년 스케줄은 미공개 상태이며 2026년 하계(3/29~10/24) 패턴을 기준으로 작성. 예약 전 항공사 사이트에서 요일·시각 재확인 필요.\n\n■ 4/25(일) 울산 → 마드리드\n\n[플랜 A · 대한항공 직항 KE913 09:55 — 가장 편하지만 전날 상경]\n- 4/24(토) 오후: 울산역 → KTX(약 2h15) → 서울역 → 공항철도 직통열차(43분) → 인천 T2 인근 호텔(그랜드 하얏트 인천·네스트호텔 등) 1박. 또는 서울 시내 1박 후 일요일 06:10 직통열차.\n  (대안) 4/25 01:00 울산시외버스터미널 심야 우등버스(58,900원) → 05:30~06:00 인천 T1 도착 → 셔틀로 T2 이동.\n- 4/25(일) 07:15 T2 대한항공 카운터 수속(출발 2h40 전) → 08:30 출국심사 완료 → 09:55 KE913 출발 → 18:00 마드리드 바라하스 도착(현지, 시차 -7h) → 19:00 입국·수하물 → 공식 택시(시내 정액 33€, 25~30분) 또는 공항버스 Exprés 203(5€) → 20:00 숙소 체크인, 가벼운 저녁.\n\n[플랜 B · 일요일 아침 울산 출발 + 경유, 월요일 아침 도착]\n- 08:00 울산 시내 출발(리무진 5001~5005 또는 택시) → 09:00 울산역 → 09:30경 KTX → 11:50 서울역 → 12:10 직통열차 → 12:55 인천 T1 → 14:45 수속\n- 17:45 에티하드 EY823 → 23:00 아부다비(현지) → 02:10 EY101 → 4/26(월) 07:35 마드리드 도착 → 09:00 숙소 짐 맡기고 바로 관광(호텔 얼리체크인 요청).\n- 밤 출발 선호 시: 23:20 터키항공 TK91 → 이스탄불 → 4/26(월) 09:53 마드리드, 또는 23:55 에미레이트 EK323 → 두바이 → 4/26(월) 13:30 마드리드. 이 경우 울산에서 오후 KTX(14~15시)로 출발해도 됨.\n\n[플랜 C · 당일 밤 도착(루프트한자)]\n- 04:30 기상 → 05:13 울산역 첫 KTX → 07:35 서울역 → 07:50 직통열차 → 08:33 인천 T1 → 12:25 LH713 → 18:45 프랑크푸르트 → 21:00 LH1122 → 23:40 마드리드 → 공식 택시로 00:30 숙소. 첫날 밤을 마드리드에서 자는 대신 체력 소모 큼.\n\n■ 5/6(목) 바르셀로나 → 5/7(금) 울산\n\n[플랜 A · 경유편(목요일 확실히 운항) — 추천]\n- 07:00 바르셀로나 숙소 출발 → Aerobús(30분, 7.25€) 또는 택시(약 40€) → 07:30 BCN T1 도착·수속\n- 09:55 루프트한자 LH1125 → 12:05 프랑크푸르트 → 15:30 LH712 → 5/7(금) 09:55 인천 T1 도착 → 11:00 입국·수하물 → 11:20 직통열차 → 12:05 서울역 → 12:30~13:00 KTX → 15:00~15:30 울산역 → 16:00 귀가.\n- 대안 1(터키항공): 07:35 TK1852 → 12:15 이스탄불 → 16:50 TK20 → 금 08:35 인천 → 오후 2시경 울산 도착.\n- 대안 2(카타르/에미레이트, 목요일 오전을 바르셀로나에서 쓰고 싶을 때): 15:30 QR146/EK186 → 도하/두바이 → 금 17:05/16:50 인천 → 18:30 직통열차 → 19:15 서울역 → 19:30~20:00 KTX → 22:00 울산역 → 22:45 귀가(막차 여유 확인). 또는 인천 T2 20:20 심야버스 → 5/8(토) 01:27 울산터미널.\n\n[플랜 B · 직항 고집 시 날짜 조정]\n- 현재 패턴상 아시아나(→통합 대한항공) OZ512와 티웨이 TW408 모두 목요일 미운항. 5/5(수) 20:50 OZ512 출발 → 5/6(목) 16:20 인천 도착 → 17:30 직통열차 → 18:20 서울역 → 18:40 KTX → 21:00 울산역 → 목요일 밤 귀가(여행 1일 단축), 또는 5/7(금) 20:50/21:00 출발 → 5/8(토) 16:20 인천 → 토요일 밤 울산 귀가(1일 연장). 2027 스케줄 공개 후 목요일 운항이 추가되면 5/6(목) 20:50 출발 → 5/7(금) 16:20 인천 → 금 22시경 울산 도착으로 확정.",
+  "booking_tips": "1) 예약 시점: 대한항공은 출발 약 355일 전부터 판매 → 2026년 5월 초부터 조회 가능하지만 2027 하계 스케줄(3/28~)은 2026년 하반기~2027년 1월에 확정·조정됨. 4/25~5/7은 한국 연휴(5/1 근로자의날, 5/5 어린이날)와 겹쳐 수요가 높으므로 늦어도 2026년 11~12월까지 발권 권장. 특가는 보통 출발 3~5개월 전.\n2) 발권 방식: 스카이스캐너·네이버항공권·구글플라이트에서 '다구간(Multi-city)'으로 ICN→MAD + BCN→ICN 검색. 대한항공(마드리드)+아시아나(바르셀로나) 조합은 2026.12.17 통합 후 한 항공사 여정으로 묶여 편도 2장보다 저렴해질 가능성 큼. 경유 항공사(터키·카타르·에미레이트·루프트한자)는 오픈조 왕복 발권이 수월.\n3) 통합 대한항공: 아시아나 OZ 편명이 KE로 바뀌고 터미널(T1→T2)이 옮겨질 수 있음. 아시아나로 예약해도 예약은 자동 승계되지만 출발 2~3주 전 e-티켓·터미널 재확인. 마일리지 전환 비율은 공정위 협의 후 확정 예정.\n4) 국내 구간: 울산~김포 항공을 대한항공 국제선과 한 여정으로 묶어도 김포-인천 간 수하물 연결은 안 되므로 3시간 이상 여유. KTX는 코레일톡 1개월 전 오픈, 일요일 오전 상행·금요일 오후 하행은 매진 잦음. 광명역 경유(6770번)는 코레일톡에서 KTX+버스 통합 예매 가능.\n5) 인천공항 터미널: 대한항공·진에어·KLM·에어프랑스(스카이팀) T2 / 아시아나·티웨이·루프트한자·터키항공·카타르·에미레이트·에티하드 T1(2026 기준, 통합 후 변동 가능). 마드리드 도착 터미널: 에미레이트·카타르 T4S, 터키항공 T1, 루프트한자·KLM·에어프랑스 T2, 대한항공은 예약 시 확인.\n6) 안전·이동: 마드리드 공항→시내는 검정+빨간띠 공식 택시(정액 33€) 또는 공항버스 Exprés 203(24시간, 5€) 이용, 심야 도착 시 택시 권장. 바르셀로나 출국은 Aerobús(Plaça Catalunya 출발, 약 30분) 또는 택시. 소매치기 대비 여권·현금은 앞주머니·크로스백.\n7) 항공사 선택 기준: 체력·시차 우선이면 직항(대한항공 out / 통합 대한항공 in), 가격·도착 시간대 우선이면 터키항공(총 17~18시간, 가격 대비 만족도 높음) 또는 카타르·에미레이트. 티웨이는 저렴하지만 구형 A330-200과 결항 대응력을 감안. 핀에어·에어프랑스 경유는 연결편 대기시간을 반드시 확인.\n8) 가격 추정 근거: 2025~2026년 카약·호텔스컴바인·트립닷컴 데이터(대한항공 직항 왕복 최저 약 132만~178만원, 루프트한자 약 79만원~, 에어프랑스 약 87만원~, 티웨이 직항 왕복 약 93만~103만원~, 터키항공 평균 약 146만원, 에티하드 평균 약 107만원, 중국계 경유 53만~80만원). 4월 말~5월 초는 성수기 초입이라 이보다 15~30% 높게 잡는 것이 안전.",
+  "notes": "- 조사 기준일 2026-08-30. 2027년 4~5월 스케줄은 어느 항공사도 미공개이며, 모든 시각·요일은 2026년 하계 스케줄(2026.3.29~10.24)과 실운항 기록을 근거로 한 '현재 패턴'임. 2027 하계는 2027.3.28 시작이라 시각은 비슷하되 요일이 바뀔 수 있음.\n- 인천→마드리드 직항은 2026년 현재 대한항공 KE913/914가 유일(화·목·금·일 주4회). 이베리아항공의 서울 취항은 2026년 8월까지 발표된 바 없고(2026년 신규 노선은 토론토·몬테레이·올랜도 등), 아시아나는 마드리드 미취항. 인천→바르셀로나 직항은 아시아나 OZ511/512(주5회)와 티웨이 TW407/408(주4회)이며 대한항공은 EU 합병 시정조치로 바르셀로나 노선을 티웨이에 넘겨 미운항.\n- 가장 큰 리스크: 2027.5.6(목)은 현재 패턴상 바르셀로나발 직항(아시아나·티웨이 모두)이 없는 요일. 직항을 원하면 5/5(수) 또는 5/7(금) 출발로 날짜를 옮기거나, 목요일에는 루프트한자·터키항공·카타르·에미레이트 경유편을 이용해 5/7(금) 인천 도착 후 당일 울산 귀가 가능. 아시아나 운항 요일은 자료마다 달라(나무위키·실운항: 월화수금토 / 일부 스케줄DB: 화목금토일) 2027 스케줄 공개 후 확인 필수.\n- 대한항공-아시아나 합병: 2026.6.25 국토부 조건부 인가, 2026.12.17 '통합 대한항공' 출범으로 아시아나 브랜드·OZ 편명 소멸 예정. 여행 시점(2027.4)에는 바르셀로나 직항이 KE 편명·통합 스케줄로 운영될 것이므로 증편(주7회) 가능성도 있음.\n- 울산→인천 이동: 울산공항(USN)은 김포행 국내선만 있으며(대한항공·진에어, 하루 2~3편, 섬에어 2026.5 취항 예정) 국제선 연결 수하물은 불가. 실용적인 1순위는 KTX+공항철도 직통열차(약 4시간, 약 6.8만원), 짐이 많으면 KTX 광명역+6770번, 새벽 출발편엔 심야 시외버스(01:00 출발, 5시간~5시간 20분, 58,900원)가 유일한 당일 이동 수단.\n- 가격은 모두 추정치(2025~2026년 운임 기준, 1인 이코노미, 세금·유류할증 포함). 4/25~5/7은 한국 5월 연휴와 겹쳐 실제 운임은 상단에 가까울 수 있음. 환율·유류할증 변동도 반영되지 않음.\n- 시차: 4~5월 스페인은 서머타임(CEST, UTC+2)이라 한국과 7시간 차. 자료 출처: 대한항공 뉴스룸, 아시아나 공지, 나무위키(울산공항·김포-울산 항공노선·인천-바르셀로나 항공노선·시외버스 인천공항-울산·6770번), flightmapper.net 2026 스케줄, 트립닷컴 실운항 데이터, 코레일·공항철도 안내, 카약·호텔스컴바인 운임 통계."
+ },
+ "safety": {
+  "cities": [
+   {
+    "city": "Madrid (마드리드)",
+    "avoid_areas": [
+     {
+      "area": "Lavapiés (라바피에스) 남측 골목 — Calle Argumosa/Plaza Nelson Mandela 주변",
+      "lat": 40.409,
+      "lng": -3.7015,
+      "when": "밤(23시 이후)",
+      "severity": "med",
+      "reason": "낮에는 다문화 카페·타파스 거리로 안전하지만 심야에는 취객·마약 거래·소매치기 신고가 잦음. 큰길(Calle Atocha/Embajadores)로만 이동."
+     },
+     {
+      "area": "Puente de Vallecas (푸엔테 데 바예카스) — Entrevías·Portazgo 일대",
+      "lat": 40.393,
+      "lng": -3.663,
+      "when": "밤",
+      "severity": "med",
+      "reason": "관광 요소 없는 서민 주거지. 야간에 소규모 폭력·절도 신고 비율이 시내 평균보다 높음. 굳이 갈 이유 없음."
+     },
+     {
+      "area": "Usera (우세라) — Almendrales/Zofío",
+      "lat": 40.383,
+      "lng": -3.706,
+      "when": "밤",
+      "severity": "low",
+      "reason": "차이나타운으로 낮에 중식 먹으러 가는 건 무난. 밤 늦게 골목·공원(Parque de Pradolongo) 배회는 비추."
+     },
+     {
+      "area": "Calle de la Montera (몬테라 거리) — Sol↔Gran Vía 연결 골목",
+      "lat": 40.4195,
+      "lng": -3.7028,
+      "when": "저녁~심야",
+      "severity": "med",
+      "reason": "호객·성매매 호객, 취객, 휴대폰 날치기가 집중되는 구간. 밤에는 Calle Preciados/Carmen 쪽 대로로 우회."
+     },
+     {
+      "area": "Puerta del Sol · Gran Vía · Callao 광장",
+      "lat": 40.4169,
+      "lng": -3.7035,
+      "when": "낮·밤 모두(특히 주말 저녁)",
+      "severity": "med",
+      "reason": "마드리드 최대 소매치기 구역. 인파 속 백팩·뒷주머니, 길거리 공연 관람 중 가방 노림. 스쿠터·자전거 휴대폰 날치기도 보고됨."
+     },
+     {
+      "area": "Parque del Retiro (레티로 공원) 내부",
+      "lat": 40.4153,
+      "lng": -3.6844,
+      "when": "일몰 후(폐장 시각 전후)",
+      "severity": "low",
+      "reason": "낮에는 매우 안전. 폐장 무렵(계절별 22~24시) 조명 없는 구역은 인적이 끊겨 절도·성추행 신고 사례. 밤에는 Paseo del Prado 쪽 출구로 나올 것."
+     },
+     {
+      "area": "Casa de Campo (카사 데 캄포) 공원 내부 도로",
+      "lat": 40.42,
+      "lng": -3.75,
+      "when": "저녁 이후",
+      "severity": "med",
+      "reason": "케이블카·호수 주변 낮 방문은 OK. 저녁부터 공원 내부 도로에 성매매·마약 거래가 있어 도보 이동 금지."
+     },
+     {
+      "area": "El Rastro (엘 라스트로) 벼룩시장 — 일요일 오전",
+      "lat": 40.409,
+      "lng": -3.7075,
+      "when": "일요일 09~15시(낮)",
+      "severity": "med",
+      "reason": "4/25·5/2 일요일 방문 시 극도의 혼잡. 조직 소매치기 최다 발생 장소. 가방은 앞으로, 휴대폰은 손에서 놓지 말 것."
+     },
+     {
+      "area": "Atocha 역·Chamartín 역 대합실",
+      "lat": 40.4066,
+      "lng": -3.6893,
+      "when": "낮·밤",
+      "severity": "low",
+      "reason": "짐 곁에 두고 잠깐 한눈파는 사이 캐리어·핸드백 도난. 렌페/AVE 탑승 대기 중 짐은 다리 사이에."
+     },
+     {
+      "area": "Malasaña·Chueca 유흥가 골목",
+      "lat": 40.4255,
+      "lng": -3.704,
+      "when": "금·토 심야(02시 이후)",
+      "severity": "low",
+      "reason": "치안 자체는 좋으나 심야 취객·클럽 앞 시비, 휴대폰 날치기. 귀가는 택시앱 이용."
+     }
+    ],
+    "pickpocket_hotspots": [
+     "Puerta del Sol · Calle Preciados · Plaza del Callao (인파·거리공연)",
+     "Gran Vía 전 구간 (특히 Metro Gran Vía/Callao 역 출입구)",
+     "Plaza Mayor · Mercado de San Miguel 내부 (줄 서기·시식 중)",
+     "El Rastro 일요일 벼룩시장 (Calle Ribera de Curtidores)",
+     "Metro L1·L3·L5 Sol–Gran Vía–Atocha 구간, 출퇴근 시간 만원 열차",
+     "Atocha·Chamartín 역, 공항 T4 수하물 벨트 앞",
+     "Museo del Prado 앞·Paseo del Prado 티켓 줄",
+     "Santiago Bernabéu 경기 전후 Metro L10 Santiago Bernabéu역",
+     "Palacio Real·Almudena 앞 관광객 대기줄",
+     "Plaza de Cibeles 버스정류장, 27번 버스(관광객 동선)"
+    ],
+    "safe_neighborhoods_for_lodging": [
+     "Salamanca (살라망카) — Goya·Serrano·Velázquez 일대: 가장 안전하고 고급, 밤에도 조용",
+     "Retiro (레티로) — Ibiza·Niño Jesús: 공원 옆 주거지, 조용하고 가족 여행에 적합",
+     "Chamberí (참베리) — Almagro·Trafalgar·Ríos Rosas: 현지인 동네, 안전+맛집",
+     "Barrio de las Letras / Huertas (문학지구): 프라도·소피아 도보권, 밤에는 바 소음 약간",
+     "Sol / Ópera / Austrias (솔·오페라): 관광 최적 입지, 소매치기만 주의, 소음 있음",
+     "Chueca (추에카): 안전하고 활기참, 심야 소음 감안",
+     "Argüelles / Moncloa (아르궤예스): 대학가, 안전하고 가성비 좋음"
+    ],
+    "tips": [
+     "Numbeo 2026 기준 마드리드 안전지수 70.8(높음), 야간 혼자 걷기 69.9 — 유럽 대도시 중 상위권. 실제 위험은 폭력보다 '소매치기·날치기'.",
+     "5/2(일) 마드리드의 날: Puerta del Sol 군 퍼레이드·Malasaña(Plaza Dos de Mayo) 야외공연으로 시내 혼잡 → 소매치기 경계 강화.",
+     "5/1(토) 노동절 오전 Atocha→Sol 구간 노조 행진으로 도로·일부 역 통제. 오전 일정은 공원·미술관 외곽으로.",
+     "택시는 흰색 차체+빨간 사선 공식택시만. 앱은 FreeNow·Cabify·Uber·Bolt 모두 작동. 공항↔시내 정액 33€(2026 기준, 변동 가능).",
+     "Metro는 문 근처 서지 말고 객차 안쪽으로, 백팩은 앞으로 돌려 메기.",
+     "관광객 피해 신고 전용 SATE(Servicio de Atención al Turista Extranjero): Comisaría Centro, Calle Leganitos 19 (Plaza de España 인근), 09~24시, 전화 +34-91-548-8008 / 902-102-112. 영어 통역 지원.",
+     "ATM은 BBVA·Santander·CaixaBank 지점 내부(실내) 기기 사용, 파란색 Euronet 독립형 ATM은 수수료·스키밍 위험으로 피할 것. 화면에서 'EUR로 결제(DCC 거절)' 선택.",
+     "레티로·프라도 근처에서 '가짜 경찰' 신분증 검사 사기: 진짜 경찰은 지갑·현금을 절대 요구하지 않음. 112에 확인 요청."
+    ]
+   }
+  ],
+  "holidays_events": [
+   {
+    "date": "2027-04-23 (금) — 여행 전",
+    "name": "Sant Jordi (산 조르디, 책과 장미의 날)",
+    "where": "Barcelona 전역 · 카탈루냐",
+    "impact": "여행 시작 이틀 전이라 직접 영향 없음. 다만 4/23~25 주말까지 도심 장미·책 노점 잔여 분위기와 관광 인파가 이어져 4/25 전후 바르셀로나 체류라면 호텔가 상승 여지."
+   },
+   {
+    "date": "2027-04-25 (일) — 마드리드 도착일",
+    "name": "Zurich Rock 'n' Roll Running Series Madrid 마라톤 (예상)",
+    "where": "Madrid 시내 전역 (Paseo de la Castellana·Retiro·Gran Vía 등)",
+    "impact": "2026년 대회가 4/26(일) 개최됐고 통상 4월 마지막 일요일 → 2027-04-25 가능성 높음. 오전~오후 이른 시간 도심 도로·버스 통제, 공항→숙소 택시 우회. 2026년 말 runrocknroll.com/madrid 일정 확인."
+   },
+   {
+    "date": "2027-04-20~05-02 (예상, 2026년은 4/21~5/3)",
+    "name": "Mutua Madrid Open (마드리드 오픈 테니스, ATP/WTA 1000)",
+    "where": "Caja Mágica, Madrid (Metro L3 San Fermín-Orcasur)",
+    "impact": "결승 주간(4/29~5/2)이 체류와 겹칠 확률 높음. 스포츠 관광객으로 마드리드 호텔 요금·예약 난이도 상승, 저녁 Sol·Salamanca 식당 예약 필수. 관람 원하면 madrid-open.com에서 티켓 사전 구매."
+   },
+   {
+    "date": "2027-04-23~05-02 (예상, 2026년은 4/24~5/3)",
+    "name": "Feria de Abril de Catalunya (바르셀로나 4월 축제, 안달루시아풍 카세타 축제)",
+    "where": "Parc del Fòrum, Barcelona/Sant Adrià de Besòs (Metro L4 El Maresme|Fòrum)",
+    "impact": "바르셀로나 체류(5/2~6 추정)가 마지막 주말(4/30~5/2)과 겹치면 무료 입장으로 플라멩코·세비야나스·레보히토 체험 가능. 야간 귀가는 L4 지하철 막차(주말 새벽 운행) 또는 택시. Fòrum 북쪽 La Mina 방향 도보 금지. 정확한 2027 일정은 fecac.com 확인."
+   },
+   {
+    "date": "2027-05-01 (토)",
+    "name": "Día del Trabajo (노동절, 전국 공휴일)",
+    "where": "스페인 전역 (Madrid·Mallorca·Barcelona)",
+    "impact": "슈퍼마켓·백화점(El Corte Inglés)·대부분 상점·La Boqueria·Mercat de l'Olivar 휴무. Prado·Reina Sofía 휴관, Picasso·MNAC 등 다수 미술관 휴관(개별 확인). Sagrada Família·Park Güell·Palacio Real·대성당 등 관광지와 식당·카페는 대부분 정상. 오전 노조 행진으로 Madrid Atocha~Sol, Barcelona Passeig de Gràcia 도로 통제. 토요일이라 대체휴일 없음(스페인은 토요일 공휴일 대체 안 함)."
+   },
+   {
+    "date": "2027-05-02 (일)",
+    "name": "Fiesta de la Comunidad de Madrid / Dos de Mayo (마드리드 자치주의 날)",
+    "where": "Madrid — Puerta del Sol(자치정부 청사 앞 군 퍼레이드·시상식), Malasaña Plaza del Dos de Mayo(야외 콘서트), Retiro 등",
+    "impact": "마드리드 지역 공휴일. 일요일과 겹쳐 2021년 사례처럼 5/3(월)을 대체휴일로 지정할 가능성 있음(2026년 하반기 발표되는 Calendario laboral 2027 확인 → 월요일 상점 휴무 여부 결정). 일부 미술관 무료 개방, 도심 혼잡·소매치기 주의. 당일 마드리드→마요르카 이동이면 공항 택시 시간 여유."
+   },
+   {
+    "date": "2027-05-02 (일)",
+    "name": "Fira de Maig de Sineu (시네우 5월 농축산 장터, 5월 첫째 일요일)",
+    "where": "Sineu, Mallorca 내륙 (Palma에서 차 40분, 기차 T3)",
+    "impact": "마요르카 최대·최고(最古) 농업 박람회 중 하나. 가축·농기계·지역 특산품·음식 노점. 마요르카 체류가 5/2와 겹치면 반나절 코스로 추천. 주차 혼잡, 소매치기 주의. 시네우 정기장은 수요일(4/28·5/5)."
+   },
+   {
+    "date": "2027-04-24~25 또는 05-01~02 (예상, 4월 마지막 주말 관례)",
+    "name": "Fira del Vi de Pollença (포옌사 와인 페어)",
+    "where": "Pollença 구시가 Claustre de Sant Domingo, Mallorca 북부",
+    "impact": "마요르카 와이너리 50여 곳 시음(입장권 약 15~20€). 4월 마지막 주말이 관례라 4/24~25이면 여행 전. 2027 일정은 firadelvipollenca.com 확인. 일요일은 Pollença 정기장(Plaça Major)도 열림."
+   },
+   {
+    "date": "2027-05-09~10 (일·월) — 여행 후",
+    "name": "Fira de Sóller & Es Firó (소예르 시장축제·무어인 vs 기독교도 모의전투)",
+    "where": "Sóller · Port de Sóller, Mallorca",
+    "impact": "5월 둘째 일요일 Fira, 다음날 Firó. 여행 후라 직접 관람은 불가하나 5월 초 소예르 방문 시 축제 준비(장식·리허설) 분위기. 참고용."
+   },
+   {
+    "date": "2027-05-15 (토) — 여행 후",
+    "name": "San Isidro (마드리드 수호성인 축일)",
+    "where": "Madrid — Pradera de San Isidro, Plaza Mayor, Las Ventas 투우 시즌",
+    "impact": "여행 후 개최. 다만 5월 초부터 Plaza Mayor·Las Vistillas 등에서 프리 이벤트와 Las Ventas 투우 시즌(Feria de San Isidro, 5월 초~6월 초 거의 매일 저녁) 시작 → 5/1~2 Las Ventas 인근 혼잡 가능."
+   },
+   {
+    "date": "2027-04-27~28 · 05-04~05 (예상)",
+    "name": "UEFA 챔피언스리그 4강 1·2차전 + LaLiga 33~35라운드 (Real Madrid / FC Barcelona 홈경기 가능성)",
+    "where": "Santiago Bernabéu (Madrid, Metro L10) · Spotify Camp Nou (Barcelona, Metro L3/L5)",
+    "impact": "2026-27 LaLiga 일정은 2026년 6~7월 추첨, 각 라운드의 정확한 요일·시간은 경기 3~4주 전 확정. 확인 경로: laliga.com/en-GB/laliga-easports/calendar, realmadrid.com/en/football/schedule, fcbarcelona.com/en/football/first-team/schedule, uefa.com. 주말 4/24~25, 5/1~2(공휴일에도 경기 있음), 5/8~9가 리그 라운드. 홈경기 날은 경기장 주변 호텔·지하철 혼잡, 경기 후 심야 소매치기 급증. 관람 시 공식 사이트에서만 티켓 구매(리셀 사이트 사기 주의)."
+   },
+   {
+    "date": "2026-06-10 (완료) → 2027년 봄 영향",
+    "name": "Sagrada Família 예수 그리스도 탑(172.5m) 축성·완공 (가우디 서거 100주년)",
+    "where": "Barcelona Sagrada Família",
+    "impact": "2026년 6월 10일 축성으로 세계 최고(最高) 교회가 됨. 2027년 4~5월은 완공 후 첫 봄 성수기로 예매 매진 빠름 → 출발 4~6주 전 공식 사이트·앱에서 시간지정 예매, 탑 입장(Nativity/Passion) 별도 선택. 영광의 파사드·주변 정비 공사는 2030년대까지 계속되어 Carrer de Mallorca 쪽 일부 통제 가능."
+   },
+   {
+    "date": "매주 요일별 휴무 정리 (4/25~5/6)",
+    "name": "주요 관광지·시장 정기 휴무",
+    "where": "Madrid · Palma · Barcelona",
+    "impact": "Madrid: Prado 연중무휴(월~토 10~20, 일 10~19, 5/1 휴관, 무료 월~토 18~20·일 17~19), Reina Sofía 화요일 휴관(5/1 휴관, 일요일 12:30~14:30 일부 폐쇄), Thyssen 월요일 12~16시만 무료 단축, Palacio Real 공식행사 시 임시 폐쇄, El Rastro 일요일만(4/25·5/2), Mercado de San Miguel 연중무휴. Palma: 대성당 일요일 관광 입장 불가, Es Baluard·Bellver성·Museu de Mallorca 월요일 휴관, Mercat de l'Olivar·Santa Catalina 시장 일요일 휴무. Barcelona: La Boqueria 일요일 휴무(월~토 08:00~20:30), Picasso 미술관 월요일 휴관(화·수·일 09~20, 목~토 09~21), MNAC·Fundació Miró·CCCB 월요일 휴관, Sagrada Família·Park Güell·Casa Batlló·La Pedrera 연중무휴."
+   }
+  ],
+  "weather": [
+   {
+    "city": "Madrid (마드리드) — 4/25~4/29 체류 기준",
+    "high_c": 21,
+    "low_c": 10,
+    "rain_days_per_month": 7,
+    "sunset": "21:05 (4/26) ~ 21:10 (4/30)",
+    "packing": "1991~2020 평년: 4월 최고 18.9/최저 8.2°C, 5월 23.2/11.9°C → 4월 말 낮 20~22°C, 새벽 9~10°C. 일교차 12°C 이상이라 아침·밤엔 얇은 패딩/바람막이, 낮엔 반팔+가디건. 해발 650m 내륙이라 4월 말에도 갑작스런 더위(28~30°C)나 비 오는 15°C 날 모두 가능 → 접이식 우산, 선크림·선글라스 필수. 강수일 월 6~7일(대부분 짧은 소나기). 일몰 21시 이후로 저녁 산책·야외 테라스 시간 길다. 편한 워킹화(자갈길·언덕)."
+   }
+  ],
+  "general_tips": [
+   "가방 습관: 크로스백을 몸 앞쪽에, 지퍼는 손으로 덮고, 백팩은 지하철·인파에서 앞으로. 휴대폰은 식당 테이블·뒷주머니에 두지 않기. 여권은 호텔 금고, 사본(사진)만 휴대. 현금은 하루치(50~100€)만 분산 보관.",
+   "3도시 위험 순위: Barcelona > Palma(유흥가·차량털이) > Madrid. 어느 도시든 폭력 범죄는 드물고 '소매치기·날치기·사기'가 99%. 심야(01시 이후) 구시가 골목 도보 대신 택시앱.",
+   "택시앱: Madrid·Barcelona는 FreeNow·Cabify·Uber·Bolt 모두 사용 가능(FreeNow가 공식택시 호출로 가장 안정적). Mallorca는 FreeNow·TaxiPalma/PideTaxi 또는 호텔 호출, Uber는 거의 없음. 길에서 잡을 땐 미터기 켜는지 확인, 공항은 정액제 표지판 확인.",
+   "ATM: 은행 지점 내부 ATM(BBVA·Santander·CaixaBank·Sabadell)만 사용, 파란색 Euronet 등 독립형 ATM 회피. 화면에서 '현지통화(EUR)로 결제', DCC(원화 환산) 거절. 대부분 결제는 트래블카드·애플페이 탭 결제로 충분(소액도 카드 OK).",
+   "가짜 경찰: 사복 차림으로 '위조지폐 검사' 명목 지갑 요구 → 100% 사기. 진짜 경찰은 신분증만 확인. 112에 전화해 확인하겠다고 하면 사라짐.",
+   "도난 시 순서: (1) 카드 즉시 정지(카드사 앱) (2) 온라인 denuncia 사전 접수 denuncias.policia.es (폭력 없는 절도·분실만 가능, 스페인어/영어) 또는 Alertcops 앱 (3) 72시간 내 가까운 Policía Nacional(091) 서 방문해 서명·사본 수령 (4) 여권 분실이면 대사관/총영사관에 긴급여권 신청(사진 2장·신분증 사본·denuncia 사본). 여행자보험 청구에 denuncia 사본 필수.",
+   "휴대폰 분실 대비: 출국 전 '내 기기 찾기' 활성화, eSIM 백업, 사진 클라우드 동기화. 스쿠터·자전거가 인도 가장자리에서 휴대폰 낚아채는 수법 → 차도 쪽에서 통화·촬영 금지.",
+   "해외안전여행 앱(외교부) 설치 및 '동행' 여행자 등록, 카카오톡 '영사콜센터' 채널 추가. 영사콜센터 24시간 +82-2-3210-0404(무료전화 앱 사용 시 무료).",
+   "공휴일 대비: 5/1(토) 전국 휴무 → 4/30(금)에 물·간식·약 미리 구매. 약국(Farmacia)은 당번 약국(farmacia de guardia)만 운영. 식당은 대부분 정상이나 인기 식당은 예약.",
+   "일·월요일 휴무 함정: 일요일 = 시장(La Boqueria·Olivar)·백화점 휴무, 월요일 = Picasso·MNAC·Es Baluard·Thyssen(단축) 등 미술관 휴관, 화요일 = Reina Sofía 휴관. 3도시 동선에 요일을 먼저 박고 예약.",
+   "술·클럽: 음료는 직접 받고 시야에 두기(음료 스파이킹 사례), 스페인 칵테일 도수 높음. 발코니 사고 다수 → 호텔 발코니 난간 기대지 않기. 흡연구역 아닌 해변·테라스 흡연 벌금.",
+   "축구 경기일 체크: Real Madrid·FC Barcelona 홈경기 날은 호텔 가격 급등·지하철 혼잡·경기 후 소매치기 증가. 4~5월 챔피언스리그 4강·리그 막판이라 가능성 높음. 출발 3주 전 구단 공식 일정 확인.",
+   "교통 카드 분실·무임승차 벌금(마드리드 50€, 바르셀로나 100€) 주의 — 개찰 오류 시 역무원 호출. 지하철 안에서는 문 근처 대신 객차 중앙에 서기.",
+   "응급 의료: 공공병원 응급실(Urgencias)은 여행자보험 없으면 후불 청구. 약국 녹색 십자 표시, 처방 없이 진통제·감기약 구매 가능. 여행자보험 가입 후 보험사 24시간 어시스트 번호 저장.",
+   "한국인 여행객 특히 주의: 셀카·삼각대 촬영 중 가방 방치, 카페 테이블 위 휴대폰, 지하철 문 앞 서기, 새벽 클럽 후 도보 귀가가 피해 사례의 대부분. 2인 이상 동행하고 한 명은 항상 짐 담당."
+  ],
+  "emergency": "통합 긴급전화 112 (경찰·구급·소방, 영어 가능) | 국가경찰 Policía Nacional 091 (도난 신고·denuncia) | 지방경찰 Policía Local 092 | 치안경비대 Guardia Civil 062 | 카탈루냐 자치경찰 Mossos d'Esquadra 112 | Alertcops 앱(경찰 채팅 신고) | 주스페인 대한민국 대사관: C/ González Amigó 15, 28033 Madrid, 대표 +34-91-353-2000 (월~금 09:00~14:00, 16:00~18:00), 야간·휴일 긴급 +34-648-924-695 | 주바르셀로나 대한민국 총영사관: 대표 +34-93-487-3153 (Passeig de Gràcia 103, 3층) — 마요르카·카탈루냐 관할 | 외교부 영사콜센터 24시간 +82-2-3210-0404 (영사콜센터 무료전화 앱 사용 시 무료) | 재외동포청 365 민원콜센터 +82-2-6747-0404 | 마드리드 관광객 피해 지원 SATE: Calle Leganitos 19 (Comisaría Centro), 09~24시, +34-91-548-8008 | 바르셀로나 Mossos Ciutat Vella 서: Carrer Nou de la Rambla 76~80, 24시간 | 온라인 도난 신고: denuncias.policia.es (72시간 내 서 방문 확정)"
+ }
+}
