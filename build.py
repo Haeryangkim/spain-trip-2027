@@ -66,6 +66,40 @@ for d in trip.get("days", []):
                 b["gmap"] = hit["gmap"]
             elif b.get("lat") is not None:
                 b["gmap"] = _gmaps(b.get("name_en") or b.get("name", ""), "", b.get("lat"), b.get("lng"))
+        elif b.get("type") in ("sight", "hotel", "free") and b.get("lat") is not None:
+            b["gmap"] = _gmaps(b.get("name_en") or b.get("name", ""), "", b.get("lat"), b.get("lng"))
+
+def _travel_mode(mode):
+    m = (mode or "").lower()
+    if any(k in m for k in ("walk", "도보", "foot")): return "walking"
+    if any(k in m for k in ("taxi", "car", "택시", "렌터", "drive", "driving")): return "driving"
+    if any(k in m for k in ("bus", "metro", "train", "tram", "subway", "rail", "cercan", "ktx", "arex", "버스", "지하철", "열차", "기차", "트램", "boat", "ferry")): return "transit"
+    return None
+
+def _nav_url(o, d, mode):
+    import urllib.parse
+    q = {"api": "1", "destination": f"{d[0]},{d[1]}"}
+    if o: q["origin"] = f"{o[0]},{o[1]}"
+    if mode: q["travelmode"] = mode
+    return "https://www.google.com/maps/dir/?" + urllib.parse.urlencode(q)
+
+def _km(a, b):
+    import math
+    R = 6371; dl = math.radians(b[0]-a[0]); dg = math.radians(b[1]-a[1])
+    x = math.sin(dl/2)**2 + math.cos(math.radians(a[0]))*math.cos(math.radians(b[0]))*math.sin(dg/2)**2
+    return 2*R*math.asin(math.sqrt(x))
+
+# 이동 블록: 직전 지점 → 이 블록 좌표로 길안내 · 머무는 블록: 현재 위치 → 지점 길안내
+for d in trip.get("days", []):
+    prev = None
+    for b in d.get("blocks", []):
+        here = (b["lat"], b["lng"]) if b.get("lat") is not None and b.get("lng") is not None else None
+        if b.get("type") == "transport" and here and prev and _km(prev, here) < 400:
+            mode = _travel_mode(b.get("transport_mode")) or _travel_mode(b.get("transport_detail")) or "transit"
+            b["nav"] = _nav_url(prev, here, mode)
+        elif b.get("type") in ("sight", "meal", "hotel", "free") and here:
+            b["nav"] = _nav_url(None, here, "walking")
+        if here: prev = here
 for r in trip.get("restaurants", []):
     s = imap["restaurants"].get(r["name"])  # 대표 요리 사진
     if not s:
