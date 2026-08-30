@@ -6,6 +6,16 @@ def read(p, mode="r"):
     with open(os.path.join(ROOT, p), mode) as f: return f.read()
 src = sys.argv[1] if len(sys.argv) > 1 else "data/itinerary.json"
 trip = json.load(open(os.path.join(ROOT, src), encoding="utf-8"))
+import re as _re
+def _norm(n): return _re.sub(r"\s+", " ", _re.sub(r"\(.*?\)", "", n)).strip().lower()
+_seen = {}
+for r in trip.get("restaurants", []):
+    k = _norm(r["name"])
+    if k in _seen:
+        if not _seen[k].get("used_on_day") and r.get("used_on_day"): _seen[k].update(r)
+        continue
+    _seen[k] = r
+trip["restaurants"] = list(_seen.values())
 metas = json.loads(read("assets/base_meta.json"))
 bases = []
 for m in metas:

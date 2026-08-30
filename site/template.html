@@ -129,6 +129,9 @@ section.sec{padding:44px 0}
 .filters label{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;padding:3px 9px;border:1px solid var(--line);cursor:pointer;user-select:none;background:var(--bg)}
 .filters label .sw{width:10px;height:10px;border-radius:50%;background:var(--c)}
 .filters .sep{width:1px;height:20px;background:var(--line);margin:0 4px}
+.filters.focus:empty{display:none}
+.filters .lbl{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;color:var(--ink2);margin-right:4px}
+.filters button small{color:var(--ink2);font-family:"IBM Plex Mono",monospace;margin-left:2px}
 .filters button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:3px 10px;font:inherit;font-size:12.5px;cursor:pointer}
 .map{height:620px;width:100%;background:#e9e7df}
 @media (max-width:700px){.map{height:480px}}
@@ -193,7 +196,7 @@ footer{padding:36px 0 60px;color:var(--ink2);font-size:13px;border-top:1px solid
   <div class="grid c3" id="city-cards"></div>
   <div class="grid c2" style="margin-top:16px">
     <div class="card"><h3>항공 · 국내 이동</h3><div id="flights"></div></div>
-    <div class="card" style="padding:0;overflow:hidden"><div id="map-spain" class="map" style="height:100%;min-height:360px"></div></div>
+    <div class="card" style="padding:0;overflow:hidden;align-self:start;position:sticky;top:64px"><div id="map-spain" class="map" style="height:520px"></div></div>
   </div>
   <div class="grid c3" style="margin-top:16px" id="weather-cards"></div>
 </div></section>
@@ -211,6 +214,7 @@ footer{padding:36px 0 60px;color:var(--ink2);font-size:13px;border-top:1px solid
   <div class="maptabs" id="maptabs"></div>
   <div class="mapbox">
     <div class="filters" id="filters"></div>
+    <div class="filters focus" id="focus"></div>
     <div id="map-city" class="map"></div>
     <div class="legend" id="legend"></div>
     <div class="route-list" id="route-list"></div>
@@ -318,7 +322,8 @@ const ratingHtml = r => r ? `<span class="rating">★ ${Number(r).toFixed(1)}</s
         b.booking ? `<span class="badge book">예약: ${esc(b.booking)}</span>` : '',
         hasGeo ? `<span class="badge gomap" data-goto="${d.day_no}|${esc(b.name)}">지도에서 보기</span>` : ''
       ].filter(Boolean).join('');
-      return `<div class="blk type-${esc(b.type)}"><div class="t"><b>${esc(b.start)}${b.end?' – '+esc(b.end):''}</b>${dur}</div><div class="ic">${ICON[b.type]||'·'}</div><div><div class="nm">${esc(b.name)}${b.name_en?`<span class="en">${esc(b.name_en)}</span>`:''}</div>${tr?`<div class="dt">${esc(tr)}</div>`:''}${b.notes?`<div class="note">${esc(b.notes)}</div>`:''}${badges?`<div class="badges">${badges}</div>`:''}</div></div>`;
+      const isCard = b.type==='tip' && b.start==='00:00';
+      return `<div class="blk type-${esc(b.type)}"><div class="t"><b>${isCard?'안내':esc(b.start)+(b.end&&b.end!==b.start?' – '+esc(b.end):'')}</b>${dur}</div><div class="ic">${ICON[b.type]||'·'}</div><div><div class="nm">${esc(b.name)}${b.name_en?`<span class="en">${esc(b.name_en)}</span>`:''}</div>${tr?`<div class="dt">${esc(tr)}</div>`:''}${b.notes?`<div class="note">${esc(b.notes)}</div>`:''}${badges?`<div class="badges">${badges}</div>`:''}</div></div>`;
     }).join('');
     return `<article class="day" id="day-${d.day_no}" style="--c:${col}">
       <div class="day-h"><div class="num"><small>DAY</small>${String(d.day_no).padStart(2,'0')}</div><div><h3>${esc(d.title)}</h3><div class="meta">${esc(d.date)} (${esc(d.weekday_ko)}) · <span class="chip c-${k}">${REGION_KO[k]||esc(d.city)}</span> ${esc(d.city)}</div></div><div class="theme">${esc(d.theme)}</div></div>
@@ -400,7 +405,12 @@ const ratingHtml = r => r ? `<span class="rating">★ ${Number(r).toFixed(1)}</s
   const tabs = document.getElementById('maptabs'); const filters = document.getElementById('filters'); const legend=document.getElementById('legend'); const routeList=document.getElementById('route-list');
   ['madrid','mallorca','barcelona'].forEach(k=>{ const b=document.createElement('button'); b.textContent=REGION_KO[k]; b.dataset.k=k; if(k===current) b.classList.add('active'); b.onclick=()=>{ current=k; [...tabs.children].forEach(x=>x.classList.toggle('active',x.dataset.k===k)); buildFilters(); render(); }; tabs.appendChild(b); });
   const activeDays = new Set();
+  const ANCHORS = [['마드리드 시내',40.4168,-3.7038],['바라하스 공항',40.4936,-3.5668],['팔마 공항',39.5517,2.7388],['엘 프라트 공항',41.2974,2.0833],['톨레도',39.8581,-4.0226],['세고비아',40.9481,-4.1184],['팔마',39.5696,2.6502],['소예르 · 포르트 데 소예르',39.7656,2.7150],['발데모사 · 데이아',39.7105,2.6225],['산타니 · 몬드라고',39.3550,3.1300],['포르토 크리스토 · 드라크 동굴',39.5360,3.3320],['포옌사 · 포르멘토르',39.9200,3.0800],['알쿠디아',39.8530,3.1210],['에스 트렌크',39.3550,2.9900],['바르셀로나 시내',41.3874,2.1686],['몬세라트',41.5930,1.8380],['지로나',41.9794,2.8214],['시체스',41.2350,1.8110]];
+  const km = (a,b,c,d)=>{ const R=6371, dl=(c-a)*Math.PI/180, dg=(d-b)*Math.PI/180, x=Math.sin(dl/2)**2+Math.cos(a*Math.PI/180)*Math.cos(c*Math.PI/180)*Math.sin(dg/2)**2; return 2*R*Math.asin(Math.sqrt(x)); };
+  const anchorOf = (lat,lng)=>{ let best=null, bd=7.5; ANCHORS.forEach(a=>{ const d=km(lat,lng,a[1],a[2]); if(d<bd){ bd=d; best=a[0]; } }); return best; };
   function daysFor(k){ return days.filter(d=>(d.blocks||[]).some(b=>regionOf(b.lat,b.lng)===k)); }
+  function focusGroups(){ const g={}; days.forEach(d=>{ if(!activeDays.has(d.day_no)) return; (d.blocks||[]).forEach(b=>{ if(regionOf(b.lat,b.lng)!==current) return; const a=anchorOf(b.lat,b.lng)||'기타'; (g[a]=g[a]||[]).push([b.lat,b.lng]); }); }); return Object.entries(g).sort((a,b)=>b[1].length-a[1].length); }
+  function renderFocus(){ const fg=focusGroups(); const el=document.getElementById('focus'); el.innerHTML = fg.length>1 ? '<span class="lbl">포커스</span>' + fg.map(([n,pts])=>`<button data-focus="${esc(n)}">${esc(n)} <small>${pts.length}</small></button>`).join('') : ''; el.onclick=e=>{ const b=e.target.closest('[data-focus]'); if(!b) return; const g=fg.find(x=>x[0]===b.dataset.focus); if(g) map.fitBounds(g[1],{padding:[30,30],maxZoom:15}); }; return fg; }
   function buildFilters(){
     activeDays.clear(); const ds = daysFor(current); ds.forEach(d=>activeDays.add(d.day_no));
     filters.innerHTML = ds.map(d=>`<label style="--c:${DAY_COLORS[d.day_no]}"><input type="checkbox" checked data-day="${d.day_no}"><span class="sw"></span>D${d.day_no} ${d.date.slice(5).replace('-','/')} ${esc(d.weekday_ko)}</label>`).join('')
@@ -438,7 +448,8 @@ const ratingHtml = r => r ? `<span class="rating">★ ${Number(r).toFixed(1)}</s
     }); }); }
     routeList.innerHTML = routeHtml.join('');
     legend.innerHTML = [...activeDays].sort((a,b)=>a-b).map(n=>`<span><i style="background:${DAY_COLORS[n]}"></i>Day ${n}</span>`).join('') + `<span><i style="background:#fff;border:2px solid #d99a1e;border-radius:3px"></i>맛집</span><span><i style="background:rgba(220,38,38,.25);border:1px dashed #dc2626"></i>주의 지역</span>`;
-    if(fit && bounds.length) map.fitBounds(bounds,{padding:[30,30],maxZoom:15});
+    const fg = renderFocus();
+    if(fit && bounds.length){ const main = fg.length ? fg[0][1] : bounds; map.fitBounds(main,{padding:[30,30],maxZoom:15}); }
   }
   window.gotoOnMap = function(dayNo, name){
     const d = days.find(x=>x.day_no===dayNo); const b=(d.blocks||[]).find(x=>x.name===name); const k=regionOf(b.lat,b.lng);
