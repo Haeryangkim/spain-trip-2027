@@ -1,0 +1,602 @@
+{
+ "alcazar-toledo": {
+  "file": "FP_Toledo_Alcazar_2025_-_Views.jpg",
+  "author": "Fernando",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:FP_Toledo_Alcazar_2025_-_Views.jpg",
+  "article": "Alcázar de Toledo",
+  "lang": "es"
+ },
+ "almudaina": {
+  "file": "Almudaina_catedral.jpg",
+  "author": "Antoni I. Alomar Canyelles",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Almudaina_catedral.jpg",
+  "article": "Palacio Real de la Almudaina",
+  "lang": "es"
+ },
+ "almudena": {
+  "file": "Almudena_2022_-_overview.jpg",
+  "author": "Fernando",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Almudena_2022_-_overview.jpg",
+  "article": "Catedral de la Almudena",
+  "lang": "es"
+ },
+ "barceloneta": {
+  "file": "Aerial_view_of_Barceloneta_Beach_and_Port_Vell_in_Barcelona,_Spain_(51226238126).jpg",
+  "author": "dronepicr",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Barceloneta_Beach_and_Port_Vell_in_Barcelona,_Spain_(51226238126).jpg",
+  "article": "La Barceloneta",
+  "lang": "es"
+ },
+ "bcn-cathedral": {
+  "file": "Barcelona_Cathedral_Saint_Eulalia.jpg",
+  "author": "Fernando",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Barcelona_Cathedral_Saint_Eulalia.jpg",
+  "article": "Catedral de la Santa Cruz y Santa Eulalia (Barcelona)",
+  "lang": "es"
+ },
+ "bocadillo": {
+  "file": "Caña_y_Bocadillo_0628.jpg",
+  "author": "Tamorlan",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Ca%C3%B1a_y_Bocadillo_0628.jpg",
+  "article": "Bocadillo de calamares",
+  "lang": "es"
+ },
+ "boqueria": {
+  "file": "Barcelona_-_Mercat_de_Sant_Josep_(la_Boqueria)_-_Entrance.jpg",
+  "author": "Didier Descouens",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Mercat_de_Sant_Josep_(la_Boqueria)_-_Entrance.jpg",
+  "article": "La Boquería",
+  "lang": "es"
+ },
+ "cafe": {
+  "file": "Cafeconleche.jpg",
+  "author": "Jeremy Keith from Brighton &amp; Hove, United Kingdom",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Cafeconleche.jpg",
+  "article": "Café con leche",
+  "lang": "es"
+ },
+ "carcamusas": {
+  "file": "CARCAMUSAS.JPG",
+  "author": "Adriao",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:CARCAMUSAS.JPG",
+  "article": "Carcamusa",
+  "lang": "es"
+ },
+ "casa-batllo": {
+  "file": "Casa_Batlló,_Antoni_Gaudí.jpg",
+  "author": "Canaan",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3,_Antoni_Gaud%C3%AD.jpg",
+  "article": "Casa Batlló",
+  "lang": "es"
+ },
+ "casa-mila": {
+  "file": "Casa_Milà,_general_view.jpg",
+  "author": "Thomas Ledl",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg",
+  "article": "Casa Milà",
+  "lang": "es"
+ },
+ "casa-vicens": {
+  "file": "Gaudí_-_Casa_Vicens.JPG",
+  "author": "Canaan",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Gaud%C3%AD_-_Casa_Vicens.JPG",
+  "article": "Casa Vicens",
+  "lang": "es"
+ },
+ "castell-montjuic": {
+  "file": "Castell_de_Montjuic_-_Fossat_entrada_-_Barcelona_(Catalonia).jpg",
+  "author": ":Puigalder",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Castell_de_Montjuic_-_Fossat_entrada_-_Barcelona_(Catalonia).jpg",
+  "article": "Castillo de Montjuic",
+  "lang": "es"
+ },
+ "chocolate": {
+  "file": "Hot_chocolate,_Hammamet,_Tunesien_Januar_2015_390.JPG",
+  "author": "Kritzolina",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Hot_chocolate,_Hammamet,_Tunesien_Januar_2015_390.JPG",
+  "article": "Chocolate caliente",
+  "lang": "es"
+ },
+ "churros": {
+  "file": "Bandeja_de_churros.jpg",
+  "author": "Tamorlan",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Bandeja_de_churros.jpg",
+  "article": "Churro",
+  "lang": "es"
+ },
+ "circulo-bellas-artes": {
+  "file": "Círculo_de_Bellas_Artes_(Madrid)_06.jpg",
+  "author": "Luis García (Zaqarbal)",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:C%C3%ADrculo_de_Bellas_Artes_(Madrid)_06.jpg",
+  "article": "Círculo de Bellas Artes",
+  "lang": "es"
+ },
+ "cochinillo": {
+  "file": "Cochinillo_asado-Madrid.jpg",
+  "author": "Tamorlan",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Cochinillo_asado-Madrid.jpg",
+  "article": "Cochinillo asado",
+  "lang": "es"
+ },
+ "cocido": {
+  "file": "CocidoMadrileño.jpg",
+  "author": "Tnarik",
+  "license": "CC BY-SA 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:CocidoMadrile%C3%B1o.jpg",
+  "article": "Cocido madrileño",
+  "lang": "es"
+ },
+ "coves-drac": {
+  "file": "Cuevas_del_Drach.jpg",
+  "author": "Cuevas del Drach",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Cuevas_del_Drach.jpg",
+  "article": "Cuevas del Drach",
+  "lang": "es"
+ },
+ "cremacatalana": {
+  "file": "Food_in_Catalonia_06.jpg",
+  "author": "Kritzolina",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Food_in_Catalonia_06.jpg",
+  "article": "Crema catalana",
+  "lang": "es"
+ },
+ "croquetas": {
+  "file": "Croquetas_Caseras_(7068664101).jpg",
+  "author": "Jonathan Pincas from Leon, Spain",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Croquetas_Caseras_(7068664101).jpg",
+  "article": "Croqueta",
+  "lang": "es"
+ },
+ "ensaimada": {
+  "file": "Ensaimada_3.jpg",
+  "author": "unknown",
+  "license": "Copyrighted free use",
+  "url": "https://commons.wikimedia.org/wiki/File:Ensaimada_3.jpg",
+  "article": "Ensaimada de Mallorca",
+  "lang": "es"
+ },
+ "fideua": {
+  "file": "Fideua_-_xurde.jpg",
+  "author": "Jorge Díaz from Madrid, Spain",
+  "license": "CC BY-SA 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Fideua_-_xurde.jpg",
+  "article": "Fideuá",
+  "lang": "es"
+ },
+ "gelato": {
+  "file": "Ice_Cream_dessert_02.jpg",
+  "author": "Lotus Head from Johannesburg, Gauteng, South Africa",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Ice_Cream_dessert_02.jpg",
+  "article": "Helado",
+  "lang": "es"
+ },
+ "gracia": {
+  "file": "FM_Gracia_2016_-_Decoración_Calles.jpg",
+  "author": "Dbascones",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:FM_Gracia_2016_-_Decoraci%C3%B3n_Calles.jpg",
+  "article": "Villa de Gracia",
+  "lang": "es"
+ },
+ "gran-via": {
+  "file": "MADRID_100206_UDCI_019.jpg",
+  "author": "Alfredo Urdaci / PromoMadrid",
+  "license": "CC BY-SA 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:MADRID_100206_UDCI_019.jpg",
+  "article": "Gran Vía",
+  "lang": "es"
+ },
+ "jamon": {
+  "file": "Jamón_bellota_Muñana.jpeg",
+  "author": "Xemenendura",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Jam%C3%B3n_bellota_Mu%C3%B1ana.jpeg",
+  "article": "Jamón ibérico",
+  "lang": "es"
+ },
+ "la-seu": {
+  "file": "Kathedrale_von_Palma_II.jpg",
+  "author": "Thomas Wolf, www.foto-tw.de",
+  "license": "CC BY-SA 3.0 de",
+  "url": "https://commons.wikimedia.org/wiki/File:Kathedrale_von_Palma_II.jpg",
+  "article": "Catedral de Palma de Mallorca",
+  "lang": "es"
+ },
+ "marisco": {
+  "file": "SeasidePrawnCoctail.jpg",
+  "author": "Mats Stafseng Einarsen",
+  "license": "CC BY 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:SeasidePrawnCoctail.jpg",
+  "article": "Marisco",
+  "lang": "es"
+ },
+ "mazapan": {
+  "file": "Mazapán-Casa_Mira-2009.jpg",
+  "author": "Tamorlan",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Mazap%C3%A1n-Casa_Mira-2009.jpg",
+  "article": "Mazapán de Toledo",
+  "lang": "es"
+ },
+ "mercado": {
+  "file": "Mercado_de_San_Miguel_2025.jpg",
+  "author": "Fernando",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Mercado_de_San_Miguel_2025.jpg",
+  "article": "Mercado de San Miguel",
+  "lang": "es"
+ },
+ "mercat-olivar": {
+  "file": "Mercat_de_l'Olivar.JPG",
+  "author": "unknown",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Mercat_de_l%27Olivar.JPG",
+  "article": "Mercat de l'Olivar",
+  "lang": "ca"
+ },
+ "mirador-valle": {
+  "file": "Toledo - Panorama desde Mirador del Valle.jpg",
+  "author": "Rafesmar",
+  "license": "CC BY-SA 3.0 es",
+  "url": "https://commons.wikimedia.org/wiki/File:Toledo_-_Panorama_desde_Mirador_del_Valle.jpg",
+  "article": "File:Toledo - Panorama desde Mirador del Valle.jpg",
+  "lang": "commons"
+ },
+ "mnac": {
+  "file": "Palau Nacional Quatre Columnes Barcelona 2013.jpg",
+  "author": "Felix König",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Palau_Nacional_Quatre_Columnes_Barcelona_2013.jpg",
+  "article": "File:Palau Nacional Quatre Columnes Barcelona 2013.jpg",
+  "lang": "commons"
+ },
+ "mondrago": {
+  "file": "Mallorca_Schönste_Strände_Westküste_(181610217).jpeg",
+  "author": "Dronepicr",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Mallorca_Sch%C3%B6nste_Str%C3%A4nde_Westk%C3%BCste_(181610217).jpeg",
+  "article": "Parc Natural de Mondragó",
+  "lang": "ca"
+ },
+ "museo-del-prado": {
+  "file": "Museo_del_Prado_2016_(25185969599).jpg",
+  "author": "Emilio J. Rodríguez Posada",
+  "license": "CC BY-SA 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Museo_del_Prado_2016_(25185969599).jpg",
+  "article": "Museo del Prado",
+  "lang": "es"
+ },
+ "paella": {
+  "file": "01_Paella_Valenciana_original.jpg",
+  "author": "Jan Harenburg",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:01_Paella_Valenciana_original.jpg",
+  "article": "Paella",
+  "lang": "es"
+ },
+ "palau-musica": {
+  "file": "Palau_de_la_Música_Catalana,_the_Catalan_Concert_Hall.jpg",
+  "author": "Jiuguang Wang",
+  "license": "CC BY-SA 3.0 es",
+  "url": "https://commons.wikimedia.org/wiki/File:Palau_de_la_M%C3%BAsica_Catalana,_the_Catalan_Concert_Hall.jpg",
+  "article": "Palacio de la Música Catalana",
+  "lang": "es"
+ },
+ "palma": {
+  "file": "Kathedrale_von_Palma.jpg",
+  "author": "Thomas Wolf, www.foto-tw.de",
+  "license": "CC BY-SA 3.0 de",
+  "url": "https://commons.wikimedia.org/wiki/File:Kathedrale_von_Palma.jpg",
+  "article": "Palma de Mallorca",
+  "lang": "en"
+ },
+ "pantumaca": {
+  "file": "Pan_con_Tumaca.jpg",
+  "author": "Javier Lastras from España/Spain",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Pan_con_Tumaca.jpg",
+  "article": "Pan con tomate",
+  "lang": "es"
+ },
+ "parc-mar": {
+  "file": "Palma Cathedral (La Seu) and reflection at Parc de la Mar.jpg",
+  "author": "Arieleisenhammer",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Palma_Cathedral_(La_Seu)_and_reflection_at_Parc_de_la_Mar.jpg",
+  "article": "File:Palma Cathedral (La Seu) and reflection at Parc de la Mar.jpg",
+  "lang": "commons"
+ },
+ "park-guell": {
+  "file": "Güell_BCN_edited.jpg",
+  "author": "Canaan",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:G%C3%BCell_BCN_edited.jpg",
+  "article": "Parque Güell",
+  "lang": "es"
+ },
+ "passeig-born": {
+  "file": "Born1.JPG",
+  "author": "No machine-readable author provided. Cventayol assumed (based on copyright claims).",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Born1.JPG",
+  "article": "Passeig del Born (Palma)",
+  "lang": "ca"
+ },
+ "pastry": {
+  "file": "2018_01_Croissant_IMG_0685.JPG",
+  "author": "Daniela Kloth",
+  "license": "GFDL 1.2",
+  "url": "https://commons.wikimedia.org/wiki/File:2018_01_Croissant_IMG_0685.JPG",
+  "article": "Cruasán",
+  "lang": "es"
+ },
+ "picasso-museum": {
+  "file": "Museu_Picasso_Barcelona.jpg",
+  "author": "uayebt",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Museu_Picasso_Barcelona.jpg",
+  "article": "Museo Picasso de Barcelona",
+  "lang": "es"
+ },
+ "pintxos": {
+  "file": "TapasenBarcelona.JPG",
+  "author": "Elemaki",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:TapasenBarcelona.JPG",
+  "article": "Pincho",
+  "lang": "es"
+ },
+ "placa-rei": {
+  "file": "Palau_Reial_Major_2574.jpg",
+  "author": "C messier",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Palau_Reial_Major_2574.jpg",
+  "article": "Plaça del Rei",
+  "lang": "ca"
+ },
+ "plaza-espana": {
+  "file": "Plaza_de_España_de_Madrid_-_02.jpg",
+  "author": "Carlos Delgado",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_de_Madrid_-_02.jpg",
+  "article": "Plaza de España (Madrid)",
+  "lang": "es"
+ },
+ "plaza-mayor": {
+  "file": "Plaza_Mayor_de_Madrid_06.jpg",
+  "author": "Sebastian Dubiel",
+  "license": "CC BY-SA 3.0 de",
+  "url": "https://commons.wikimedia.org/wiki/File:Plaza_Mayor_de_Madrid_06.jpg",
+  "article": "Plaza Mayor de Madrid",
+  "lang": "es"
+ },
+ "port-soller": {
+  "file": "Port_de_Sóller.JPG",
+  "author": "BuzzWoof",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Port_de_S%C3%B3ller.JPG",
+  "article": "Port de Sóller",
+  "lang": "ca"
+ },
+ "puente-san-martin": {
+  "file": "Puente_de_San_Martín_(Toledo)_2011-05-27.jpg",
+  "author": "Arturormk",
+  "license": "CC BY-SA 3.0 es",
+  "url": "https://commons.wikimedia.org/wiki/File:Puente_de_San_Mart%C3%ADn_(Toledo)_2011-05-27.jpg",
+  "article": "Puente de San Martín (Toledo)",
+  "lang": "es"
+ },
+ "puerta-del-sol": {
+  "file": "MADRID_100206_UDCI_023.jpg",
+  "author": "Alfredo Urdaci / PromoMadrid",
+  "license": "CC BY-SA 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:MADRID_100206_UDCI_023.jpg",
+  "article": "Puerta del Sol",
+  "lang": "es"
+ },
+ "reina-sofia": {
+  "file": "Museo Reina Sofia, Madrid (6394601959).jpg",
+  "author": "Roy Luck",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Museo_Reina_Sofia,_Madrid_(6394601959).jpg",
+  "article": "File:Museo Reina Sofia, Madrid (6394601959).jpg",
+  "lang": "commons"
+ },
+ "royal-palace": {
+  "file": "Palacio_Real_de_Madrid_Julio_2016_(cropped).jpg",
+  "author": "Tim Adams",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Palacio_Real_de_Madrid_Julio_2016_(cropped).jpg",
+  "article": "Palacio Real de Madrid",
+  "lang": "es"
+ },
+ "san-juan-reyes": {
+  "file": "Iglesia_del_monasterio_de_San_Juan_de_los_Reyes,_Toledo,_España.jpg",
+  "author": "Querubin Saldaña Sanchez",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Iglesia_del_monasterio_de_San_Juan_de_los_Reyes,_Toledo,_Espa%C3%B1a.jpg",
+  "article": "Monasterio de San Juan de los Reyes",
+  "lang": "es"
+ },
+ "sant-felip-neri": {
+  "file": "Plaça_Sant_Felip_Neri.jpg",
+  "author": "Manel Zaera",
+  "license": "CC BY-SA 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Pla%C3%A7a_Sant_Felip_Neri.jpg",
+  "article": "Plaça de Sant Felip Neri",
+  "lang": "ca"
+ },
+ "sant-pau": {
+  "file": "Hosp_Sant_Pau.jpg",
+  "author": "Canaan",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Hosp_Sant_Pau.jpg",
+  "article": "Hospital de la Santa Cruz y San Pablo",
+  "lang": "es"
+ },
+ "santa-maria-blanca": {
+  "file": "Santa_María_la_Blanca_-_Arcos.jpg",
+  "author": "Fernando",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Santa_Mar%C3%ADa_la_Blanca_-_Arcos.jpg",
+  "article": "Santa María la Blanca (Toledo)",
+  "lang": "es"
+ },
+ "santa-maria-mar": {
+  "file": "Santa_Maria_del_Mar,_Barcelona_05.jpg",
+  "author": "Kent Wang",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Santa_Maria_del_Mar,_Barcelona_05.jpg",
+  "article": "Basílica de Santa María del Mar",
+  "lang": "es"
+ },
+ "santanyi": {
+  "file": "Santanyi2.jpg",
+  "author": "Araceli Merino",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Santanyi2.jpg",
+  "article": "Santanyí",
+  "lang": "ca"
+ },
+ "santo-tome": {
+  "file": "Tolède_-_clocher_de_Santo_Tomé.JPG",
+  "author": "EmDee",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Tol%C3%A8de_-_clocher_de_Santo_Tom%C3%A9.JPG",
+  "article": "Iglesia de Santo Tomé (Toledo)",
+  "lang": "es"
+ },
+ "sobrasada": {
+  "file": "Sobrassada.jpg",
+  "author": "Slastic",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Sobrassada.jpg",
+  "article": "Sobrasada",
+  "lang": "es"
+ },
+ "soller": {
+  "file": "Soller_Cathedral.JPG",
+  "author": "Heuschrecke (Dmitry Tonkonog and Ksenia Fedosova)",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Soller_Cathedral.JPG",
+  "article": "Sóller",
+  "lang": "es"
+ },
+ "tapas": {
+  "file": "Tapa_española.jpg",
+  "author": "Rafax",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Tapa_espa%C3%B1ola.jpg",
+  "article": "Tapa (alimento)",
+  "lang": "es"
+ },
+ "teleferic-montjuic": {
+  "file": "Telefèric_de_Barcelona.JPG",
+  "author": "Bestiasonica",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Telef%C3%A8ric_de_Barcelona.JPG",
+  "article": "Teleférico de Montjuic",
+  "lang": "es"
+ },
+ "templo-debod": {
+  "file": "Templo_de_Debod_in_Madrid.jpg",
+  "author": "https://www.flickr.com/photos/jiuguangw",
+  "license": "CC BY-SA 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Templo_de_Debod_in_Madrid.jpg",
+  "article": "Templo de Debod",
+  "lang": "es"
+ },
+ "toledo-cathedral": {
+  "file": "Cathedral_of_Toledo_(7079311505).jpg",
+  "author": "Michal Osmenda from Brussels, Belgium",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Toledo_(7079311505).jpg",
+  "article": "Catedral de Toledo",
+  "lang": "es"
+ },
+ "tortilla": {
+  "file": "Tortilla_de_Patatas_(Corte_transversal).jpg",
+  "author": "Tamorlan",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Tortilla_de_Patatas_(Corte_transversal).jpg",
+  "article": "Tortilla de patatas",
+  "lang": "es"
+ },
+ "tren-soller": {
+  "file": "FS_Train3_Soller.JPG",
+  "author": "unknown",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:FS_Train3_Soller.JPG",
+  "article": "Ferrocarril de Sóller",
+  "lang": "es"
+ },
+ "vermut": {
+  "file": "Four_bottles_of_vermouth.jpg",
+  "author": "Kenneth C. Zirkel",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Four_bottles_of_vermouth.jpg",
+  "article": "Vermú",
+  "lang": "es"
+ },
+ "zocodover": {
+  "file": "Toledo_Zocodover_01_lou.JPG",
+  "author": "Lourdes Cardenal",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Toledo_Zocodover_01_lou.JPG",
+  "article": "Plaza de Zocodover",
+  "lang": "es"
+ },
+ "arroz": {
+  "file": "14-08-04-barcelona-RalfR-41.jpg",
+  "author": "Ralf Roletschek",
+  "license": "GFDL 1.2",
+  "url": "https://commons.wikimedia.org/wiki/File:14-08-04-barcelona-RalfR-41.jpg",
+  "article": "Arròs negre",
+  "lang": "ca"
+ },
+ "parque-oeste": {
+  "file": "Madrid_-_parque_del_Oeste.jpg",
+  "author": "Manuel Martín Vicente",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Madrid_-_parque_del_Oeste.jpg",
+  "article": "Parque del Oeste (Madrid)",
+  "lang": "es"
+ },
+ "retiro": {
+  "file": "Palacio_de_Cristal.jpg",
+  "author": "PepeZoom",
+  "license": "CC BY-SA 3.0 es",
+  "url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Cristal.jpg",
+  "article": "Parque del Retiro de Madrid",
+  "lang": "es"
+ },
+ "sagrada-familia": {
+  "file": "Sagrada Familia 01.jpg",
+  "author": "Bernard Gagnon",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_01.jpg",
+  "article": "File:Sagrada Familia 01.jpg",
+  "lang": "commons"
+ }
+}

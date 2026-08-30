@@ -75,7 +75,9 @@ section.sec{padding:44px 0}
 .card{background:var(--card);border:1px solid var(--line);padding:18px 20px;box-shadow:var(--shadow)}
 .card h3{font-size:16px;margin-bottom:8px}
 .card .sub{color:var(--ink2);font-size:13px}
-.city-card{border-top:3px solid var(--c)}
+.city-card{border-top:3px solid var(--c);padding:0;overflow:hidden}
+.city-card img{width:100%;height:120px;object-fit:cover;display:block}
+.city-card .cb{padding:14px 18px 16px}
 .chip{display:inline-block;background:var(--chip);padding:2px 9px;font-size:12px;color:var(--ink2);margin:2px 4px 2px 0}
 .chip.c-madrid{background:color-mix(in srgb,var(--madrid) 12%,transparent);color:var(--madrid)}
 .chip.c-mallorca{background:color-mix(in srgb,var(--mallorca) 12%,transparent);color:var(--mallorca)}
@@ -86,10 +88,11 @@ section.sec{padding:44px 0}
 .flight-row:first-child{border-top:0}
 .flight-row .k{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);padding-top:4px}
 /* timeline */
-.tl{display:grid;grid-template-columns:184px 1fr;gap:28px;align-items:start}
+.tl{display:grid;grid-template-columns:212px 1fr;gap:26px;align-items:start}
 .tl-rail{position:sticky;top:64px;display:flex;flex-direction:column;max-height:calc(100vh - 80px);overflow:auto;border-left:1px solid var(--line)}
-.tl-rail a{display:grid;grid-template-columns:44px 1fr;gap:8px;align-items:center;text-decoration:none;color:var(--ink2);padding:6px 10px;font-size:12.5px;border-left:3px solid transparent;margin-left:-1px}
+.tl-rail a{display:grid;grid-template-columns:40px 1fr;gap:6px;align-items:center;text-decoration:none;color:var(--ink2);padding:6px 9px;font-size:12px;border-left:3px solid transparent;margin-left:-1px}
 .tl-rail a b{font-family:"Barlow Condensed",sans-serif;font-size:18px;color:var(--ink)}
+.tl-rail a span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .tl-rail a:hover,.tl-rail a.active{border-left-color:var(--saffron);color:var(--ink);background:var(--card)}
 .day{background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);margin-bottom:22px;scroll-margin-top:70px}
 .day-h{padding:16px 22px 12px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:76px 1fr;gap:14px;border-top:3px solid var(--c)}
@@ -99,7 +102,16 @@ section.sec{padding:44px 0}
 .day-h .meta{color:var(--ink2);font-size:13px;margin-top:3px;font-family:"IBM Plex Mono",monospace}
 .day-h .theme{grid-column:1/-1;color:var(--ink2);font-size:14px;max-width:80ch}
 .blocks{padding:4px 22px 6px}
-.blk{display:grid;grid-template-columns:118px 46px 1fr;gap:12px;padding:11px 0;border-top:1px solid var(--line2);align-items:start}
+.blk{display:grid;grid-template-columns:112px 44px 1fr 124px;gap:12px;padding:11px 0;border-top:1px solid var(--line2);align-items:start}
+.blk .thumb{grid-column:4;width:124px;height:82px;object-fit:cover;border:1px solid var(--line);background:var(--chip);align-self:start}
+.blk .thumbwrap{grid-column:4;position:relative;line-height:0}
+.blk .thumbwrap .cap{position:absolute;left:0;bottom:0;right:0;background:rgba(16,24,40,.72);color:#fff;font-size:10px;line-height:1.5;padding:1px 5px;font-family:"Noto Sans KR",sans-serif}
+.clamp{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.clamp.l1{-webkit-line-clamp:1}
+.clamp.l3{-webkit-line-clamp:3}
+.clamp.open{display:block;-webkit-line-clamp:unset}
+.more{background:none;border:0;padding:0;margin-top:1px;color:var(--sea);font:inherit;font-size:12px;cursor:pointer}
+.more:hover{text-decoration:underline}
 .blk:first-child{border-top:0}
 .blk .t{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;font-size:12px;color:var(--ink2);padding-top:3px;white-space:nowrap}
 .blk .t b{display:block;color:var(--ink);font-size:13.5px;font-weight:600}
@@ -110,8 +122,10 @@ section.sec{padding:44px 0}
 .blk .nm{font-weight:700;font-size:15px}
 .blk .nm .en{font-weight:400;color:var(--ink2);font-size:12px;margin-left:6px}
 .blk .dt{color:var(--ink2);font-size:13px;margin-top:2px}
-.blk .note{font-size:14px;margin-top:4px;max-width:80ch}
+.blk .note{font-size:13.5px;margin-top:3px;max-width:80ch;color:var(--ink)}
 .blk.type-tip{background:var(--warn-bg);padding:10px 12px;margin:6px 0;border-top:0}
+.blk.type-transport .note,.blk.type-flight .note,.blk.type-hotel .note{-webkit-line-clamp:1}
+.blk.type-transport .note.open,.blk.type-flight .note.open,.blk.type-hotel .note.open{-webkit-line-clamp:unset}
 .blk .badges{margin-top:5px;display:flex;flex-wrap:wrap;gap:4px;align-items:center}
 .badge{display:inline-block;font-size:11px;padding:1px 8px;background:var(--chip);color:var(--ink2);font-family:"IBM Plex Mono",monospace}
 .badge.book{background:var(--warn-bg);color:var(--saffron-ink)}
@@ -147,12 +161,24 @@ section.sec{padding:44px 0}
 .route-list{padding:12px 14px;border-top:1px solid var(--line);font-size:13px;display:grid;gap:6px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
 .route-list div b{color:var(--c);font-family:"Barlow Condensed",sans-serif;font-size:15px;margin-right:4px}
 /* restaurants */
-.rest{display:grid;grid-template-columns:1fr auto;gap:8px}
-.rest h4{font-size:16px}
-.rest h4 small{font-weight:400;color:var(--ink2);font-size:12px;display:block}
-.rest .price{font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--ink2);white-space:nowrap}
-.rest p{margin:6px 0 0;font-size:13.5px}
-.rest .row{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px;margin-top:6px;align-items:center}
+.rest{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.rest .pic{position:relative;line-height:0;background:var(--chip)}
+.rest .pic span{line-height:1.8;display:inline-block}
+.rest .pic img{width:100%;height:132px;object-fit:cover;display:block}
+.rest .pic .dish{position:absolute;left:0;bottom:0;background:rgba(16,24,40,.74);color:#fff;font-size:11px;padding:2px 8px}
+.rest .pic .day{position:absolute;right:0;top:0;color:#fff;font-size:11px;padding:2px 8px;font-family:"IBM Plex Mono",monospace}
+.rest .pic .star{position:absolute;right:0;bottom:0;background:rgba(255,255,255,.94);color:#8a5a00;font-weight:700;font-size:12px;padding:2px 8px;font-family:"IBM Plex Mono",monospace}
+.rest .bd{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.rest h4{font-size:15.5px;line-height:1.3}
+.rest h4 small{font-weight:400;color:var(--ink2);font-size:11.5px;display:block;margin-top:2px}
+.rest .meta{display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:12px;color:var(--ink2)}
+.rest .rec{font-size:13px;margin:0}
+.rest details{font-size:12.5px;color:var(--ink2);margin-top:auto}
+.rest details summary{cursor:pointer;color:var(--sea);font-size:12px;list-style:none}
+.rest details summary::-webkit-details-marker{display:none}
+.rest details summary::after{content:" ▾"}
+.rest details[open] summary::after{content:" ▴"}
+.rest details p{margin:6px 0 0}
 .food-h{display:flex;align-items:baseline;gap:10px;margin:22px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--c)}
 .food-h h3{font-family:"Barlow Condensed","Noto Sans KR",sans-serif;font-size:22px;color:var(--c)}
 .food-h small{color:var(--ink2);font-family:"IBM Plex Mono",monospace;font-size:12px}
@@ -168,9 +194,22 @@ table{width:100%;border-collapse:collapse;font-size:14px}
 th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line2);vertical-align:top}
 th{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink2);text-transform:uppercase;letter-spacing:.08em;border-bottom:1px solid var(--line)}
 .tscroll{overflow-x:auto}
+#booking-table{table-layout:fixed}
+#booking-table td:nth-child(1),#booking-table th:nth-child(1){width:36%}
+#booking-table td:nth-child(2),#booking-table th:nth-child(2){width:20%}
+#budget-table{table-layout:fixed}
+#budget-table td:nth-child(1),#budget-table th:nth-child(1){width:28%}
+#budget-table td:nth-child(2),#budget-table th:nth-child(2){width:24%}
 .callout{background:var(--warn-bg);border-left:3px solid var(--saffron);padding:12px 16px;font-size:13.5px;color:var(--ink)}
-footer{padding:36px 0 60px;color:var(--ink2);font-size:13px;border-top:1px solid var(--line)}
-@media (max-width:820px){.tl{grid-template-columns:1fr}.tl-rail{position:static;flex-direction:row;flex-wrap:wrap;max-height:none;border-left:0}.tl-rail a{padding:4px 8px;grid-template-columns:auto 1fr}.blk{grid-template-columns:84px 40px 1fr;gap:8px}.day-h{grid-template-columns:60px 1fr}}
+footer{padding:32px 0 60px;color:var(--ink2);font-size:13px;border-top:1px solid var(--line)}
+footer details{margin-top:10px}
+footer summary{cursor:pointer;color:var(--sea)}
+footer .creds{columns:2;column-gap:24px;font-size:11.5px;line-height:1.7;margin-top:8px}
+@media (max-width:700px){footer .creds{columns:1}}
+.tips li .clamp{display:-webkit-box}
+@media (max-width:820px){.tl{grid-template-columns:1fr}.tl-rail{position:static;flex-direction:row;flex-wrap:wrap;max-height:none;border-left:0}.tl-rail a{padding:4px 8px;grid-template-columns:auto 1fr}
+  .blk{grid-template-columns:84px 40px 1fr;gap:8px}.day-h{grid-template-columns:60px 1fr}
+  .blk .thumbwrap,.blk .thumb{grid-column:3;width:100%;max-width:220px;margin-top:6px}.blk .thumb{height:96px}}
 @media print{.nav,.maptabs,.filters{display:none}.map{height:500px}.day{break-inside:avoid}}
 </style>
 
@@ -249,6 +288,21 @@ footer{padding:36px 0 60px;color:var(--ink2);font-size:13px;border-top:1px solid
 const TRIP = /*__TRIP__*/{};
 const BASES = /*__BASES__*/[];
 const BUILT = /*__BUILT__*/"";
+const IMAGES = /*__IMAGES__*/{};
+const CREDITS = /*__CREDITS__*/[];
+const DISH = {churros:'추로스',tapas:'타파스',paella:'파에야',cocido:'코시도',jamon:'하몽·치즈',croquetas:'크로케타',bocadillo:'보카디요',tortilla:'토르티야',vermut:'베르무트',pintxos:'핀초스',cochinillo:'코치니요',mazapan:'마사판',carcamusas:'카르카무사스',ensaimada:'엔사이마다',sobrasada:'소브라사다',gelato:'젤라토',marisco:'해산물',pastry:'페이스트리',mercado:'시장 먹거리',pantumaca:'판 콘 토마테',cremacatalana:'크레마 카탈라나',cafe:'카페 조식',chocolate:'핫초콜릿',arroz:'아로스 네그레','mercat-olivar':'올리바르 시장','parc-mar':'대성당 뷰 테라스'};
+const imgTag = (slug, cls, alt) => IMAGES[slug] ? `<img class="${cls}" src="${IMAGES[slug]}" alt="${esc(alt||'')}" loading="lazy">` : '';
+function setupClamps(root){
+  (root||document).querySelectorAll('.clamp:not([data-c])').forEach(el=>{
+    el.dataset.c='1';
+    if(el.scrollHeight - el.clientHeight > 4){
+      const btn=document.createElement('button');
+      btn.type='button'; btn.className='more'; btn.textContent='더보기';
+      btn.addEventListener('click',()=>{ btn.textContent = el.classList.toggle('open') ? '접기' : '더보기'; });
+      el.insertAdjacentElement('afterend', btn);
+    }
+  });
+}
 const DAY_COLORS = ['#5b6474','#a8232f','#c2413a','#d4602c','#8c1d2b','#1b7f8e','#2a9fb0','#147a6a','#c46a1b','#d99a1e','#a67c0f','#4f46a5','#5b6474','#5b6474'];
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const ICON = {flight:'FLT',transport:'MOVE',sight:'SEE',meal:'EAT',free:'FREE',hotel:'STAY',tip:'TIP'};
@@ -265,12 +319,29 @@ function dayRegion(d){ const pts=(d.blocks||[]).map(b=>regionOf(b.lat,b.lng)).fi
 const REGION_KO = {madrid:'마드리드 · 톨레도', mallorca:'마요르카', barcelona:'바르셀로나 · 근교', korea:'한국'};
 const REGION_COLOR = {madrid:'var(--madrid)',mallorca:'var(--mallorca)',barcelona:'var(--barcelona)',korea:'var(--korea)'};
 const ratingHtml = r => r ? `<span class="rating">★ ${Number(r).toFixed(1)}</span>` : '';
+const CITY_KO = {'Madrid':'마드리드','Toledo':'톨레도','Barcelona':'바르셀로나','Palma de Mallorca':'팔마','Palma':'팔마','Sóller':'소예르','Santanyí':'산타니','인천':'귀국길'};
+function shortCity(c){
+  c = String(c||'');
+  const outside = c.replace(/\([^)]*\)/g,'').split(/[·,→]/)[0].trim();
+  if (CITY_KO[outside]) return CITY_KO[outside];
+  const m = c.match(/\(([^)]*[가-힣][^)]*)\)/);
+  if (m) return m[1].split(/[·,→]/)[0].trim();
+  return outside || c;
+}
+function trimName(b){
+  let nm = String(b.name||'').replace(/^(아침|점심|저녁|간식|디저트|저녁 \d차|아침 \d차)\s*[:：—-]?\s*/,'');
+  if (b.name_en){
+    const q = b.name_en.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    nm = nm.replace(new RegExp('\\s*\\(\\s*'+q+'[^)]*\\)'), '');
+  }
+  return nm.replace(/\s+/g,' ').trim();
+}
 
 /* ---------- hero / overview ---------- */
 (function(){
   const S = TRIP.summary || {};
   document.getElementById('hero-title').innerHTML = esc(S.title || '스페인 여행 계획').replace(/(마요르카)/,'<em>$1</em>');
-  document.getElementById('hero-concept').textContent = S.concept || '';
+  const hc = document.getElementById('hero-concept'); hc.textContent = S.concept || ''; hc.classList.add('clamp','l3');
   document.getElementById('split-text').textContent = S.split || '';
   const days = TRIP.days || [];
   const sights = days.flatMap(d=>d.blocks||[]).filter(b=>b.type==='sight').length;
@@ -296,20 +367,21 @@ const ratingHtml = r => r ? `<span class="rating">★ ${Number(r).toFixed(1)}</s
     const ds = days.filter(d=>dayRegion(d)===k);
     const top = ds.flatMap(d=>(d.blocks||[]).filter(b=>b.type==='sight').map(b=>b.name)).slice(0,8);
     const range = ds.length ? `${ds[0].date.slice(5).replace('-','.')} ~ ${ds[ds.length-1].date.slice(5).replace('-','.')}` : '';
-    return `<div class="card city-card" style="--c:${REGION_COLOR[k]}"><h3>${REGION_KO[k]}</h3><div class="sub">${range} · Day ${ds.map(d=>d.day_no).join(', ')}</div><p style="margin:8px 0 0;font-size:13.5px">${top.map(t=>`<span class="chip">${esc(t)}</span>`).join('')}</p></div>`;
+    const hero = (TRIP.city_hero||{})[k];
+    return `<div class="card city-card" style="--c:${REGION_COLOR[k]}">${imgTag(hero,'',REGION_KO[k])}<div class="cb"><h3>${REGION_KO[k]}</h3><div class="sub">${range} · Day ${ds.map(d=>d.day_no).join(', ')}</div><p style="margin:8px 0 0;font-size:13.5px">${top.slice(0,6).map(t=>`<span class="chip">${esc(t.replace(/\s*\(.*$/,'').replace(/\s*[—-].*$/,''))}</span>`).join('')}</p></div></div>`;
   }).join('');
   const F = TRIP.flights || {};
   document.getElementById('flights').innerHTML = [
     ['OUT','가는 편', F.outbound],['IN','오는 편', F.inbound],['KOR','울산 ↔ 인천', F.domestic],['TIP','팁', F.tips]
-  ].filter(x=>x[2]).map(([i,t,v])=>`<div class="flight-row"><div class="k">${i}</div><div><b>${t}</b><br>${esc(v)}</div></div>`).join('');
-  document.getElementById('weather-cards').innerHTML = (TRIP.weather||[]).map(w=>`<div class="card"><h3>${esc(w.city)} 날씨</h3><p style="margin:0;font-size:13.5px">${esc(w.summary)}</p></div>`).join('');
+  ].filter(x=>x[2]).map(([i,t,v])=>`<div class="flight-row"><div class="k">${i}</div><div><b>${t}</b><div class="clamp l3">${esc(v)}</div></div></div>`).join('');
+  document.getElementById('weather-cards').innerHTML = (TRIP.weather||[]).map(w=>`<div class="card"><h3>${esc(w.city)} 날씨</h3><p class="clamp l3" style="margin:0;font-size:13.5px">${esc(w.summary)}</p></div>`).join('');
 })();
 
 /* ---------- timeline ---------- */
 (function(){
   const days = TRIP.days || [];
   const rail = document.getElementById('tl-rail'); const wrap = document.getElementById('days');
-  rail.innerHTML = days.map(d=>`<a href="#day-${d.day_no}" data-day="${d.day_no}"><b>D${d.day_no}</b><span>${d.date.slice(5).replace('-','/')} ${esc(d.weekday_ko)} · ${esc(String(d.city).split(/→|->/).pop().trim())}</span></a>`).join('');
+  rail.innerHTML = days.map(d=>`<a href="#day-${d.day_no}" data-day="${d.day_no}"><b>D${d.day_no}</b><span>${d.date.slice(5).replace('-','/')} ${esc(d.weekday_ko)} · ${esc(shortCity(d.city))}</span></a>`).join('');
   wrap.innerHTML = days.map(d=>{
     const k = dayRegion(d); const col = DAY_COLORS[d.day_no] || '#555';
     const blocks = (d.blocks||[]).map(b=>{
@@ -323,12 +395,17 @@ const ratingHtml = r => r ? `<span class="rating">★ ${Number(r).toFixed(1)}</s
         hasGeo ? `<span class="badge gomap" data-goto="${d.day_no}|${esc(b.name)}">지도에서 보기</span>` : ''
       ].filter(Boolean).join('');
       const isCard = b.type==='tip' && b.start==='00:00';
-      return `<div class="blk type-${esc(b.type)}"><div class="t"><b>${isCard?'안내':esc(b.start)+(b.end&&b.end!==b.start?' – '+esc(b.end):'')}</b>${dur}</div><div class="ic">${ICON[b.type]||'·'}</div><div><div class="nm">${esc(b.name)}${b.name_en?`<span class="en">${esc(b.name_en)}</span>`:''}</div>${tr?`<div class="dt">${esc(tr)}</div>`:''}${b.notes?`<div class="note">${esc(b.notes)}</div>`:''}${badges?`<div class="badges">${badges}</div>`:''}</div></div>`;
+      const dish = b.img && DISH[b.img];
+      const pic = b.img ? (dish
+        ? `<div class="thumbwrap">${imgTag(b.img,'thumb',dish)}<span class="cap">${esc(dish)}</span></div>`
+        : imgTag(b.img,'thumb', b.name_en||b.name)) : '';
+      const nm = esc(trimName(b));
+      return `<div class="blk type-${esc(b.type)}"><div class="t"><b>${isCard?'안내':esc(b.start)+(b.end&&b.end!==b.start?' – '+esc(b.end):'')}</b>${dur}</div><div class="ic">${ICON[b.type]||'·'}</div><div><div class="nm">${nm}${b.name_en?`<span class="en">${esc(b.name_en)}</span>`:''}</div>${tr?`<div class="dt">${esc(tr)}</div>`:''}${b.notes?`<div class="note clamp">${esc(b.notes)}</div>`:''}${badges?`<div class="badges">${badges}</div>`:''}</div>${pic}</div>`;
     }).join('');
     return `<article class="day" id="day-${d.day_no}" style="--c:${col}">
       <div class="day-h"><div class="num"><small>DAY</small>${String(d.day_no).padStart(2,'0')}</div><div><h3>${esc(d.title)}</h3><div class="meta">${esc(d.date)} (${esc(d.weekday_ko)}) · <span class="chip c-${k}">${REGION_KO[k]||esc(d.city)}</span> ${esc(d.city)}</div></div><div class="theme">${esc(d.theme)}</div></div>
       <div class="blocks">${blocks}</div>
-      ${(d.daily_tips||d.safety_note)?`<div class="day-f">`:''}${d.daily_tips?`<div><span class="lbl">Tip</span>${esc(d.daily_tips)}</div>`:''}${d.safety_note?`<div class="safe"><span class="lbl">Safety</span>${esc(d.safety_note)}</div>`:''}${(d.daily_tips||d.safety_note)?`</div>`:''}
+      ${(d.daily_tips||d.safety_note)?`<div class="day-f">`:''}${d.daily_tips?`<div><span class="lbl">Tip</span><span class="clamp">${esc(d.daily_tips)}</span></div>`:''}${d.safety_note?`<div class="safe"><span class="lbl">Safety</span><span class="clamp">${esc(d.safety_note)}</span></div>`:''}${(d.daily_tips||d.safety_note)?`</div>`:''}
     </article>`;
   }).join('');
   // rail highlight
@@ -336,6 +413,7 @@ const ratingHtml = r => r ? `<span class="rating">★ ${Number(r).toFixed(1)}</s
   const io = new IntersectionObserver(es=>{ es.forEach(e=>{ if(e.isIntersecting){ links.forEach(l=>l.classList.toggle('active', l.dataset.day===e.target.id.replace('day-',''))); } }); },{rootMargin:'-20% 0px -70% 0px'});
   wrap.querySelectorAll('.day').forEach(el=>io.observe(el));
   wrap.addEventListener('click', e=>{ const t=e.target.closest('[data-goto]'); if(!t) return; const [dn,name]=t.dataset.goto.split('|'); window.gotoOnMap(+dn,name); });
+  setupClamps(wrap);
 })();
 
 /* ---------- restaurants ---------- */
@@ -346,34 +424,53 @@ const ratingHtml = r => r ? `<span class="rating">★ ${Number(r).toFixed(1)}</s
     const rs = groups[k].sort((a,b)=>(a.used_on_day||99)-(b.used_on_day||99));
     if(!rs.length) return '';
     return `<div class="food-h" style="--c:${REGION_COLOR[k]}"><h3>${REGION_KO[k]}</h3><small>${rs.length} PLACES</small></div><div class="grid c3">${rs.map(r=>`
-      <div class="card rest"><div><h4>${esc(r.name_ko||r.name)}<small>${esc(r.name)} · ${esc(r.area)}</small></h4></div><div class="price">${esc(r.price_range||'')}</div>
-        <div class="row">${ratingHtml(r.google_rating)}${r.review_count?`<span class="badge">리뷰 ${Number(r.review_count).toLocaleString()}</span>`:''}<span class="badge">${esc(r.cuisine)}</span><span class="badge">${esc(r.meal_type)}</span>${r.used_on_day?`<span class="badge" style="background:${DAY_COLORS[r.used_on_day]};color:#fff">DAY ${String(r.used_on_day).padStart(2,'0')}</span>`:'<span class="badge">예비</span>'}</div>
-        <p style="grid-column:1/-1"><b>추천:</b> ${esc(r.must_try)}</p>
-        ${r.hours_note?`<p style="grid-column:1/-1;color:var(--ink2)">🕒 ${esc(r.hours_note)}</p>`:''}
-        ${r.reservation_note?`<p style="grid-column:1/-1;color:var(--ink2)">📞 ${esc(r.reservation_note)}</p>`:''}
-        ${r.url?`<p style="grid-column:1/-1"><a href="${esc(r.url)}" target="_blank" rel="noopener">웹사이트 / 지도 ↗</a></p>`:''}
+      <div class="card rest">
+        <div class="pic">${imgTag(r.img,'',DISH[r.img]||r.cuisine)}
+          <span class="dish">${esc(DISH[r.img]||r.cuisine.split('·')[0])}</span>
+          ${r.google_rating?`<span class="star">★ ${Number(r.google_rating).toFixed(1)}</span>`:''}
+          ${r.used_on_day?`<span class="day" style="background:${DAY_COLORS[r.used_on_day]}">DAY ${String(r.used_on_day).padStart(2,'0')}</span>`:'<span class="day" style="background:#5b6474">예비</span>'}</div>
+        <div class="bd">
+          <h4>${esc(r.name_ko||r.name)}<small>${esc(r.name)} · ${esc(r.area)}</small></h4>
+          <div class="meta"><span>${esc(r.price_range||'')}</span>${r.review_count?`<span>· 리뷰 ${Number(r.review_count).toLocaleString()}</span>`:''}<span>· ${esc(r.meal_type)}</span></div>
+          <p class="rec clamp"><b>추천</b> ${esc(r.must_try)}</p>
+          <details><summary>영업시간 · 예약</summary>
+            ${r.hours_note?`<p>🕒 ${esc(r.hours_note)}</p>`:''}
+            ${r.reservation_note?`<p>📞 ${esc(r.reservation_note)}</p>`:''}
+            <p>${esc(r.cuisine)}</p>
+            ${r.url?`<p><a href="${esc(r.url)}" target="_blank" rel="noopener">웹사이트 / 지도 ↗</a></p>`:''}
+          </details>
+        </div>
       </div>`).join('')}</div>`;
   }).join('');
+  setupClamps(document.getElementById('food-groups'));
 })();
 
 /* ---------- safety ---------- */
 (function(){
   const S = TRIP.safety || [];
   document.getElementById('safety-cards').innerHTML = S.map(c=>`<div class="card" style="--c:${REGION_COLOR[cityKey(c.city)]}"><h3 style="color:var(--c)">${esc(c.city)}</h3>
-    <div class="avoid">${(c.avoid_areas||[]).map(a=>`<div class="sev-${esc(a.severity)}"><b>${esc(a.area)} <span class="badge">${esc(a.when)}</span></b>${esc(a.reason)}</div>`).join('')}</div>
+    <div class="avoid">${(c.avoid_areas||[]).map(a=>`<div class="sev-${esc(a.severity)}"><b>${esc(a.area)} <span class="badge">${esc(a.when)}</span></b><span class="clamp">${esc(a.reason)}</span></div>`).join('')}</div>
     ${c.lodging_areas&&c.lodging_areas.length?`<p style="margin:10px 0 0;font-size:13.5px"><b>숙소 추천 동네:</b> ${c.lodging_areas.map(l=>`<span class="chip">${esc(l)}</span>`).join('')}</p>`:''}
-    <ul class="tips">${(c.tips||[]).map(t=>`<li>${esc(t)}</li>`).join('')}</ul></div>`).join('');
-  document.getElementById('general-tips').innerHTML = (TRIP.general_tips||[]).map(t=>`<li>${esc(t)}</li>`).join('');
+    <ul class="tips">${(c.tips||[]).map(t=>`<li><span class="clamp">${esc(t)}</span></li>`).join('')}</ul></div>`).join('');
+  document.getElementById('general-tips').innerHTML = (TRIP.general_tips||[]).map(t=>`<li><span class="clamp">${esc(t)}</span></li>`).join('');
+  setupClamps(document.getElementById('safety'));
 })();
 
 /* ---------- booking / budget / alternatives ---------- */
 (function(){
-  document.querySelector('#booking-table tbody').innerHTML = (TRIP.booking_checklist||[]).map(b=>`<tr><td><b>${esc(b.item)}</b>${b.url?` <a href="${esc(b.url)}" target="_blank" rel="noopener">↗</a>`:''}</td><td>${esc(b.when)}</td><td>${esc(b.note)}</td></tr>`).join('');
-  document.querySelector('#budget-table tbody').innerHTML = (TRIP.budget||[]).map(b=>`<tr><td>${esc(b.category)}</td><td><b>${esc(b.per_person_eur)}</b></td><td>${esc(b.note)}</td></tr>`).join('');
-  document.getElementById('alt-list').innerHTML = (TRIP.alternatives||[]).map(a=>`<li><b>Day ${a.day_no} · ${esc(a.option)}</b> — ${esc(a.detail)}</li>`).join('');
+  document.querySelector('#booking-table tbody').innerHTML = (TRIP.booking_checklist||[]).map(b=>`<tr><td><b>${esc(b.item)}</b>${b.url?` <a href="${esc(b.url)}" target="_blank" rel="noopener">↗</a>`:''}</td><td>${esc(b.when)}</td><td><span class="clamp">${esc(b.note)}</span></td></tr>`).join('');
+  document.querySelector('#budget-table tbody').innerHTML = (TRIP.budget||[]).map(b=>`<tr><td>${esc(b.category)}</td><td><b>${esc(b.per_person_eur)}</b></td><td><span class="clamp">${esc(b.note)}</span></td></tr>`).join('');
+  document.getElementById('alt-list').innerHTML = (TRIP.alternatives||[]).map(a=>`<li><b>Day ${a.day_no} · ${esc(a.option)}</b><span class="clamp">${esc(a.detail)}</span></li>`).join('');
   document.getElementById('caveat').textContent = '주의: 2027년 항공·열차 시간표와 입장료는 아직 공개 전입니다. 본 계획은 2025~2026년 운영 패턴을 기준으로 작성했으니 출발 2~3개월 전 공식 사이트에서 최종 확인하세요. 구글 평점은 조사 시점 기준입니다.';
-  document.getElementById('footer').innerHTML = `스페인 여행 계획 2027 · 생성일 ${esc(BUILT)} · 지도 © OpenStreetMap contributors · 이 페이지는 개인 여행 계획용입니다.`;
+  document.getElementById('footer').innerHTML = `스페인 여행 계획 2027 · 생성일 ${esc(BUILT)} · 지도 © OpenStreetMap contributors · 이 페이지는 개인 여행 계획용입니다.`
+    + `<details><summary>사진 출처 · 라이선스 (${CREDITS.length}장)</summary><div class="creds">`
+    + CREDITS.map(c=>`<div>${esc(c.slug)} — <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.article||c.slug)}</a> · ${esc(c.author||'')} · ${esc(c.license||'')}</div>`).join('')
+    + `</div><p style="font-size:11.5px;margin-top:8px">명소 사진은 위키미디어 커먼즈, 음식 사진은 해당 요리의 일반 사진(그 식당의 실제 사진이 아닙니다). CC BY / CC BY-SA 이미지는 위 저작자 표기를 따릅니다.</p></details>`;
+  setupClamps(document.getElementById('booking'));
 })();
+
+/* ---------- collapse long text everywhere ---------- */
+setupClamps(document);
 
 /* ---------- maps ---------- */
 (function(){

@@ -1,0 +1,155 @@
+{
+ "_comment": "블록/맛집 → assets/img/<slug>.jpg 매핑. sights=관광 블록 name_en(없으면 name) 기준, restaurants=맛집 대표 요리, keywords=[정규식, slug, 적용할 블록 type 목록].",
+ "sights": {
+  "Plaza Mayor": "plaza-mayor",
+  "Plaza Mayor (daytime)": "plaza-mayor",
+  "Puerta del Sol": "puerta-del-sol",
+  "Museo del Prado": "museo-del-prado",
+  "El Retiro Park & Palacio de Cristal": "retiro",
+  "Museo Reina Sofía": "reina-sofia",
+  "Círculo de Bellas Artes Rooftop": "circulo-bellas-artes",
+  "Plaza de Zocodover": "zocodover",
+  "Alcázar de Toledo": "alcazar-toledo",
+  "Toledo Cathedral": "toledo-cathedral",
+  "Iglesia de Santo Tomé": "santo-tome",
+  "Santa María la Blanca": "santa-maria-blanca",
+  "San Juan de los Reyes": "san-juan-reyes",
+  "Puente de San Martín": "puente-san-martin",
+  "Mirador del Valle": "mirador-valle",
+  "Royal Palace of Madrid": "royal-palace",
+  "Almudena Cathedral": "almudena",
+  "Gran Vía walk (Sol → Callao → Plaza de España)": "gran-via",
+  "Plaza de España": "plaza-espana",
+  "Templo de Debod (interior, if open)": "templo-debod",
+  "Rosaleda del Parque del Oeste": "parque-oeste",
+  "Catedral de Mallorca (La Seu)": "la-seu",
+  "Palau Reial de l'Almudaina": "almudaina",
+  "Passeig del Born": "passeig-born",
+  "Sóller town": "soller",
+  "Santanyí Saturday market": "santanyi",
+  "Cala Mondragó & S'Amarador": "mondrago",
+  "Coves del Drac": "coves-drac",
+  "Museu Picasso": "picasso-museum",
+  "Basílica de Santa Maria del Mar": "santa-maria-mar",
+  "Plaça del Rei": "placa-rei",
+  "Plaça de Sant Felip Neri": "sant-felip-neri",
+  "Barcelona Cathedral": "bcn-cathedral",
+  "Sagrada Família": "sagrada-familia",
+  "Hospital de Sant Pau": "sant-pau",
+  "Casa Batlló": "casa-batllo",
+  "Passeig de Gràcia & Casa Milà exterior": "casa-mila",
+  "Park Güell": "park-guell",
+  "Montjuïc Cable Car": "teleferic-montjuic",
+  "Montjuïc Castle": "castell-montjuic",
+  "Museu Nacional d'Art de Catalunya": "mnac",
+  "Barceloneta Beach": "barceloneta",
+  "Mercat de la Boqueria": "boqueria",
+  "Palau de la Música Catalana": "palau-musica",
+  "Gràcia Neighborhood": "gracia",
+  "Casa Vicens": "casa-vicens"
+ },
+ "restaurants": {
+  "Mercado de San Miguel": "mercado",
+  "Pastelería La Mallorquina": "pastry",
+  "Casa González": "jamon",
+  "Angelita Madrid": "tapas",
+  "Chocolatería San Ginés": "churros",
+  "Confitería Santo Tomé": "mazapan",
+  "La Malquerida de la Trinidad": "carcamusas",
+  "Casa Lucas": "tapas",
+  "Taberna La Bola": "cocido",
+  "Casa Macareno": "croquetas",
+  "Taberna Skala": "carcamusas",
+  "Juana la Loca": "pintxos",
+  "Sobrino de Botín": "cochinillo",
+  "Bodega de la Ardosa": "tortilla",
+  "La Rosa Vermutería & Colmado": "vermut",
+  "Es Baluard Restaurant & Lounge": "parc-mar",
+  "Vandal Palma": "marisco",
+  "Mercat de l'Olivar": "mercat-olivar",
+  "Sa Fàbrica de Gelats": "gelato",
+  "Kingfisher Restaurant": "marisco",
+  "Toque de Queda": "jamon",
+  "Quince Restaurante & Cantina": "paella",
+  "Ca n'Eduardo": "paella",
+  "Marc Fosh": "cremacatalana",
+  "Celler Sa Premsa": "sobrasada",
+  "Ca'n Joan de S'Aigo": "ensaimada",
+  "Ciutat Comtal": "tapas",
+  "7 Portes": "paella",
+  "Cerveseria Catalana": "tapas",
+  "Paco Meralgo": "marisco",
+  "Granja M. Viader": "chocolate",
+  "Can Solé": "paella",
+  "La Tasqueta de Blai": "pintxos",
+  "Xurreria Laietana": "churros",
+  "Pastisseria Hofmann": "pastry",
+  "La Pubilla": "pantumaca",
+  "Vinitus": "tapas",
+  "Casa Amàlia": "arroz",
+  "Bar Bodega Quimet": "vermut",
+  "La Cova Fumada": "croquetas"
+ },
+ "keywords": [
+  [
+   "소예르 목재 열차|Ferrocarril de Sóller|목재 열차",
+   "tren-soller",
+   [
+    "transport",
+    "sight",
+    "free"
+   ]
+  ],
+  [
+   "포르트 데 소예르|Port de Sóller",
+   "port-soller",
+   [
+    "sight",
+    "free",
+    "meal",
+    "transport"
+   ]
+  ],
+  [
+   "파세이그 마리팀|Parc de la Mar|파르크 데 라 마르",
+   "parc-mar",
+   [
+    "sight",
+    "free"
+   ]
+  ],
+  [
+   "숙소 조식|근처 카페",
+   "cafe",
+   [
+    "meal"
+   ]
+  ],
+  [
+   "보카디요|터미널 내 간단 점심",
+   "bocadillo",
+   [
+    "meal"
+   ]
+  ],
+  [
+   "산 미겔 시장|Mercado de San Miguel",
+   "mercado",
+   [
+    "meal"
+   ]
+  ],
+  [
+   "올리바르|Olivar",
+   "mercat-olivar",
+   [
+    "meal"
+   ]
+  ]
+ ],
+ "city_hero": {
+  "madrid": "royal-palace",
+  "mallorca": "la-seu",
+  "barcelona": "sagrada-familia"
+ }
+}
