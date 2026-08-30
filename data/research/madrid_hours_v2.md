@@ -56,6 +56,8 @@
 | 8 | **크리스탈 궁전 개보수 휴관 ("2027년까지")** | 레티로 일정에서 제외 가정, 재확인 |
 | 9 | **2027-05-05은 5월 첫째 수요일 = 왕궁 성대교대식 12:00** | 17:30 도착이라 **관람 불가** |
 | 10 | **2027-04-28은 일반 근위교대 수요일 11:00–14:00** | 왕궁·알무데나 오전 묶음 배치 최적 |
+| 11 | **톨레도 주요 명소는 화요일 전부 개관** (알카사르만 월요일 휴관) | 04-27(화) 톨레도가 최적해 |
+| 12 | **톨레도 미라도르 일몰(21:06)은 21:37 막차와 충돌** | 당일치기에서는 일몰 관람 포기 권장 |
 
 ---
 
@@ -335,7 +337,168 @@
 
 ## 10. 톨레도 (화요일 · 2027-04-27)
 
-<!-- TOLEDO_PLACEHOLDER -->
+> ✅ **결론: 화요일은 톨레도 당일치기에 문제가 없다.** 아래 주요 명소 전부 화요일 정상 개관.
+> (마드리드에서 화요일에 못 가는 곳은 레이나 소피아뿐인데, 그날 톨레도를 가면 정확히 상쇄된다.)
+
+### 10-1. 카테드랄 프리마다 (Catedral Primada)
+
+| 항목 | 내용 |
+|---|---|
+| 문화관람 시간 | **월~토 10:00–18:30** / **일 14:00–18:30** |
+| 입장 마감 | **폐관 30분 전 (18:00)** |
+| 기본 입장권 | **12 €** |
+| 할인 | 8 € (65세 이상, 장애 64%까지, 다자녀, 유스카드, 18세 이하 학생) |
+| 어린이 (8–14세, 보호자 동반) | 6 € |
+| 무료 | 톨레도 시 출생·거주자 / 대교구 거주자(일요일만) / 8세 미만 / 장애 64% 초과 + 동반 1인 / 사제·수도자 |
+| Lumina (야간 라이트쇼) | 24.90 € / 기본권+Lumina 33.00 € |
+| 휴관 | 1/1, 12/25 (종일). 특별 전례 시 사전 공지 후 휴관 |
+| 특별 단축일 | 1/6·1/23·성지주일·성화요일·부활주일·11/1·12/8 → 14:00–18:30 / 성목·성금 11:00–17:00 / **Corpus Christi 16:30–18:30** / 8/15 16:00–18:30 / 12/24·12/31 10:00–14:00 |
+| 🚩 관람 규정 | **내부 사진·영상 촬영 전면 금지**, 휴대폰 사용 금지, 음식물 반입 금지, 단정한 복장 |
+| 입장 위치 | **Puerta Llana** (C/ Cardenal Cisneros 1, 45002 Toledo) |
+| 티켓 | 온라인 https://tickets.catedralprimada.es/ 또는 Puerta Llana 맞은편 대성당 상점 현장 구매 |
+| 종탑(Campana Gorda) | ⚠️ **2026년 공식 요금표에 별도 종탑 옵션 없음** — 현재 미운영으로 보임 (UNCONFIRMED) |
+| 오디오가이드 | ⚠️ 공식 요금표에 별도 표기 없음 (UNCONFIRMED) |
+| 공식 URL | https://www.catedralprimada.es/visita-cultural/entradas-catedral-toledo/ |
+
+**2027-04-27(화)**: ✅ 10:00–18:30, 입장 마감 18:00. 2027년 부활절이 3/28이라 성주간 단축일과 무관. Corpus Christi 2027은 **5/27(목)**로 무관.
+
+### 10-2. 알카사르 / Museo del Ejército (군사박물관)
+
+| 항목 | 내용 |
+|---|---|
+| 개관 | **10:00–17:00** |
+| 입장 마감 | **16:30** (16:45부터 퇴실 시작) |
+| **휴관** | 🚩 **매주 월요일** (연 6회 예외 개관일 별도 공지), 1/1, 1/6, 5/1, 12/24, 12/25, 12/31 |
+| **화요일** | ✅ **정상 개관** |
+| 요금 | **상설전 5 €** / 문화·교육 단체(15인 이상) 50% 할인 |
+| 무료 구역 (티켓 불필요) | 기획전, "Los ejércitos antes del Ejército" 전시실, **정원**, 고고학 유적, 카페-레스토랑, 기념품점, 도서관 |
+| 무료 대상 | 18세 미만, **EU 국적 65세 이상**, EU 대학생·ISIC 소지자, EU 유스카드, 연금수급자, 장애인+동반, 실업자, 다자녀, ICOM/FEAM/AEM/APME/ANABAD, 국방부·군·경 관계자, 교원, 공인 관광가이드 |
+| 🚩 현재 제한 | **H5(Restauración Monárquica), H6(20세기) 전시실 공사로 폐쇄 중** |
+| 주소 | C/ Unión s/n, 45001 Toledo — **주 출입구 C/ De la Paz s/n** |
+| 문의 | 925 238 893 |
+| 공식 URL | https://ejercito.defensa.gob.es/museo/ |
+
+> ⚠️ 과거의 "일요일 무료" 정책은 2026년 공식 안내문에 없다. (일요일 무료 여부 UNCONFIRMED — 화요일 방문이면 무관)
+
+### 10-3. Toledo Monumental 7개 기념물 + 관광 팔찌(Pulsera Turística)
+
+**7곳 전부 매일(화요일 포함) 10:00–18:45 개관, 개별 4 €.**
+
+| 기념물 | 매표소 마감 | 개별 요금 | 구글 평점 | 주소 |
+|---|---|---|---|---|
+| **Monasterio de San Juan de los Reyes** | 폐관 **20분** 전 | 4 € | **4.7** (9,417) | C. de los Reyes Católicos 17 |
+| **Iglesia de Santo Tomé** (엘 그레코 「오르가스 백작의 매장」) | 폐관 **10분** 전 | 4 € | **4.4** (6,642) | Pl. del Conde 4 |
+| **Sinagoga de Santa María la Blanca** | 폐관 **10분** 전 | 4 € | **4.0** (7,137) | C. de los Reyes Católicos 4 |
+| **Mezquita del Cristo de la Luz** | 폐관 **10분** 전 | 4 € | — | C. Cristo de la Luz 22 |
+| **Iglesia de los Jesuitas (San Ildefonso)** — 종탑 전망 | 폐관 **15분** 전 | 4 € | — | Pl. Padre Juan de Mariana 1 |
+| **Iglesia de El Salvador** | 폐관 **15분** 전 | 4 € | — | Pl. del Salvador s/n |
+| **Real Colegio de Doncellas Nobles** | 폐관 **10분** 전 | 4 € | — | Pl. Cardenal Siliceo 1 |
+
+| 항목 | 내용 |
+|---|---|
+| **Pulsera Turística** | **14 €** (개별 합계 28 € 대비 **50% 절약**) |
+| 포함 | 위 **7곳 전부** |
+| 구매 | 온라인 https://www.toledomonumental.com/ (카드/PayPal, PDF·Apple Wallet·Google Pay 발권) 또는 각 기념물 매표소 현장 |
+| 사용 | 각 기념물 매표소에서 티켓 제시 |
+| 촬영 | ✅ **플래시 없는 사진·영상 촬영 허용** (대성당과 반대) |
+| 유효기간 | ⚠️ 공식 페이지에 명시 없음 — **UNCONFIRMED** (통상 기한 없음, 각 1회 입장) |
+| 공식 URL | https://www.toledomonumental.com/ |
+
+> 💡 하루에 3곳 이상 볼 계획이면 팔찌가 이득 (4 €×3 = 12 € < 14 €이지만 4곳부터 16 € > 14 €).
+> 실질적으로 **산 후안 데 로스 레예스 + 산토 토메 + 산타 마리아 라 블랑카 + 하나 더** = 팔찌 구매가 정답.
+
+### 10-4. 국립박물관 2곳 (둘 다 **월요일 휴관 / 화요일 개관**)
+
+| 항목 | Sinagoga del Tránsito · **Museo Sefardí** | **Museo del Greco** |
+|---|---|---|
+| 개관 | **화~토 09:30–20:00** / 일·공휴일 10:00–15:00 | **3/1–10/31: 화~토 09:30–19:30** / 일·공휴일 10:00–15:00 · (11/1–2/28 화~토 09:30–18:00) |
+| 입장 마감 | 폐관 **15분** 전 | 폐관 **15분** 전 |
+| 휴관 | **월요일**, 1/1, 1/6, 5/1, 12/24·25·31, 지역 축일 1일 | **월요일**, 1/1, 1/6, 5/1, 12/24·25·31 |
+| 일반 | **3 €** | **3 €** |
+| 할인 1.50 € | 8인 이상 단체, 문화자원봉사자, **Renfe 고속·장거리 승차권 소지자** ("Museos en Red") | 8인 이상 단체(15일 전 신청) |
+| **무료** | **토 14:00 이후, 일요일 전일** · 4/18, 5/18, 10/12, 12/6 · 18세 미만/65세 이상/18–25세 학생 등 | **토 14:00 이후, 일요일 전일** · 18세 미만/65세 이상/18–25세 학생 등 |
+| 통합권 | **Abono Museos de Toledo 5 €** (그레코+세파르디, **5일 유효**) — **현장 매표소에서만 구매** | 동일 |
+| 비고 | 3~6월 성수기. 한산한 시간 **09:30–11:00 / 15:00–17:00** 권장 | 개인(7인 이하) 사전예약 선택사항 |
+| 주소 | C/ Samuel Leví s/n · 925 223 665 | Paseo del Tránsito s/n |
+| 공식 URL | https://www.cultura.gob.es/msefardi/visita/horario.html | https://www.cultura.gob.es/mgreco/la-visita/horariosytarifas.html |
+
+> 💡 **Renfe 고속열차 티켓을 보여주면 두 국립박물관 모두 1.50 €** — 톨레도를 Avant로 가면 자동 적용. 왕복 티켓 보관 필수.
+> 💡 두 곳 다 볼 거면 **Abono Museos de Toledo 5 €**보다 Renfe 할인 3 €(1.5+1.5)가 더 싸다.
+
+### 10-5. 이동 — 마드리드 ↔ 톨레도 (Renfe Avant)
+
+| 항목 | 내용 |
+|---|---|
+| 노선 | **Madrid Puerta de Atocha (Almudena Grandes) ↔ Toledo** — 직통, 환승 없음 |
+| 소요시간 | **약 34분** (일부 38분) |
+| 운행 편수 | 방향당 **1일 약 15편** |
+| **마드리드 → 톨레도 (평일 패턴)** | 06:45 · 07:45 · 08:15 · 09:15 · **10:15** · 11:45 · 12:45 · 13:45 · 14:45 · 15:45 · 16:45 · 17:45 · 18:45 · 20:45 |
+| **톨레도 → 마드리드 (평일 패턴)** | 06:25 · 06:50 · 07:55 · 10:25 · 12:25 · 13:25 · 15:25 · **16:25 · 17:23 · 19:25 · 20:25** · **21:37(막차, 38분)** |
+| 요금 | 편도 **약 €13~16** (Avant 기본요금). Trainline 최저가 표기 $16.91 |
+| 예매 | Renfe 공식 https://www.renfe.com/ · 앱 |
+| 🚩 예매 오픈 | Avant는 통상 **출발 약 60일 전** 판매 개시 (AVE는 더 길기도 함) — **UNCONFIRMED**, 2027년 4월분은 2027년 2월경 확인 |
+| 🚩 예약 필요성 | **좌석 지정제이며 매진된다.** 4월 말 화요일은 성수기 초입이라 **최소 1~2주 전 예매 권장** |
+
+> ⚠️ **위 시각표는 2026년 8월 기준 패턴(Trainline 집계)이며 공식 Renfe 시각표가 아니다.** Renfe 공식 조회 서비스(horarios.renfe.com)가 점검 중이라 직접 확인 불가.
+> **2027년 4월 시각표는 반드시 renfe.com에서 재확인.**
+
+**권장 조합 (2027-04-27 화)**
+- 마드리드 출발 **09:15** → 톨레도 09:49 / 또는 **10:15** → 10:49
+- 톨레도 출발 **17:23** → 마드리드 17:57 / **19:25** → 19:59 (일몰 전망 포기 시)
+- 미라도르 일몰(21:06)까지 보려면 **21:37 막차**뿐 — 매우 촉박, 권장하지 않음
+
+### 10-6. 톨레도 역 ↔ 구시가 (Casco Histórico)
+
+| 수단 | 내용 |
+|---|---|
+| **시내버스 L61 / L62** | 역 → **Zocodover 광장 약 5분**. 평일 합산 **약 10분 간격** (L61 매시 :04/:24/:44, L62 :19/:39/:59 역 출발), 07:00~23:20. 일요일 15분 간격. 정차: Real del Arrabal(비사그라 문 안쪽) → Zocodover(Cuesta Carlos V) |
+| 기타 노선 | L5(11–13분, 우회), L511도 역 정차 |
+| 요금 | **1.40 €** (15세 미만 무료) |
+| 결제 | 🚩 비접촉 카드 결제는 2025년 1월 도입 발표됨. 공식 관광안내 FAQ에는 "카드 불가"로 남아 있어 **상충**. **1.40 € 동전 준비 권장**, 5 € 초과 지폐 불가 |
+| 도보 | 역 → Zocodover 약 1.14 km / 15분이나 **고도차 약 80 m 오르막**. 에스컬레이터 이용 시 약 20분 |
+| 택시 | 역 → Zocodover **약 5.50~6.50 €** (+짐당 0.80 €) |
+| **택시 요금 (2026년 공시)** | 기본요금 2.20 € · 1.25 €/km · 최소요금 4.60 € · 대기 18 €/시 · 짐 1개당 +0.80 € · **AVE역/버스터미널/Zocodover 승강장 출발 +0.80 €**. 야간·주말: 2.60 € / 1.50 €/km / 22 €/시 |
+
+**야외 에스컬레이터(Remontes mecánicos) — 2곳, 모두 무료, 화요일 정상 운행**
+
+| 이름 | 구간 | 운행시간 |
+|---|---|---|
+| **Safont / Granadal–Miradero** ⭐ 역에서 추천 | Ronda del Granadal(버스터미널 옆) → Paseo del Miradero(Palacio de Congresos) → Calle de las Armas → Zocodover. 약 60 m 상승 | 07:00 개시 · 일~목 24:00 / 금·토 02:00 마감. **2026-07-21 상단 구간·엘리베이터 수리 완료, 완전 정상 가동** |
+| **Recaredo** | Paseo de Recaredo(서쪽 성벽 밖, 비사그라~캄브론 사이) → Plaza de la Merced 부근. 약 35–40 m 상승 | 월~목 07:00–23:00 · 금 07:00–02:00 · 토 08:00–02:00 · 일 08:00–23:00 |
+
+- 요금 표기가 없음 → 무료 (명시적 "무료" 문구는 없어 경미한 UNCONFIRMED)
+- 미라도르·Azarquiel·Santa Teresa에는 에스컬레이터 없음
+- 성주간·Corpus·카니발 기간에는 03:00~05:00까지 연장
+- 공식 URL: https://www.toledo.es/servicios-municipales/movilidad-y-transporte/remontes-mecanicos-horarios/
+
+### 10-7. Mirador del Valle (전망대)
+
+| 수단 | 내용 |
+|---|---|
+| **시내버스 L71** (Unauto, "Zocodover – H. Virgen del Valle") | **1.40 €**, 시간당 1편, 화요일 포함 매일 운행 |
+| 🚩 **핵심 주의** | **`MIRADOR DEL VALLE` 정류장은 복편(병원→Zocodover)에만 존재.** 왕편은 Puente de San Martín 경유로 미라도르를 지나치지 않는다 |
+| 이용법 | Zocodover / C. de la Unión에서 **매시 :45**에 승차 → 병원 종점까지 그대로 타고 있다가 → **매시 :06 미라도르 하차** (약 21분). 돌아올 때도 **:06** 편 승차 → Zocodover **:28** 도착 |
+| 운행 범위 | 첫 왕편 07:45, **미라도르 통과 막차 22:06** |
+| **택시** | Zocodover → 미라도르 약 2.5 km → **편도 약 6~7 €**, 15분 대기 포함 왕복 **약 17~22 €** (대기 18 €/시 미터 과금). 추정치이며 확정 견적 아님 |
+| **관광열차 Trainvision** (구 Zocotren) | Zocodover 광장에서 티켓 구매, 알카사르 맞은편 Cuesta de los Capuchinos 출발. **45분 순환, 성인 11.50 € / 4–12세 8 € / 3세 미만 무료**, 10:00부터 약 30분 간격, 매일. **미라도르에서 5–10분 사진 정차**. 한국어·일본어 포함 13개 언어 오디오 |
+| **Big Bus Toledo** (hop-on/off) | 정류장 5 = 미라도르, 3 = AVE역, 4 = Safont 에스컬레이터. 60분 순환, 30분 간격, **3~10월 09:30–19:30**. 1회 순환 성인 20 € / 시니어 17 € / 아동 10 €, 24시간 30 €, 24시간+대성당 45 € |
+| **도보** | Zocodover에서 최단 1.8 km / 약 25분(카베스트레로스·강변길), 도로 경유 2.5~3 km / 40~50분. **중·서부 Cigarrales 구간에 인도가 없는 곳** — 주간에만, 야간 도보 귀환 금지 |
+| **최적 시간** | 전망 방위 약 014°(북북동) → 도시 정면이 하루 대부분 순광. **저녁 골든아워 19:30–21:05, 특히 20:15 이후 최상**. 13:00–16:00은 역광이라 비추천 |
+| 야간 조명 | 기념물 조명 점등: **월~수 해질녘~23:00** (목~일 02:00). 화요일 조명 감상 창은 21:10~21:45 |
+| 톨레도 일몰 (2027) | 4/25 21:04 · **4/27 약 21:06** · 4/30 21:09 |
+| 출처 | https://unauto.es/lineas/ · https://trainvision.es/tren-turistico/toledo/ · https://www.toledo.es/servicios-municipales/movilidad-y-transporte/taxis/ |
+
+> 🚩 **당일치기에서 미라도르 일몰은 사실상 불가.** 21:06 일몰을 보면 21:06 버스 → 21:28 Zocodover → 택시로 역 이동 → **21:37 막차**가 되어 극도로 촉박하다.
+> **현실적 대안**: ① 낮에 관광열차(45분)로 미라도르 정차 포함 한 바퀴, ② 19:30경 골든아워 촬영 후 20:06 버스 → 20:25 열차, ③ 일몰은 마드리드(데보드/사바티니)에서.
+
+### 10-8. 톨레도 2027년 4월 이벤트
+
+| 항목 | 2027년 |
+|---|---|
+| 부활절 | 3/28 → 성주간 3/22~3/28, **여행일과 무관** |
+| **Corpus Christi** (톨레도 최대 축제) | **2027-05-27(목)** — 여행일과 무관 |
+| Romería del Valle (미라도르 옆 은수처) | **5/1(토)** — 여행일과 무관. 전날 저녁부터 순례객 |
+| 톨레도 지역 축일 | 🚩 **2027년 미공시** — 국립박물관은 "지역 축일 1일" 휴관하므로 출발 전 확인 |
 
 ---
 
@@ -425,6 +588,26 @@
 - 크리스탈 궁전: https://www.esmadrid.com/en/tourist-information/palacio-de-cristal
 - 벨라스아르테스: https://www.esmadrid.com/en/tourist-information/circulo-de-bellas-artes
 
+**톨레도 (공식)**
+- Catedral Primada — 입장권·시간: https://www.catedralprimada.es/visita-cultural/entradas-catedral-toledo/ · 예매 https://tickets.catedralprimada.es/
+- Museo del Ejército (알카사르): https://ejercito.defensa.gob.es/museo/
+- Toledo Monumental (7개 기념물 + Pulsera Turística): https://www.toledomonumental.com/
+- Museo Sefardí (Sinagoga del Tránsito) — 시간 https://www.cultura.gob.es/msefardi/visita/horario.html · 요금 https://www.cultura.gob.es/msefardi/visita/tarifas.html
+- Museo del Greco: https://www.cultura.gob.es/mgreco/la-visita/horariosytarifas.html
+- Remontes(에스컬레이터) 운행시간: https://www.toledo.es/servicios-municipales/movilidad-y-transporte/remontes-mecanicos-horarios/
+- Safont 에스컬레이터 수리 완료 공지: https://www.toledo.es/las-escaleras-mecanicas-del-palacio-de-congresos-vuelven-a-funcionar-de-forma-definitiva-tras-anos-paralizadas/
+- 택시 요금(2026): https://www.toledo.es/servicios-municipales/movilidad-y-transporte/taxis/
+- 시내버스 노선·시각표 (Unauto): https://unauto.es/lineas/
+- 버스 비접촉/QR 결제 도입 공지: https://www.toledo.es/el-ayuntamiento-de-toledo-y-grupo-ruiz-incorporan-el-pago-con-codigo-qr-en-los-autobuses-de-la-ciudad/
+- 관광열차 Trainvision: https://trainvision.es/tren-turistico/toledo/
+- Big Bus Toledo: https://www.theyellowtours.com/tour/descubre-toledo-panoramico/
+- Renfe 공식: https://www.renfe.com/
+
+**톨레도 열차 시각표 (2차 출처)**
+- Trainline 마드리드→톨레도: https://www.thetrainline.com/train-times/madrid-to-toledo
+- Trainline 톨레도→마드리드: https://www.thetrainline.com/train-times/toledo-to-madrid
+- ⚠️ Renfe 공식 조회(horarios.renfe.com)는 조사 시점 점검 중이었음
+
 **식당 평점**
 - Restaurant Guru (구글 평점 미러, 2026-08-30 확인): Casa Alberto / El Sur / Antonio Sánchez / Triciclo / San Ginés / Lhardy / La Mallorquina / La Sanabresa / Vinoteca Moratín 각 페이지
 - 각 식당 공식 사이트 (본문 표 내 링크 참조)
@@ -447,3 +630,16 @@
 7. **Taberna Antonio Sánchez 전화번호** — 공식 사이트 접근 차단
 8. **2027년 각 기관 연간 휴관 달력** — 통상 전년 12월~당해 1월 공개
 9. **2027년 마드리드 자치주 노동달력(공휴일)** — 통상 전년 10월경 공시. 현재 미공개
+
+**톨레도 관련**
+
+10. **Renfe Avant 2027년 4월 시각표·정확한 공식 요금** — 공식 조회 서비스 점검 중이라 미확인. 위 시각표는 Trainline 집계 패턴
+11. **Renfe Avant 예매 오픈 시점(약 60일 전)** — 공식 문서로 미확인
+12. **톨레도 대성당 종탑(Campana Gorda) 관람 옵션·오디오가이드 포함 여부** — 2026 공식 요금표에 항목 없음
+13. **Pulsera Turística 유효기간** — 공식 페이지에 명시 없음
+14. **Museo del Ejército 일요일 무료 여부** — 2026 공식 안내문에 항목 없음
+15. **Museo del Ejército H5·H6 전시실 재개장 시점** — 미공시
+16. **톨레도 시내버스 비접촉/앱 QR 결제** — 시청 공지와 관광안내 FAQ가 상충
+17. **에스컬레이터(remontes) 무료 여부** — 요금 표기 부재로 추정
+18. **2027년 톨레도 지역 축일** — 미공시 (국립박물관 1일 휴관 요인)
+19. **미라도르 순환도로 중·서부 구간 인도 유무** — OSM 기반 추정
