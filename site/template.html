@@ -1,0 +1,458 @@
+<title>스페인 2027 · 마드리드-마요르카-바르셀로나</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/*__LEAFLET_CSS__*/
+</style>
+<style>
+:root{
+  --bg:#f4f3ee; --card:#ffffff; --ink:#101828; --ink2:#5b6474; --line:#d9d8cf; --line2:#ebeae3;
+  --navy:#1b2a4a; --saffron:#d99a1e; --saffron-ink:#8a5a00; --sea:#1b7f8e;
+  --madrid:#a8232f; --mallorca:#1b7f8e; --barcelona:#c46a1b; --korea:#5b6474;
+  --chip:#ecebe4; --danger:#c8102e; --danger-bg:#fbe9ec; --ok:#1f6f3d; --ok-bg:#e3f2e8; --warn-bg:#fbf1d6;
+  --rating:#b7791f; --shadow:0 1px 0 rgba(16,24,40,.04),0 10px 30px -18px rgba(16,24,40,.25);
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0f1419; --card:#171d26; --ink:#e9eae4; --ink2:#9aa3b2; --line:#2a3340; --line2:#202832;
+  --navy:#dfe6f3; --saffron:#f0b33f; --saffron-ink:#f0b33f; --sea:#4cc3d3;
+  --madrid:#f0606c; --mallorca:#4cc3d3; --barcelona:#f0a054; --korea:#9aa3b2;
+  --chip:#232b36; --danger:#ff5c6f; --danger-bg:#3a1a20; --ok:#7dd49a; --ok-bg:#16301f; --warn-bg:#3a2e12;
+  --rating:#f0b33f; --shadow:0 1px 0 rgba(0,0,0,.4),0 10px 30px -18px rgba(0,0,0,.7);
+}}
+:root[data-theme="dark"]{
+  --bg:#0f1419; --card:#171d26; --ink:#e9eae4; --ink2:#9aa3b2; --line:#2a3340; --line2:#202832;
+  --navy:#dfe6f3; --saffron:#f0b33f; --saffron-ink:#f0b33f; --sea:#4cc3d3;
+  --madrid:#f0606c; --mallorca:#4cc3d3; --barcelona:#f0a054; --korea:#9aa3b2;
+  --chip:#232b36; --danger:#ff5c6f; --danger-bg:#3a1a20; --ok:#7dd49a; --ok-bg:#16301f; --warn-bg:#3a2e12;
+  --rating:#f0b33f; --shadow:0 1px 0 rgba(0,0,0,.4),0 10px 30px -18px rgba(0,0,0,.7);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;line-height:1.6;font-size:15px}
+a{color:var(--sea)}
+h1,h2,h3,h4{margin:0;line-height:1.2;text-wrap:balance}
+.cond{font-family:"Barlow Condensed","Noto Sans KR",sans-serif;font-weight:700;letter-spacing:-.01em}
+.mono{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;font-variant-numeric:tabular-nums}
+.eyebrow{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--saffron-ink)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+:focus-visible{outline:2px solid var(--saffron);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+/* nav */
+.nav{position:sticky;top:0;z-index:1000;background:var(--navy);color:#fff}
+:root[data-theme="dark"] .nav{background:#0b0f14;border-bottom:1px solid var(--line)}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .nav{background:#0b0f14;border-bottom:1px solid var(--line)} }
+.nav .wrap{display:flex;align-items:center;gap:2px;height:52px;overflow-x:auto}
+.nav .brand{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:20px;letter-spacing:.06em;margin-right:auto;white-space:nowrap;color:#fff}
+.nav .brand span{color:var(--saffron)}
+.nav a.tab{white-space:nowrap;text-decoration:none;color:rgba(255,255,255,.72);padding:0 12px;height:52px;display:inline-flex;align-items:center;font-size:14px;border-bottom:3px solid transparent}
+.nav a.tab.active,.nav a.tab:hover{color:#fff;border-bottom-color:var(--saffron)}
+/* hero: departures board */
+.hero{padding:44px 0 30px;border-bottom:1px solid var(--line)}
+.hero .kicker{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.1em;color:var(--ink2)}
+.hero h1{font-family:"Barlow Condensed","Noto Sans KR",sans-serif;font-weight:700;font-size:clamp(34px,6vw,64px);margin:10px 0 12px;letter-spacing:-.01em;line-height:1.05}
+.hero h1 em{font-style:normal;color:var(--saffron-ink)}
+.hero .lead{color:var(--ink2);max-width:70ch;font-size:16px;margin:0}
+.board{margin-top:26px;border:1px solid var(--line);background:var(--card);box-shadow:var(--shadow)}
+.board .row{display:grid;grid-template-columns:120px 1fr 1fr 1fr 120px;align-items:center;gap:0;border-top:1px solid var(--line2)}
+.board .row:first-child{border-top:0}
+.board .cell{padding:12px 16px;min-width:0}
+.board .cell.lbl{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);border-right:1px solid var(--line2)}
+.board .city{font-family:"Barlow Condensed","Noto Sans KR",sans-serif;font-weight:700;font-size:22px;color:var(--c)}
+.board .city small{display:block;font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:400;letter-spacing:.06em;color:var(--ink2);margin-top:2px}
+.board .stat b{display:block;font-family:"Barlow Condensed",sans-serif;font-size:26px;font-weight:700;line-height:1}
+.board .stat span{color:var(--ink2);font-size:12px}
+@media (max-width:760px){.board .row{grid-template-columns:1fr 1fr}.board .cell.lbl{grid-column:1/-1;border-right:0;border-bottom:1px solid var(--line2)}}
+/* sections */
+section.sec{padding:44px 0}
+.sec-h{margin-bottom:20px}
+.sec-h h2{font-family:"Barlow Condensed","Noto Sans KR",sans-serif;font-weight:700;font-size:30px;margin-top:4px}
+.sec-h p{margin:4px 0 0;color:var(--ink2);max-width:80ch}
+.grid{display:grid;gap:16px}
+.grid.c3{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.grid.c2{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);padding:18px 20px;box-shadow:var(--shadow)}
+.card h3{font-size:16px;margin-bottom:8px}
+.card .sub{color:var(--ink2);font-size:13px}
+.city-card{border-top:3px solid var(--c)}
+.chip{display:inline-block;background:var(--chip);padding:2px 9px;font-size:12px;color:var(--ink2);margin:2px 4px 2px 0}
+.chip.c-madrid{background:color-mix(in srgb,var(--madrid) 12%,transparent);color:var(--madrid)}
+.chip.c-mallorca{background:color-mix(in srgb,var(--mallorca) 12%,transparent);color:var(--mallorca)}
+.chip.c-barcelona{background:color-mix(in srgb,var(--barcelona) 12%,transparent);color:var(--barcelona)}
+.chip.c-korea{background:color-mix(in srgb,var(--korea) 12%,transparent);color:var(--korea)}
+.rating{display:inline-flex;align-items:center;gap:3px;color:var(--rating);font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:12.5px}
+.flight-row{display:grid;grid-template-columns:76px 1fr;gap:12px;padding:10px 0;border-top:1px solid var(--line2);font-size:13.5px}
+.flight-row:first-child{border-top:0}
+.flight-row .k{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);padding-top:4px}
+/* timeline */
+.tl{display:grid;grid-template-columns:184px 1fr;gap:28px;align-items:start}
+.tl-rail{position:sticky;top:64px;display:flex;flex-direction:column;max-height:calc(100vh - 80px);overflow:auto;border-left:1px solid var(--line)}
+.tl-rail a{display:grid;grid-template-columns:44px 1fr;gap:8px;align-items:center;text-decoration:none;color:var(--ink2);padding:6px 10px;font-size:12.5px;border-left:3px solid transparent;margin-left:-1px}
+.tl-rail a b{font-family:"Barlow Condensed",sans-serif;font-size:18px;color:var(--ink)}
+.tl-rail a:hover,.tl-rail a.active{border-left-color:var(--saffron);color:var(--ink);background:var(--card)}
+.day{background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);margin-bottom:22px;scroll-margin-top:70px}
+.day-h{padding:16px 22px 12px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:76px 1fr;gap:14px;border-top:3px solid var(--c)}
+.day-h .num{font-family:"Barlow Condensed",sans-serif;font-size:44px;font-weight:700;color:var(--c);line-height:.9}
+.day-h .num small{display:block;font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink2);font-weight:400;letter-spacing:.14em;margin-bottom:4px}
+.day-h h3{font-size:19px}
+.day-h .meta{color:var(--ink2);font-size:13px;margin-top:3px;font-family:"IBM Plex Mono",monospace}
+.day-h .theme{grid-column:1/-1;color:var(--ink2);font-size:14px;max-width:80ch}
+.blocks{padding:4px 22px 6px}
+.blk{display:grid;grid-template-columns:118px 46px 1fr;gap:12px;padding:11px 0;border-top:1px solid var(--line2);align-items:start}
+.blk:first-child{border-top:0}
+.blk .t{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;font-size:12px;color:var(--ink2);padding-top:3px;white-space:nowrap}
+.blk .t b{display:block;color:var(--ink);font-size:13.5px;font-weight:600}
+.blk .ic{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.08em;text-align:center;padding:3px 0;margin-top:3px;background:var(--chip);color:var(--ink2)}
+.blk.type-flight .ic,.blk.type-transport .ic{background:color-mix(in srgb,var(--sea) 14%,transparent);color:var(--sea)}
+.blk.type-meal .ic{background:color-mix(in srgb,var(--saffron) 22%,transparent);color:var(--saffron-ink)}
+.blk.type-sight .ic{background:color-mix(in srgb,var(--c) 14%,transparent);color:var(--c)}
+.blk .nm{font-weight:700;font-size:15px}
+.blk .nm .en{font-weight:400;color:var(--ink2);font-size:12px;margin-left:6px}
+.blk .dt{color:var(--ink2);font-size:13px;margin-top:2px}
+.blk .note{font-size:14px;margin-top:4px;max-width:80ch}
+.blk.type-tip{background:var(--warn-bg);padding:10px 12px;margin:6px 0;border-top:0}
+.blk .badges{margin-top:5px;display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.badge{display:inline-block;font-size:11px;padding:1px 8px;background:var(--chip);color:var(--ink2);font-family:"IBM Plex Mono",monospace}
+.badge.book{background:var(--warn-bg);color:var(--saffron-ink)}
+.badge.cost{background:var(--ok-bg);color:var(--ok)}
+.badge.gomap{cursor:pointer;background:color-mix(in srgb,var(--sea) 14%,transparent);color:var(--sea);font-family:"Noto Sans KR",sans-serif}
+.day-f{padding:12px 22px 14px;background:var(--bg);border-top:1px solid var(--line2);display:grid;gap:6px;font-size:13.5px}
+.day-f .lbl{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;margin-right:8px;color:var(--ink2)}
+.day-f .safe .lbl{color:var(--danger)}
+/* maps */
+.maptabs{display:flex;gap:0;flex-wrap:wrap;margin-bottom:0;border:1px solid var(--line);border-bottom:0;background:var(--card)}
+.maptabs button{border:0;border-right:1px solid var(--line);background:transparent;color:var(--ink2);padding:10px 18px;font:inherit;font-size:14px;font-weight:500;cursor:pointer}
+.maptabs button.active{color:var(--ink);box-shadow:inset 0 -3px 0 var(--saffron)}
+.mapbox{background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);overflow:hidden}
+.filters{display:flex;flex-wrap:wrap;gap:6px;padding:10px 14px;border-bottom:1px solid var(--line);align-items:center}
+.filters label{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;padding:3px 9px;border:1px solid var(--line);cursor:pointer;user-select:none;background:var(--bg)}
+.filters label .sw{width:10px;height:10px;border-radius:50%;background:var(--c)}
+.filters .sep{width:1px;height:20px;background:var(--line);margin:0 4px}
+.filters button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:3px 10px;font:inherit;font-size:12.5px;cursor:pointer}
+.map{height:620px;width:100%;background:#e9e7df}
+@media (max-width:700px){.map{height:480px}}
+.leaflet-container{font-family:inherit}
+.mk{display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:var(--c);color:#fff;font-weight:700;font-size:12px;font-family:"Barlow Condensed",sans-serif;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)}
+.mk.rest{width:22px;height:22px;background:#fff;color:#8a5a00;font-size:12px;border:2px solid #d99a1e;border-radius:3px}
+.mk.city{width:auto;height:26px;padding:0 10px;border-radius:999px;font-size:13px;white-space:nowrap;display:inline-flex;transform:translate(-50%,-50%);font-family:"Noto Sans KR",sans-serif}
+.leaflet-popup-content{font-size:13px;line-height:1.5;margin:10px 12px}
+.leaflet-popup-content b{font-size:14px}
+.legend{display:flex;flex-wrap:wrap;gap:12px;padding:10px 14px;border-top:1px solid var(--line);font-size:12px;color:var(--ink2)}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%}
+.route-list{padding:12px 14px;border-top:1px solid var(--line);font-size:13px;display:grid;gap:6px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.route-list div b{color:var(--c);font-family:"Barlow Condensed",sans-serif;font-size:15px;margin-right:4px}
+/* restaurants */
+.rest{display:grid;grid-template-columns:1fr auto;gap:8px}
+.rest h4{font-size:16px}
+.rest h4 small{font-weight:400;color:var(--ink2);font-size:12px;display:block}
+.rest .price{font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--ink2);white-space:nowrap}
+.rest p{margin:6px 0 0;font-size:13.5px}
+.rest .row{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px;margin-top:6px;align-items:center}
+.food-h{display:flex;align-items:baseline;gap:10px;margin:22px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--c)}
+.food-h h3{font-family:"Barlow Condensed","Noto Sans KR",sans-serif;font-size:22px;color:var(--c)}
+.food-h small{color:var(--ink2);font-family:"IBM Plex Mono",monospace;font-size:12px}
+/* safety */
+.avoid{display:grid;gap:8px}
+.avoid div{border-left:3px solid var(--danger);padding:8px 12px;background:var(--danger-bg);font-size:13.5px}
+.avoid div.sev-low{border-left-color:var(--saffron);background:var(--warn-bg)}
+.avoid div.sev-medium{border-left-color:#e0662a}
+.avoid b{display:block}
+ul.tips{margin:8px 0 0;padding-left:18px;font-size:14px}
+ul.tips li{margin:4px 0}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line2);vertical-align:top}
+th{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink2);text-transform:uppercase;letter-spacing:.08em;border-bottom:1px solid var(--line)}
+.tscroll{overflow-x:auto}
+.callout{background:var(--warn-bg);border-left:3px solid var(--saffron);padding:12px 16px;font-size:13.5px;color:var(--ink)}
+footer{padding:36px 0 60px;color:var(--ink2);font-size:13px;border-top:1px solid var(--line)}
+@media (max-width:820px){.tl{grid-template-columns:1fr}.tl-rail{position:static;flex-direction:row;flex-wrap:wrap;max-height:none;border-left:0}.tl-rail a{padding:4px 8px;grid-template-columns:auto 1fr}.blk{grid-template-columns:84px 40px 1fr;gap:8px}.day-h{grid-template-columns:60px 1fr}}
+@media print{.nav,.maptabs,.filters{display:none}.map{height:500px}.day{break-inside:avoid}}
+</style>
+
+<nav class="nav"><div class="wrap">
+  <div class="brand">ESPAÑA <span>2027</span></div>
+  <a class="tab" href="#overview">개요</a>
+  <a class="tab" href="#timeline">타임라인</a>
+  <a class="tab" href="#maps">지도·동선</a>
+  <a class="tab" href="#food">맛집</a>
+  <a class="tab" href="#safety">안전</a>
+  <a class="tab" href="#booking">예약·예산</a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="kicker">2027.04.25 SUN ULSAN → 2027.05.07 FRI ULSAN · 12 NIGHTS / 13 DAYS</div>
+  <h1 id="hero-title"></h1>
+  <p class="lead" id="hero-concept"></p>
+  <div class="board" id="board"></div>
+</div></header>
+
+<section class="sec" id="overview"><div class="wrap">
+  <div class="sec-h"><div class="eyebrow">01 — Overview</div><h2>여행 개요</h2><p id="split-text"></p></div>
+  <div class="grid c3" id="city-cards"></div>
+  <div class="grid c2" style="margin-top:16px">
+    <div class="card"><h3>항공 · 국내 이동</h3><div id="flights"></div></div>
+    <div class="card" style="padding:0;overflow:hidden"><div id="map-spain" class="map" style="height:100%;min-height:360px"></div></div>
+  </div>
+  <div class="grid c3" style="margin-top:16px" id="weather-cards"></div>
+</div></section>
+
+<section class="sec" id="timeline"><div class="wrap">
+  <div class="sec-h"><div class="eyebrow">02 — Timeline</div><h2>일자별 타임라인</h2><p>시간 블록 = 이동 시간 + 예상 체류 시간 포함 · 스페인 식사 시간(점심 13:30~, 저녁 20:30~) 반영</p></div>
+  <div class="tl">
+    <aside class="tl-rail" id="tl-rail"></aside>
+    <div id="days"></div>
+  </div>
+</div></section>
+
+<section class="sec" id="maps"><div class="wrap">
+  <div class="sec-h"><div class="eyebrow">03 — Maps &amp; Routes</div><h2>지도 · 동선</h2><p>번호 = 그날의 방문 순서 · 선 = 동선 · 사각 마커 = 맛집 · 붉은 원 = 주의 지역. 일자 필터로 동선을 겹쳐 볼 수 있어요.</p></div>
+  <div class="maptabs" id="maptabs"></div>
+  <div class="mapbox">
+    <div class="filters" id="filters"></div>
+    <div id="map-city" class="map"></div>
+    <div class="legend" id="legend"></div>
+    <div class="route-list" id="route-list"></div>
+  </div>
+</div></section>
+
+<section class="sec" id="food"><div class="wrap">
+  <div class="sec-h"><div class="eyebrow">04 — Eat</div><h2>맛집</h2><p>구글 평점 3.5 이상만 선별 (대부분 4.2+) · 평점은 조사 시점(2026) 기준</p></div>
+  <div id="food-groups"></div>
+</div></section>
+
+<section class="sec" id="safety"><div class="wrap">
+  <div class="sec-h"><div class="eyebrow">05 — Safety</div><h2>안전 가이드</h2><p>피해야 할 지역 · 소매치기 주의 · 숙소 잡기 좋은 동네</p></div>
+  <div class="grid c3" id="safety-cards"></div>
+  <div class="card" style="margin-top:16px"><h3>공통 팁</h3><ul class="tips" id="general-tips"></ul></div>
+</div></section>
+
+<section class="sec" id="booking"><div class="wrap">
+  <div class="sec-h"><div class="eyebrow">06 — Bookings &amp; Budget</div><h2>예약 체크리스트 · 예산 · 대안</h2><p>숙소는 계획 확정 후 직접 예약 — 숙소 추천 동네는 안전 가이드 참고</p></div>
+  <div class="grid c2">
+    <div class="card"><h3>예약 체크리스트</h3><div class="tscroll"><table id="booking-table"><thead><tr><th>항목</th><th>언제</th><th>메모</th></tr></thead><tbody></tbody></table></div></div>
+    <div class="card"><h3>1인 예상 예산</h3><div class="tscroll"><table id="budget-table"><thead><tr><th>항목</th><th>1인</th><th>메모</th></tr></thead><tbody></tbody></table></div>
+      <h3 style="margin-top:18px">대안 옵션</h3><ul class="tips" id="alt-list"></ul></div>
+  </div>
+  <div class="callout" style="margin-top:16px" id="caveat"></div>
+</div></section>
+
+<footer><div class="wrap" id="footer"></div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script>
+const TRIP = /*__TRIP__*/{};
+const BASES = /*__BASES__*/[];
+const BUILT = /*__BUILT__*/"";
+const DAY_COLORS = ['#5b6474','#a8232f','#c2413a','#d4602c','#8c1d2b','#1b7f8e','#2a9fb0','#147a6a','#c46a1b','#d99a1e','#a67c0f','#4f46a5','#5b6474','#5b6474'];
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ICON = {flight:'FLT',transport:'MOVE',sight:'SEE',meal:'EAT',free:'FREE',hotel:'STAY',tip:'TIP'};
+function regionOf(lat,lng){
+  if (lat==null||lng==null||isNaN(lat)||isNaN(lng)) return null;
+  if (lng > 60) return 'korea';
+  if (lng < -2) return 'madrid';
+  if (lat < 40.3 && lng > 1.2) return 'mallorca';
+  if (lat >= 40.3) return 'barcelona';
+  return null;
+}
+function cityKey(s){ s=String(s||''); if(/마요르카|팔마|Mallorca|Palma/i.test(s)) return 'mallorca'; if(/바르셀로나|Barcelona/i.test(s)) return 'barcelona'; if(/마드리드|Madrid|톨레도/i.test(s)) return 'madrid'; return 'korea'; }
+function dayRegion(d){ const pts=(d.blocks||[]).map(b=>regionOf(b.lat,b.lng)).filter(r=>r&&r!=='korea'); if(pts.length){ const c={}; pts.forEach(p=>c[p]=(c[p]||0)+1); return Object.keys(c).sort((a,b)=>c[b]-c[a])[0]; } return cityKey(d.city); }
+const REGION_KO = {madrid:'마드리드 · 톨레도', mallorca:'마요르카', barcelona:'바르셀로나 · 근교', korea:'한국'};
+const REGION_COLOR = {madrid:'var(--madrid)',mallorca:'var(--mallorca)',barcelona:'var(--barcelona)',korea:'var(--korea)'};
+const ratingHtml = r => r ? `<span class="rating">★ ${Number(r).toFixed(1)}</span>` : '';
+
+/* ---------- hero / overview ---------- */
+(function(){
+  const S = TRIP.summary || {};
+  document.getElementById('hero-title').innerHTML = esc(S.title || '스페인 여행 계획').replace(/(마요르카)/,'<em>$1</em>');
+  document.getElementById('hero-concept').textContent = S.concept || '';
+  document.getElementById('split-text').textContent = S.split || '';
+  const days = TRIP.days || [];
+  const sights = days.flatMap(d=>d.blocks||[]).filter(b=>b.type==='sight').length;
+  const rests = (TRIP.restaurants||[]).length;
+  const nights = {};
+  days.forEach(d=>{ const k=dayRegion(d); if(k!=='korea') nights[k]=(nights[k]||0)+1; });
+  const cityDays = k => days.filter(d=>dayRegion(d)===k);
+  const rng = ds => ds.length ? `${ds[0].date.slice(5).replace('-','.')}–${ds[ds.length-1].date.slice(5).replace('-','.')}` : '';
+  document.getElementById('board').innerHTML = `
+    <div class="row"><div class="cell lbl">Route</div>
+      <div class="cell city" style="--c:var(--madrid)">마드리드<small>MAD · ${cityDays('madrid').length}일 · ${rng(cityDays('madrid'))}</small></div>
+      <div class="cell city" style="--c:var(--mallorca)">마요르카<small>PMI · ${cityDays('mallorca').length}일 · ${rng(cityDays('mallorca'))}</small></div>
+      <div class="cell city" style="--c:var(--barcelona)">바르셀로나<small>BCN · ${cityDays('barcelona').length}일 · ${rng(cityDays('barcelona'))}</small></div>
+      <div class="cell stat"><b>13</b><span>DAYS</span></div></div>
+    <div class="row"><div class="cell lbl">Count</div>
+      <div class="cell stat"><b>${sights}</b><span>관광 명소</span></div>
+      <div class="cell stat"><b>${rests}</b><span>맛집 · 구글 3.5+</span></div>
+      <div class="cell stat"><b>3</b><span>도시 · 마드리드 → 팔마 → 바르셀로나</span></div>
+      <div class="cell stat"><b>12</b><span>NIGHTS</span></div></div>`;
+  // city cards
+  const cities = ['madrid','mallorca','barcelona'];
+  document.getElementById('city-cards').innerHTML = cities.map(k=>{
+    const ds = days.filter(d=>dayRegion(d)===k);
+    const top = ds.flatMap(d=>(d.blocks||[]).filter(b=>b.type==='sight').map(b=>b.name)).slice(0,8);
+    const range = ds.length ? `${ds[0].date.slice(5).replace('-','.')} ~ ${ds[ds.length-1].date.slice(5).replace('-','.')}` : '';
+    return `<div class="card city-card" style="--c:${REGION_COLOR[k]}"><h3>${REGION_KO[k]}</h3><div class="sub">${range} · Day ${ds.map(d=>d.day_no).join(', ')}</div><p style="margin:8px 0 0;font-size:13.5px">${top.map(t=>`<span class="chip">${esc(t)}</span>`).join('')}</p></div>`;
+  }).join('');
+  const F = TRIP.flights || {};
+  document.getElementById('flights').innerHTML = [
+    ['OUT','가는 편', F.outbound],['IN','오는 편', F.inbound],['KOR','울산 ↔ 인천', F.domestic],['TIP','팁', F.tips]
+  ].filter(x=>x[2]).map(([i,t,v])=>`<div class="flight-row"><div class="k">${i}</div><div><b>${t}</b><br>${esc(v)}</div></div>`).join('');
+  document.getElementById('weather-cards').innerHTML = (TRIP.weather||[]).map(w=>`<div class="card"><h3>${esc(w.city)} 날씨</h3><p style="margin:0;font-size:13.5px">${esc(w.summary)}</p></div>`).join('');
+})();
+
+/* ---------- timeline ---------- */
+(function(){
+  const days = TRIP.days || [];
+  const rail = document.getElementById('tl-rail'); const wrap = document.getElementById('days');
+  rail.innerHTML = days.map(d=>`<a href="#day-${d.day_no}" data-day="${d.day_no}"><b>D${d.day_no}</b><span>${d.date.slice(5).replace('-','/')} ${esc(d.weekday_ko)} · ${esc(String(d.city).split(/→|->/).pop().trim())}</span></a>`).join('');
+  wrap.innerHTML = days.map(d=>{
+    const k = dayRegion(d); const col = DAY_COLORS[d.day_no] || '#555';
+    const blocks = (d.blocks||[]).map(b=>{
+      const hasGeo = regionOf(b.lat,b.lng) && regionOf(b.lat,b.lng)!=='korea';
+      const dur = b.duration_min ? `${b.duration_min}분` : '';
+      const tr = [b.transport_mode, b.transport_detail].filter(Boolean).join(' · ');
+      const badges = [
+        b.google_rating ? ratingHtml(b.google_rating) : '',
+        b.cost_eur ? `<span class="badge cost">${esc(b.cost_eur)}</span>` : '',
+        b.booking ? `<span class="badge book">예약: ${esc(b.booking)}</span>` : '',
+        hasGeo ? `<span class="badge gomap" data-goto="${d.day_no}|${esc(b.name)}">지도에서 보기</span>` : ''
+      ].filter(Boolean).join('');
+      return `<div class="blk type-${esc(b.type)}"><div class="t"><b>${esc(b.start)}${b.end?' – '+esc(b.end):''}</b>${dur}</div><div class="ic">${ICON[b.type]||'·'}</div><div><div class="nm">${esc(b.name)}${b.name_en?`<span class="en">${esc(b.name_en)}</span>`:''}</div>${tr?`<div class="dt">${esc(tr)}</div>`:''}${b.notes?`<div class="note">${esc(b.notes)}</div>`:''}${badges?`<div class="badges">${badges}</div>`:''}</div></div>`;
+    }).join('');
+    return `<article class="day" id="day-${d.day_no}" style="--c:${col}">
+      <div class="day-h"><div class="num"><small>DAY</small>${String(d.day_no).padStart(2,'0')}</div><div><h3>${esc(d.title)}</h3><div class="meta">${esc(d.date)} (${esc(d.weekday_ko)}) · <span class="chip c-${k}">${REGION_KO[k]||esc(d.city)}</span> ${esc(d.city)}</div></div><div class="theme">${esc(d.theme)}</div></div>
+      <div class="blocks">${blocks}</div>
+      ${(d.daily_tips||d.safety_note)?`<div class="day-f">`:''}${d.daily_tips?`<div><span class="lbl">Tip</span>${esc(d.daily_tips)}</div>`:''}${d.safety_note?`<div class="safe"><span class="lbl">Safety</span>${esc(d.safety_note)}</div>`:''}${(d.daily_tips||d.safety_note)?`</div>`:''}
+    </article>`;
+  }).join('');
+  // rail highlight
+  const links = [...rail.querySelectorAll('a')];
+  const io = new IntersectionObserver(es=>{ es.forEach(e=>{ if(e.isIntersecting){ links.forEach(l=>l.classList.toggle('active', l.dataset.day===e.target.id.replace('day-',''))); } }); },{rootMargin:'-20% 0px -70% 0px'});
+  wrap.querySelectorAll('.day').forEach(el=>io.observe(el));
+  wrap.addEventListener('click', e=>{ const t=e.target.closest('[data-goto]'); if(!t) return; const [dn,name]=t.dataset.goto.split('|'); window.gotoOnMap(+dn,name); });
+})();
+
+/* ---------- restaurants ---------- */
+(function(){
+  const R = TRIP.restaurants || []; const groups = {madrid:[],mallorca:[],barcelona:[]};
+  R.forEach(r=>{ const k = regionOf(r.lat,r.lng) || cityKey(r.city); if(groups[k]) groups[k].push(r); });
+  document.getElementById('food-groups').innerHTML = Object.keys(groups).map(k=>{
+    const rs = groups[k].sort((a,b)=>(a.used_on_day||99)-(b.used_on_day||99));
+    if(!rs.length) return '';
+    return `<div class="food-h" style="--c:${REGION_COLOR[k]}"><h3>${REGION_KO[k]}</h3><small>${rs.length} PLACES</small></div><div class="grid c3">${rs.map(r=>`
+      <div class="card rest"><div><h4>${esc(r.name_ko||r.name)}<small>${esc(r.name)} · ${esc(r.area)}</small></h4></div><div class="price">${esc(r.price_range||'')}</div>
+        <div class="row">${ratingHtml(r.google_rating)}${r.review_count?`<span class="badge">리뷰 ${Number(r.review_count).toLocaleString()}</span>`:''}<span class="badge">${esc(r.cuisine)}</span><span class="badge">${esc(r.meal_type)}</span>${r.used_on_day?`<span class="badge" style="background:${DAY_COLORS[r.used_on_day]};color:#fff">DAY ${String(r.used_on_day).padStart(2,'0')}</span>`:'<span class="badge">예비</span>'}</div>
+        <p style="grid-column:1/-1"><b>추천:</b> ${esc(r.must_try)}</p>
+        ${r.hours_note?`<p style="grid-column:1/-1;color:var(--ink2)">🕒 ${esc(r.hours_note)}</p>`:''}
+        ${r.reservation_note?`<p style="grid-column:1/-1;color:var(--ink2)">📞 ${esc(r.reservation_note)}</p>`:''}
+        ${r.url?`<p style="grid-column:1/-1"><a href="${esc(r.url)}" target="_blank" rel="noopener">웹사이트 / 지도 ↗</a></p>`:''}
+      </div>`).join('')}</div>`;
+  }).join('');
+})();
+
+/* ---------- safety ---------- */
+(function(){
+  const S = TRIP.safety || [];
+  document.getElementById('safety-cards').innerHTML = S.map(c=>`<div class="card" style="--c:${REGION_COLOR[cityKey(c.city)]}"><h3 style="color:var(--c)">${esc(c.city)}</h3>
+    <div class="avoid">${(c.avoid_areas||[]).map(a=>`<div class="sev-${esc(a.severity)}"><b>${esc(a.area)} <span class="badge">${esc(a.when)}</span></b>${esc(a.reason)}</div>`).join('')}</div>
+    ${c.lodging_areas&&c.lodging_areas.length?`<p style="margin:10px 0 0;font-size:13.5px"><b>숙소 추천 동네:</b> ${c.lodging_areas.map(l=>`<span class="chip">${esc(l)}</span>`).join('')}</p>`:''}
+    <ul class="tips">${(c.tips||[]).map(t=>`<li>${esc(t)}</li>`).join('')}</ul></div>`).join('');
+  document.getElementById('general-tips').innerHTML = (TRIP.general_tips||[]).map(t=>`<li>${esc(t)}</li>`).join('');
+})();
+
+/* ---------- booking / budget / alternatives ---------- */
+(function(){
+  document.querySelector('#booking-table tbody').innerHTML = (TRIP.booking_checklist||[]).map(b=>`<tr><td><b>${esc(b.item)}</b>${b.url?` <a href="${esc(b.url)}" target="_blank" rel="noopener">↗</a>`:''}</td><td>${esc(b.when)}</td><td>${esc(b.note)}</td></tr>`).join('');
+  document.querySelector('#budget-table tbody').innerHTML = (TRIP.budget||[]).map(b=>`<tr><td>${esc(b.category)}</td><td><b>${esc(b.per_person_eur)}</b></td><td>${esc(b.note)}</td></tr>`).join('');
+  document.getElementById('alt-list').innerHTML = (TRIP.alternatives||[]).map(a=>`<li><b>Day ${a.day_no} · ${esc(a.option)}</b> — ${esc(a.detail)}</li>`).join('');
+  document.getElementById('caveat').textContent = '주의: 2027년 항공·열차 시간표와 입장료는 아직 공개 전입니다. 본 계획은 2025~2026년 운영 패턴을 기준으로 작성했으니 출발 2~3개월 전 공식 사이트에서 최종 확인하세요. 구글 평점은 조사 시점 기준입니다.';
+  document.getElementById('footer').innerHTML = `스페인 여행 계획 2027 · 생성일 ${esc(BUILT)} · 지도 © OpenStreetMap contributors · 이 페이지는 개인 여행 계획용입니다.`;
+})();
+
+/* ---------- maps ---------- */
+(function(){
+  if (typeof L === 'undefined') { document.getElementById('map-city').innerHTML = '<p style="padding:20px">지도 라이브러리를 불러오지 못했습니다 (오프라인?).</p>'; return; }
+  const days = TRIP.days || [];
+  function baseLayers(map){
+    const pane = map.createPane('basefallback'); pane.style.zIndex = 150; pane.style.pointerEvents = 'none';
+    [...BASES].sort((a,b)=>(a.zoom||0)-(b.zoom||0)).forEach(b=>{ L.imageOverlay(b.dataUri, b.bounds, {opacity:1, interactive:false, pane:'basefallback'}).addTo(map); });
+    const tl = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom:19, attribution:'© OpenStreetMap', crossOrigin:true});
+    tl.on('tileerror', e=>{ try{ e.tile.style.display='none'; }catch(_){} });
+    tl.addTo(map);
+    return tl;
+  }
+  const mk = (n,col,cls='') => cls==='city' ? L.divIcon({className:'', html:`<div class="mk city" style="--c:${col};background:${col}">${n}</div>`, iconSize:[0,0], iconAnchor:[0,0]}) : L.divIcon({className:'', html:`<div class="mk ${cls}" style="--c:${col};background:${cls?'':col}">${n}</div>`, iconSize:[26,26], iconAnchor:[13,13], popupAnchor:[0,-12]});
+
+  // overview map
+  const ms = L.map('map-spain', {scrollWheelZoom:false, attributionControl:true});
+  baseLayers(ms);
+  const pts = [[40.4168,-3.7038,'마드리드','madrid'],[39.5696,2.6502,'팔마 (마요르카)','mallorca'],[41.3874,2.1686,'바르셀로나','barcelona']];
+  pts.forEach(p=>L.marker([p[0],p[1]],{icon:mk(p[2],getComputedStyle(document.documentElement).getPropertyValue('--'+p[3]).trim()||'#333','city')}).addTo(ms));
+  L.polyline(pts.map(p=>[p[0],p[1]]),{color:'#d99a1e',weight:3,dashArray:'6 6'}).addTo(ms);
+  ms.fitBounds(pts.map(p=>[p[0],p[1]]),{padding:[40,40]});
+
+  // city map
+  const map = L.map('map-city', {scrollWheelZoom:true});
+  baseLayers(map);
+  let layerGroup = L.layerGroup().addTo(map);
+  let current = 'madrid'; let showRest = true, showDanger = true;
+  const tabs = document.getElementById('maptabs'); const filters = document.getElementById('filters'); const legend=document.getElementById('legend'); const routeList=document.getElementById('route-list');
+  ['madrid','mallorca','barcelona'].forEach(k=>{ const b=document.createElement('button'); b.textContent=REGION_KO[k]; b.dataset.k=k; if(k===current) b.classList.add('active'); b.onclick=()=>{ current=k; [...tabs.children].forEach(x=>x.classList.toggle('active',x.dataset.k===k)); buildFilters(); render(); }; tabs.appendChild(b); });
+  const activeDays = new Set();
+  function daysFor(k){ return days.filter(d=>(d.blocks||[]).some(b=>regionOf(b.lat,b.lng)===k)); }
+  function buildFilters(){
+    activeDays.clear(); const ds = daysFor(current); ds.forEach(d=>activeDays.add(d.day_no));
+    filters.innerHTML = ds.map(d=>`<label style="--c:${DAY_COLORS[d.day_no]}"><input type="checkbox" checked data-day="${d.day_no}"><span class="sw"></span>D${d.day_no} ${d.date.slice(5).replace('-','/')} ${esc(d.weekday_ko)}</label>`).join('')
+      + `<span class="sep"></span><label><input type="checkbox" checked data-rest>맛집</label><label><input type="checkbox" checked data-danger>주의 지역</label><button data-all>전체</button><button data-none>해제</button>`;
+    filters.onchange = e=>{ const t=e.target; if(t.dataset.day){ t.checked?activeDays.add(+t.dataset.day):activeDays.delete(+t.dataset.day);} if('rest' in t.dataset) showRest=t.checked; if('danger' in t.dataset) showDanger=t.checked; render(false); };
+    filters.onclick = e=>{ if(e.target.matches('[data-all]')||e.target.matches('[data-none]')){ const on=e.target.matches('[data-all]'); filters.querySelectorAll('input[data-day]').forEach(i=>{ i.checked=on; on?activeDays.add(+i.dataset.day):activeDays.delete(+i.dataset.day); }); render(false);} };
+  }
+  window.__markers = {};
+  function render(fit=true){
+    layerGroup.clearLayers(); window.__markers = {}; const bounds=[]; const routeHtml=[];
+    days.forEach(d=>{
+      if(!activeDays.has(d.day_no)) return;
+      const col = DAY_COLORS[d.day_no];
+      const pts = (d.blocks||[]).filter(b=>regionOf(b.lat,b.lng)===current);
+      if(!pts.length) return;
+      // dedupe consecutive same coords
+      const line = [];
+      pts.forEach((b,i)=>{
+        const ll=[b.lat,b.lng]; bounds.push(ll);
+        if(!line.length || line[line.length-1][0]!==ll[0] || line[line.length-1][1]!==ll[1]) line.push(ll);
+        const m = L.marker(ll,{icon:mk(i+1,col), zIndexOffset:b.type==='sight'?500:200}).addTo(layerGroup);
+        m.bindPopup(`<b>${i+1}. ${esc(b.name)}</b>${b.name_en?`<br><span style="color:#777">${esc(b.name_en)}</span>`:''}<br>Day ${d.day_no} · ${esc(b.start)}${b.end?'–'+esc(b.end):''}${b.duration_min?` · ${b.duration_min}분`:''}${b.google_rating?`<br>★ ${Number(b.google_rating).toFixed(1)}`:''}${b.transport_detail?`<br>🚶 ${esc(b.transport_detail)}`:''}${b.notes?`<br>${esc(b.notes)}`:''}`);
+        window.__markers[`${d.day_no}|${b.name}`]=m;
+      });
+      if(line.length>1) L.polyline(line,{color:col,weight:3,opacity:.85}).addTo(layerGroup);
+      routeHtml.push(`<div style="--c:${col}"><b>D${d.day_no}</b> ${pts.map((b,i)=>`${i+1}.${esc(b.name)}`).join(' → ')}</div>`);
+    });
+    if(showRest){ (TRIP.restaurants||[]).filter(r=>regionOf(r.lat,r.lng)===current).forEach(r=>{
+      const m = L.marker([r.lat,r.lng],{icon:mk('E','#d99a1e','rest'), zIndexOffset:100}).addTo(layerGroup);
+      m.bindPopup(`<b>${esc(r.name_ko||r.name)}</b><br><span style="color:#777">${esc(r.name)}</span><br>★ ${Number(r.google_rating).toFixed(1)} · ${esc(r.price_range)} · ${esc(r.cuisine)}<br>추천: ${esc(r.must_try)}${r.used_on_day?`<br><b>Day ${r.used_on_day}</b> ${esc(r.meal_type)}`:''}`);
+    }); }
+    if(showDanger){ (TRIP.safety||[]).forEach(c=>{ (c.avoid_areas||[]).forEach(a=>{ if(regionOf(a.lat,a.lng)!==current) return;
+      const circ = L.circle([a.lat,a.lng],{radius:a.severity==='high'?500:350,color:'#dc2626',fillColor:'#dc2626',fillOpacity:a.severity==='high'?.18:.10,weight:1.5,dashArray:'4 4'}).addTo(layerGroup);
+      circ.bindPopup(`<b>주의 · ${esc(a.area)}</b><br>${esc(a.reason)}<br><span style="color:#777">${esc(a.when)} · 위험도 ${esc(a.severity)}</span>`);
+    }); }); }
+    routeList.innerHTML = routeHtml.join('');
+    legend.innerHTML = [...activeDays].sort((a,b)=>a-b).map(n=>`<span><i style="background:${DAY_COLORS[n]}"></i>Day ${n}</span>`).join('') + `<span><i style="background:#fff;border:2px solid #d99a1e;border-radius:3px"></i>맛집</span><span><i style="background:rgba(220,38,38,.25);border:1px dashed #dc2626"></i>주의 지역</span>`;
+    if(fit && bounds.length) map.fitBounds(bounds,{padding:[30,30],maxZoom:15});
+  }
+  window.gotoOnMap = function(dayNo, name){
+    const d = days.find(x=>x.day_no===dayNo); const b=(d.blocks||[]).find(x=>x.name===name); const k=regionOf(b.lat,b.lng);
+    if(k && k!==current){ current=k; [...tabs.children].forEach(x=>x.classList.toggle('active',x.dataset.k===k)); buildFilters(); render(); }
+    if(!activeDays.has(dayNo)){ activeDays.add(dayNo); const cb=filters.querySelector(`input[data-day="${dayNo}"]`); if(cb) cb.checked=true; render(false); }
+    document.getElementById('maps').scrollIntoView({behavior:'smooth'});
+    setTimeout(()=>{ map.invalidateSize(); const m=window.__markers[`${dayNo}|${name}`]; if(m){ map.setView(m.getLatLng(), 16); m.openPopup(); } }, 450);
+  };
+  buildFilters(); render();
+  // re-layout when section becomes visible
+  new IntersectionObserver(es=>{ es.forEach(e=>{ if(e.isIntersecting){ map.invalidateSize(); ms.invalidateSize(); } }); }).observe(document.getElementById('maps'));
+  // nav active
+  const navLinks=[...document.querySelectorAll('.nav a.tab')];
+  new IntersectionObserver(es=>{ es.forEach(e=>{ if(e.isIntersecting) navLinks.forEach(l=>l.classList.toggle('active', l.getAttribute('href')==='#'+e.target.id)); }); },{rootMargin:'-30% 0px -60% 0px'}).observe(document.getElementById('overview'));
+  document.querySelectorAll('section.sec').forEach(s=>new IntersectionObserver(es=>{ es.forEach(e=>{ if(e.isIntersecting) navLinks.forEach(l=>l.classList.toggle('active', l.getAttribute('href')==='#'+e.target.id)); }); },{rootMargin:'-30% 0px -60% 0px'}).observe(s));
+})();
+</script>
