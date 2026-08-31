@@ -1,0 +1,68 @@
+{
+ "casa-lucas": {
+  "name": "Casa Lucas",
+  "source": "https://casalucas.es/",
+  "img": "https://casalucas.es/wp-content/uploads/2021/10/restaurante_cava_baja-madrid.jpg",
+  "how": "og:image"
+ },
+ "casa-macareno": {
+  "name": "Casa Macareno",
+  "source": "https://www.casamacareno.com/",
+  "img": "https://casamacareno.com/wp-content/uploads/2017/07/CASA-MACARENO-03-1.jpg",
+  "how": "first-img"
+ },
+ "taberna-la-bola": {
+  "name": "Taberna La Bola",
+  "source": "https://labola.es/en",
+  "img": "https://labola.es/img/cocido.webp",
+  "how": "og:image"
+ },
+ "toque-de-queda": {
+  "name": "Toque de Queda",
+  "source": "https://www.toquedequeda.es/",
+  "img": "https://toquedequeda.es/wp-content/uploads/2017/08/toque_de_queda_restaurante_champanyeria_embutidos_mallorca.jpg",
+  "how": "first-img"
+ },
+ "ca-n-eduardo": {
+  "name": "Ca n'Eduardo",
+  "source": "https://www.caneduardo.com/",
+  "img": "https://www.caneduardo.com/wp-content/uploads/2018/08/wines-can-eduardo-restaurant.jpg",
+  "how": "og:image"
+ },
+ "7-portes": {
+  "name": "7 Portes",
+  "source": "https://www.7portes.com/",
+  "img": "https://7portes.com/data/webp/imagenwdfg247.png-a29d37685f8885641c813958f7361793.webp",
+  "how": "og:image"
+ },
+ "la-tasqueta-de-blai": {
+  "name": "La Tasqueta de Blai",
+  "source": "https://www.latasquetadeblai.com/",
+  "img": "https://cdn.prod.website-files.com/5ebbeb680f69fd550e86ffe0/646b2281b0cb4aa3d71740c5__DSC8523.jpg",
+  "how": "og:image"
+ },
+ "sobrino-de-botn": {
+  "name": "Sobrino de Botín",
+  "source": "https://www.botin.es/",
+  "img": "https://botin.es/wp-content/uploads/2025/02/DSC05744.jpg",
+  "how": "og:image"
+ },
+ "es-baluard-restaurant-lounge": {
+  "name": "Es Baluard Restaurant & Lounge",
+  "source": "https://www.esbaluard.org/",
+  "img": "https://esbaluard.org/uploads/2025/03/GR65451-1024x683.webp",
+  "how": "og:image"
+ },
+ "la-rosa-vermutera-colmado": {
+  "name": "La Rosa Vermutería & Colmado",
+  "source": "https://www.larosatroupe.com/es/marca/la-rosa-vermuteri-colmado",
+  "img": "https://www.larosatroupe.com/med/img/imagenes/la-rosa-vermuteri-colmado/lrvc-gallosanpedro-008-3k.jpg",
+  "how": "first-img"
+ },
+ "pastisseria-hofmann": {
+  "name": "Pastisseria Hofmann",
+  "source": "https://hofmannpasteleria.com/",
+  "img": "https://hofmannpasteleria.com/wp-content/uploads/2021/06/hofmann-pasteleria-pack-insaciable-scaled.jpg",
+  "how": "og:image"
+ }
+}

@@ -206,6 +206,7 @@ section.sec{padding:44px 0}
 .rest{padding:0;overflow:hidden;display:flex;flex-direction:column}
 .rest .pic{position:relative;line-height:0;background:var(--chip)}
 .rest .pic span{line-height:1.8;display:inline-block}
+.rest .pic .ph{height:132px;display:flex;align-items:center;justify-content:center;font-family:"Barlow Condensed",sans-serif;font-size:56px;font-weight:700;color:color-mix(in srgb,var(--saffron) 55%,var(--ink2));background:repeating-linear-gradient(45deg,var(--chip),var(--chip) 12px,color-mix(in srgb,var(--chip) 60%,var(--card)) 12px,color-mix(in srgb,var(--chip) 60%,var(--card)) 24px)}
 .rest .pic img{width:100%;height:132px;object-fit:cover;display:block}
 .rest .pic .dish{position:absolute;left:0;bottom:0;background:rgba(16,24,40,.74);color:#fff;font-size:11px;padding:2px 8px}
 .rest .pic .day{position:absolute;right:0;top:0;color:#fff;font-size:11px;padding:2px 8px;font-family:"IBM Plex Mono",monospace}
@@ -491,9 +492,11 @@ function trimName(b){
       ].filter(Boolean).join('');
       const isCard = b.type==='tip' && b.start==='00:00';
       const dish = b.img && DISH[b.img];
-      const pic = b.img ? (dish
-        ? `<div class="thumbwrap">${imgTag(b.img,'thumb',dish)}<span class="cap">${esc(dish)}</span></div>`
-        : imgTag(b.img,'thumb', b.name_en||b.name)) : '';
+      const pic = b.vimg ? `<div class="thumbwrap">${imgTag('v:'+b.vimg,'thumb',b.name)}<span class="cap">매장 사진</span></div>`
+        : (b.type==='meal') ? ''
+        : b.img ? (dish
+          ? `<div class="thumbwrap">${imgTag(b.img,'thumb',dish)}<span class="cap">${esc(dish)}</span></div>`
+          : imgTag(b.img,'thumb', b.name_en||b.name)) : '';
       const nm = esc(trimName(b));
       return `<div class="blk type-${esc(b.type)}"${seq?` id="blk-${d.day_no}-${seq}" data-seq="${seq}"`:''}><div class="t"><b>${isCard?'안내':esc(b.start)+(b.end&&b.end!==b.start?' – '+esc(b.end):'')}</b>${dur}</div><div class="ic">${seq?`<span class="seq${b.type==='meal'?' meal':''}" data-goto="${d.day_no}|${esc(b.name)}" title="지도에서 보기">${seq}</span>`:''}<span class="typ">${ICON[b.type]||'·'}</span></div><div><div class="nm">${nm}${b.name_en?`<span class="en">${esc(b.name_en)}</span>`:''}</div>${tr?`<div class="dt">${esc(tr)}</div>`:''}${b.notes?lines(b.notes,'note clamp'):''}${badges?`<div class="badges">${badges}</div>`:''}</div>${pic}</div>`;
     }).join('');
@@ -520,8 +523,8 @@ function trimName(b){
     if(!rs.length) return '';
     return `<div class="food-h" style="--c:${REGION_COLOR[k]}"><h3>${REGION_KO[k]}</h3><small>${rs.length} PLACES</small></div><div class="grid c3">${rs.map(r=>`
       <div class="card rest">
-        <div class="pic">${imgTag(r.img,'',DISH[r.img]||r.cuisine)}
-          <span class="dish">${esc(DISH[r.img]||r.cuisine.split('·')[0])}</span>
+        <div class="pic${r.vimg?'':' noimg'}">${r.vimg?imgTag('v:'+r.vimg,'',r.name):`<div class="ph">${esc((r.name_ko||r.name).slice(0,1))}</div>`}
+          <span class="dish">${esc(r.vimg?(DISH[r.img]||r.cuisine.split('·')[0]):r.cuisine.split('·')[0])}</span>
           ${r.google_rating?`<span class="star">★ ${Number(r.google_rating).toFixed(1)}</span>`:''}
           ${r.used_on_day?`<span class="day" style="background:${DAY_COLORS[r.used_on_day]}">DAY ${String(r.used_on_day).padStart(2,'0')}</span>`:'<span class="day" style="background:#5b6474">예비</span>'}</div>
         <div class="bd">
@@ -560,7 +563,7 @@ function trimName(b){
   document.getElementById('footer').innerHTML = `스페인 여행 계획 2027 · 생성일 ${esc(BUILT)} · 지도 © OpenStreetMap contributors · 이 페이지는 개인 여행 계획용입니다.`
     + `<details><summary>사진 출처 · 라이선스 (${CREDITS.length}장)</summary><div class="creds">`
     + CREDITS.map(c=>`<div>${esc(c.slug)} — <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.article||c.slug)}</a> · ${esc(c.author||'')} · ${esc(c.license||'')}</div>`).join('')
-    + `</div><p style="font-size:11.5px;margin-top:8px">명소 사진은 위키미디어 커먼즈, 음식 사진은 해당 요리의 일반 사진(그 식당의 실제 사진이 아닙니다). CC BY / CC BY-SA 이미지는 위 저작자 표기를 따릅니다.</p></details>`;
+    + `</div><p style="font-size:11.5px;margin-top:8px">명소 사진은 위키미디어 커먼즈. 맛집 사진은 각 업장 공식 사이트의 대표 사진이며, 없는 곳은 사진 대신 이니셜로 표시했습니다. CC BY / CC BY-SA 이미지는 위 저작자 표기를 따릅니다.</p></details>`;
   setupClamps(document.getElementById('booking'));
 })();
 

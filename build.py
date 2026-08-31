@@ -100,15 +100,42 @@ for d in trip.get("days", []):
         elif b.get("type") in ("sight", "meal", "hotel", "free") and here:
             b["nav"] = _nav_url(None, here, "walking")
         if here: prev = here
+import re as _re3
+def _vslug(name):
+    s = _re3.sub(r"\(.*?\)", "", name).strip().lower()
+    s = _re3.sub(r"[^a-z0-9]+", "-", s.encode("ascii", "ignore").decode()).strip("-")
+    return s or _re3.sub(r"[^0-9a-z]+", "-", name.lower())
+venue_imgs = {}
 for r in trip.get("restaurants", []):
-    s = imap["restaurants"].get(r["name"])  # 대표 요리 사진
+    vs = _vslug(r["name"]); vp = f"assets/venue/{vs}.jpg"
+    if os.path.exists(os.path.join(ROOT, vp)):
+        r["vimg"] = vs; venue_imgs[vs] = vp
+
+for r in trip.get("restaurants", []):
+    s = imap["restaurants"].get(r["name"])  # 대표 요리 사진(업장 사진 없을 때 팁 라벨용)
     if not s:
         for rn, slug in imap["restaurants"].items():
             if rn.lower() in r["name"].lower(): s = slug; break
     if s: r["img"] = s; used_slugs.add(s)
 trip["city_hero"] = imap["city_hero"]
 used_slugs |= set(imap["city_hero"].values())
+# 타임라인 식사 블록에도 업장 사진 연결
+for d in trip.get("days", []):
+    for bl in d.get("blocks", []):
+        if bl.get("type") != "meal": continue
+        hit = next((r for r in trip["restaurants"] if r.get("vimg") and r["name"].lower() in bl.get("name", "").lower()), None)
+        if hit: bl["vimg"] = hit["vimg"]
+
 images, img_bytes = {}, 0
+for vs, vp in venue_imgs.items():
+    raw = read(vp, "rb"); img_bytes += len(raw)
+    images["v:" + vs] = "data:image/jpeg;base64," + base64.b64encode(raw).decode()
+venue_credits = {}
+vc_path = os.path.join(ROOT, "assets", "venue_credits.json")
+if os.path.exists(vc_path):
+    vc = json.load(open(vc_path, encoding="utf-8"))
+    venue_credits = {k: v for k, v in vc.items() if k in venue_imgs}
+
 for slug in sorted(used_slugs):
     p = f"assets/img/{slug}.jpg"
     if not os.path.exists(os.path.join(ROOT, p)):
@@ -116,7 +143,9 @@ for slug in sorted(used_slugs):
     raw = read(p, "rb"); img_bytes += len(raw)
     images[slug] = "data:image/jpeg;base64," + base64.b64encode(raw).decode()
 credits = [dict(slug=s, **{k: v for k, v in credits_all.get(s, {}).items() if k in ("author", "license", "url", "article")})
-           for s in sorted(images)]
+           for s in sorted(images) if not s.startswith("v:")]
+credits += [dict(slug="v:" + k, article=v.get("name", k), author="공식 사이트" if v.get("how") else v.get("credit", ""),
+                 license="", url=v.get("source", "")) for k, v in sorted(venue_credits.items())]
 
 metas = json.loads(read("assets/base_meta.json"))
 bases = []
