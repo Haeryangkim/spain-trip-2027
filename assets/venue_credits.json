@@ -64,5 +64,187 @@
   "source": "https://hofmannpasteleria.com/",
   "img": "https://hofmannpasteleria.com/wp-content/uploads/2021/06/hofmann-pasteleria-pack-insaciable-scaled.jpg",
   "how": "og:image"
+ },
+ "mercado-de-san-miguel": {
+  "name": "mercado-de-san-miguel",
+  "source": "https://commons.wikimedia.org/wiki/File:Mercado_de_San_Miguel_Madrid_2018.jpg",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Mercado_de_San_Miguel_Madrid_2018.jpg/1280px-Mercado_de_San_Miguel_Madrid_2018.jpg",
+  "how": "commons",
+  "credit": "Steven Lek (User:Tukka) / CC BY-SA 4.0"
+ },
+ "confitera-santo-tom": {
+  "name": "confitera-santo-tom",
+  "source": "https://mazapan.com/",
+  "img": "https://mazapan.com/wp-content/uploads/2025/02/x-h2_.jpg",
+  "how": "official",
+  "credit": null
+ },
+ "bodega-de-la-ardosa": {
+  "name": "bodega-de-la-ardosa",
+  "source": "https://commons.wikimedia.org/wiki/File:Bodega_de_La_Ardosa_(Col%C3%B3n_13,_Madrid)_01.jpg",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Bodega_de_La_Ardosa_%28Col%C3%B3n_13%2C_Madrid%29_01.jpg/1280px-Bodega_de_La_Ardosa_%28Col%C3%B3n_13%2",
+  "how": "commons",
+  "credit": "Luis García (User:Zaqarbal) / CC BY-SA 4.0"
+ },
+ "kingfisher-restaurant": {
+  "name": "kingfisher-restaurant",
+  "source": "https://kingfishersoller.com/",
+  "img": "https://kingfishersoller.com/2024/front1x.jpg",
+  "how": "official",
+  "credit": null
+ },
+ "mercat-de-l-olivar": {
+  "name": "mercat-de-l-olivar",
+  "source": "https://commons.wikimedia.org/wiki/File:Mercat_de_l%27Olivar.JPG",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Mercat_de_l%27Olivar.JPG/1280px-Mercat_de_l%27Olivar.JPG",
+  "how": "commons",
+  "credit": "Wikimedia Commons contributor / CC BY-SA 3.0"
+ },
+ "paco-meralgo": {
+  "name": "paco-meralgo",
+  "source": "https://restaurantpacomeralgo.com/",
+  "img": "https://restaurantpacomeralgo.com/wp-content/uploads/2024/05/paco4.jpg",
+  "how": "official",
+  "credit": null
+ },
+ "can-sol": {
+  "name": "can-sol",
+  "source": "https://restaurantcansole.com/",
+  "img": "https://restaurantcansole.com/wp-content/uploads/2014/07/fachada.jpg",
+  "how": "official",
+  "credit": null
+ },
+ "chocolatera-san-gins": {
+  "name": "chocolatera-san-gins",
+  "source": "https://commons.wikimedia.org/wiki/File:Chocolater%C3%ADa_San_Gin%C3%A9s_(10512648395).jpg",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Chocolater%C3%ADa_San_Gin%C3%A9s_%2810512648395%29.jpg/1280px-Chocolater%C3%ADa_San_Gin%C3%A9s_%281051",
+  "how": "commons",
+  "credit": "Flickr user 67704565@N00 / CC BY-SA 2.0"
+ },
+ "angelita-madrid": {
+  "name": "angelita-madrid",
+  "source": "https://madrid-angelita.es/es/cocina-vino/",
+  "img": "https://madrid-angelita.es/wp-content/uploads/elementor/thumbs/barra_vino-1-qmkq04jx5soo9ybzrv09apcsiojoo4cwn4oc6ppnhw.webp",
+  "how": "official",
+  "credit": null
+ },
+ "bar-bodega-quimet": {
+  "name": "bar-bodega-quimet",
+  "source": "https://www.bodegaquimet.com/",
+  "img": "https://www.bodegaquimet.com/img-trans/productos/24272/fotos/1024-67ac8d99a35de-bar-bodega-quimet.png",
+  "how": "official",
+  "credit": null
+ },
+ "casa-amlia": {
+  "name": "casa-amlia",
+  "source": "https://casaamalia.cat/mercatconcepcio/inicio/",
+  "img": "https://casaamalia.cat/wp-content/uploads/2023/10/nosotros_2-1.jpg",
+  "how": "official",
+  "credit": null
+ },
+ "casa-gonzlez": {
+  "name": "casa-gonzlez",
+  "source": "https://www.casagonzalez.es/",
+  "img": "https://www.casagonzalez.es/wp-content/uploads/2021/04/DSC00012-1024x683.jpg",
+  "how": "official",
+  "credit": null
+ },
+ "marc-fosh": {
+  "name": "marc-fosh",
+  "source": "https://www.marcfosh.com/",
+  "img": "https://www.marcfosh.com/wp-content/uploads/2026/07/marc-fosh-sala-one.webp",
+  "how": "official",
+  "credit": null
+ },
+ "juana-la-loca": {
+  "name": "juana-la-loca",
+  "source": "https://www.juanalaloca.es/",
+  "img": "https://static.wixstatic.com/media/1aa0f7_f0ee22fd801646c1a4743360c4d8081a~mv2.jpeg/v1/fit/w_1200,h_800,q_90/1aa0f7_f0ee22fd801646c1a4743360c4d8081a~mv2.jpeg",
+  "how": "official",
+  "credit": null
+ },
+ "chocolatera-1902": {
+  "name": "chocolatera-1902",
+  "source": "https://chocolateria1902.com/",
+  "img": "https://chocolateria1902.com/wp-content/uploads/2023/02/02.jpg",
+  "how": "official",
+  "credit": null
+ },
+ "ciutat-comtal": {
+  "name": "ciutat-comtal",
+  "source": "https://www.laflautagroup.com/copia-de-ciutat-comtal-2",
+  "img": "https://static.wixstatic.com/media/af94fe_1e06a5eb6bd44c3bb4f08b8ba837dccc~mv2.jpg",
+  "how": "official",
+  "credit": null
+ },
+ "cerveseria-catalana": {
+  "name": "cerveseria-catalana",
+  "source": "https://www.laflautagroup.com/copia-de-cerveceri%CC%81a-catalana",
+  "img": "https://static.wixstatic.com/media/af94fe_ff8e5b7922b74643b24e4e6d46e3331b~mv2.jpg",
+  "how": "official",
+  "credit": null
+ },
+ "vinitus": {
+  "name": "vinitus",
+  "source": "https://www.laflautagroup.com/copia-de-vinitus-1",
+  "img": "https://static.wixstatic.com/media/af94fe_711a89c38cfe4911b77faa764e451dc1~mv2.jpg",
+  "how": "official",
+  "credit": null
+ },
+ "la-cova-fumada": {
+  "name": "la-cova-fumada",
+  "source": "https://commons.wikimedia.org/wiki/File:La_Cova_Fumada.jpg",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/La_Cova_Fumada.jpg/1280px-La_Cova_Fumada.jpg",
+  "how": "commons",
+  "credit": "Cataleirxs / CC BY-SA 3.0"
+ },
+ "sa-fbrica-de-gelats": {
+  "name": "sa-fbrica-de-gelats",
+  "source": "https://www.gelatsoller.com/",
+  "img": "https://www.gelatsoller.com/wp-content/uploads/2026/06/Canoneta-deco-1024x768.jpg",
+  "how": "official",
+  "credit": null
+ },
+ "celler-sa-premsa": {
+  "name": "celler-sa-premsa",
+  "source": "https://commons.wikimedia.org/wiki/File:Celler-Sa-Premsa-Mallorca_msu-2018-3758.jpg",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Celler-Sa-Premsa-Mallorca_msu-2018-3758.jpg/1280px-Celler-Sa-Premsa-Mallorca_msu-2018-3758.jpg",
+  "how": "commons",
+  "credit": "Matthias Süßen / CC BY-SA 4.0"
+ },
+ "pastelera-la-mallorquina": {
+  "name": "pastelera-la-mallorquina",
+  "source": "https://commons.wikimedia.org/wiki/File:123_Pastisseria_La_Mallorquina,_Puerta_del_Sol_8_(Madrid).jpg",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/123_Pastisseria_La_Mallorquina%2C_Puerta_del_Sol_8_%28Madrid%29.jpg/1280px-123_Pastisseria_La_Mallorqu",
+  "how": "commons",
+  "credit": "Enric / CC BY 4.0"
+ },
+ "quince-restaurante-cantina": {
+  "name": "quince-restaurante-cantina",
+  "source": "https://restaurantequince.com/es",
+  "img": "https://restaurantequince.com/storage/app/uploads/public/65b/26a/cc9/65b26acc9944b717198943.jpg",
+  "how": "official",
+  "credit": null
+ },
+ "ca-n-joan-de-s-aigo": {
+  "name": "ca-n-joan-de-s-aigo",
+  "source": "https://commons.wikimedia.org/wiki/File:126_Can_Joan_de_s%27Aigo,_c._Can_San%C3%A7_10_(Palma).jpg",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/126_Can_Joan_de_s%27Aigo%2C_c._Can_San%C3%A7_10_%28Palma%29.jpg/1280px-126_Can_Joan_de_s%27Aigo%2C_c._",
+  "how": "commons",
+  "credit": "Enric / CC BY-SA 4.0"
+ },
+ "granja-m-viader": {
+  "name": "granja-m-viader",
+  "source": "https://commons.wikimedia.org/wiki/File:466_Granja_Viader,_c._Xucl%C3%A0_4-6_(Barcelona).jpg",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/466_Granja_Viader%2C_c._Xucl%C3%A0_4-6_%28Barcelona%29.jpg/1280px-466_Granja_Viader%2C_c._Xucl%C3%A0_4",
+  "how": "commons",
+  "credit": "Enric / CC BY-SA 4.0"
+ },
+ "vandal-palma": {
+  "name": "vandal-palma",
+  "source": "https://www.vandalpalma.com/",
+  "img": "https://www.vandalpalma.com/wp-content/uploads/2020/05/ambiente1-min-scaled.jpg",
+  "how": "official",
+  "credit": null
  }
 }
